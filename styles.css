@@ -119,6 +119,7 @@ a:hover { text-decoration-color: var(--white); }
   -webkit-backdrop-filter: blur(20px);
   min-width: 120px;
   text-align: center;
+  white-space: nowrap;
   transition: opacity .3s, border-color .3s;
 }
 .hud-location:not(:empty) {
@@ -628,8 +629,18 @@ a:hover { text-decoration-color: var(--white); }
   .location-list { display: none; }
   .bio-overlay { padding: .5rem; justify-content: center; }
   .bio-panel { width: calc(100% - 1rem); }
-  .project-panel { width: min(400px, calc(100% - 1rem)); }
+  .project-panel { width: min(360px, calc(100% - 1rem)); }
   .hud { padding: .8rem 1rem; }
+
+  /* Move city tag to bottom center on mobile */
+  .hud-center {
+    position: fixed;
+    top: auto;
+    bottom: 1.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 51;
+  }
 }
 
 
