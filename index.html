@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>Qianhua Ge — Portfolio</title>
+  <meta name="theme-color" content="#000000">
   <meta name="description" content="Explore the world of Qianhua Ge — Founder, Investor, Designer, Engineer. Fly to projects across the globe.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +19,7 @@
   <!-- HUD -->
   <div id="hud" class="hud">
     <div class="hud-left">
-      <div class="hud-brand" id="hud-brand">QG</div>
+      <div class="hud-brand" id="hud-brand">Qianhua Ge</div>
     </div>
     <div class="hud-center">
       <div class="hud-location" id="hud-location"></div>
@@ -35,9 +36,13 @@
     <div id="location-items" class="location-items"></div>
   </nav>
 
-  <!-- PROJECT PANEL (BOTTOM SHEET) -->
+  <!-- SVG CONNECTOR LINE (marker → panel) -->
+  <svg id="panel-connector" class="panel-connector" width="100%" height="100%">
+    <line id="connector-line" x1="0" y1="0" x2="0" y2="0"/>
+  </svg>
+
+  <!-- PROJECT PANEL (FLOATING CARD) -->
   <div id="project-panel" class="project-panel hidden">
-    <div class="panel-handle"></div>
     <button id="panel-close" class="panel-close">✕</button>
     <div class="panel-image-wrap">
       <img id="panel-image" src="" alt="">
@@ -49,35 +54,21 @@
     </div>
   </div>
 
-  <!-- BIO PANEL -->
-  <div id="bio-panel" class="bio-panel">
-    <button id="bio-close" class="panel-close">✕</button>
-    <div class="bio-body">
-      <h2 class="bio-name">Qianhua Ge</h2>
-      <p class="bio-role">Founder · Investor · Designer · Engineer</p>
-      <p class="bio-tagline">Behind products used by millions.</p>
-      <div class="bio-text">
-        <p>Co-built and launched
-          <a href="https://kaon.io/" target="_blank">Kaon</a>,
-          <a href="https://collovlabs.com/" target="_blank">CollovLabs</a>,
-          <a href="https://apps.apple.com/us/app/cozyai-ai-home-design/id6744885843" target="_blank">CozyAI</a>,
-          <a href="https://www.modernsky.com/home/" target="_blank">Modern Sky</a>,
-          <a href="https://play.google.com/store/apps/details?id=com.flow.mobile&hl=en" target="_blank">Emochi</a>,
-          <a href="https://collov.ai/" target="_blank">Collov</a>,
-          <a href="https://flowgpt.com/" target="_blank">FlowGPT</a>,
-          <a href="https://divly.com/en/" target="_blank">Divly</a>,
-          <a href="https://markit.ai" target="_blank">MarkitAI</a>,
-          <a href="http://www.substratecapital.xyz/" target="_blank">Substrate</a>,
-          <a href="https://atlaslab.com/" target="_blank">Atlas Lab</a>,
-          <a href="https://metaval.com/" target="_blank">Metaval</a>,
-          <a href="https://fabrique.se/" target="_blank">Fabrique</a>, and
-          <a href="https://www.buy42.com/" target="_blank">BUY42</a>.
-        </p>
-        <p>Recognized by TechCrunch, Red Dot, IDA, iF, A'Design, EPDA, MUSE, AIGA, and NY Product Design Awards.</p>
-        <p>Clients across Asia, North America, and Europe.</p>
-        <p>LEED-accredited architect and ASA-certified sailor beyond tech.</p>
+  <!-- BIO OVERLAY (hidden by default, toggled via QG brand) -->
+  <div id="bio-overlay" class="bio-overlay">
+    <div id="bio-panel" class="bio-panel">
+      <button id="bio-close" class="panel-close">✕</button>
+      <div class="bio-body">
+        <h2 class="bio-name">Qianhua Ge</h2>
+        <p class="bio-role">Founder · Investor · Designer · Engineer</p>
+        <p class="bio-tagline">Behind products used by millions.</p>
+        <div class="bio-text">
+          <p>Recognized by TechCrunch, Red Dot, IDA, iF, A'Design, EPDA, MUSE, AIGA, and NY Product Design Awards.</p>
+          <p>Clients across Asia, North America, and Europe.</p>
+          <p>LEED-accredited architect and ASA-certified sailor beyond tech.</p>
+        </div>
+        <a href="mailto:qianhuage@berkeley.edu" class="bio-email">qianhuage@berkeley.edu</a>
       </div>
-      <a href="mailto:qianhuage@berkeley.edu" class="bio-email">qianhuage@berkeley.edu</a>
     </div>
   </div>
 
@@ -90,14 +81,9 @@
     <div class="strip-to" id="strip-to"></div>
   </div>
 
-  <script type="importmap">
-  {
-    "imports": {
-      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
-      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
-    }
-  }
-  </script>
-  <script type="module" src="script.js"></script>
+  <!-- MAPBOX GL JS -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.20.0/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.20.0/mapbox-gl.js"></script>
+  <script defer src="script.js"></script>
 </body>
 </html>
