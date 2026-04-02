@@ -509,14 +509,8 @@ a:hover { text-decoration-color: var(--white); }
   margin-top: .3rem;
   text-transform: uppercase;
 }
-.bio-tagline {
-  font-size: .82rem;
-  color: var(--g4);
-  margin-top: 1rem;
-  font-style: italic;
-}
 .bio-text {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   font-size: .8rem;
   line-height: 1.8;
   color: rgba(255,255,255,.6);
