@@ -18,7 +18,7 @@ const PROJECTS = [
   { id:'divly',      title:'Divly',          city:'Stockholm',      lat:59.3293, lng:18.0686,   img:'./images/divly.png',     link:'https://divly.com/en/' },
   { id:'substrate',  title:'Substrate',      city:'Palo Alto',      lat:37.4419, lng:-122.1430, img:'https://freight.cargo.site/w/600/q/75/i/J2579367830216556064905875047853/substrate.png',       link:'http://www.substratecapital.xyz/' },
   { id:'atlaslab',   title:'Atlas Lab',      city:'Sacramento',     lat:38.5816, lng:-121.4944, img:'https://freight.cargo.site/w/700/q/75/i/G2295860679372777805815165633965/atlas-lab.png',       link:'https://atlaslab.com/' },
-  { id:'tesseract',  title:'Tesseract',      city:'Livermore',      lat:37.6819, lng:-121.7680, img:'./Tesseract.png',  link:null },
+  { id:'tesseract',  title:'Tesseract',      city:'Brownsville',    lat:25.9017, lng:-97.4975,  img:'./Tesseract.png',  link:null },
   { id:'kaon',       title:'Kaon',          city:'San Francisco',  lat:37.7749, lng:-122.4194, img:'https://freight.cargo.site/w/600/q/75/i/U2329052567392612164893807625645/Frame-2090051588.png', link:'https://kaon.io/' },
   { id:'azulenelabs',title:'Azulene Labs',   city:'San Francisco',  lat:37.7850, lng:-122.4094, img:'https://freight.cargo.site/w/600/q/75/i/A2579303923740662219230576264621/461.png',              link:null },
   { id:'metaval',    title:'Metaval',        city:'Dubai',          lat:25.2048, lng:55.2708,   img:'./images/metaval.png',   link:'https://metaval.com/' },
