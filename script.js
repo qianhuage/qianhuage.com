@@ -8,11 +8,11 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 // ── PROJECT DATA ──────────────────────────────────────
 const PROJECTS = [
   // ── LAUNCHED ──
-  { id:'kaon',       title:'Kaon Labs',     city:'San Francisco',  lat:37.7749, lng:-122.4194, img:'./images/kaonlabs.jpg', link:'https://kaon.io/' },
+  { id:'kaon',       title:'Kaon',          city:'San Francisco',  lat:37.7749, lng:-122.4194, img:'https://freight.cargo.site/w/600/q/75/i/U2329052567392612164893807625645/Frame-2090051588.png', link:'https://kaon.io/' },
   { id:'collovlabs', title:'CollovLabs',     city:'Redwood City',   lat:37.4852, lng:-122.2364, img:'https://freight.cargo.site/w/600/q/75/i/N2755860063414473176452238820781/Screenshot-2026-01-20-at-6.44.12PM.png', link:'https://collovlabs.com/' },
   { id:'cozyai',     title:'CozyAI',         city:'Shenzhen',       lat:22.5431, lng:114.0579,  img:'https://freight.cargo.site/w/600/q/75/i/X2756203805356204973465402230189/cozyai.png',          link:'https://apps.apple.com/us/app/cozyai-ai-home-design/id6744885843' },
 
-  { id:'emochi',     title:'Emochi',         city:'Oakland',        lat:37.8044, lng:-122.2712, img:'./images/emochi.png',   link:'https://play.google.com/store/apps/details?id=com.flow.mobile&hl=en' },
+  { id:'emochi',     title:'Emochi',         city:'Oakland',        lat:37.8044, lng:-122.2712, img:'https://freight.cargo.site/w/600/q/75/i/E2590589006754239729531640235437/1923.png',             link:'https://play.google.com/store/apps/details?id=com.flow.mobile&hl=en' },
   { id:'collov',     title:'Collov',         city:'Redwood City',   lat:37.4870, lng:-122.2270, img:'https://freight.cargo.site/w/600/q/75/i/Q2578801080199267923600036742573/Wireframe---19.png',  link:'https://collov.ai/' },
   { id:'flowgpt',    title:'FlowGPT',        city:'Washington',     lat:47.6062, lng:-122.3321, img:'https://freight.cargo.site/w/600/q/75/i/V2579235822714973684961464173997/flowgpt.png',         link:'https://flowgpt.com/' },
   { id:'divly',      title:'Divly',          city:'Stockholm',      lat:59.3293, lng:18.0686,   img:'./images/divly.png',     link:'https://divly.com/en/' },
