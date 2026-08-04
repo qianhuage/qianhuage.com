@@ -13,6 +13,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoicWlhbmh1YSIsImEiOiJjbW5kdWIyNXQxaHA5MnBvdmZ3Y
 const PROJECTS = [
   { id:'collovlabs', title:'CollovLabs',     city:'Redwood City',   lat:37.4852, lng:-122.2364, img:'https://freight.cargo.site/w/600/q/75/i/N2755860063414473176452238820781/Screenshot-2026-01-20-at-6.44.12PM.png', link:'https://collovlabs.com/' },
   { id:'emochi',     title:'Emochi',         city:'Oakland',        lat:37.8044, lng:-122.2712, img:'./emochi.png',             link:'https://play.google.com/store/apps/details?id=com.flow.mobile&hl=en' },
+  { id:'neweyes',    title:'NewEyes',        city:'San Francisco',  lat:37.7899, lng:-122.4009, img:'./neweyes.jpg',            link:'https://www.neweyesai.com' },
   { id:'nodeobjects',title:'Node Objects',   city:'Shanghai',       lat:31.2400, lng:121.4900,  img:'https://freight.cargo.site/w/600/q/75/i/X2588756189508130985248208864685/Wireframe---22.png',  link:null },
   { id:'katakana',   title:'Katakana',       city:'Taipei',         lat:25.0330, lng:121.5654,  img:'https://freight.cargo.site/w/600/q/75/i/C2750890346348100079084459935149/Frame-4.png',         link:null },
   { id:'divly',      title:'Divly',          city:'Stockholm',      lat:59.3293, lng:18.0686,   img:'./images/divly.png',     link:'https://divly.com/en/' },
