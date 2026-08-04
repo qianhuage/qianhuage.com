@@ -11,17 +11,17 @@ mapboxgl.accessToken = 'pk.eyJ1IjoicWlhbmh1YSIsImEiOiJjbW5kdWIyNXQxaHA5MnBvdmZ3Y
 
 // ── PROJECT DATA ──────────────────────────────────────
 const PROJECTS = [
-  { id:'collovlabs', title:'CollovLabs',     city:'Redwood City',   lat:37.4852, lng:-122.2364, img:'https://freight.cargo.site/w/600/q/75/i/N2755860063414473176452238820781/Screenshot-2026-01-20-at-6.44.12PM.png', link:'https://collovlabs.com/' },
-  { id:'emochi',     title:'Emochi',         city:'Oakland',        lat:37.8044, lng:-122.2712, img:'./emochi.png',             link:'https://play.google.com/store/apps/details?id=com.flow.mobile&hl=en' },
+  { id:'collovlabs', title:'Collov Labs',    city:'Redwood City',   lat:37.4852, lng:-122.2364, img:'https://freight.cargo.site/w/600/q/75/i/N2755860063414473176452238820781/Screenshot-2026-01-20-at-6.44.12PM.png', link:'https://collovlabs.com/' },
+  { id:'emochi',     title:'Emochi',         city:'San Francisco',  lat:37.7930, lng:-122.3970, img:'./emochi.png',             link:'https://play.google.com/store/apps/details?id=com.flow.mobile&hl=en' },
   { id:'neweyes',    title:'NewEyes',        city:'San Francisco',  lat:37.7899, lng:-122.4009, img:'./neweyes.jpg',            link:'https://www.neweyesai.com' },
   { id:'nodeobjects',title:'Node Objects',   city:'Shanghai',       lat:31.2400, lng:121.4900,  img:'https://freight.cargo.site/w/600/q/75/i/X2588756189508130985248208864685/Wireframe---22.png',  link:null },
   { id:'katakana',   title:'Katakana',       city:'Taipei',         lat:25.0330, lng:121.5654,  img:'https://freight.cargo.site/w/600/q/75/i/C2750890346348100079084459935149/Frame-4.png',         link:null },
   { id:'divly',      title:'Divly',          city:'Stockholm',      lat:59.3293, lng:18.0686,   img:'./images/divly.png',     link:'https://divly.com/en/' },
+  { id:'kaon',       title:'Kaon Labs',      city:'Beijing',        lat:39.9088, lng:116.4573,  img:'./kaon.png',               link:'https://kaon.io/' },
   { id:'substrate',  title:'Substrate',      city:'Palo Alto',      lat:37.4419, lng:-122.1430, img:'https://freight.cargo.site/w/600/q/75/i/J2579367830216556064905875047853/substrate.png',       link:'http://www.substratecapital.xyz/' },
   { id:'atlaslab',   title:'Atlas Lab',      city:'Sacramento',     lat:38.5816, lng:-121.4944, img:'https://freight.cargo.site/w/700/q/75/i/G2295860679372777805815165633965/atlas-lab.png',       link:'https://atlaslab.com/' },
   { id:'spellbrush', title:'Spellbrush',     city:'San Francisco',  lat:37.7780, lng:-122.4150, img:'./Spellbrush.png', link:null },
   { id:'tesseract',  title:'Tesseract',      city:'Brownsville',    lat:25.9017, lng:-97.4975,  img:'./Tesseract.png',  link:null },
-  { id:'kaon',       title:'Kaon',          city:'San Francisco',  lat:37.7749, lng:-122.4194, img:'./kaon.png', link:'https://kaon.io/' },
   { id:'azulenelabs',title:'Azulene Labs',   city:'San Francisco',  lat:37.7850, lng:-122.4094, img:'https://freight.cargo.site/w/600/q/75/i/A2579303923740662219230576264621/461.png',              link:null },
   { id:'metaval',    title:'Metaval',        city:'Dubai',          lat:25.2048, lng:55.2708,   img:'./images/metaval.png',   link:'https://metaval.com/' },
   { id:'cozyai',     title:'CozyAI',         city:'Shenzhen',       lat:22.5431, lng:114.0579,  img:'https://freight.cargo.site/w/600/q/75/i/X2756203805356204973465402230189/cozyai.png',          link:'https://apps.apple.com/us/app/cozyai-ai-home-design/id6744885843' },
