@@ -35,7 +35,7 @@ Nine side trips preserve the remaining portfolio locations: Shenzhen, Taipei, Wa
 - `src/world.js`: instanced geometry, physical exhibits, city landmarks, foliage, transport and yacht scenes.
 - `src/rendering.js`: HDR environment lighting, reflection/refraction water, analytic waves, Fresnel reflection, sunlight highlights, contact occlusion and restrained bloom.
 - `src/bund.js`: reference-based heritage buildings, instanced arches/columns/cornices, terracotta brick and carved stone materials, granite promenade and garden.
-- `src/atmosphere.js`: selective planar puddle reflections and slow soft cloud layers.
+- `src/atmosphere.js`: selective planar puddle reflections, cloud layers and a golden-hour sky shared by the visible scene and reflection environment.
 - `src/architecture.js`: continuous curved tower surfaces, Oriental Pearl glazing and ribs, Shanghai Tower twist, World Financial Center opening, and the opposite riverbank.
 - `script.js`: input, progress, navigation and accessible portfolio dialogs.
 
@@ -43,7 +43,9 @@ Nine side trips preserve the remaining portfolio locations: Shenzhen, Taipei, Wa
 
 Project artwork was copied from the exact URLs in the original repository into `images/projects/`. Original local Divly and Metaval images are retained. Project descriptions intentionally do not invent roles or achievements.
 
-Original generated materials are preserved below. The paving now uses a photographed CC0 material set (diffuse, OpenGL normal, roughness and AO); the sky uses an actual HDR panorama. Exact source URLs and authors are in `images/pbr/sources.json`: [Cobblestone Floor 08 by Rob Tuytel](https://polyhaven.com/a/cobblestone_floor_08) and [Qwantani Morning by Jarod Guest](https://polyhaven.com/a/qwantani_morning_puresky). These files are local runtime assets. Shanghai now uses large rectangular stone flags rather than cobblestones, with view-dependent puddle reflections. Its red brick, ashlar and granite sets are also photographed CC0 Poly Haven assets, recorded in `images/pbr/bund-sources.json`.
+Original generated materials are preserved below. The paving now uses a photographed CC0 material set (diffuse, OpenGL normal, roughness and AO); the sky uses an actual HDR panorama. Exact source URLs and authors are in `images/pbr/sources.json`: [Cobblestone Floor 08 by Rob Tuytel](https://polyhaven.com/a/cobblestone_floor_08) and [Qwantani Morning by Jarod Guest](https://polyhaven.com/a/qwantani_morning_puresky). These files are local runtime assets. Shanghai is a bounded waterfront garden: railings and planted edges define movement, while heritage façades and distant city scenery continue beyond both ends. Visitors retain 360-degree looking. Its amber low sun, sky, water highlights and building illumination are scene-specific; other chapters retain daylight. Project dialogs show artwork, title and available actions, without inferred launch status or generic descriptive copy.
+
+Shanghai now uses large rectangular stone flags rather than cobblestones, with view-dependent puddle reflections. Its red brick, ashlar and granite sets are also photographed CC0 Poly Haven assets, recorded in `images/pbr/bund-sources.json`.
 
 Three original textures were generated using the built-in image generation tool and visually inspected:
 

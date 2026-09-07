@@ -33,3 +33,17 @@ test('Bund landmarks have finite geometry, preserved materials and reachable wal
  const brick=w.mat('bund-brick'),map=brick.map;let disposed=false;map.addEventListener('dispose',()=>disposed=true);w.load(STOPS[1],[]);assert.equal(disposed,false,'shared architectural textures survive travel');w.load(STOPS[0],[]);assert.equal(w.mat('bund-brick').map,map);assert.ok(w.puddles.isReflector);w.clear();assert.equal(w.puddles,null);
 });
 test('new Bund materials are local JPEGs with recorded CC0 sources',async()=>{const manifest=JSON.parse(await readFile(new URL('../images/pbr/bund-sources.json',import.meta.url),'utf8'));for(const item of manifest){assert.equal(item.license,'CC0-1.0');const bytes=await readFile(new URL('../'+item.path,import.meta.url));assert.equal(bytes.readUInt16BE(0),0xffd8);assert.ok(bytes.length>10000);}});
+
+
+test('Shanghai exploration stays inside visible garden edges and keeps golden lighting local',()=>{
+ const w=new World(null);w.load(STOPS[0],[]);
+ for(const [x,z]of [[0,85],[0,-49],[-12.1,0],[17,0]])assert.equal(canMove(x,z,w.colliders,w.bounds),false,`edge ${x},${z}`);
+ assert.equal(w.goldenSky.visible,true);assert.equal(w.clouds.visible,false);assert.ok(w.sunOffset.y/w.sunOffset.length()<.2,'low sun');
+ assert.ok(w.water.material.uniforms.sunDirection.value.distanceTo(w.sunOffset.clone().normalize())<.001,'water highlights align with the sun');
+ w.load(STOPS[1],[]);assert.equal(w.goldenSky.visible,false,'airport retains daylight');assert.equal(w.sun.intensity,2.7);
+ w.load(STOPS[0],[]);assert.equal(w.goldenSky.visible,true);w.clear();
+});
+test('project presentation contains no inferred launch status or generic portfolio paragraph',async()=>{
+ const html=await readFile(new URL('../index.html',import.meta.url),'utf8'),code=await readFile(new URL('../script.js',import.meta.url),'utf8');
+ for(const phrase of ['This project has not launched','Part of Qianhua','IN DEVELOPMENT','LAUNCHED PROJECT','project-status','project-copy'])assert.ok(!(html+code).includes(phrase),phrase);
+});

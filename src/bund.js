@@ -24,7 +24,7 @@ class Facade {
   this.box(u,y,v+.17,.052,height,.05,'bund-bronze');this.box(u,y+.14,v+.17,width,.052,.05,'bund-bronze');
   if(ornate){this.add('bundPediment',u,y+height/2+.55,v+.16,width+1,.57,.4,'bund-trim');this.box(u,y-height/2-.28,v+.31,width+.65,.18,.65,'bund-trim');}
  }
- cornice(y,width,depth){for(const [dy,out,h]of [[-.36,.22,.2],[-.16,.4,.13],[.03,.65,.2],[.2,.46,.1]])this.box(0,y+dy,0,width+out*2,h,depth+out*2,'bund-trim');for(let u=-width/2+.5;u<width/2;u+=.85)this.box(u,y-.45,depth/2+.15,.22,.27,.48,'bund-trim');}
+ cornice(y,width,depth){this.box(0,y-.29,depth/2+.15,width,.045,.05,'bund-lamp');for(const [dy,out,h]of [[-.36,.22,.2],[-.16,.4,.13],[.03,.65,.2],[.2,.46,.1]])this.box(0,y+dy,0,width+out*2,h,depth+out*2,'bund-trim');for(let u=-width/2+.5;u<width/2;u+=.85)this.box(u,y-.45,depth/2+.15,.22,.27,.48,'bund-trim');}
  column(u,y,v,height){this.add('bundColumn',u,y,v,.58,height,.58,'bund-trim');this.box(u,y-height/2+.08,v,.88,.16,.88,'bund-trim');this.box(u,y+height/2-.1,v,1,.2,1,'bund-trim');}
  balustrade(y,width,v){this.box(0,y-.45,v,width,.13,.4,'bund-trim');this.box(0,y+.45,v,width,.16,.48,'bund-trim');for(let u=-width/2;u<width/2;u+=.55)this.add('bundBaluster',u,y,v,.22,.8,.22,'bund-trim');}
  body(width,depth,height,material){this.box(0,height/2,0,width,height,depth,material);const p=this.p(0,0,0),wx=Math.abs(Math.cos(this.angle))*width+Math.abs(Math.sin(this.angle))*depth,wz=Math.abs(Math.sin(this.angle))*width+Math.abs(Math.cos(this.angle))*depth;this.w.colliders.push([p[0]-wx/2,p[0]+wx/2,p[2]-wz/2,p[2]+wz/2]);this.cornice(height,width,depth);}
@@ -64,7 +64,9 @@ function addMaterials(w){
  w.materials.set('bund-copper',new T.MeshStandardMaterial({color:'#367d72',roughness:.48,metalness:.5}));
  w.materials.set('bund-slate',new T.MeshStandardMaterial({color:'#354453',roughness:.6,metalness:.15}));
  w.materials.set('bund-lamp',new T.MeshStandardMaterial({color:'#fff0cf',emissive:'#ffd79a',emissiveIntensity:1.8,roughness:.28}));
- w.materials.set('bund-clock',new T.MeshStandardMaterial({color:'#ece6d9',emissive:'#ffe0a3',emissiveIntensity:.12,roughness:.75}));
+ w.materials.set('bund-clock',new T.MeshStandardMaterial({color:'#ffe4ad',emissive:'#ffc363',emissiveIntensity:1.1,roughness:.75}));
+ for(const name of ['bund-trim','bund-stone','bund-brick']){const m=w.mat(name);m.emissive.set('#ffae46');m.emissiveIntensity=name==='bund-trim'?.24:.07;}
+ w.mat('bund-glass').emissive.set('#b87227');w.mat('bund-glass').emissiveIntensity=.12;
 }
 function baseFloors(f,width,depth,floors,brick=false){
  const v=depth/2+.05,spacing=3.1,cols=Math.floor((width-2)/spacing);
@@ -145,8 +147,42 @@ function promenade(w){
  // A restrained café terrace tucked into the northern garden, without blocking walking routes.
  for(let i=0;i<3;i++){const x=-30,z=-126+i*5;w.cylinder(x,.68,z,.04,1.35,'bund-iron');w.cylinder(x,1.36,z,.82,.07,'bund-bronze');for(const side of [-1,1])w.bench(x+side*1.3,z,Math.PI/2);}
 }
+function gardenBoundary(w,x,z,width,depth){
+ w.box(x,.35,z,width,.7,depth,'bund-base');w.box(x,.73,z,width+.12,.12,depth+.12,'bund-trim');
+ w.box(x,.81,z,width-.2,.05,depth-.2,'#3c3c2d');
+ const alongX=width>depth,length=Math.max(width,depth);
+ for(let u=-length/2+.4;u<length/2;u+=.55){const xx=x+(alongX?u:0),zz=z+(alongX?0:u);for(let j=0;j<4;j++)w.foliageCards.push({x:xx+Math.sin(j*2.4)*.18,y:1.05+(j%2)*.18,z:zz+Math.cos(j*2.4)*.18,s:.95,rx:(j%2)*.6,ry:j*1.7});}
+ w.colliders.push([x-width/2,x+width/2,z-depth/2,z+depth/2]);
+}
+function completeSurroundings(w){
+ // The playable garden is enclosed by visible physical edges, not a camera clamp.
+ w.box(-70,-.5,0,176,.5,900,'bund-base');
+ gardenBoundary(w,2.5,85,29,1.8);gardenBoundary(w,2.5,-49,29,1.8);
+ w.box(-12.1,.32,18,.3,.64,136,'bund-base');w.box(-12.1,1.13,18,.07,.08,136,'bund-iron');
+ for(let z=-50;z<=86;z+=.7)w.box(-12.1,.78,z,.045,.86,.045,'bund-iron');
+ w.colliders.push([-12.3,-11.9,-50,86]);
+ // A small garden pavilion is the reverse view from the arrival point.
+ const f=new Facade(w,1,99,Math.PI);f.box(0,.22,0,12,.44,9,'bund-stone');
+ for(const u of [-5.1,5.1])for(const v of [-3.5,3.5])f.column(u,2.2,v,4.1);
+ f.box(0,4.4,0,12,.4,9,'bund-trim');f.add('bundMansard',0,5.2,0,12.5,1.5,9.5,'bund-copper');
+ f.arch(0,2,-3.4,3.5,2.9);for(const u of [-3.6,3.6])f.balustrade(.95,2,u);
+ for(const z of [94,108])for(const x of [-8,10])w.tree(x,z,1.25);
+ gardenBoundary(w,1,113,28,3);w.cylinder(1,.36,103,2.2,.55,'bund-trim');w.cylinder(1,.66,103,1.92,.04,'bund-glass');
+ // Architecture continues beyond both ends of the walking route.
+ brickHall(w,102);palace(w,135);peace(w,179);brickHall(w,-132);palace(w,-164);
+ for(let i=0;i<30;i++){
+  const x=-78-(i%3)*24,z=-205+Math.floor(i/3)*48,h=20+(i%7)*6;
+  w.building(x,z,14+(i%3)*4,17,h,['#8d888b','#b4a28e','#798992'][i%3],'modern',false);
+  if(i%4===0){w.box(x,h+4,z,10,8,11,'bund-stone');w.add('bundMansard',x,h+9,z,11,3,12,'bund-copper');}
+ }
+ // Extend the far bank into the southern and northern peripheral views.
+ w.box(180,-.7,0,178,1.4,760,'#737d77');w.box(91,.7,0,1.5,1.4,760,'bund-base');
+ for(const sign of [-1,1])for(let i=0;i<15;i++){const z=sign*(155+i*15),x=110+(i%4)*20;w.building(x,z,10+(i%3)*3,13,12+(i%6)*7,['#677e8a','#9aa7a9','#879da6'][i%3],'modern',false);}
+ w.bounds=[-11.85,16,-47.7,83.7];
+}
+
 export function buildBund(w){
  geometryLibrary(w);addMaterials(w);w.landmarks=[];promenade(w);
  bank(w,65);customs(w,29);brickHall(w,3);palace(w,-24);peace(w,-57);gardenHouse(w,-96);
- w.bounds=[-68,16,-140,137];
+ completeSurroundings(w);
 }

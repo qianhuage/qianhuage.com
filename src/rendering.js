@@ -11,9 +11,9 @@ function waveNormals(phase){const n=256,data=new Uint8Array(n*n*4);for(let y=0;y
 const normals=[waveNormals(0),waveNormals(2.7)];
 export function makeWater(w,d,{reduced=false,ocean=false}={}){
  const shader={...Water.WaterShader,uniforms:T.UniformsUtils.clone(Water.WaterShader.uniforms)};
- shader.uniforms.waterTime={value:0};shader.uniforms.deepColor={value:new T.Color(ocean?'#16483f':'#344c42')};shader.uniforms.ocean={value:ocean?1:0};
+ shader.uniforms.waterTime={value:0};shader.uniforms.sunDirection={value:new T.Vector3(.76,.35,.55).normalize()};shader.uniforms.deepColor={value:new T.Color(ocean?'#16483f':'#344c42')};shader.uniforms.ocean={value:ocean?1:0};
  shader.vertexShader=shader.vertexShader.replace('varying vec3 vToEye;','varying vec3 vToEye; varying vec3 vWorld;').replace('vToEye = cameraPosition - worldPosition.xyz;','vToEye = cameraPosition - worldPosition.xyz; vWorld = worldPosition.xyz;');
- shader.fragmentShader=shader.fragmentShader.replace('varying vec3 vToEye;',`varying vec3 vToEye; varying vec3 vWorld; uniform float waterTime; uniform vec3 deepColor; uniform float ocean;`)
+ shader.fragmentShader=shader.fragmentShader.replace('varying vec3 vToEye;',`varying vec3 vToEye; varying vec3 vWorld; uniform float waterTime; uniform vec3 deepColor; uniform float ocean; uniform vec3 sunDirection;`)
  .replace('vec3 normal = normalize( vec3( normalColor.r * 2.0 - 1.0, normalColor.b,  normalColor.g * 2.0 - 1.0 ) );',`vec2 q=vWorld.xz;
   vec2 longWave=vec2(cos(q.x*.8+q.y*.36-waterTime*.75),sin(q.y*.65-q.x*.3+waterTime*.6))*.055;
   vec2 fineWave=vec2(normalColor.r*2.-1.,normalColor.g*2.-1.)*.65;
@@ -23,10 +23,9 @@ export function makeWater(w,d,{reduced=false,ocean=false}={}){
   float absorption=1.-exp(-depth*.15);
   vec3 underwater=mix(refractColor.rgb,deepColor,absorption);
   vec3 result=mix(underwater,reflectColor.rgb,reflectance);
-  vec3 sunDirection=normalize(vec3(.76,.35,.55));
   vec3 halfway=normalize(sunDirection+toEye);
   float glint=pow(max(dot(normal,halfway),0.),850.)*4.;
-  result+=vec3(1.,.91,.73)*glint;
+  result+=vec3(1.,.7,.3)*glint;
   gl_FragColor=vec4(result,1.);`);
  const water=new Water(new T.PlaneGeometry(w,d),{color:'#fff',textureWidth:innerWidth<750?512:1024,textureHeight:innerWidth<750?512:1024,normalMap0:normals[0],normalMap1:normals[1],flowDirection:new T.Vector2(.28,.17),flowSpeed:reduced?0:.013,reflectivity:.025,scale:Math.max(w,d)/10,shader});
  water.rotation.x=-Math.PI/2;water.userData.noAO=true;return water;

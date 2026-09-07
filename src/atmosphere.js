@@ -39,3 +39,26 @@ export function makeClouds(){
  `});
  const clouds=new T.Mesh(new T.SphereGeometry(480,32,16),material);clouds.userData.noAO=true;clouds.renderOrder=-2;return clouds;
 }
+
+// This sky supplies both the visible backdrop and Shanghai's reflection environment.
+export const GOLDEN_SUN=new T.Vector3(.82,.16,-.55).normalize();
+export function makeGoldenSky(){
+ const material=new T.ShaderMaterial({side:T.BackSide,depthWrite:false,uniforms:{sunDirection:{value:GOLDEN_SUN.clone()}},vertexShader:'varying vec3 vDirection;void main(){vDirection=position;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',fragmentShader:`
+ varying vec3 vDirection;uniform vec3 sunDirection;
+ float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
+ float n(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.-2.*f);return mix(mix(hash(i),hash(i+vec2(1.,0.)),f.x),mix(hash(i+vec2(0.,1.)),hash(i+1.),f.x),f.y);}
+ float fbm(vec2 p){float a=.5,v=0.;for(int i=0;i<5;i++){v+=a*n(p);p=p*2.04+vec2(1.7,9.2);a*=.5;}return v;}
+ void main(){
+  vec3 d=normalize(vDirection);float h=max(d.y,0.);float toward=max(dot(d,sunDirection),0.);
+  vec3 horizon=vec3(1.05,.39,.105),zenith=vec3(.28,.29,.43);
+  vec3 sky=mix(horizon,zenith,pow(clamp(h,0.,1.),.52));
+  sky+=vec3(1.1,.46,.1)*pow(toward,12.)*.7;
+  vec2 p=d.xz/max(h,.065)*1.15;float cloud=fbm(p+fbm(p*.6));float mask=smoothstep(.55,.71,cloud)*smoothstep(.04,.17,h);
+  vec3 cloudColor=mix(vec3(.36,.21,.24),vec3(1.4,.71,.27),pow(toward,3.)*.7+(1.-smoothstep(.56,.63,cloud))*.3);
+  sky=mix(sky,cloudColor,mask*.65);
+  sky+=vec3(12.,7.,2.8)*smoothstep(.99965,.99992,toward);
+  if(d.y<0.)sky=mix(vec3(.20,.105,.075),horizon,exp(d.y*12.));
+  gl_FragColor=vec4(sky,1.);
+ }
+ `});const sky=new T.Mesh(new T.SphereGeometry(520,48,24),material);sky.userData.noAO=true;sky.renderOrder=-10;return sky;
+}

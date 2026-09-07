@@ -2,7 +2,7 @@ import * as T from '../vendor/three.module.js';
 import {makeWater,makeSurfaceNoise,createPipeline,setupEnvironment} from './rendering.js';
 import {buildPudongSkyline} from './architecture.js';
 import {buildBund} from './bund.js';
-import {makePuddles,makeClouds} from './atmosphere.js';
+import {makePuddles,makeClouds,makeGoldenSky,GOLDEN_SUN} from './atmosphere.js';
 import {projectPosition} from './journey.js';
 
 const clamp=T.MathUtils.clamp;
@@ -14,9 +14,18 @@ export class World {
   this.root=new T.Group();this.scene.add(this.root);this.colliders=[];this.markers=[];this.batches=new Map();this.animated=[];
   this.geos={box:new T.BoxGeometry(1,1,1),cylinder:new T.CylinderGeometry(1,1,1,32),cone:new T.ConeGeometry(1,1,32),sphere:new T.SphereGeometry(1,20,14),pearl:new T.SphereGeometry(1,64,40)};
   this.materials=new Map();this.surfaceNoise=makeSurfaceNoise();this.foliageCards=[];this.surfaceMaps=[];this.reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;this.dummy=new T.Object3D();
-  this.scene.add(new T.HemisphereLight('#bed8f5','#67504a',.5));
+  this.hemisphere=new T.HemisphereLight('#bed8f5','#67504a',.5);this.scene.add(this.hemisphere);this.sunOffset=new T.Vector3(76,35,55);
   this.sun=new T.DirectionalLight('#ffe0b5',2.7);this.sun.position.set(76,35,55);this.sun.castShadow=true;this.sun.shadow.mapSize.set(innerWidth<750?2048:4096,innerWidth<750?2048:4096);Object.assign(this.sun.shadow.camera,{left:-70,right:70,top:70,bottom:-70,near:1,far:220});this.sun.shadow.bias=-.0004;this.sun.shadow.normalBias=.025;this.scene.add(this.sun);this.scene.add(this.sun.target);
-  this.sky=new T.Mesh(new T.SphereGeometry(550,32,16),new T.ShaderMaterial({side:T.BackSide,depthWrite:false,uniforms:{top:{value:new T.Color('#729caf')},bottom:{value:new T.Color('#e1d9b8')},sun:{value:new T.Vector3(-.55,.4,-.55)}},vertexShader:'varying vec3 v;void main(){v=position;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',fragmentShader:'varying vec3 v;uniform vec3 top;uniform vec3 bottom;uniform vec3 sun;void main(){vec3 d=normalize(v);float h=pow(max(d.y,0.),.55);vec3 c=mix(bottom,top,h);float s=max(dot(d,normalize(sun)),0.);c+=vec3(1.,.78,.4)*pow(s,90.)*.28;c+=vec3(1.,.92,.69)*smoothstep(.999,.9997,s)*1.8;gl_FragColor=vec4(c,1.);}'}));this.scene.add(this.sky);this.pipeline=renderer?createPipeline(renderer,this.scene,this.camera):null;this.setupTextureLibrary();this.sky.userData.noAO=true;this.clouds=makeClouds();this.scene.add(this.clouds);setupEnvironment(renderer,this.scene,()=>{this.sky.visible=false;});
+  this.sky=new T.Mesh(new T.SphereGeometry(550,32,16),new T.ShaderMaterial({side:T.BackSide,depthWrite:false,uniforms:{top:{value:new T.Color('#729caf')},bottom:{value:new T.Color('#e1d9b8')},sun:{value:new T.Vector3(-.55,.4,-.55)}},vertexShader:'varying vec3 v;void main(){v=position;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}',fragmentShader:'varying vec3 v;uniform vec3 top;uniform vec3 bottom;uniform vec3 sun;void main(){vec3 d=normalize(v);float h=pow(max(d.y,0.),.55);vec3 c=mix(bottom,top,h);float s=max(dot(d,normalize(sun)),0.);c+=vec3(1.,.78,.4)*pow(s,90.)*.28;c+=vec3(1.,.92,.69)*smoothstep(.999,.9997,s)*1.8;gl_FragColor=vec4(c,1.);}'}));this.scene.add(this.sky);this.pipeline=renderer?createPipeline(renderer,this.scene,this.camera):null;this.setupTextureLibrary();this.sky.userData.noAO=true;this.clouds=makeClouds();this.scene.add(this.clouds);this.goldenSky=makeGoldenSky();this.goldenSky.visible=false;this.scene.add(this.goldenSky);setupEnvironment(renderer,this.scene,()=>{this.dayEnvironment=this.scene.environment;this.dayBackground=this.scene.background;this.applyLighting();});
+ }
+ applyLighting(){
+  const golden=this.stop?.theme==='shanghai';this.goldenSky.visible=golden;this.sky.visible=!golden&&!this.dayBackground;this.clouds.visible=!golden&&this.stop?.theme==='yacht';
+  this.sunOffset.copy(golden?GOLDEN_SUN.clone().multiplyScalar(105):new T.Vector3(76,35,55));this.sun.color.set(golden?'#ffb657':'#ffe0b5');this.sun.intensity=golden?3.6:2.7;
+  this.hemisphere.color.set(golden?'#ffc486':'#bed8f5');this.hemisphere.groundColor.set(golden?'#704349':'#67504a');this.hemisphere.intensity=golden?.62:.5;
+  this.scene.fog.color.set(golden?'#d89a6f':this.stop?.theme==='stockholm'?'#b7c5cc':'#a9bfd0');this.scene.fog.density=golden?.0028:this.stop?.theme==='yacht'?.0008:.0017;
+  if(golden){if(this.renderer&&!this.goldenEnvironment){const scene=new T.Scene();scene.add(makeGoldenSky());const generator=new T.PMREMGenerator(this.renderer);this.goldenEnvironment=generator.fromScene(scene,.015,.1,650);generator.dispose();scene.children[0].geometry.dispose();scene.children[0].material.dispose();}if(this.goldenEnvironment)this.scene.environment=this.goldenEnvironment.texture;this.scene.environmentIntensity=.7;this.scene.background=new T.Color('#e2a36a');}
+  else{if(this.dayEnvironment)this.scene.environment=this.dayEnvironment;this.scene.background=this.dayBackground||new T.Color('#90bdd9');this.scene.environmentIntensity=.55;}
+  this.sun.target.position.set(0,0,0);this.sun.position.copy(this.sunOffset);this.shadowAnchor=null;
  }
  setupTextureLibrary(){
   const loader=new T.TextureLoader();this.bundPaving={};for(const [key,suffix]of [['map','color'],['normalMap','normal'],['roughnessMap','roughness']]){const t=loader.load('./images/pbr/bund-stone-'+suffix+'.jpg');t.wrapS=t.wrapT=T.RepeatWrapping;t.anisotropy=8;if(key==='map')t.colorSpace=T.SRGBColorSpace;this.bundPaving[key]=t;}this.pavingTexture=loader.load('./images/pbr/paving-color.jpg');this.pavingNormal=loader.load('./images/pbr/paving-normal.jpg');this.pavingRoughness=loader.load('./images/pbr/paving-roughness.jpg');this.pavingAO=loader.load('./images/pbr/paving-ao.jpg');this.plasterTexture=loader.load('./images/materials/plaster.png');this.leafTexture=loader.load('./images/materials/foliage.png',()=>{if(this.renderer)this.renderer.shadowMap.needsUpdate=true;});
@@ -36,7 +45,7 @@ export class World {
  pavement(x,z,w,d,color='#b1ad97'){
   this.box(x,-.21,z,w,.4,d,color);
   const bund=this.stop?.theme==='shanghai',tile=bund?5:2;const geo=new T.PlaneGeometry(w,d);const uv=geo.attributes.uv;for(let i=0;i<uv.count;i++)uv.setXY(i,uv.getX(i)*w/tile,uv.getY(i)*d/tile);geo.setAttribute('uv1',uv.clone());
-  const mat=new T.MeshPhysicalMaterial(bund?{...this.bundPaving,color:'#858e95',normalScale:new T.Vector2(.35,.35),roughness:.48,clearcoat:.8,clearcoatRoughness:.14,envMapIntensity:1.2}:{map:this.pavingTexture,normalMap:this.pavingNormal,normalScale:new T.Vector2(.75,.75),roughnessMap:this.pavingRoughness,roughness:.85,aoMap:this.pavingAO,aoMapIntensity:.5,clearcoat:.18,clearcoatRoughness:.25});
+  const mat=new T.MeshPhysicalMaterial(bund?{...this.bundPaving,color:'#aaa396',normalScale:new T.Vector2(.35,.35),roughness:.65,clearcoat:.35,clearcoatRoughness:.2,envMapIntensity:1.2}:{map:this.pavingTexture,normalMap:this.pavingNormal,normalScale:new T.Vector2(.75,.75),roughnessMap:this.pavingRoughness,roughness:.85,aoMap:this.pavingAO,aoMapIntensity:.5,clearcoat:.18,clearcoatRoughness:.25});
   if(bund){mat.onBeforeCompile=shader=>{shader.vertexShader='varying vec3 vPaving;\n'+shader.vertexShader;shader.vertexShader=shader.vertexShader.replace('#include <begin_vertex>','#include <begin_vertex>\n vPaving=position;');shader.fragmentShader='varying vec3 vPaving;\n'+shader.fragmentShader;shader.fragmentShader=shader.fragmentShader.replace('#include <roughnessmap_fragment>','#include <roughnessmap_fragment>\n float wet=smoothstep(.1,.65,sin(vPaving.x*.37+sin(vPaving.y*.21))*cos(vPaving.y*.31+sin(vPaving.x*.13)));roughnessFactor=mix(roughnessFactor,.075,wet*.8);');};}
   const mesh=new T.Mesh(geo,mat);mesh.rotation.x=-Math.PI/2;mesh.position.set(x,.005,z);mesh.receiveShadow=true;this.root.add(mesh);
  }
@@ -49,7 +58,7 @@ export class World {
  tree(x,z,size=1,pine=false){
   this.cylinder(x,2.5*size,z,.15*size,5*size,'#615c48');
   const random=seeded(Math.round((x+100)*31+(z+100)*17));
-  for(let b=0;b<7;b++){const angle=b*2.4,length=(1.5+random())*size;this.add('cylinder',x+Math.cos(angle)*length*.45,3.4*size+b*.27*size,z+Math.sin(angle)*length*.45,.07*size,length,.07*size,'#615c48',angle,.65);}
+  for(let b=0;b<7;b++){const angle=b*2.4,length=(1.7+random()*.6)*size;this.add('cylinder',x-Math.cos(angle)*Math.sin(.6)*length*.5,(3.7+b*.18)*size+Math.cos(.6)*length*.5,z+Math.sin(angle)*Math.sin(.6)*length*.5,.055*size,length,.055*size,'#615c48',angle,.6);}
   if(pine){for(let i=0;i<4;i++)this.add('cone',x,(3+i*1.15)*size,z,(2.1-i*.34)*size,3*size,(2.1-i*.34)*size,'#4e7456');}
   // Intersecting foliage cards keep the silhouette open, with visible light between leaves.
   for(let i=0;i<(pine?18:36);i++){const a=random()*Math.PI*2,r=Math.sqrt(random())*2.3*size;const card={x:x+Math.cos(a)*r,y:(4.7+random()*2.6)*size,z:z+Math.sin(a)*r,s:(1.7+random()*.9)*size,ry:random()*Math.PI,rx:(random()-.5)*1.6};this.foliageCards.push(card);}
@@ -93,7 +102,7 @@ export class World {
  rail(x,start,end){for(let z=start;z<=end;z+=4)this.box(x,.7,z,.12,1.4,.12,'#657266');this.box(x,1.35,(start+end)/2,.12,.1,end-start,'#929c86');this.box(x,.5,(start+end)/2,.08,.07,end-start,'#929c86');}
  boat(x,z,scale=1){const g=new T.Group();const hull=new T.Mesh(new T.CylinderGeometry(1, .6,1,6),this.mat('#e8e1cb'));hull.rotation.z=Math.PI/2;hull.scale.set(.7,5,1.1);g.add(hull);const deck=new T.Mesh(this.geos.box,this.mat('#eee9d9'));deck.scale.set(4,.7,1.4);deck.position.y=.6;g.add(deck);const window=new T.Mesh(this.geos.box,this.mat('#5c898a'));window.scale.set(3,.4,1.43);window.position.y=.65;g.add(window);g.position.set(x,.1,z);g.scale.setScalar(scale);this.root.add(g);this.animated.push({type:'boat',mesh:g,x,z});}
  shanghai(){
-  buildBund(this);this.waterPlane(130,-15,220,420,'#69958e');buildPudongSkyline(this);this.puddles=makePuddles(this,27,304);this.puddles.position.set(3,.012,0);this.root.add(this.puddles);this.clouds.visible=true;
+  buildBund(this);this.waterPlane(385,0,730,1200,'#69958e');buildPudongSkyline(this);this.puddles=makePuddles(this,27,304);this.puddles.position.set(3,.012,0);this.root.add(this.puddles);this.clouds.visible=false;
   this.boat(38,-18,1.1);this.boat(62,38,.8);
   this.station(-9,-30,'2   地铁  METRO →','#4b633c');
  }
@@ -104,7 +113,7 @@ export class World {
   if(stop.theme==='shanghai')this.shanghai();else if(stop.theme==='airport')this.airport();else if(stop.theme==='yacht')this.yacht();else this.city(stop);
   projects.forEach((p,i)=>this.exhibit(p,i));if(stop.next)this.markers.push({kind:'gate',x:stop.gate[0],z:stop.gate[1]+3,y:4.5,title:stop.mode==='flight'?'Departures':stop.mode==='caltrain'?'Caltrain station':stop.mode==='bart'?'BART station':'Metro Line 2',subtitle:stop.transport.toUpperCase(),symbol:stop.mode==='flight'?'↗':'↓'});
   else this.markers.push({kind:'finish',x:0,z:-7,y:3,title:'The open sea',subtitle:'THE JOURNEY CONTINUES',symbol:'≈'});
-  this.addFoliage();this.flush();this.camera.position.set(stop.spawn[0],1.75,stop.spawn[1]);this.camera.rotation.set(stop.theme==='shanghai'?.025:0,stop.theme==='shanghai'?.16:0,0,'YXZ');if(this.renderer)this.renderer.shadowMap.needsUpdate=true;
+  this.applyLighting();if(this.water?.material.uniforms.sunDirection)this.water.material.uniforms.sunDirection.value.copy(this.sunOffset).normalize();this.addFoliage();this.flush();this.camera.position.set(stop.spawn[0],1.75,stop.spawn[1]);this.camera.rotation.set(stop.theme==='shanghai'?.025:0,stop.theme==='shanghai'?.16:0,0,'YXZ');if(this.renderer)this.renderer.shadowMap.needsUpdate=true;
  }
  city(stop){
   const nordic=stop.theme==='stockholm',campus=stop.theme==='campus'||stop.theme==='redwood';this.pavement(-20,0,76,180,nordic?'#b7b4a0':'#b9b49a');this.waterPlane(110,-10,180,300,nordic?'#689491':'#669c96');this.rail(17,-85,85);
@@ -141,7 +150,7 @@ export class World {
   this.label('THE JOURNEY CONTINUES',0,1.5,-14.87,5,'#436a61');this.boat(28,-30,1.3);
  }
  startTransit(mode){
-  this.clear();this.scene.fog.density=.0015;this.bounds=[-100,100,-100,100];this.camera.position.set(0,2,8);this.camera.rotation.set(.025,0,0,'YXZ');
+  this.clear();this.stop=null;this.applyLighting();this.scene.fog.density=.0015;this.bounds=[-100,100,-100,100];this.camera.position.set(0,2,8);this.camera.rotation.set(.025,0,0,'YXZ');
   if(mode==='flight'){
    this.waterPlane(0,0,600,600,'#6c9eab');this.camera.position.set(0,55,8);this.camera.rotation.set(-.15,0,0,'YXZ');
    this.box(4,52,-6,22,.18,7,'#d5ddce',-.3);this.box(14,53,-9,.2,3,5,'#93aaa2');
@@ -154,5 +163,5 @@ export class World {
    this.flush();const childCount=this.root.children.length;for(let i=0;i<48;i++){const z=-240+i*12;for(const x of [-14,14]){if(mode==='metro'||mode==='bart'){this.box(x,3,z,1,8,12,'#586b66');this.box(x+(x<0?1:-1),3,z,.1,.3,2,'#dce6c6');}else this.building(x*1.4,z,5,6,6+this.random()*12,'#91a59a','modern',false);}}this.flush();const moving=new T.Group();for(const child of this.root.children.slice(childCount))moving.add(child);this.root.add(moving);this.animated.push({type:'rail',mesh:moving});this.camera.rotation.y=-.18;
   }this.flush();if(this.renderer)this.renderer.shadowMap.needsUpdate=true;
  }
- update(t,dt,moving=false,reduced=false){this.clouds.material.uniforms.cloudTime.value=reduced?0:t;if(this.renderer&&this.stop&&(!this.shadowAnchor||this.camera.position.distanceTo(this.shadowAnchor)>12)){this.shadowAnchor=this.camera.position.clone();const x=this.camera.position.x,z=this.camera.position.z;this.sun.target.position.set(x,0,z);this.sun.position.set(x+76,35,z+55);this.renderer.shadowMap.needsUpdate=true;}if(this.water?.material.uniforms.waterTime)this.water.material.uniforms.waterTime.value=reduced?0:t;if(this.foliageMaterial?.userData.shader)this.foliageMaterial.userData.shader.uniforms.leafTime.value=reduced?0:t;for(const item of this.animated){if(item.type==='rail'){item.start??=t;item.mesh.position.z=reduced?0:(t-item.start)*19;continue;}item.mesh.position.y=reduced?.1:.1+Math.sin(t*.7)*.07;item.mesh.position.z=item.z+(reduced?0:Math.sin(t*.025)*16);item.mesh.rotation.z=reduced?0:Math.sin(t*.6)*.025;}if(this.stop?.theme==='yacht'&&!reduced){this.camera.position.y=1.75+Math.sin(t*.6)*.035;}}
+ update(t,dt,moving=false,reduced=false){this.clouds.material.uniforms.cloudTime.value=reduced?0:t;if(this.renderer&&this.stop&&(!this.shadowAnchor||this.camera.position.distanceTo(this.shadowAnchor)>12)){this.shadowAnchor=this.camera.position.clone();const x=this.camera.position.x,z=this.camera.position.z;this.sun.target.position.set(x,0,z);this.sun.position.copy(this.sunOffset).add(new T.Vector3(x,0,z));this.renderer.shadowMap.needsUpdate=true;}if(this.water?.material.uniforms.waterTime)this.water.material.uniforms.waterTime.value=reduced?0:t;if(this.foliageMaterial?.userData.shader)this.foliageMaterial.userData.shader.uniforms.leafTime.value=reduced?0:t;for(const item of this.animated){if(item.type==='rail'){item.start??=t;item.mesh.position.z=reduced?0:(t-item.start)*19;continue;}item.mesh.position.y=reduced?.1:.1+Math.sin(t*.7)*.07;item.mesh.position.z=item.z+(reduced?0:Math.sin(t*.025)*16);item.mesh.rotation.z=reduced?0:Math.sin(t*.6)*.025;}if(this.stop?.theme==='yacht'&&!reduced){this.camera.position.y=1.75+Math.sin(t*.6)*.035;}}
 }
