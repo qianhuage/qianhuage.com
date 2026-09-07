@@ -1,0 +1,92 @@
+[
+  {
+    "asset": "red_bricks_04",
+    "map": "Diffuse",
+    "path": "images/pbr/bund-brick-color.jpg",
+    "source": "https://polyhaven.com/a/red_bricks_04",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/red_bricks_04/red_bricks_04_diff_1k.jpg",
+    "license": "CC0-1.0",
+    "expected_md5": "c372b17ae66518decc602b7f5c98da5f",
+    "actual_md5": "c372b17ae66518decc602b7f5c98da5f"
+  },
+  {
+    "asset": "red_bricks_04",
+    "map": "nor_gl",
+    "path": "images/pbr/bund-brick-normal.jpg",
+    "source": "https://polyhaven.com/a/red_bricks_04",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/red_bricks_04/red_bricks_04_nor_gl_1k.jpg",
+    "license": "CC0-1.0",
+    "expected_md5": "3a0013fd51c1188f69d6bf4b02486814",
+    "actual_md5": "3a0013fd51c1188f69d6bf4b02486814"
+  },
+  {
+    "asset": "red_bricks_04",
+    "map": "Rough",
+    "path": "images/pbr/bund-brick-roughness.jpg",
+    "source": "https://polyhaven.com/a/red_bricks_04",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/red_bricks_04/red_bricks_04_rough_1k.jpg",
+    "license": "CC0-1.0",
+    "expected_md5": "89de3afd3e3a15e35681813fe8b03928",
+    "actual_md5": "89de3afd3e3a15e35681813fe8b03928"
+  },
+  {
+    "asset": "stone_tile_wall",
+    "map": "Diffuse",
+    "path": "images/pbr/bund-stone-color.jpg",
+    "source": "https://polyhaven.com/a/stone_tile_wall",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/stone_tile_wall/stone_tile_wall_diff_1k.jpg",
+    "license": "CC0-1.0",
+    "expected_md5": "b93d8e02c9bce4fd0910d8ef99969ac8",
+    "actual_md5": "b93d8e02c9bce4fd0910d8ef99969ac8"
+  },
+  {
+    "asset": "stone_tile_wall",
+    "map": "nor_gl",
+    "path": "images/pbr/bund-stone-normal.jpg",
+    "source": "https://polyhaven.com/a/stone_tile_wall",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/stone_tile_wall/stone_tile_wall_nor_gl_1k.jpg",
+    "license": "CC0-1.0",
+    "expected_md5": "45e971f7f7de63f0d5bf50542a32b1a4",
+    "actual_md5": "45e971f7f7de63f0d5bf50542a32b1a4"
+  },
+  {
+    "asset": "stone_tile_wall",
+    "map": "Rough",
+    "path": "images/pbr/bund-stone-roughness.jpg",
+    "source": "https://polyhaven.com/a/stone_tile_wall",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/stone_tile_wall/stone_tile_wall_rough_1k.jpg",
+    "license": "CC0-1.0",
+    "expected_md5": "534a863e13c4330a4000e025fa1f2f1f",
+    "actual_md5": "534a863e13c4330a4000e025fa1f2f1f"
+  },
+  {
+    "asset": "granite_tile",
+    "map": "Diffuse",
+    "path": "images/pbr/bund-granite-color.jpg",
+    "source": "https://polyhaven.com/a/granite_tile",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/granite_tile/granite_tile_diff_1k.jpg",
+    "license": "CC0-1.0",
+    "expected_md5": "5dfd6dbdb5c0b22ca04505c6209cea9f",
+    "actual_md5": "5dfd6dbdb5c0b22ca04505c6209cea9f"
+  },
+  {
+    "asset": "granite_tile",
+    "map": "nor_gl",
+    "path": "images/pbr/bund-granite-normal.jpg",
+    "source": "https://polyhaven.com/a/granite_tile",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/granite_tile/granite_tile_nor_gl_1k.jpg",
+    "license": "CC0-1.0",
+    "expected_md5": "e9053333e3db348d10466a781456ec58",
+    "actual_md5": "e9053333e3db348d10466a781456ec58"
+  },
+  {
+    "asset": "granite_tile",
+    "map": "Rough",
+    "path": "images/pbr/bund-granite-roughness.jpg",
+    "source": "https://polyhaven.com/a/granite_tile",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/granite_tile/granite_tile_rough_1k.jpg",
+    "license": "CC0-1.0",
+    "expected_md5": "fd4d40cbc28323260038eedb43bc6ff8",
+    "actual_md5": "fd4d40cbc28323260038eedb43bc6ff8"
+  }
+]

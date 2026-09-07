@@ -42,6 +42,6 @@ export function createPipeline(renderer,scene,camera){
  const ao=new SSAOPass(scene,camera,innerWidth*.6,innerHeight*.6,16);ao.kernelRadius=.65;ao.minDistance=.0001;ao.maxDistance=.018;
  const resize=ao.setSize.bind(ao);ao.setSize=(w,h)=>resize(Math.max(1,Math.floor(w*.6)),Math.max(1,Math.floor(h*.6)));
  const override=ao.overrideVisibility.bind(ao);ao.overrideVisibility=()=>{override();scene.traverse(o=>{if(o.userData.noAO)o.visible=false;});};composer.addPass(ao);
- composer.addPass(new UnrealBloomPass(new T.Vector2(innerWidth*.5,innerHeight*.5),.12,.35,1.5));composer.addPass(new OutputPass());return composer;
+ composer.addPass(new UnrealBloomPass(new T.Vector2(innerWidth*.5,innerHeight*.5),.23,.5,1.25));composer.addPass(new OutputPass());return composer;
 }
 export function makeSurfaceNoise(){const size=128,data=new Uint8Array(size*size*4);let seed=3;for(let i=0;i<data.length;i+=4){seed=(seed*1664525+1013904223)>>>0;const n=110+(seed%90);data[i]=data[i+1]=data[i+2]=n;data[i+3]=255;}const texture=new T.DataTexture(data,size,size);texture.wrapS=texture.wrapT=T.RepeatWrapping;texture.minFilter=T.LinearMipMapLinearFilter;texture.magFilter=T.LinearFilter;texture.generateMipmaps=true;texture.needsUpdate=true;return texture;}
