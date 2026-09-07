@@ -46,5 +46,4 @@ export function buildPudongSkyline(w){
  for(const [x,z,h]of [[144,-3,40],[169,8,44]]){w.building(x,z,10,11,h,'#80949c','modern',false);w.box(x,h+.3,z,10.5,.6,11.5,'#aebabb');}
  mesh(w,new T.CylinderGeometry(4.5,5,28,48),new T.MeshPhysicalMaterial({color:'#889ea3',metalness:.72,roughness:.24}),108,14,57);for(let y=1;y<29;y+=.7)mesh(w,new T.TorusGeometry(4.85,.035,4,48),w.mat('#bcc5c4'),108,y,57).rotation.x=Math.PI/2;
  for(const z of [-178,-143,-8,27,92])w.box(171,.035,z,150,.05,5,'#555f61');for(const x of [126,198,222])w.box(x,.04,-30,5,.05,330,'#555f61');
- for(let z=-150;z<130;z+=15){w.cylinder(96,2.5,z,.12,5,'#515a54');w.sphere(96,5.5,z,2,2.6,2,'#4f6a45');}
 }

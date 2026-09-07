@@ -57,7 +57,7 @@ export class World {
   const ocean=this.stop?.theme==='yacht';const water=makeWater(w,d,{reduced:this.reduced,ocean});water.position.set(x,-.38,z);this.root.add(water);this.water=water;
   this.box(x,-5,z,w,1,d,ocean?'#537f70':'#688675');
   // A shallow stone shelf under the waterfront gives the refraction something to reveal.
-  if(!ocean){this.box(22,-1.8,0,10,.4,190,'#929680');const random=seeded(391);for(let i=0;i<560;i++){const rx=18+random()*9,rz=-90+random()*180,sz=.15+random()*.6;this.sphere(rx,-1.2-random()*.3,rz,sz,.15+sz*.35,sz*.8,['#90957e','#a6a88e','#778774','#b5b59a'][i%4]);}}
+  if(!ocean&&this.stop?.theme!=='shanghai'){this.box(22,-1.8,0,10,.4,190,'#929680');const random=seeded(391);for(let i=0;i<560;i++){const rx=18+random()*9,rz=-90+random()*180,sz=.15+random()*.6;this.sphere(rx,-1.2-random()*.3,rz,sz,.15+sz*.35,sz*.8,['#90957e','#a6a88e','#778774','#b5b59a'][i%4]);}}
  }
  tree(x,z,size=1,pine=false){
   this.cylinder(x,2.5*size,z,.15*size,5*size,'#615c48');
