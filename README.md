@@ -15,7 +15,7 @@ The checkout also runs directly on a static host: the required Three.js modules 
 
 ## Journey
 
-Shanghai → Metro Line 2 → Pudong Airport → flight to SFO and Berkeley transfer → UC Berkeley → BART through Oakland → San Francisco → Caltrain → Redwood City → SFO/Stockholm flight → Croatia yacht.
+Shanghai → approaching Line 2 train → boarding → metro ride → step off at Pudong Airport → flight to SFO and Berkeley transfer → UC Berkeley → BART through Oakland → San Francisco → Caltrain → Redwood City → SFO/Stockholm flight → Croatia yacht.
 
 Nine side trips preserve the remaining portfolio locations: Shenzhen, Taipei, Washington (the original Seattle coordinates), Palo Alto, Sacramento, Dubai, New York City, Dublin and Rome. These are stylized environments, not navigational reconstructions or claims about real airline schedules.
 
@@ -37,7 +37,8 @@ Nine side trips preserve the remaining portfolio locations: Shenzhen, Taipei, Wa
 - `src/bund.js`: reference-based heritage buildings, instanced arches/columns/cornices, terracotta brick and carved stone materials, granite promenade and garden.
 - `src/atmosphere.js`: selective planar puddle reflections, cloud layers and a golden-hour sky shared by the visible scene and reflection environment.
 - `src/places.js`: dedicated Berkeley, Oakland, San Francisco, Redwood City and Stockholm layouts.
-- `src/exhibits.js`: metro floor advertisement, campus booths, transit shelter, studio and shop displays; Shanghai metro interior.
+- `src/exhibits.js`: backlit metro wall advertisement, campus booths, transit shelter, studio and shop displays; Shanghai metro interior.
+- `src/metro.js`: original colonnaded station and detailed metro carriage, with local lighting and polished floor reflections. The CGTrader links supplied in the design discussion are visual references; their paid or login-gated assets are not bundled.
 - `src/architecture.js`: continuous curved tower surfaces, Oriental Pearl glazing and ribs, Shanghai Tower twist, World Financial Center opening, and the opposite riverbank.
 - `script.js`: input, progress, navigation and accessible portfolio dialogs.
 
@@ -64,3 +65,5 @@ Vendored Three.js source and its MIT license are under `vendor/`. `scripts/vendo
 ## Review and deployment
 
 The redesign is on `feat/first-person-journey`; the original repository's `main` is untouched. The Sites review destination is private; publishing to qianhuage.com is a separate step.
+
+The Shanghai platform train approaches only once visitors reach the platform, brakes to a stop, and opens its paired doors before boarding is enabled. The metro journey keeps the first-person cabin visible, allows looking around, and waits for the visitor to step off at Pudong. Reduced motion skips the approach motion. The Pudong terminal is original geometry informed by the WF Scenery Studio reference, not an imported simulator asset.
