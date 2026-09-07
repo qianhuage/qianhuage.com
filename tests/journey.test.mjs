@@ -1,0 +1,21 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {access,readFile} from 'node:fs/promises';
+import {ALL_STOPS,STOPS,getStop,canMove,readProgress,findPath} from '../src/journey.js';
+import {PROJECTS} from '../src/projects.js';
+import {World} from '../src/world.js';
+
+// Geometry tests do not require a GPU. Canvas calls generate text/texture data only.
+globalThis.innerWidth=1440;globalThis.innerHeight=900;globalThis.matchMedia=()=>({matches:false});
+const context={fillRect(){},strokeRect(){},fillText(){}};
+globalThis.document={createElement:()=>({width:0,height:0,getContext:()=>context}),createElementNS:()=>({addEventListener(){},removeEventListener(){},set src(v){this.url=v;}})};
+
+test('main route preserves the requested sequence and terminates at the yacht',()=>{let stop=STOPS[0],route=[];while(stop){assert.ok(!route.includes(stop.id),'no transit cycles');route.push(stop.id);stop=stop.next?getStop(stop.next):null;}assert.deepEqual(route,['shanghai','pudong','berkeley','oakland','sanfrancisco','redwood','stockholm','croatia']);assert.equal(getStop('shanghai').mode,'metro');assert.equal(getStop('sanfrancisco').mode,'caltrain');});
+test('every original project has exactly one explorable location and valid local artwork',async()=>{assert.equal(PROJECTS.length,18);for(const p of PROJECTS){assert.equal(ALL_STOPS.filter(s=>s.projects.includes(p.id)).length,1,p.id);assert.ok(p.img.startsWith('./images/'),p.id);const data=await readFile(new URL('../'+p.img,import.meta.url));assert.ok(data.length>1000,`${p.id} is an actual image, not an error document`);assert.ok(!(data.toString('utf8',0,50).includes('<html')),p.id);}});
+test('all 17 chapters construct with reachable project exhibits and boarding points',()=>{const w=new World(null);for(const stop of ALL_STOPS){w.load(stop,stop.projects.map(id=>PROJECTS.find(p=>p.id===id)));assert.ok(w.root.children.length>0,stop.id);assert.ok(canMove(...stop.spawn,w.colliders,w.bounds),`${stop.id} spawn is free`);assert.equal(w.markers.filter(m=>m.kind==='project').length,stop.projects.length);for(const m of w.markers){assert.ok(canMove(m.x,m.z+2,w.colliders,w.bounds),`${stop.id}/${m.kind} approach is reachable`);}if(stop.next){const gate=w.markers.find(m=>m.kind==='gate');for(let z=stop.spawn[1];z>=gate.z+2;z-=.2)assert.ok(canMove(0,z,w.colliders,w.bounds),`${stop.id} guidance corridor at ${z}`);}assert.ok(w.root.children.some(c=>c.isInstancedMesh),`${stop.id} batches geometry`);}w.clear();});
+test('each transit mode constructs and releases resources across repeated journeys',()=>{const w=new World(null);w.load(STOPS[0],[]);for(let i=0;i<2;i++)for(const mode of ['metro','flight','bart','caltrain']){w.startTransit(mode);assert.ok(w.root.children.length>0);w.clear();assert.equal(w.root.children.length,0);}});
+test('collision blocks walls and world edges while permitting sliding',()=>{const walls=[[2,4,-2,2]],bounds=[-10,10,-10,10];assert.equal(canMove(3,0,walls,bounds),false);assert.equal(canMove(10,0,walls,bounds),false);assert.equal(canMove(1,3,walls,bounds),true);});
+test('corrupt or unavailable saved progress cannot break the journey',()=>{assert.deepEqual(readProgress({getItem:()=>'{broken'}),{visited:[],discovered:[]});assert.deepEqual(readProgress({getItem:()=>{throw Error('denied');}}),{visited:[],discovered:[]});assert.deepEqual(readProgress({getItem:()=>JSON.stringify({visited:['shanghai','unknown'],discovered:5})}),{visited:['shanghai'],discovered:[]});});
+test('all browser module imports resolve locally without a CDN',async()=>{const seen=new Set();async function walk(path){if(seen.has(path))return;seen.add(path);const s=await readFile(new URL(path),'utf8');for(const match of s.matchAll(/from\s+['"]([^'"]+)['"]/g)){assert.ok(match[1].startsWith('.'),`local module ${match[1]}`);const resolved=new URL(match[1],path);await access(resolved);await walk(resolved.href);}}await walk(new URL('../script.js',import.meta.url).href);});
+
+test("guidance routes around obstacles instead of walking into them",()=>{const walls=[[-1,1,-3,3]];const path=findPath([-5,0],[5,0],walls,[-10,10,-10,10]);assert.ok(path?.length);for(const [x,z]of path)assert.ok(canMove(x,z,walls,[-10,10,-10,10]));assert.ok(path.some(p=>Math.abs(p[1])>3));});

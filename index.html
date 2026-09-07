@@ -1,103 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <title>Qianhua Ge — Portfolio</title>
-  <meta name="description" content="Explore the world of Qianhua Ge — Founder, Investor, Designer, Engineer. Fly to projects across the globe.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+ <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Qianhua Ge — A World of Work</title>
+ <meta name="description" content="A first-person journey through the world of Qianhua Ge. Explore projects from Shanghai to Berkeley, San Francisco, Stockholm and the Adriatic.">
+ <meta name="theme-color" content="#172321">
+ <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  <!-- THREE.JS CONTAINER -->
-  <div id="globe-container"></div>
-
-  <!-- HUD -->
-  <div id="hud" class="hud">
-    <div class="hud-left">
-      <div class="hud-brand" id="hud-brand">QG</div>
-    </div>
-    <div class="hud-center">
-      <div class="hud-location" id="hud-location"></div>
-    </div>
-    <div class="hud-right">
-      <button class="hud-btn" id="btn-autopilot" title="Auto Pilot">▶</button>
-      <button class="hud-btn" id="btn-overview" title="Globe View">◎</button>
-    </div>
-  </div>
-
-  <!-- LOCATION LIST (LEFT SIDEBAR) -->
-  <nav id="location-list" class="location-list">
-    <div class="location-list-header">Projects</div>
-    <div id="location-items" class="location-items"></div>
-  </nav>
-
-  <!-- PROJECT PANEL (BOTTOM SHEET) -->
-  <div id="project-panel" class="project-panel hidden">
-    <div class="panel-handle"></div>
-    <button id="panel-close" class="panel-close">✕</button>
-    <div class="panel-image-wrap">
-      <img id="panel-image" src="" alt="">
-    </div>
-    <div class="panel-info">
-      <h2 id="panel-title" class="panel-title"></h2>
-      <p id="panel-city" class="panel-city"></p>
-      <a id="panel-link" class="panel-link" href="#" target="_blank" rel="noopener">Visit Project →</a>
-    </div>
-  </div>
-
-  <!-- BIO PANEL -->
-  <div id="bio-panel" class="bio-panel">
-    <button id="bio-close" class="panel-close">✕</button>
-    <div class="bio-body">
-      <h2 class="bio-name">Qianhua Ge</h2>
-      <p class="bio-role">Founder · Investor · Designer · Engineer</p>
-      <p class="bio-tagline">Behind products used by millions.</p>
-      <div class="bio-text">
-        <p>Co-built and launched
-          <a href="https://kaon.io/" target="_blank">Kaon</a>,
-          <a href="https://collovlabs.com/" target="_blank">CollovLabs</a>,
-          <a href="https://apps.apple.com/us/app/cozyai-ai-home-design/id6744885843" target="_blank">CozyAI</a>,
-          <a href="https://www.modernsky.com/home/" target="_blank">Modern Sky</a>,
-          <a href="https://play.google.com/store/apps/details?id=com.flow.mobile&hl=en" target="_blank">Emochi</a>,
-          <a href="https://collov.ai/" target="_blank">Collov</a>,
-          <a href="https://flowgpt.com/" target="_blank">FlowGPT</a>,
-          <a href="https://divly.com/en/" target="_blank">Divly</a>,
-          <a href="https://markit.ai" target="_blank">MarkitAI</a>,
-          <a href="http://www.substratecapital.xyz/" target="_blank">Substrate</a>,
-          <a href="https://atlaslab.com/" target="_blank">Atlas Lab</a>,
-          <a href="https://metaval.com/" target="_blank">Metaval</a>,
-          <a href="https://fabrique.se/" target="_blank">Fabrique</a>, and
-          <a href="https://www.buy42.com/" target="_blank">BUY42</a>.
-        </p>
-        <p>Recognized by TechCrunch, Red Dot, IDA, iF, A'Design, EPDA, MUSE, AIGA, and NY Product Design Awards.</p>
-        <p>Clients across Asia, North America, and Europe.</p>
-        <p>LEED-accredited architect and ASA-certified sailor beyond tech.</p>
-      </div>
-      <a href="mailto:qianhuage@berkeley.edu" class="bio-email">qianhuage@berkeley.edu</a>
-    </div>
-  </div>
-
-  <!-- FLIGHT INFO STRIP -->
-  <div id="flight-strip" class="flight-strip hidden">
-    <div class="strip-from" id="strip-from"></div>
-    <div class="strip-line">
-      <div class="strip-plane" id="strip-plane">✈</div>
-    </div>
-    <div class="strip-to" id="strip-to"></div>
-  </div>
-
-  <script type="importmap">
-  {
-    "imports": {
-      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
-      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
-    }
-  }
-  </script>
-  <script type="module" src="script.js"></script>
+ <main id="world" aria-label="First-person portfolio world"><div id="loading">Preparing your journey<span>SHANGHAI · CHAPTER 01</span></div></main>
+ <div class="vignette" aria-hidden="true"></div>
+ <header class="topbar">
+  <button class="identity" id="about-button" aria-label="About Qianhua Ge"><span class="monogram">qg<span>®</span></span><span class="identity-text">Qianhua Ge<small>A WORLD OF WORK</small></span></button>
+  <div class="compass" aria-label="Compass"><div class="compass-ticks">│ · · · │ · · · │ · · · │ · · · │</div><div><span>W</span><b id="bearing">N</b><span>E</span></div><i></i></div>
+  <nav class="topnav" aria-label="Portfolio navigation"><button id="journal-button"><span class="nav-symbol">⊞</span> Journey <kbd>J</kbd></button><button id="works-button">Works <span class="count">18</span></button><button id="sound-button" class="icon-button" aria-label="Enable ambient sound" aria-pressed="false">♪<span class="sound-off"></span></button></nav>
+ </header>
+ <section class="chapter" aria-label="Current location"><p class="eyebrow"><span class="live-dot"></span><span id="chapter-number">CHAPTER 01 / 08</span><span class="chapter-line"></span><span id="country">CHINA</span></p><h1 id="city-name">Shanghai<span>上海</span></h1><p id="area">The Bund · Huangpu waterfront</p><p class="coordinates" id="coordinates">31.2400° N / 121.4900° E</p></section>
+ <aside class="quest"><div class="quest-heading"><span class="quest-diamond">◇</span><span>THE NEXT CHAPTER</span><span id="quest-index">01</span></div><h2 id="objective">Take the subway to<br>Pudong Airport</h2><p id="quest-detail">Follow the waterfront to Metro Line 2.</p><button id="guide-button">Guide me there <span>↗</span></button></aside>
+ <div id="world-labels" aria-hidden="true"></div>
+ <div class="crosshair" aria-hidden="true"></div>
+ <div id="welcome" class="welcome"><span class="eyebrow">A PORTFOLIO YOU CAN WANDER THROUGH</span><h2>The world is<br>part of the work.</h2><p>Follow my journey. Find the things I’ve built<br>along the way. Take the scenic route.</p><button id="explore-button" class="primary">Enter the world <span>↗</span></button><small>First-person exploration · No download needed</small></div>
+ <button id="interact-button" class="interact" hidden><kbd>E</kbd><span>Explore</span><span>↗</span></button>
+ <div class="bottom-left"><button class="minimap" id="map-button" aria-label="Open journey map"><canvas id="minimap" width="240" height="190"></canvas><span>N ↑</span><b id="map-caption">THE BUND</b><i>↗</i></button><div class="local-status"><span class="live-dot"></span><span id="explored-count">0 / 18 works discovered</span></div></div>
+ <footer class="bottom-bar"><div class="control-hints"><span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> Move</span><span>Drag to look</span><span><kbd>E</kbd> Interact</span><span><kbd>Shift</kbd> Run</span></div><button id="look-button">Free look <span>⤢</span></button><span class="signature">A journey by Qianhua Ge <span>↗</span></span></footer>
+ <div class="touch-controls" aria-label="Touch movement controls"><div class="dpad"><button data-move="w" aria-label="Move forward">↑</button><button data-move="a" aria-label="Move left">←</button><button data-move="s" aria-label="Move backward">↓</button><button data-move="d" aria-label="Move right">→</button></div></div>
+ <div id="toast" role="status" aria-live="polite"></div>
+ <dialog id="journal" aria-labelledby="journal-title"><div class="dialog-top"><span class="eyebrow">YOUR FIELD NOTES</span><button data-close aria-label="Close journey">×</button></div><h2 id="journal-title">A world to explore.</h2><p class="dialog-intro">Follow the itinerary or choose your own next chapter.</p><div class="journey-list" id="journey-list"></div><h3 class="side-heading">Take a detour <span>More places, more work</span></h3><div id="side-trips" class="side-trips"></div><p class="save-note">Discoveries are saved on this device. Destinations are stylized explorations.</p></dialog>
+ <dialog id="works" aria-labelledby="works-title"><div class="dialog-top"><span class="eyebrow">THE COLLECTION</span><button data-close aria-label="Close works">×</button></div><h2 id="works-title">Things I’ve helped build.</h2><p class="dialog-intro">18 projects. Connected by places, people, and curiosity.</p><div class="work-grid" id="work-grid"></div></dialog>
+ <dialog id="project" aria-labelledby="project-title"><div class="dialog-top"><span class="eyebrow" id="project-location"></span><button data-close aria-label="Close project">×</button></div><div class="project-art" id="project-art"><img id="project-image" alt=""><span id="project-art-title"></span></div><div class="project-details"><p class="eyebrow" id="project-status"></p><h2 id="project-title"></h2><p id="project-copy"></p><div class="project-actions"><a id="project-link" target="_blank" rel="noopener noreferrer" class="primary">Visit project ↗</a><button id="project-travel">Explore this place ↗</button></div></div></dialog>
+ <dialog id="about" aria-labelledby="about-title"><div class="dialog-top"><span class="eyebrow">THE PERSON BEHIND THE PLACES</span><button data-close aria-label="Close about">×</button></div><h2 id="about-title">Qianhua Ge.</h2><p class="about-role">Founder · Investor · Designer · Engineer</p><p>Behind products used by millions. Co-building and launching products across Asia, North America, and Europe.</p><p>Recognized by TechCrunch, Red Dot, IDA, iF, A’Design, EPDA, MUSE, AIGA, and NY Product Design Awards.</p><p>LEED-accredited architect. ASA-certified sailor. Always curious about what’s around the next corner.</p><p>Also part of the journey: <a href="https://www.modernsky.com/home/" target="_blank" rel="noopener noreferrer">Modern Sky ↗</a> and <a href="https://www.buy42.com/" target="_blank" rel="noopener noreferrer">BUY42 ↗</a>.</p><a class="primary" href="mailto:qianhuage@berkeley.edu">Say hello ↗</a></dialog>
+ <section id="transit" hidden aria-label="Travel in progress"><div class="transit-top"><span>QG / WORLD TRANSIT</span><button id="skip-transit">Skip journey ↗</button></div><div class="transit-content"><p class="eyebrow" id="transit-mode"></p><h2><span id="transit-from"></span><i>→</i><span id="transit-to"></span></h2><p id="transit-note"></p><div class="transit-progress"><i id="transit-progress"></i></div><span class="eyebrow">EN ROUTE TO THE NEXT CHAPTER</span></div></section>
+ <noscript><div class="no-js">This world needs JavaScript. Contact <a href="mailto:qianhuage@berkeley.edu">Qianhua Ge</a> or visit <a href="https://kaon.io">Kaon</a>, <a href="https://collov.ai">Collov</a>, and <a href="https://divly.com/en/">Divly</a>.</div></noscript>
+ <script type="module" src="script.js"></script>
 </body>
 </html>
