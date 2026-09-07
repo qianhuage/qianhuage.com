@@ -1,0 +1,18 @@
+{
+  "license": "CC0",
+  "paving": {
+    "author": "Rob Tuytel",
+    "source": "https://polyhaven.com/a/cobblestone_floor_08"
+  },
+  "sky": {
+    "author": "Jarod Guest",
+    "source": "https://polyhaven.com/a/qwantani_morning_puresky"
+  },
+  "files": {
+    "paving-color.jpg": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/cobblestone_floor_08/cobblestone_floor_08_diff_1k.jpg",
+    "paving-normal.jpg": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/cobblestone_floor_08/cobblestone_floor_08_nor_gl_1k.jpg",
+    "paving-roughness.jpg": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/cobblestone_floor_08/cobblestone_floor_08_rough_1k.jpg",
+    "paving-ao.jpg": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/cobblestone_floor_08/cobblestone_floor_08_ao_1k.jpg",
+    "morning.hdr": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/qwantani_morning_puresky_1k.hdr"
+  }
+}

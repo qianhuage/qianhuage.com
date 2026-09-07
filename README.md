@@ -1,6 +1,6 @@
 # Qianhua Ge — A World of Work
 
-A first-person, browser-based portfolio journey built on the original Three.js site. No character model is rendered.
+A first-person, browser-based portfolio journey built on the original Three.js site. No character model is rendered. The UI is strictly monochrome and the opening view goes straight into the scene: a small QG mark and one menu button; location and control hints fade away.
 
 ## Run
 
@@ -20,7 +20,7 @@ Shanghai → Metro Line 2 → Pudong Airport → flight to SFO and Berkeley tran
 Nine side trips preserve the remaining portfolio locations: Shenzhen, Taipei, Washington (the original Seattle coordinates), Palo Alto, Sacramento, Dubai, New York City, Dublin and Rome. These are stylized environments, not navigational reconstructions or claims about real airline schedules.
 
 - WASD: walk; Shift: run; drag: look; E: interact; J: journey.
-- Arrow keys: forward/back and turn. Free look enables optional pointer lock; Escape releases it.
+- Arrow keys: forward/back and turn. Free look enables optional pointer lock; Escape releases it or opens the menu. All navigation, sound, guidance and instructions are in the menu. There is no intro card, minimap, persistent quest panel, or persistent chapter text.
 - Touch: directional pad and drag to look.
 - Guide me there: find a walkable route to the departure point.
 - The journey journal permits direct travel; Works provides immediate access to every project.
@@ -33,12 +33,15 @@ Nine side trips preserve the remaining portfolio locations: Shenzhen, Taipei, Wa
 - `src/projects.js`: the original 18 records, links and coordinates, now using verified local artwork.
 - `src/journey.js`: chapter content, itinerary, collision logic and A* path finding.
 - `src/world.js`: instanced geometry, physical exhibits, city landmarks, foliage, transport and yacht scenes.
-- `src/rendering.js`: reflection/refraction water, wave normals and restrained bloom.
+- `src/rendering.js`: HDR environment lighting, reflection/refraction water, analytic waves, Fresnel reflection, sunlight highlights, contact occlusion and restrained bloom.
+- `src/architecture.js`: continuous curved tower surfaces, Oriental Pearl glazing and ribs, Shanghai Tower twist, World Financial Center opening, and the opposite riverbank.
 - `script.js`: input, progress, navigation and accessible portfolio dialogs.
 
 ## Art and provenance
 
 Project artwork was copied from the exact URLs in the original repository into `images/projects/`. Original local Divly and Metaval images are retained. Project descriptions intentionally do not invent roles or achievements.
+
+Original generated materials are preserved below. The paving now uses a photographed CC0 material set (diffuse, OpenGL normal, roughness and AO); the sky uses an actual HDR panorama. Exact source URLs and authors are in `images/pbr/sources.json`: [Cobblestone Floor 08 by Rob Tuytel](https://polyhaven.com/a/cobblestone_floor_08) and [Qwantani Morning by Jarod Guest](https://polyhaven.com/a/qwantani_morning_puresky). These files are local runtime assets.
 
 Three original textures were generated using the built-in image generation tool and visually inspected:
 
