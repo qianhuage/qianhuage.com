@@ -1,4 +1,5 @@
 import * as T from '../vendor/three.module.js';
+import {buildBayAreaContext} from './city-context.js';
 
 // Shared construction pieces; each destination below has its own ground plan.
 function kit(w){
@@ -6,7 +7,7 @@ function kit(w){
  const arch=new T.Shape();arch.moveTo(-.5,-.5);arch.lineTo(.5,-.5);arch.lineTo(.5,0);arch.absarc(0,0,.5,0,Math.PI);arch.closePath();w.geos.cityArch=new T.ShapeGeometry(arch,24);
  w.geos.cityArcRing=new T.RingGeometry(.82,1,24,1,0,Math.PI);w.geos.cityPyramid=new T.ConeGeometry(1,1,4);w.geos.cityClock=new T.CircleGeometry(1,48);
  const ped=new T.Shape();ped.moveTo(-.5,0);ped.lineTo(.5,0);ped.lineTo(0,1);ped.closePath();w.geos.cityPediment=new T.ExtrudeGeometry(ped,{depth:1,bevelEnabled:false});
- for(const [key,color,roughness]of [['campus-marble','#deddd4',.82],['campus-trim','#eeece1',.7],['campus-metal','#3c7469',.5],['campus-glass','#344654',.2],['campus-terracotta','#985d41',.8],['campus-iron','#252e32',.6]])w.materials.set(key,new T.MeshStandardMaterial({color,roughness,metalness:key.includes('glass')?.5:0}));
+ for(const [key,color,roughness]of [['campus-marble','#deddd4',.82],['campus-trim','#eeece1',.7],['campus-metal','#3c7469',.5],['campus-glass','#344654',.2],['campus-terracotta','#985d41',.8],['campus-iron','#252e32',.6]])w.materials.set(key,new T.MeshStandardMaterial({color,roughness,metalness:key.includes('glass')?.5:0,bumpMap:key.includes('marble')?w.surfaceNoise:null,bumpScale:.009}));
 }
 function clock(w,x,y,z,r=1.2,angle=0){w.add('cityClock',x,y,z,r,r,1,'campus-trim',angle);for(let i=0;i<12;i++){const a=i*Math.PI/6;w.box(x+Math.cos(angle)*Math.sin(a)*r*.78,y+Math.cos(a)*r*.78,z-Math.sin(angle)*Math.sin(a)*r*.78,.045,.15,.035,'campus-iron',angle);}w.box(x,y+r*.23,z,.055,r*.6,.04,'campus-iron',angle);w.box(x+Math.cos(angle)*r*.2,y,z-Math.sin(angle)*r*.2,r*.45,.055,.04,'campus-iron',angle);}
 function lawn(w,x,z,width,depth){w.box(x,-.09,z,width,.18,depth,'#536b36');const mat=new T.MeshStandardMaterial({color:'#6f873e',roughness:1,bumpMap:w.surfaceNoise,bumpScale:.06});const plane=new T.Mesh(new T.PlaneGeometry(width,depth),mat);plane.rotation.x=-Math.PI/2;plane.position.set(x,.002,z);plane.receiveShadow=true;w.root.add(plane);}
@@ -67,7 +68,7 @@ export function buildBerkeley(w){
  // Separate lawns and footpaths, framed by academic buildings and wooded hills.
  doeLibrary(w,10,-53);campusHall(w,-49,4,23,31,17,'');campusHall(w,53,7,25,30,16,'');campanile(w,-28,-67);satherGate(w,31);
  for(const x of [-18,18]){w.bench(x,16,x<0?Math.PI/2:-Math.PI/2);w.lamp(x,-9);}
- grove(w);for(let i=0;i<28;i++){const x=-110+i*8;w.sphere(x,3,-125,22,10+(i%4)*3,24,'#667753');if(i%3===0)w.tree(x,-87,1.4);}
+ grove(w);buildBayAreaContext(w,'berkeley');
  // BART is represented as a downtown transfer at the campus exit.
  w.station(-9,-30,'DOWNTOWN BERKELEY · BART','#233f63');
  border(w,0,44,74,1.3);border(w,0,-65,30,1.4);border(w,-36,-7,1.2,102);border(w,36,-7,1.2,102);
@@ -98,14 +99,14 @@ function ferryBuilding(w){
  for(const x of [-1.65,0,1.65])archWindow(w,x,31.1,-78.33,1.05,2.1);clock(w,0,26,-78.32,1.7);w.add('cityPyramid',0,36.8,-82,5.4,7,5.4,'#456e69',Math.PI/4);w.cylinder(0,41,-82,.06,2,'#526e62');w.label('FERRY BUILDING',0,13.1,-73.42,6,'#a8b4ba','#35434a');w.colliders.push([-31,31,-90,-73]);
 }
 export function buildOakland(w){
- kit(w);w.sceneKind='downtown';w.landmarks=[];paths(w,0,-10,80,150);w.box(0,.015,-8,10,.025,140,'#484b4d');paths(w,0,8,26,22);
+ kit(w);w.sceneKind='downtown';w.landmarks=[];buildBayAreaContext(w,'oakland');paths(w,0,-10,80,150);w.box(0,.015,-8,10,.025,140,'#484b4d');paths(w,0,8,26,22);
  for(const side of [-1,1])for(let i=0;i<5;i++){const z=-62+i*27;w.building(side*(27+(i%2)*3),z,19,20,13+(i%3)*8,['#8b644f','#b9ada0','#9ca5a0'][i%3],i%2?'modern':'classic');}
  oaklandHall(w);
  for(const x of [-14,14])for(let z=-40;z<55;z+=30){w.tree(x,z,.9);w.lamp(x-2,z+6);}
  w.station(-9,-30,'12TH ST / OAKLAND CITY CENTER · BART','#233f63');border(w,0,62,46,1);border(w,0,-66,20,1);w.bounds=[-15,15,-64,60];w.landmarks.push('Oakland City Hall','Downtown BART');
 }
 export function buildRedwood(w){
- kit(w);w.sceneKind='station-square';w.landmarks=[];paths(w,0,-4,110,165);lawn(w,28,-2,18,100);
+ kit(w);w.sceneKind='station-square';w.landmarks=[];buildBayAreaContext(w,'redwood');paths(w,0,-4,110,165);lawn(w,28,-2,18,100);
  courthouse(w);
  for(let i=0;i<5;i++){const z=-44+i*23;w.building(-32,z,20,17,6+(i%2)*3,['#b78566','#c3b49d','#a49a89'][i%3]);w.tree(22,z,1.3);}
  // Parallel rails and a platform replace the inherited river.
@@ -115,10 +116,10 @@ export function buildRedwood(w){
  border(w,0,61,49,1);border(w,0,-58,22,1);border(w,24,1,1,119);w.bounds=[-20,23,-56,59];w.landmarks.push('Courthouse Square','Caltrain tracks');
 }
 export function buildSanFrancisco(w){
- kit(w);w.sceneKind='bayfront';w.landmarks=[];paths(w,-15,0,70,160);w.waterPlane(235,0,420,850);w.rail(19,-100,100);
+ kit(w);w.sceneKind='bayfront';w.landmarks=[];buildBayAreaContext(w,'sanfrancisco');paths(w,-15,0,70,160);w.waterPlane(235,0,420,850);w.rail(19,-100,100);
  // Ferry Building sits on the Embarcadero; the Bay Bridge is the distant bridge here.
  ferryBuilding(w);
- for(let i=0;i<7;i++)w.building(-43,-85+i*28,23,20,20+(i%4)*13,['#9ba9af','#748e9b','#a6acac'][i%3],'modern');
+ for(let i=0;i<7;i++)w.building(-43,-85+i*28,23,20,10+(i%4)*4,['#9ba9af','#748e9b','#a6acac'][i%3],'modern');
  for(const x of [70,145]){w.box(x,24,105,1.7,48,3,'#8f9799');w.box(x,43,105,11,1.2,3,'#8f9799');}
  w.box(100,13,105,210,.8,7,'#8c9293');for(let x=0;x<205;x+=3){const span=x<110?70:145,y=16+28*Math.pow(Math.min(1,Math.abs(x-span)/40),2);w.box(x,(y+13)/2,102,.04,y-13,.04,'#a4aaaa');}
  for(let z=-50;z<60;z+=23){w.lamp(15,z);w.tree(-16,z,1.1);w.bench(12,z+6,-Math.PI/2);}w.boat(45,-15,1.8);w.station(-9,-30,'CALTRAIN · 4TH & KING CONNECTION','#762f31');
