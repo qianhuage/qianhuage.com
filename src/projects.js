@@ -133,6 +133,8 @@ export const PROJECTS = [
     "lat": 31.24,
     "lng": 121.49,
     "img": "./images/projects/nodeobjects.png",
+    "description": "A hardware platform centered on precision, tactile interaction, and clear visual feedback. A shared industrial design language connects machined aluminum forms, physical controls, and compact displays, with a unified interface for products, commerce, and support.",
+    "explore": false,
     "link": null
   },
   {

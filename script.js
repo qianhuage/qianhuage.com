@@ -36,6 +36,7 @@ function buildWorks(){for(const p of PROJECTS){const b=document.createElement('b
 function openProject(p){
  activeProject=p;if(!progress.discovered.includes(p.id)){progress.discovered.push(p.id);markProgress();toast(`Discovered · ${p.title}`);}
  $('project-title').textContent=p.title;$('project-art-title').textContent=p.title;$('project-location').textContent=p.city.toUpperCase()+' / SELECTED WORK';$('project-image').alt=`${p.title} project artwork`;loadImage($('project-image'),p.img);
+ $('project-description').textContent=p.description||'';$('project-description').hidden=!p.description;$('project-travel').hidden=p.explore===false;$('project-actions').hidden=!p.link&&p.explore===false;
  $('project-link').hidden=!p.link;if(p.link)$('project-link').href=p.link;else $('project-link').removeAttribute('href');openDialog('project');
 }
 function interact(){if(transit?.mode==='metro'&&transit.arrived){finishTravel();return;}if(nearest?.kind==='gate'&&world?.zone==='metro'&&world.metroArrival?.phase!=='boarding'){toast('The train is arriving. Wait for the doors to open.');return;}if(!nearest||transit||document.querySelector('dialog[open]'))return;begin();if(nearest.kind==='project')openProject(nearest.project);else if(nearest.kind==='entrance')enterMetro();else if(nearest.kind==='exit')load(current);else if(nearest.kind==='finish'){openDialog('about');toast('You’ve reached the Adriatic. More places await in your journey.');}else if(current.next)travel(getStop(current.next),current.mode);}
