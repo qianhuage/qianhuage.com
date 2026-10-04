@@ -154,14 +154,14 @@ function closeMobileChart() {
   $("#chart-toggle").textContent = "View chart ↗";
 }
 async function buildJournal() {
-  const response = await fetch("./entries.json?v=28");
+  const response = await fetch("./entries.json?v=33");
   if (!response.ok) throw new Error("Could not load the journal");
   const manuscript = await response.json();
-  const essayResponse = await fetch("./civilization-essay.json?v=19");
+  const essayResponse = await fetch("./civilization-essay.json?v=21");
   if (!essayResponse.ok) throw new Error("Could not load the essay");
   const civilization = await essayResponse.json();
   const entries = manuscript.filter((entry) => entry.day !== 28);
-  const shoreResponse = await fetch("./after-landfall.json?v=19");
+  const shoreResponse = await fetch("./after-landfall.json?v=24");
   if (shoreResponse.ok) {
     const shore = await shoreResponse.json();
     $("#homeward-title").textContent = shore.title;
