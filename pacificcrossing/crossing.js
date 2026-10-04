@@ -1,9 +1,9 @@
-import { dayMedia, shoreMedia } from "./media.js?v=32";
+import { dayMedia, shoreMedia } from "./media.js?v=33";
 import { createCivilizationMap } from "./civilization.js?v=19";
 import { trackPoints, trackMeta } from "./track.js";
 import { createPassageReplay } from "./passage-replay.js?v=12";
 import { setupWeatherLayers } from "./weather-layers.js?v=14";
-import { createSeaScore } from "./sea-score.js?v=31";
+import { createSeaScore } from "./sea-score.js?v=32";
 createPassageReplay(document.querySelector("#passage-replay"));
 setupWeatherLayers();
 const $ = (selector) => document.querySelector(selector);
@@ -32,7 +32,12 @@ function openMedia(item, trigger, collection = [item], index = 0) {
   }
   $("#media-stage").replaceChildren(el);
   $("#media-caption").textContent = item.caption;
-  if (!dialog.open) dialog.showModal();
+  if (!dialog.open) {
+    dialog.showModal();
+    document.querySelectorAll("video").forEach((video) => {
+      if (video !== el) video.pause();
+    });
+  }
   $("#media-previous").disabled = index === 0;
   $("#media-next").disabled = index === collection.length - 1;
   document.body.style.overflow = "hidden";
@@ -80,6 +85,7 @@ dialog.addEventListener("close", () => {
   $("#media-stage").replaceChildren();
   document.body.style.overflow = "";
   lastMediaTrigger?.focus({ preventScroll: true });
+  resumeInlineVideos();
 });
 
 // Never fetch motion footage until motion is allowed; the poster is the fallback.
@@ -113,7 +119,12 @@ motionButton.addEventListener("click", () => {
 });
 new IntersectionObserver(
   ([entry]) => {
-    if (entry.isIntersecting && motionWanted && !document.hidden) {
+    if (
+      entry.isIntersecting &&
+      motionWanted &&
+      !document.hidden &&
+      !dialog.open
+    ) {
       loadHero();
       hero.play().catch(syncMotionButton);
     } else hero.pause();
@@ -122,7 +133,11 @@ new IntersectionObserver(
 ).observe(hero);
 document.addEventListener("visibilitychange", () => {
   if (document.hidden) hero.pause();
-  else if (motionWanted && hero.getBoundingClientRect().bottom > 0)
+  else if (
+    motionWanted &&
+    !dialog.open &&
+    hero.getBoundingClientRect().bottom > 0
+  )
     hero.play().catch(syncMotionButton);
 });
 reducedMotion.addEventListener("change", () => {
@@ -367,18 +382,49 @@ $("#chart-toggle").addEventListener("click", () => {
   $("#chart-toggle").textContent = expanded ? "Hide chart ↙" : "View chart ↗";
 });
 
+const visibleInlineVideos = new Set();
+function playInlineVideo(video) {
+  if (
+    document.hidden ||
+    dialog.open ||
+    reducedMotion.matches ||
+    navigator.connection?.saveData
+  )
+    return;
+  video.muted = true;
+  video.play().catch(() => {});
+}
+function resumeInlineVideos() {
+  visibleInlineVideos.forEach(playInlineVideo);
+}
 const inlineVideoObserver = new IntersectionObserver(
   (entries) => {
-    for (const entry of entries)
-      if (!entry.isIntersecting) entry.target.pause();
+    for (const entry of entries) {
+      const video = entry.target;
+      if (entry.isIntersecting && entry.intersectionRatio >= 0.2) {
+        if (!visibleInlineVideos.has(video)) {
+          visibleInlineVideos.add(video);
+          playInlineVideo(video);
+        }
+      } else {
+        visibleInlineVideos.delete(video);
+        video.pause();
+      }
+    }
   },
-  { threshold: 0.1 },
+  { threshold: [0, 0.2] },
 );
 document.addEventListener("visibilitychange", () => {
-  if (document.hidden)
-    document
-      .querySelectorAll(".daily-gallery video")
-      .forEach((video) => video.pause());
+  if (document.hidden) visibleInlineVideos.forEach((video) => video.pause());
+  else resumeInlineVideos();
+});
+reducedMotion.addEventListener("change", () => {
+  if (reducedMotion.matches)
+    visibleInlineVideos.forEach((video) => video.pause());
+  else resumeInlineVideos();
+});
+window.addEventListener("pagehide", () => {
+  visibleInlineVideos.forEach((video) => video.pause());
 });
 function createDailyGallery(items, day) {
   const gallery = document.createElement("section");
@@ -389,11 +435,12 @@ function createDailyGallery(items, day) {
   const stage = gallery.querySelector(".gallery-stage");
   const [previous, next] = gallery.querySelectorAll(".gallery-controls button");
   let current = 0;
-  function select(index, fromArrow = false) {
+  function select(index) {
     const oldVideo = stage.querySelector("video");
     if (oldVideo) {
       oldVideo.pause();
       inlineVideoObserver.unobserve(oldVideo);
+      visibleInlineVideos.delete(oldVideo);
       oldVideo.removeAttribute("src");
       oldVideo.load();
     }
@@ -411,8 +458,8 @@ function createDailyGallery(items, day) {
       video.src = `./media/${item.file}.mp4?v=11`;
       video.poster = `./media/${item.file}.jpg?v=11`;
       video.controls = true;
-      video.muted = Boolean(item.muted);
-      video.defaultMuted = Boolean(item.muted);
+      video.muted = true;
+      video.defaultMuted = true;
       video.playsInline = true;
       video.preload = "none";
       video.loop = true;
@@ -431,14 +478,6 @@ function createDailyGallery(items, day) {
       figure.append(video, expand, caption);
       stage.replaceChildren(figure);
       inlineVideoObserver.observe(video);
-      if (
-        fromArrow &&
-        !reducedMotion.matches &&
-        !navigator.connection?.saveData
-      ) {
-        video.muted = true;
-        video.play().catch(() => {});
-      }
     } else
       stage.replaceChildren(mediaButton(item, "entry-media", index, items));
     gallery.dataset.file = item.file;
@@ -449,17 +488,17 @@ function createDailyGallery(items, day) {
       next.hidden = true;
     }
   }
-  previous.addEventListener("click", () => select(current - 1, true));
-  next.addEventListener("click", () => select(current + 1, true));
+  previous.addEventListener("click", () => select(current - 1));
+  next.addEventListener("click", () => select(current + 1));
   gallery.addEventListener("keydown", (event) => {
     if (event.target.tagName === "VIDEO") return;
     if (event.key === "ArrowRight" && current < items.length - 1) {
       event.preventDefault();
-      select(current + 1, true);
+      select(current + 1);
     }
     if (event.key === "ArrowLeft" && current > 0) {
       event.preventDefault();
-      select(current - 1, true);
+      select(current - 1);
     }
   });
   select(0);

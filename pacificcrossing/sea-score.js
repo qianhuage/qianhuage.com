@@ -50,6 +50,20 @@ export function createSeaScore() {
     <div class="sea-patch"><div class="sea-patch-heading"><span>PATCH 01 / SEA → SIGNAL</span><span class="sea-patch-clock">FRAME 0000</span></div><dl class="sea-signals" aria-label="How the picture becomes music">${signals.map(([key, n, label, mapping]) => `<div class="sea-signal" data-signal="${key}"><dt><span>${n}</span>${label}</dt><dd><span class="sea-result" data-value="${key}">—</span><span class="sea-bar" aria-hidden="true"><i></i></span><span class="sea-mapping">↳ ${mapping}</span></dd></div>`).join("")}</dl><canvas class="sea-patch-canvas" role="img" aria-label="Live signal patch: image differences, crest geometry and colour feed a smoothed state, then a note sequencer and stereo synthesizer. The output scope displays the generated sound."></canvas></div><p class="sea-score-status" role="status"></p>`;
   const film = section.querySelector("video");
   film.muted = true;
+  const motionPreference = matchMedia("(prefers-reduced-motion: reduce)");
+  let filmVisible = false;
+  function previewAllowed() {
+    return (
+      filmVisible &&
+      !document.hidden &&
+      !motionPreference.matches &&
+      !navigator.connection?.saveData &&
+      !document.querySelector("#media-dialog[open]")
+    );
+  }
+  function playPreview() {
+    if (previewAllowed()) film.play().catch(() => {});
+  }
   const canvas = section.querySelector("canvas"),
     context = canvas.getContext("2d");
   const probe = document.createElement("canvas");
@@ -329,7 +343,7 @@ export function createSeaScore() {
         if (id === generation)
           stop("Unable to play this scene. Choose another sea.");
       }
-    }
+    } else playPreview();
   }
   section
     .querySelectorAll("[data-scene]")
@@ -788,6 +802,13 @@ export function createSeaScore() {
   film.addEventListener("loadeddata", () => {
     analyse(film, false);
   });
+  film.addEventListener("play", () => {
+    frameState.textContent = "LIVE FRAME";
+    wake();
+  });
+  film.addEventListener("pause", () => {
+    frameState.textContent = "STILL FRAME";
+  });
   film.addEventListener("error", () => {
     if (playing || starting)
       stop("This scene could not load. Choose another sea.");
@@ -1075,7 +1096,7 @@ export function createSeaScore() {
 
   function animate(now) {
     frame = null;
-    if (!playing || !visible || document.hidden) return;
+    if (film.paused || !visible || document.hidden) return;
     const dt = previousTime ? Math.min((now - previousTime) / 1000, 0.06) : 0;
     previousTime = now;
     if (!film.paused && film.readyState >= 2) {
@@ -1085,7 +1106,7 @@ export function createSeaScore() {
         lastSample = now;
         lastVideoTime = film.currentTime;
       }
-      phase += dt / state.arrival;
+      if (playing) phase += dt / state.arrival;
       if (phase >= 1) {
         phase %= 1;
         waveNumber++;
@@ -1097,7 +1118,7 @@ export function createSeaScore() {
     frame = requestAnimationFrame(animate);
   }
   function wake() {
-    if (!frame && playing && visible && !document.hidden) {
+    if (!frame && !film.paused && visible && !document.hidden) {
       previousTime = 0;
       frame = requestAnimationFrame(animate);
     }
@@ -1131,10 +1152,25 @@ export function createSeaScore() {
     },
     { threshold: 0.06 },
   ).observe(section);
+  new IntersectionObserver(
+    ([entry]) => {
+      filmVisible = entry.isIntersecting && entry.intersectionRatio >= 0.2;
+      if (filmVisible) playPreview();
+      else if (!playing && !starting) film.pause();
+    },
+    { threshold: [0, 0.2] },
+  ).observe(film);
   document.addEventListener("visibilitychange", () => {
-    if (document.hidden && (playing || starting))
-      stop("Paused while away. Press Listen to return.");
+    if (document.hidden) stop("Paused while away. Press Listen to return.");
+    else playPreview();
   });
+  motionPreference.addEventListener("change", () => {
+    if (motionPreference.matches && !playing) film.pause();
+    else playPreview();
+  });
+  document
+    .querySelector("#media-dialog")
+    ?.addEventListener("close", playPreview);
   window.addEventListener("pagehide", () => stop());
   document.addEventListener(
     "play",
