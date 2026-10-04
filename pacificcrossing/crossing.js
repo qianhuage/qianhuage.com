@@ -3,7 +3,7 @@ import { createCivilizationMap } from "./civilization.js?v=19";
 import { trackPoints, trackMeta } from "./track.js";
 import { createPassageReplay } from "./passage-replay.js?v=12";
 import { setupWeatherLayers } from "./weather-layers.js?v=14";
-import { createSeaScore } from "./sea-score.js?v=32";
+import { createSeaScore } from "./sea-score.js?v=40";
 createPassageReplay(document.querySelector("#passage-replay"));
 setupWeatherLayers();
 const $ = (selector) => document.querySelector(selector);

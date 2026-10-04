@@ -84,7 +84,8 @@ export function createSeaScore() {
     direction: 0,
   };
   const volume = 0.38;
-  let audio, master, bus, reverb, wet, limiter, scope;
+  let audio, master, bus, reverb, wet, limiter, scope, brushNoise;
+  const outputLevel = () => volume * (sceneKey === "blue" ? 0.95 : 0.42);
   const scopeData = new Float32Array(512);
   const patch = section.querySelector(".sea-patch-canvas"),
     ink = patch.getContext("2d");
@@ -117,7 +118,7 @@ export function createSeaScore() {
   const voice = () => Math.min(2, Math.floor(state.colour / 34));
   const ensembleSize = () =>
     sceneKey === "blue"
-      ? 6
+      ? 3
       : sceneKey === "swell"
         ? state.height > 2
           ? 8
@@ -129,7 +130,7 @@ export function createSeaScore() {
             : 1;
   const timbre = () =>
     sceneKey === "blue"
-      ? "piano / horn"
+      ? "piano / bass / brushes"
       : sceneKey === "swell"
         ? "strings / brass"
         : instrumentNames[voice()];
@@ -282,7 +283,7 @@ export function createSeaScore() {
     const targets = {
       arrival:
         sceneKey === "blue"
-          ? clamp(7.8 - motion * 1.3 - relief * 0.5, 5.8, 8)
+          ? clamp(5.8 - motion * 0.8 - relief * 0.4, 4.6, 5.8)
           : clamp(6.8 - motion * 4.8 - relief, 1.5, 8),
       length: clamp(spacing * 10, 30, 180),
       height: clamp(0.4 + relief * 3.6, 0.3, 4),
@@ -302,9 +303,11 @@ export function createSeaScore() {
     const id = ++generation;
     releaseVoices(0.25);
     sceneKey = key;
+    if (master && playing)
+      master.gain.setTargetAtTime(outputLevel(), audio.currentTime, 0.3);
     if (wet)
       wet.gain.setTargetAtTime(
-        key === "swell" ? 0.46 : key === "blue" ? 0.4 : 0.28,
+        key === "swell" ? 0.46 : key === "blue" ? 0.3 : 0.28,
         audio.currentTime,
         0.25,
       );
@@ -382,7 +385,7 @@ export function createSeaScore() {
     reverb.buffer = impulse;
     wet = audio.createGain();
     wet.gain.value =
-      sceneKey === "swell" ? 0.46 : sceneKey === "blue" ? 0.4 : 0.28;
+      sceneKey === "swell" ? 0.46 : sceneKey === "blue" ? 0.3 : 0.28;
     bus.connect(limiter);
     bus.connect(reverb);
     reverb.connect(wet);
@@ -512,49 +515,25 @@ export function createSeaScore() {
       oscillator.stop(at + duration + 0.08);
     }
   }
-  // Sparse minor-ninth piano voicings, plucked bass, and a rounded horn answer.
+  // Piano / upright-style bass / brushes. One amplitude envelope per note;
+  // only upper partials darken independently, preserving the fundamental's body.
   function jazzTone(midi, at, duration, level, pan, family = "piano") {
+    const bass = family === "bass";
     const frequency = 440 * 2 ** ((midi - 69) / 12);
     const envelope = audio.createGain(),
       filter = audio.createBiquadFilter(),
       stereo = audio.createStereoPanner();
-    const partials =
-      family === "piano"
-        ? [
-            [1, 0.72],
-            [2.002, 0.18],
-            [3.006, 0.065],
-            [4.014, 0.025],
-          ]
-        : family === "bass"
-          ? [
-              [1, 0.86],
-              [2, 0.12],
-            ]
-          : [
-              [1, 0.7],
-              [2, 0.19],
-              [3, 0.06],
-            ];
-    const nodes = [envelope, filter, stereo],
-      oscillators = [];
+    const partials = bass
+      ? [[1, 0.68], [2, 0.24], [3, 0.09], [4, 0.035]]
+      : [[1, 0.72], [2.002, 0.23], [3.006, 0.1], [4.014, 0.045], [5.025, 0.018]];
+    const nodes = [envelope, filter, stereo], oscillators = [];
     partials.forEach(([ratio, weight], i) => {
-      const oscillator = audio.createOscillator(),
-        gain = audio.createGain();
-      oscillator.type = family === "horn" && i === 0 ? "triangle" : "sine";
+      const oscillator = audio.createOscillator(), gain = audio.createGain();
+      oscillator.type = "sine";
       oscillator.frequency.setValueAtTime(frequency * ratio, at);
-      if (family === "horn") {
-        oscillator.detune.setValueAtTime(-12, at);
-        oscillator.detune.linearRampToValueAtTime(0, at + 0.65);
-        oscillator.detune.linearRampToValueAtTime(4, at + duration * 0.6);
-        oscillator.detune.linearRampToValueAtTime(-5, at + duration);
-      }
       gain.gain.setValueAtTime(weight, at);
-      if (family !== "horn")
-        gain.gain.exponentialRampToValueAtTime(
-          0.0001,
-          at + duration / (1 + i * 0.6),
-        );
+      if (i > 0)
+        gain.gain.exponentialRampToValueAtTime(weight * 0.06, at + duration / (1 + i * 0.3));
       oscillator.connect(gain);
       gain.connect(filter);
       nodes.push(oscillator, gain);
@@ -562,23 +541,11 @@ export function createSeaScore() {
     });
     filter.type = "lowpass";
     filter.Q.value = 0.35;
-    filter.frequency.setValueAtTime(
-      family === "bass"
-        ? 420
-        : family === "horn"
-          ? 1000
-          : 2200 + state.colour * 7,
-      at,
-    );
-    filter.frequency.exponentialRampToValueAtTime(
-      family === "bass" ? 180 : family === "horn" ? 650 : 650,
-      at + duration,
-    );
+    filter.frequency.setValueAtTime(bass ? 1100 : 3200 + state.colour * 10, at);
+    filter.frequency.exponentialRampToValueAtTime(bass ? 420 : 1100, at + duration);
     envelope.gain.setValueAtTime(0, at);
-    envelope.gain.linearRampToValueAtTime(
-      level,
-      at + (family === "horn" ? 0.48 : family === "bass" ? 0.025 : 0.009),
-    );
+    envelope.gain.linearRampToValueAtTime(level, at + (bass ? 0.018 : 0.008));
+    envelope.gain.exponentialRampToValueAtTime(level * 0.36, at + duration * 0.34);
     envelope.gain.exponentialRampToValueAtTime(0.0001, at + duration);
     stereo.pan.value = clamp(pan, -0.75, 0.75);
     filter.connect(envelope);
@@ -595,36 +562,62 @@ export function createSeaScore() {
       oscillator.stop(at + duration + 0.06);
     }
   }
+  function jazzBrush(at, duration, level, sweep = false) {
+    if (!brushNoise) {
+      brushNoise = audio.createBuffer(1, audio.sampleRate * 2, audio.sampleRate);
+      const samples = brushNoise.getChannelData(0);
+      let seed = 1709;
+      for (let i = 0; i < samples.length; i++) {
+        seed = (seed * 16807) % 2147483647;
+        samples[i] = (seed / 2147483647) * 2 - 1;
+      }
+    }
+    const source = audio.createBufferSource(), filter = audio.createBiquadFilter(),
+      envelope = audio.createGain(), stereo = audio.createStereoPanner();
+    source.buffer = brushNoise;
+    source.loop = true;
+    filter.type = "bandpass";
+    filter.Q.value = 0.6;
+    filter.frequency.setValueAtTime(sweep ? 2200 : 4200, at);
+    filter.frequency.exponentialRampToValueAtTime(sweep ? 950 : 2800, at + duration);
+    envelope.gain.setValueAtTime(0, at);
+    envelope.gain.linearRampToValueAtTime(level, at + (sweep ? duration * 0.3 : 0.012));
+    envelope.gain.exponentialRampToValueAtTime(0.0001, at + duration);
+    stereo.pan.value = 0.3;
+    source.connect(filter); filter.connect(envelope); envelope.connect(stereo); stereo.connect(bus);
+    const nodes = [source, filter, envelope, stereo];
+    const record = { oscillators: [source], envelope, nodes };
+    active.add(record);
+    source.onended = () => { nodes.forEach((node) => node.disconnect()); active.delete(record); };
+    source.start(at); source.stop(at + duration + 0.03);
+  }
   function bluePhrase() {
     const now = audio.currentTime + 0.02;
+    // Dm9 / B-flat maj9 / Gm9 / A7sus: unresolved, descending piano answers.
     const changes = [
-      { bass: 38, keys: [53, 60, 64, 69], horn: [69, 67] },
-      { bass: 34, keys: [53, 57, 60, 64], horn: [67, 65] },
-      { bass: 43, keys: [53, 57, 58, 62], horn: [65, 62] },
-      { bass: 33, keys: [55, 58, 62, 64], horn: [64, 62] },
+      { bass: 38, keys: [53, 60, 64, 69], melody: [76, 74, 69] },
+      { bass: 34, keys: [53, 57, 60, 65], melody: [72, 69, 65] },
+      { bass: 43, keys: [53, 57, 58, 62], melody: [69, 67, 62] },
+      { bass: 33, keys: [55, 58, 62, 64], melody: [70, 69, 64] },
     ];
-    const phrase = changes[Math.floor(waveNumber / 2) % changes.length],
-      drift = (state.direction / 70) * 0.15;
-    if (waveNumber % 2 === 0) {
-      jazzTone(phrase.bass, now, 6.2, 0.27, -0.12, "bass");
-      phrase.keys.forEach((midi, i) =>
-        jazzTone(
-          midi,
-          now + 0.17 + [0, 0.065, 0.12, 0.21][i],
-          8.5,
-          0.17 - i * 0.018,
-          -0.35 + i * 0.14 + drift,
-        ),
-      );
-      const melody = phrase.horn[state.length > 95 ? 0 : 1];
-      jazzTone(melody, now + 1.45, 5.6, 0.16, 0.32 + drift, "horn");
-      note.textContent = `${pitchName(melody)} · piano / horn · minor ninths`;
-    } else {
-      // A single late reply leaves room for the preceding chord and the sea.
-      const midi = phrase.keys[2];
-      jazzTone(midi, now + 0.7, 5.5, 0.11, -0.2 + drift);
-      note.textContent = `${pitchName(midi)} · piano · a little space`;
+    const phrase = changes[Math.floor(waveNumber / 2) % changes.length];
+    const span = clamp(state.arrival, 4.6, 5.8), beat = span / 4;
+    const drift = (state.direction / 70) * 0.12;
+    const lift = clamp(state.height / 4, 0, 1);
+    jazzTone(phrase.bass, now, 3.3, 0.44, -0.12, "bass");
+    jazzTone(phrase.bass + (waveNumber % 2 ? 12 : 7), now + beat * 2.15, 2.7, 0.3, -0.12, "bass");
+    phrase.keys.forEach((midi, i) =>
+      jazzTone(midi, now + 0.06 + i * 0.038, 5.8, (0.2 - i * 0.018) * (0.9 + lift * 0.2), -0.28 + drift),
+    );
+    const melody = phrase.melody[waveNumber % 2];
+    jazzTone(melody, now + beat * 1.2, 4.4, 0.26, 0.1 + drift);
+    jazzTone(phrase.melody[2], now + beat * 2.85, 3.6, 0.19, 0.12 + drift);
+    // A loose brush pulse, with longer circular strokes on the backbeats.
+    for (let i = 0; i < 4; i++) {
+      jazzBrush(now + beat * i + (i % 2 ? 0.045 : 0), beat * 0.75, i % 2 ? 0.075 : 0.04, i % 2 === 1);
+      if (i % 2 === 0) jazzBrush(now + beat * (i + 0.64), 0.16, 0.025);
     }
+    note.textContent = `${pitchName(melody)} · piano / bass / brushes · minor ninths`;
   }
 
   function swellPhrase() {
@@ -787,7 +780,7 @@ export function createSeaScore() {
       phase = 0;
       waveNumber = 0;
       previousPixels = null;
-      master.gain.setTargetAtTime(volume * 0.42, audio.currentTime, 0.12);
+      master.gain.setTargetAtTime(outputLevel(), audio.currentTime, 0.12);
       section.dataset.playing = "true";
       button.innerHTML = '<span aria-hidden="true">Ⅱ</span> Pause';
       button.setAttribute("aria-pressed", "true");
