@@ -1,0 +1,337 @@
+[
+  {
+    "day": 12,
+    "title": "departure",
+    "location": "honolulu, hawaiʻi",
+    "paragraphs": [
+      "i have usually managed fear by leaving everything until the last possible moment. there is always a bag to pack, a message to answer, some small administrative emergency to stand between me and the thing i have agreed to do. then the preparations end. the pacific remains.",
+      "seasick before we had even left the anchorage. on a map the crossing had seemed to concern distance. now it concerned my stomach, the angle of the deck, the fittings that would have to hold when there was no shop to return to. during the final inspection we found another one that needed attention. fixed it. this was how the great departure actually began: with something small enough to put a hand around.",
+      "i wanted to go. the fear was real, and so was the desire, each making the other harder to dismiss. if something scares you and excites you at the same time, go full speed ahead. i can say that more easily on land. aboard, it means doing the next necessary thing while still afraid.",
+      "honolulu was still there. for a little longer, leaving remained something we could decide against."
+    ]
+  },
+  {
+    "day": 13,
+    "title": "leaving land",
+    "location": "hawaiian waters, northeastbound",
+    "paragraphs": [
+      "the mountains flattened against the horizon. later the lights dwindled, until the place we had left could be held in a glance and then could no longer be found at all. it seemed an inadequate disappearance for an island: all that ground, all those lives, removed by the curvature of the earth.",
+      "the last green we will see for weeks, except whatever is growing on my back.",
+      "four-hour watches around the clock. wind, weather, sail changes, engine hours, meals eaten at an angle. the next alarm mattered more than the name of the day. while one person slept, someone else kept the boat moving through a darkness the sleeper would never see.",
+      "i had imagined departure as a clean division. yet the people on shore continued inside the smallest things i thought to tell them. the island was gone; the impulse to turn and point something out remained. there were already sentences accumulating for people who were not here."
+    ]
+  },
+  {
+    "day": 14,
+    "title": "stardust",
+    "location": "open pacific, north of hawaiʻi",
+    "paragraphs": [
+      "all night, bioluminescence trembled along the wave crests. overhead, the masthead moved through the milky way, as though shaking stardust loose into the sea.",
+      "a meteor crossed the dark and, against all reason, so did you. all of you, briefly returned by light already gone.",
+      "there are still things i find before i remember i cannot tell you. the sea brightening under the bow. the mast drawing its slow circles through the stars. for a moment i was already telling you, and you were still the person to whom i would tell such things.",
+      "by morning the water will be blue again. i will have no way to show you how it was."
+    ]
+  },
+  {
+    "day": 15,
+    "title": "off watch",
+    "location": "open pacific",
+    "paragraphs": [
+      "off watch at dawn.",
+      "later that night the moon kept sinking behind enormous black swells, disappearing completely and returning a few seconds later as the boat climbed again.",
+      "somewhere beside the hull, invisible dolphins were giggling in the dark.",
+      "deeply unserious creatures for such an ominous sea."
+    ]
+  },
+  {
+    "day": 16,
+    "title": "storm",
+    "location": "open pacific",
+    "paragraphs": [
+      "storm. nearly thrown overboard.",
+      "the bow started taking on water, so every wave that slammed into it sent a thirty degree waterfall across the cabin and straight onto my already damp bed.",
+      "rain coming down from the sky, the sea raining back upward.",
+      "everything wet. sheets wet. clothes wet. skin wet. sleep wet.",
+      "missing boba.",
+      "increasingly missing mom.",
+      "period cramps hit, bleeding and wailing on deck, and the entire male crew looks over and goes please don’t kill us.",
+      "the modern crucible."
+    ]
+  },
+  {
+    "day": 17,
+    "title": "watch",
+    "location": "open pacific",
+    "paragraphs": [
+      "on watch, the conversation turned to music. beyond the rail, a phrase kept forming and dispersing: several short crests, a long interval, then a darker fold travelling across the others. the sea offered no silence between events. deciding where a note began would already be an act of composition.",
+      "parameterization begins with that decision. choose a sampling interval, a threshold for an event, a scale against which change becomes perceptible. crest spacing, surface relief, colour, direction: a continuous field reduced to a changing vector. map its components into onset density, pitch intervals, harmonic weight, timbre, stereo position. a cloud crosses the water and several dimensions move together. the score bends before another note has sounded.",
+      "the earlier motion-capture patch in max gave an ambient symphony the dimensions of a hand. distance between joints, the velocity of an opening palm, a gesture held long enough to become a sustained tone. with the sea, the difficulty becomes ontological: what counts as a body here? a wave keeps its apparent identity while water passes through it. two crests merge; the tracker must decide whether something has continued, disappeared, or begun. every threshold quietly makes a claim about what exists.",
+      "give the patch memory. let each incoming frame revise a state that still contains the previous ones; let that state alter the conditions under which the next event becomes audible. a long swell could gradually widen the harmonic range. repeated turbulence could accumulate voices, then leave them decaying through a calm. the mapping itself could evolve on a slower clock than the waves. a brief disturbance would pass through a system already changed by the afternoon.",
+      "composition moves into the choice of constraints: how much history to retain, how readily to change, what must remain invariant for a phrase to be recognizable. the footage can loop; a system carrying its own history need never return to the same place. somewhere between the threshold and its revision, the sea acquires a temporary grammar. another crest arrives and puts it under pressure."
+    ]
+  },
+  {
+    "day": 18,
+    "title": "the foreign, the homeward",
+    "location": "around 30 degrees north",
+    "paragraphs": [
+      "one week into the pacific. somewhere around thirty degrees north, the trades fell away. the sails lost their shape, the boat stopped leaning, and the engine began its steady work beneath our feet. a boundary from a geography textbook had acquired a sound.",
+      "i had grown up with those arrows: belts of wind circling a diagram of the earth. to live inside one was to discover how much a diagram leaves out. salt drying and returning, the weight of a sheet, the hours needed to cross a space the eye passes over in a second. even the calm had consequences. we still had to get somewhere, and diesel was finite.",
+      "realized today that everyone aboard is blue eyed like the ocean, blond like the sun. their blue and gold summoned a landscape remembered but never mine: summer green and golden, lindens in bloom, nightingales among the leaves, myrtle and laurel beyond.",
+      "years spent passing through other countries, other languages, other people’s mythologies, and now an ocean too. the only child of an agricultural civilization aboard, still wondering how far into the foreign one can go before the direction quietly turns homeward."
+    ]
+  },
+  {
+    "day": 19,
+    "title": "no geographical cure",
+    "location": "open pacific",
+    "paragraphs": [
+      "disappeared into the pacific to escape tech.",
+      "2am, weighing competing forecast models, running weather routes against boat polars, optimizing twa against swell and fuel burn.",
+      "apparently there is no geographical cure."
+    ]
+  },
+  {
+    "day": 20,
+    "title": "a little rum for the ocean",
+    "location": "open pacific",
+    "paragraphs": [
+      "at dusk we poured rum over the side. the last light passed through it, a narrow vein of gold, then vanished between two waves.",
+      "we had cursed this water with the same mouths we now raised to the bottle. salt at the lips, fire behind the teeth. for a little while the warmth went farther than the skin.",
+      "let ivy take the rigging. let the mast put out leaves. let something older than our fear come barefoot across the deck.",
+      "the bruises could come too. the wet clothes, the sleeplessness, all the small humiliations of having a body. there was room for them at this ridiculous feast, suspended over miles of dark water.",
+      "the sea took its mouthful. ours burned all the way down."
+    ]
+  },
+  {
+    "day": 21,
+    "title": "彼岸",
+    "location": "open pacific",
+    "paragraphs": [
+      "又一位亲人离开了，收到消息的我正在太平洋中央一路向东。",
+      "水流往后，一直到地平线消失不见，去向哪里呢？最终会抵达彼岸的家吗？",
+      "我无法框住流逝，但如果流向更广阔的他方，像鸟，像浪，也是一种祝福。万物荣枯如常，生命在目所不及的地方依旧流淌。"
+    ],
+    "language": "zh-Hans"
+  },
+  {
+    "day": 22,
+    "title": "learning the boat",
+    "location": "open pacific",
+    "paragraphs": [
+      "the boat has begun to acquire a normal. i know more of the sounds against which a new sound will announce itself: water along the hull, the rig under load, the engine through the soles of my feet. yesterday's vibration belongs to that knowledge now.",
+      "a few extra degrees of weather helm can send attention back to the sails. a familiar sound changing is enough to make me look up. none of this arrived as a revelation. it accumulated while i was doing the same things again, often tired, often wishing for the end of a watch.",
+      "i have given a great deal of my life to the excitement of entering unfamiliar worlds. familiarity has seemed less deserving of ambition. yet the person who already knows how something usually sounds can hear trouble before the newcomer has finished admiring it.",
+      "the boat is becoming familiar in that demanding way. she keeps giving me reasons to remain interested."
+    ]
+  },
+  {
+    "day": 23,
+    "title": "thirty knots",
+    "location": "northbound into stronger weather",
+    "paragraphs": [
+      "thirty knots. the first reef was in and there was still too much power in the sail. the helm made the argument felt in my arms.",
+      "we let her run. the stern lifted with the following swell, the bow found the slope, and for a few seconds the motion lengthened into something almost effortless. then the wave passed beneath us and the work returned. i kept wanting the next one to last.",
+      "every wind seems to want to pass through me, every current to take me with it, none to stay.",
+      "people, too. an unreasonable thing to ask of a following sea, and perhaps of a person. still, there it was: the wish continuing after i had found fault with its logic."
+    ]
+  },
+  {
+    "day": 24,
+    "title": "attachment theory at sea",
+    "location": "strong weather",
+    "paragraphs": [
+      "long discussion on deck about helming style being attachment style at sea.",
+      "we have the captain who talks sweetly to the boat, follows where she wants to go, trims gently, negotiates with wind and wave.",
+      "then we have me wrestling this mf by the helm, boat heeled over, crew flying across the cockpit, three near mobs in pursuit of twelve knots, fully prepared to fuck everyone up.",
+      "if she won’t go where i want, we die together.",
+      "perhaps the ocean was correcting an older confusion between competence and control.",
+      "on land, understanding a system often meant finding enough leverage to make it obey.",
+      "out here, no amount of intelligence could negotiate with thirty knots of wind or several thousand miles of moving water.",
+      "competence meant something quieter.",
+      "seeing earlier.",
+      "trimming sooner.",
+      "feeling pressure change through the helm before the boat complained.",
+      "knowing what could be changed and what had to be entered on its own terms.",
+      "the individual cannot command the system.",
+      "the highest skill may simply be learning to see it accurately.",
+      "read the wind.",
+      "read the water.",
+      "read the sky."
+    ]
+  },
+  {
+    "day": 25,
+    "title": "the wake",
+    "location": "northeastbound toward california",
+    "paragraphs": [
+      "got anxious thinking about everything waiting on land. papers, books, products: the inventory of unfinished things. i said it aloud and heard how readily the future had found its old tone of accusation.",
+      "behind the stern, the wake was coming apart. close to the boat it still held the shape of our passage; farther back, the swells took it into their own motion. i could watch a stretch of water lose every visible sign that we had crossed it.",
+      "thousands of miles had disappeared this way. i had been there for them, or asleep while someone else was there. the boat had needed the distance and had no further use for its evidence.",
+      "i thought of how faithfully i keep an account of myself: what i have done, what it should lead to, how little time remains in which to make it mean something. looking astern, i had a brief difficulty remembering whom that account was for.",
+      "all those miles behind us, and not one of them asking to be carried."
+    ]
+  },
+  {
+    "day": 26,
+    "title": "the light on the other side",
+    "location": "36 degrees 21 minutes north\n129 degrees 50 minutes west\napproximately 360 nautical miles from the golden gate",
+    "paragraphs": [
+      "跨太平洋的第二周。离开副热带信风，向北切进中纬度西风带，经历低压和锋面，再转向东北。",
+      "north out of the trades, through the weather of the midlatitudes, then northeast toward california. a week of being soaked through, bruised against the boat, sleeping damp and waking colder. still roughly three hundred sixty miles from the golden gate, already wearing two bibs. california, what the fuck. i did not wear this much in the arctic.",
+      "and tonight, after all that weather, the harvest moon rose from the sea. enormous and amber, so low that for a while it seemed a light left burning on the other side of the pacific.",
+      "i knew perfectly well what it was. knowing did little to diminish the other impression: that somewhere across the water there was a place prepared for us, and that the light belonged to it. distance had been allowing me to furnish the shore with everything i lacked. warmth. welcome. the life in which i would finally have caught up with myself.",
+      "从前觉得千里共婵娟太矫情，直到相隔千万里，我居然也抬头看向天空。",
+      "the old line had survived centuries of people needing it. i had once found that need sentimental. now i was looking up, trying to imagine who else might be looking, and could feel how little originality mattered beside the possibility of sharing this one visible thing.",
+      "the moon climbed. its light spread across water we would never sail through."
+    ]
+  },
+  {
+    "day": 27,
+    "title": "other watches",
+    "location": "eastern north pacific",
+    "paragraphs": [
+      "freighters have begun appearing on ais. names, headings, destinations. after so much apparently empty water, the little triangles on the screen seemed to contain more than the information supplied for avoiding them.",
+      "i caught myself furnishing their interiors. someone asleep, someone eating, someone wishing a watch would end. conjectures, all of them, but by now i knew the kind of human arrangements a moving vessel concealed.",
+      "their courses crossed the chart independently of ours. we could arrive at the same patch of ocean with entirely different beginnings, and continue toward places the other crew would never see. for a while the instruments would describe our relation exactly: bearing, distance, the approach of one moving body to another.",
+      "on land i am often surrounded by people whose lives i scarcely imagine. offshore, the slightest evidence of them was enough to begin."
+    ]
+  },
+  {
+    "day": 28,
+    "title": "threshold civilization",
+    "location": "eastern north pacific",
+    "paragraphs": [
+      "new thought on the structure and ontology of myself.",
+      "suppose the self were not a person but an entire civilization.",
+      "it would not arise in a fertile enclosed valley.",
+      "its geography would be scattered ports, islands and highlands across an enormous ocean, with almost everything important appearing to exist somewhere else.",
+      "knowledge in another city.",
+      "capital on another continent.",
+      "opportunity moving with currents and seasons.",
+      "its foundational belief would be simple.",
+      "the world is not a homeland.",
+      "it is a set of coordinates.",
+      "ports would matter more than capitals, ships more than houses, maps more than territory.",
+      "distance would lose some of its psychological meaning.",
+      "moving continents, changing industries, entering unfamiliar worlds, all interpreted less as rupture than recalculating course.",
+      "its greatest geographical advantage would become its deepest psychological problem.",
+      "extraordinarily good at leaving.",
+      "less certain how to arrive.",
+      "politically it would resemble a technocratic maritime republic.",
+      "authority would come neither from ancestry nor popularity but demonstrated competence under uncertainty.",
+      "speed of judgment.",
+      "density of information.",
+      "ability to execute.",
+      "real power would gather around fleets, laboratories, research institutes, expeditions, trading houses and eventually technology companies.",
+      "titles are temporary.",
+      "context is power.",
+      "for a long time this civilization would flourish.",
+      "eventually it would make a dangerous mistake.",
+      "it would begin confusing competence with moral legitimacy.",
+      "those best at solving problems would slowly assume the right to decide which problems deserve to be solved.",
+      "its deepest romantic institution would not be possession or permanence.",
+      "it would be altered course.",
+      "love would mean two autonomous trajectories, each complete enough to continue alone, voluntarily deviating for one another.",
+      "not i belong to you forever.",
+      "i changed course to find you.",
+      "beautiful poetry.",
+      "terrible statistics.",
+      "everyone wanting someone sufficiently independent not to need them, while secretly hoping to become the singular exception for whom that person chooses to turn.",
+      "its literature would fill with missed encounters, not because love was rare, but because the intersection of two fast moving trajectories was.",
+      "its aesthetics would be restrained.",
+      "what fascinates it would not be ornament but the small human signal inside an enormous system.",
+      "a single light on a night passage.",
+      "a moon rising from black water.",
+      "the first freighter appearing on ais after weeks offshore.",
+      "bioluminescence breaking along a hull.",
+      "a mast dividing the milky way.",
+      "the human figure should be small enough for the universe to remain visible.",
+      "its greatest poems would be short.",
+      "its architecture would contain enormous amounts of negative space.",
+      "its most famous painting would depict almost nothing except black water and one distant point of warm light.",
+      "excessive explanation would be considered vulgar.",
+      "if the image is true, let it remain larger than its interpretation.",
+      "its religion would have no human shaped god.",
+      "wind, currents, stars, markets, technological revolutions, encounters, departures and ambition would be understood as systems operating at different scales.",
+      "the individual cannot command them.",
+      "the highest human skill would therefore not be control but perception.",
+      "its closest equivalent to prayer would be learning to see more accurately.",
+      "read the wind.",
+      "read the person.",
+      "read the market.",
+      "read the technology curve.",
+      "read the century.",
+      "its greatest sin would not be failure.",
+      "it would be continuing to navigate with an obsolete map after the world has changed.",
+      "much later a heresy would emerge.",
+      "if every course can be calculated, why leave at all?",
+      "the civilization would become wealthy by compressing complexity.",
+      "where another society sees one hundred variables, its engineers and strategists search for the five that determine the outcome.",
+      "software, finance, ai, design, consulting, international trade, technical services.",
+      "find the chaos nobody has structured yet.",
+      "then become the structure.",
+      "education would be severe.",
+      "languages. mathematics. history. navigation. engineering. rhetoric.",
+      "then repeated exposure to systems not yet understood.",
+      "a laboratory.",
+      "a foreign city.",
+      "a company.",
+      "an expedition.",
+      "a ship.",
+      "an unfamiliar technology.",
+      "its most famous examination would contain a single question.",
+      "no one is going to tell you what to do.",
+      "what do you do?",
+      "the system would produce extraordinary adaptability.",
+      "and a peculiar existential pathology.",
+      "very good at becoming almost anything.",
+      "considerably worse at answering what is worth becoming.",
+      "its strongest industry would not actually be shipping, software, finance or artificial intelligence.",
+      "it would be rapid modeling under uncertainty.",
+      "whenever an old order stopped working, this civilization would become disproportionately powerful.",
+      "war.",
+      "migration.",
+      "technological disruption.",
+      "institutional collapse.",
+      "new markets.",
+      "new worlds.",
+      "stable centuries would bore it.",
+      "chaos would feel like home.",
+      "eventually a class conflict would emerge between high context and low context society.",
+      "the elite would accumulate so much information that their reasoning became compressed and increasingly illegible.",
+      "a sentence between them might contain twenty unstated assumptions.",
+      "institutions would continue requiring procedure, documentation, repetition, explanation and consensus.",
+      "one side would experience the other as unbearably slow.",
+      "the other would experience the first as arrogant and impossible to govern.",
+      "eventually the civilization would develop its most dangerous prejudice.",
+      "mistaking speed of understanding for depth of understanding.",
+      "people who rapidly model new systems would become glamorous.",
+      "people who patiently maintain existing ones would become invisible.",
+      "only much later would it discover that civilizations are not sustained primarily by the brilliant people who redesign them.",
+      "they are sustained by the enormous number willing to maintain things after they cease being interesting.",
+      "at its apex, the civilization would finally institutionalize the behavior of its navigators, engineers, merchants, founders and adventurers.",
+      "ports across the world.",
+      "research institutes generating technologies.",
+      "schools manufacturing generations capable of entering unfamiliar systems without instructions.",
+      "for several decades it would appear unstoppable.",
+      "and precisely then it would acquire the belief that eventually destroys it.",
+      "there is no problem sufficient intelligence cannot solve.",
+      "there would be no invasion.",
+      "no catastrophic economic collapse.",
+      "no single incompetent ruler.",
+      "the civilization would decline because it gradually"
+    ]
+  },
+  {
+    "day": 29,
+    "title": "land, at last",
+    "location": "monterey, california",
+    "paragraphs": [
+      "land returned first as lights. they held their places while the boat moved beneath us. after so many nights of trying to distinguish a distant brightness from a star, i could look away and find them again.",
+      "for days i had been loading the shore with promises. close to it, i wanted things of almost ridiculous simplicity: to stand still, to take off the salt, to sleep without anticipating the next movement of the hull.",
+      "finally a shower. water falling straight down, at an obedient temperature. no salt. no bracing a foot against the wall. i stood there much longer than necessary.",
+      "there would be time for the familiar difficulties. for now, warm water kept arriving, and i did not have to earn another minute of it."
+    ]
+  }
+]

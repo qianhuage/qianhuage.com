@@ -622,3 +622,8 @@ function init() {
 }
 
 init();
+
+// Recorded passage, added without changing the original map or its overview.
+import('./pacificcrossing/map-route.js?v=1').then(({createCrossingMapRoute}) => {
+  createCrossingMapRoute({ map, mapboxgl, pauseRotation: () => { globeSpinning = false; } });
+}).catch(error => console.error('Pacific Crossing route could not load:', error));

@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#080b0d" />
+    <title>Pacific Crossing — Qianhua Ge</title>
+    <meta
+      name="description"
+      content="Honolulu to Monterey. Notes, moving water, and small human signals from a Pacific crossing. September 2026, by Qianhua Ge."
+    />
+    <link rel="canonical" href="https://qianhuage.com/pacificcrossing/" />
+    <meta property="og:title" content="Pacific Crossing — Qianhua Ge" />
+    <meta
+      property="og:description"
+      content="The world is not a homeland. It is a set of coordinates. A journal from the open Pacific."
+    />
+    <meta
+      property="og:image"
+      content="https://qianhuage.com/pacificcrossing/media/open-pacific.jpg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./crossing.css?v=26" />
+    <script src="./crossing.js?v=32" type="module"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#journal">Skip to journal</a>
+    <header class="site-header">
+      <a class="back-link" href="/">← Back to the world</a>
+    </header>
+    <main>
+      <section id="top" class="hero" aria-labelledby="page-title">
+        <video
+          id="hero-film"
+          class="hero-film"
+          muted
+          loop
+          playsinline
+          preload="none"
+          poster="./media/open-pacific.jpg"
+          aria-label="Sailing across the open Pacific"
+        >
+          <source data-src="./media/open-pacific.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <div class="eyebrow hero-kicker">
+            <span>09 / 2026</span>
+          </div>
+          <h1 id="page-title">
+            pacific<br /><span>crossing</span
+            ><span class="title-star" aria-hidden="true">✳</span>
+          </h1>
+          <div class="hero-bottom">
+            <div class="hero-route">
+              <span>HONOLULU, HAWAIʻI</span
+              ><span class="route-line" aria-hidden="true">⟶</span
+              ><span>MONTEREY, CALIFORNIA</span>
+            </div>
+            <p>
+              the human figure small enough<br />for the universe to remain
+              visible.
+            </p>
+          </div>
+        </div>
+        <div class="hero-footer">
+          <button
+            id="motion-toggle"
+            type="button"
+            aria-label="Play background video"
+            title="Play background video"
+            aria-pressed="false"
+          >
+            ▶
+          </button>
+        </div>
+      </section>
+      <section
+        id="journal"
+        class="passage"
+        aria-label="Interactive passage journal"
+      >
+        <aside class="chart-panel" aria-label="Passage chart">
+          <div class="chart-heading">
+            <span class="eyebrow">NORTH PACIFIC OCEAN</span
+            ><span class="chart-status"><i></i> RECORDED PASSAGE</span>
+          </div>
+          <div class="chart-wrap">
+            <svg
+              id="passage-chart"
+              viewBox="0 0 760 500"
+              role="img"
+              aria-labelledby="chart-title chart-description"
+            >
+              <title id="chart-title">Honolulu to Monterey passage</title>
+              <desc id="chart-description">
+                Recorded second-leg GPS track from Atalanta, Honolulu to
+                Monterey, provided by PredictWind. Select a date to explore the
+                journal. Dashed segments indicate gaps in the recorded
+                positions.
+              </desc>
+              <defs>
+                <pattern
+                  id="grid"
+                  width="125"
+                  height="130"
+                  patternUnits="userSpaceOnUse"
+                >
+                  <path
+                    d="M125 0H0V130"
+                    fill="none"
+                    stroke="#ffffff"
+                    stroke-opacity=".075"
+                    stroke-width="1"
+                  />
+                </pattern>
+                <filter id="glow"><feGaussianBlur stdDeviation="5" /></filter>
+              </defs>
+              <rect width="760" height="500" fill="url(#grid)" />
+              <image
+                href="./coastline.svg"
+                width="760"
+                height="500"
+                opacity=".65"
+              />
+              <g class="chart-labels">
+                <text x="8" y="126">40° N</text>
+                <text x="8" y="256">30° N</text>
+                <text x="8" y="386">20° N</text>
+                <text x="130" y="488">160° W</text>
+                <text x="380" y="488">140° W</text>
+                <text x="630" y="488">120° W</text>
+                <text x="626" y="130" transform="rotate(34 626 130)">
+                  CALIFORNIA
+                </text>
+              </g>
+              <text class="ocean-label" x="305" y="333">NORTH PACIFIC</text>
+              <text class="ocean-label minor" x="335" y="357">
+                an uninterrupted horizon
+              </text>
+              <path
+                id="course"
+                d=""
+                fill="none"
+                stroke="#ffffff"
+                stroke-opacity=".24"
+                stroke-width="1.5"
+                stroke-dasharray="3 6"
+              />
+              <path
+                id="course-traveled"
+                d=""
+                fill="none"
+                stroke="#e0e8e7"
+                stroke-width="1.5"
+              />
+              <path
+                id="course-gaps"
+                fill="none"
+                stroke="#b7c8c3"
+                stroke-opacity=".5"
+                stroke-width="1"
+                stroke-dasharray="3 5"
+              />
+              <g id="day-points"></g>
+              <circle cx="152" cy="373" r="5" class="port-dot" />
+              <circle cx="601" cy="174" r="5" class="port-dot" />
+              <g class="port-labels">
+                <text x="151" y="408">HONOLULU</text>
+                <text x="601" y="207" text-anchor="middle">MONTEREY</text>
+              </g>
+              <g id="vessel">
+                <circle
+                  r="14"
+                  fill="#d8e7e1"
+                  opacity=".25"
+                  filter="url(#glow)"
+                />
+                <circle
+                  r="9"
+                  fill="none"
+                  stroke="#e4ede8"
+                  stroke-opacity=".35"
+                />
+                <circle r="3.5" fill="#fff" />
+              </g>
+            </svg>
+            <div class="chart-corner">
+              N ↑<span
+                ><a
+                  href="https://www.predictwind.com/tracking/Atalanta1"
+                  target="_blank"
+                  rel="noopener"
+                  >GPS / PREDICTWIND ↗</a
+                >
+                · DASHED: TRACKING GAP</span
+              >
+            </div>
+          </div>
+          <div class="chart-readout">
+            <div>
+              <span class="eyebrow"
+                >LOG ENTRY <span id="entry-count">01 / 17</span></span
+              >
+              <p id="chart-day">12 september</p>
+              <button
+                class="mobile-chart-toggle"
+                id="chart-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="passage-chart"
+              >
+                View chart ↗
+              </button>
+            </div>
+            <div class="fix-readout">
+              <p id="chart-place">honolulu, hawaiʻi</p>
+              <p id="chart-fix"></p>
+            </div>
+          </div>
+          <nav
+            id="date-nav"
+            class="date-nav"
+            aria-label="Jump to a journal date"
+          ></nav>
+          <div class="chart-controls">
+            <button id="previous-day" aria-label="Previous journal entry">
+              ←</button
+            ><span
+              >SEPTEMBER 2026 <span class="muted">/ SELECT A DAY</span></span
+            ><button id="next-day" aria-label="Next journal entry">→</button>
+          </div>
+        </aside>
+        <div class="journal-writing">
+          <div id="entries" class="entries">
+            <p class="loading-note">Opening the logbook…</p>
+          </div>
+          <article
+            id="homeward"
+            class="entry journal-coda"
+            aria-labelledby="homeward-title"
+          >
+            <div class="entry-top">
+              <span>AFTER LANDFALL</span><span>A NOTE FROM SHORE</span>
+            </div>
+            <h2 id="homeward-title">the familiar, again</h2>
+            <div id="homeward-copy" class="entry-copy"></div>
+          </article>
+        </div>
+      </section>
+      <section
+        id="tracking"
+        class="tracking-section"
+        aria-labelledby="tracking-title"
+      >
+        <header class="tracking-heading">
+          <div>
+            <span class="eyebrow">ATALANTA / HONOLULU TO MONTEREY</span>
+            <h2 id="tracking-title">the passage, charted.</h2>
+          </div>
+          <a
+            href="https://www.predictwind.com/tracking/Atalanta1"
+            target="_blank"
+            rel="noopener"
+            >LIVE PREDICTWIND ↗</a
+          >
+        </header>
+        <div
+          class="weather-tabs"
+          role="tablist"
+          aria-label="Passage map layers"
+        >
+          <button
+            id="wind-tab"
+            type="button"
+            role="tab"
+            aria-selected="true"
+            aria-controls="weather-map"
+            data-weather="Wind"
+          >
+            Wind
+          </button>
+          <button
+            id="current-tab"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="weather-map"
+            tabindex="-1"
+            data-weather="Current"
+          >
+            Ocean current
+          </button>
+          <button
+            id="route-tab"
+            type="button"
+            role="tab"
+            aria-selected="false"
+            aria-controls="passage-replay"
+            tabindex="-1"
+            data-weather="route"
+          >
+            13–29 Sep · route replay
+          </button>
+        </div>
+        <div id="weather-map" role="tabpanel" aria-labelledby="wind-tab">
+          <iframe
+            title="PredictWind wind map for Atalanta"
+            src="https://www.predictwind.com/tracking/Atalanta1?layer=Wind&amp;symbol=WindStreamlines&amp;routing=false"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div
+          id="passage-replay"
+          class="passage-replay"
+          role="tabpanel"
+          aria-labelledby="route-tab"
+          hidden
+        ></div>
+        <p id="weather-note" class="tracking-note">
+          Wind and current open on current conditions. Use PredictWind’s
+          timeline to explore historical weather; the fixed route replay covers
+          13–29 September.
+        </p>
+        <p id="route-note" class="tracking-note" hidden>
+          GPS recorded by PredictWind · fixed archive, 13–29 September 2026
+          (UTC). Dashed lines mark gaps in the recordings.
+        </p>
+      </section>
+      <section
+        id="civilization"
+        class="civilization-section"
+        aria-labelledby="civilization-title"
+      >
+        <header class="civilization-intro">
+          <div>
+            <span class="eyebrow">02 / INNER GEOGRAPHY</span>
+            <h2 id="civilization-title">
+              threshold<br /><em>civilization.</em>
+            </h2>
+          </div>
+          <div class="civilization-premise">
+            <p>
+              suppose the self were not a person<br />but an entire
+              civilization.
+            </p>
+          </div>
+        </header>
+        <div id="civilization-map"></div>
+      </section>
+      <footer class="site-footer">
+        <span class="eyebrow">QIANHUA GE · SEPTEMBER 2026</span>
+        <p>less certain what it would mean<br />to <em>arrive.</em></p>
+        <div>
+          <a href="/">← BACK TO THE WORLD</a
+          ><a href="#top">RETURN TO THE SURFACE ↑</a>
+        </div>
+      </footer>
+    </main>
+    <dialog id="media-dialog" aria-labelledby="media-caption">
+      <button class="dialog-close" type="button" aria-label="Close media">
+        Close ×
+      </button>
+      <div id="media-stage"></div>
+      <div class="dialog-gallery-controls">
+        <button id="media-previous" type="button" aria-label="Previous media">
+          ←</button
+        ><button id="media-next" type="button" aria-label="Next media">
+          →
+        </button>
+      </div>
+      <p id="media-caption"></p>
+    </dialog>
+    <noscript
+      ><p class="no-script">
+        The interactive logbook needs JavaScript.
+        <a href="./journal.txt">Read the complete journal as text →</a>
+      </p></noscript
+    >
+  </body>
+</html>
