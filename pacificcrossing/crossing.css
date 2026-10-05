@@ -1041,6 +1041,12 @@ dialog::backdrop {
   letter-spacing: -0.025em;
   margin: 0;
 }
+.civilization-premise .civilization-guide {
+  margin-top: 18px;
+  font-size: 15px;
+  line-height: 1.75;
+  letter-spacing: 0;
+}
 #civilization-map {
   max-width: 1600px;
   margin: auto;
