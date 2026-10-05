@@ -412,6 +412,17 @@ h1 > span:first-of-type {
   font-weight: 400;
   margin: 30px 0 12px;
 }
+.entry-equation {
+  margin: 26px 0;
+  padding: 20px 12px;
+  border-block: 1px solid var(--line);
+  color: var(--fg);
+  overflow-x: auto;
+}
+.entry-equation math {
+  font-size: clamp(15px, 1.4vw, 19px);
+  letter-spacing: normal;
+}
 .entry-location {
   font: 9px/1.8 var(--mono);
   color: #96a2a5;

@@ -1,4 +1,5 @@
 import { dayMedia, shoreMedia } from "./media.js?v=33";
+import { createJournalEquation } from "./journal-equations.js?v=1";
 import { createCivilizationMap } from "./civilization.js?v=20";
 import { trackPoints, trackMeta } from "./track.js";
 import { createPassageReplay } from "./passage-replay.js?v=12";
@@ -154,7 +155,7 @@ function closeMobileChart() {
   $("#chart-toggle").textContent = "View chart ↗";
 }
 async function buildJournal() {
-  const response = await fetch("./entries.json?v=37");
+  const response = await fetch("./entries.json?v=38");
   if (!response.ok) throw new Error("Could not load the journal");
   const manuscript = await response.json();
   const essayResponse = await fetch("./civilization-essay.json?v=22");
@@ -238,7 +239,7 @@ async function buildJournal() {
       title.lang = entry.language;
       copy.lang = entry.language;
     }
-    entry.paragraphs.forEach((paragraph) => {
+    entry.paragraphs.forEach((paragraph, paragraphIndex) => {
       const p = document.createElement("p");
       let cursor = 0;
       for (const match of paragraph.matchAll(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g)) {
@@ -251,6 +252,11 @@ async function buildJournal() {
       }
       p.append(paragraph.slice(cursor));
       copy.append(p);
+      for (const equation of entry.equations ?? []) {
+        if (equation.afterParagraph !== paragraphIndex) continue;
+        const panel = createJournalEquation(equation.id);
+        if (panel) copy.append(panel);
+      }
     });
     article.append(top, title, place, copy);
     if (entry.day === 17) article.append(createSeaScore());

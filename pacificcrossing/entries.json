@@ -200,10 +200,39 @@
     "title": "other watches",
     "location": "eastern north pacific",
     "paragraphs": [
-      "freighters have begun appearing on ais. names, headings, destinations. after so much apparently empty water, the little triangles on the screen seemed to contain more than the information supplied for avoiding them.",
-      "i caught myself furnishing their interiors. someone asleep, someone eating, someone wishing a watch would end. conjectures, all of them, but by now i knew the kind of human arrangements a moving vessel concealed.",
-      "their courses crossed the chart independently of ours. we could arrive at the same patch of ocean with entirely different beginnings, and continue toward places the other crew would never see. for a while the instruments would describe our relation exactly: bearing, distance, the approach of one moving body to another.",
-      "on land i am often surrounded by people whose lives i scarcely imagine. offshore, the slightest evidence of them was enough to begin."
+      "freighters have begun appearing on ais. names, positions, destinations. after days of apparently empty water, the little triangles made the world seem inhabited again.",
+      "among the reports each vessel broadcasts are its position, course, and speed. our plotter combines these with our own to find a relative position r and a relative velocity v. then it asks a narrow question: if both vessels hold their present course and speed, when will we come closest?",
+      "for a nonzero relative velocity, t* gives the time to closest approach and d* the separation then. a negative t* puts that moment behind us. a positive one gives us something still to prepare for.",
+      "most triangles pass without an alarm. a target becomes a warning when its predicted separation and time to closest approach fall within the limits we have set. a possible future asks for attention. the prediction keeps changing as new reports arrive; it is only as good as the positions and movements reported. we look up from the screen. there is still a sea to check it against.",
+      "i caught myself furnishing their interiors. someone asleep, someone eating, someone wishing a watch would end. the plotter kept revising when we might come closest. it could not tell me what kind of encounter that would be. for its purposes, an entire ship could become a position, a velocity, a reason to change course.",
+      "i thought of people i had met long after our lives first occupied the same city. the same platform, perhaps. a café on overlapping tuesdays. i wanted to believe we had passed near each other before, that something had happened before we knew to call it anything. even a perfect record of our positions could only tell me how close we had been. i would still have to invent what we had missed.",
+      "the difficulty changes once the other person can answer. in a paper where i once tried to model love this way, i wrote the other's best response as a function of mine. my choice becomes one of the conditions under which you minimize a loss of your own:",
+      "suppose, generously, that this response is locally unique and differentiable. my loss then changes in two ways: through what i do directly, and through what you do in response. calling the resulting loss F makes the second dependence visible:",
+      "the second term was the part i kept thinking about. whatever i did would enter the conditions under which you decided what to do next. even waiting could change the answer. people anticipate this constantly. a message rewritten because of the reply imagined; a question withheld because of the silence expected. sometimes the difficulty is how much of the other person's future we have already supplied.",
+      "under the model's smoothness assumptions, with a nonsingular Hessian for the other's loss, that derivative can be recovered from the local curvature of the other's loss and the way our choices enter it. the algebra is tractable. the premise is extravagant: i have been given your objective.",
+      "i could write down a loss for you, differentiate it, follow every consequence correctly, and still be describing someone else. sometimes i wonder how much of what i called understanding was a model i had become unusually good at defending.",
+      "there is another difficulty. the best-response equation lets you finish adapting before i decide what comes next. actual people are still learning while the other moves. fatigue changes what feels bearable. time changes what matters. sometimes a relationship teaches us to want something we could not have put into its first equation. some of the difficulty belongs to the dynamics. we still answer for what we do inside them.",
+      "at sea, shared rules make a small part of another vessel's future more predictable. in the standard crossing case between two power-driven vessels in sight of one another, with a risk of collision, the vessel with the other to starboard gives way. the other initially holds course and speed. a sailing vessel and a freighter can come under different provisions; the responsibilities depend on the encounter.",
+      "the vessel holding steady still has to watch. it may act when the other is plainly failing to take appropriate action, and must act when the other can no longer prevent collision alone. its course is temporarily constrained so that someone else can plan. its responsibility continues.",
+      "steadiness is a gift to someone else's computation. it lets them make a decision without having to guess every decision you might make in return. i had thought so much about the intelligence required to anticipate another person. less about what i could make easier for them to know.",
+      "to say what i mean. to make a promise whose shape survives the mood in which i made it. to tell someone when the course has changed, before asking why they are still following the old one.",
+      "a safe passing leaves the vessels free to continue toward separate destinations. a relationship has to discover which parts of the journey its people want to share. the geometry cannot choose that for them. neither can the rule about who should move first.",
+      "the freighter passed. the distance opened. i never knew whether someone on its bridge had watched our little triangle as closely as i had watched theirs.",
+      "i wanted to believe so. somewhere in that enormous dark shape, another person awake, making room for us."
+    ],
+    "equations": [
+      {
+        "afterParagraph": 1,
+        "id": "closest-approach"
+      },
+      {
+        "afterParagraph": 6,
+        "id": "best-response"
+      },
+      {
+        "afterParagraph": 7,
+        "id": "total-response"
+      }
     ]
   },
   {
