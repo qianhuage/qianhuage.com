@@ -1187,7 +1187,7 @@ dialog::backdrop {
   min-height: 0;
   min-width: 0;
   border-left: 1px solid #8296a322;
-  background: linear-gradient(130deg, #11181c99, #080d10);
+  background: transparent;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -1207,7 +1207,7 @@ dialog::backdrop {
   flex: 1;
   border: 0;
   border-radius: 0;
-  background: #0b1115;
+  background: transparent;
   padding: 9px 20px 9px 0;
   font: 11px/1.5 var(--mono);
   color: #b5c5c8;
