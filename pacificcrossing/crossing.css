@@ -1056,7 +1056,8 @@ dialog::backdrop {
 }
 .atlas-filters {
   display: flex;
-  gap: 22px;
+  flex-wrap: wrap;
+  gap: 10px 24px;
   overflow-x: auto;
   scrollbar-width: none;
   min-width: 0;
@@ -1316,7 +1317,7 @@ dialog::backdrop {
     gap: 12px;
   }
   .atlas-filters {
-    gap: 13px;
+    gap: 8px 18px;
   }
   .atlas-filters button {
     font-size: 8px;

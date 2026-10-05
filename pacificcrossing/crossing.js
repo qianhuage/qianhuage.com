@@ -1,5 +1,5 @@
 import { dayMedia, shoreMedia } from "./media.js?v=33";
-import { createCivilizationMap } from "./civilization.js?v=19";
+import { createCivilizationMap } from "./civilization.js?v=20";
 import { trackPoints, trackMeta } from "./track.js";
 import { createPassageReplay } from "./passage-replay.js?v=12";
 import { setupWeatherLayers } from "./weather-layers.js?v=14";
@@ -154,10 +154,10 @@ function closeMobileChart() {
   $("#chart-toggle").textContent = "View chart ↗";
 }
 async function buildJournal() {
-  const response = await fetch("./entries.json?v=36");
+  const response = await fetch("./entries.json?v=37");
   if (!response.ok) throw new Error("Could not load the journal");
   const manuscript = await response.json();
-  const essayResponse = await fetch("./civilization-essay.json?v=21");
+  const essayResponse = await fetch("./civilization-essay.json?v=22");
   if (!essayResponse.ok) throw new Error("Could not load the essay");
   const civilization = await essayResponse.json();
   const entries = manuscript.filter((entry) => entry.day !== 28);
