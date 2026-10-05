@@ -29,6 +29,7 @@
       "the consolation of the 8pm–12am and 4am–8am watches: bioluminescence trembling along the wave crests all night. overhead, more than four thousand stars. the masthead cut through the milky way, as though shaking stardust loose into the sea.",
       "the last time i remember stars like this was at a camp in nepal, with mom. i was in middle school then. i don’t remember what we said beneath them. i wish i remembered more of the ordinary things we said.",
       "i have been dreaming so much these past few days. sleeping in the pitching bunk, i keep finding myself in childhood. dad catching a butterfly and handing it to me. beijing, the 2008 olympics. things i haven’t thought about in years, suddenly happening again, without any sense that they have already happened.",
+      "旧梦依稀，往事迷离。",
       "i used to roll toward the edge of the bed, frighten myself with how close i was to falling, then roll back. out here i wake as the boat heels and, for a second, don’t know which bed i’m in, or how old i am. i lie still until the sounds of the boat return. sometimes i try to go back to sleep before the dream is gone. i want to see what dad does after he hands me the butterfly.",
       "a meteor burned briefly across it all, and there you were again. the ones time had carried elsewhere. some absences, apparently, still answer to falling stars.",
       "painfully cliché in writing, strangely literal in reality."
@@ -146,7 +147,8 @@
       "thirty knots. the first reef was in and there was still too much power in the sail. the helm made the argument felt in my arms.",
       "we let her run. the stern lifted with the following swell, the bow found the slope, and for a few seconds the motion lengthened into something almost effortless. then the wave passed beneath us and the work returned. i kept wanting the next one to last.",
       "every wind seems to want to pass through me, every current to take me with it, none to stay.",
-      "people, too. an unreasonable thing to ask of a following sea, and perhaps of a person. still, there it was: the wish continuing after i had found fault with its logic."
+      "people, too. an unreasonable thing to ask of a following sea, and perhaps of a person. still, there it was: the wish continuing after i had found fault with its logic.",
+      "佳芝，你不要回头看。"
     ]
   },
   {
@@ -157,20 +159,7 @@
       "long discussion on deck about helming style being attachment style at sea.",
       "we have the captain who talks sweetly to the boat, follows where she wants to go, trims gently, negotiates with wind and wave.",
       "then we have me wrestling this mf by the helm, boat heeled over, crew flying across the cockpit, three near mobs in pursuit of twelve knots, fully prepared to fuck everyone up.",
-      "if she won’t go where i want, we die together.",
-      "perhaps the ocean was correcting an older confusion between competence and control.",
-      "on land, understanding a system often meant finding enough leverage to make it obey.",
-      "out here, no amount of intelligence could negotiate with thirty knots of wind or several thousand miles of moving water.",
-      "competence meant something quieter.",
-      "seeing earlier.",
-      "trimming sooner.",
-      "feeling pressure change through the helm before the boat complained.",
-      "knowing what could be changed and what had to be entered on its own terms.",
-      "the individual cannot command the system.",
-      "the highest skill may simply be learning to see it accurately.",
-      "read the wind.",
-      "read the water.",
-      "read the sky."
+      "if she won’t go where i want, we die together."
     ]
   },
   {
@@ -210,6 +199,7 @@
       "suppose, generously, that this response is locally unique and differentiable. my loss then changes in two ways: through what i do directly, and through what you do in response. calling the resulting loss F makes the second dependence visible:",
       "the second term was the part i kept thinking about. whatever i did would enter the conditions under which you decided what to do next. even waiting could change the answer. people anticipate this constantly. a message rewritten because of the reply imagined; a question withheld because of the silence expected. sometimes the difficulty is how much of the other person's future we have already supplied.",
       "under the model's smoothness assumptions, with a nonsingular Hessian for the other's loss, that derivative can be recovered from the local curvature of the other's loss and the way our choices enter it. the algebra is tractable. the premise is extravagant: i have been given your objective.",
+      "我循路而前，满怀喜悦，也许是满怀痛苦？我们的未来，它究竟是最小化，还是最大化？",
       "i could write down a loss for you, differentiate it, follow every consequence correctly, and still be describing someone else. sometimes i wonder how much of what i called understanding was a model i had become unusually good at defending.",
       "there is another difficulty. the best-response equation lets you finish adapting before i decide what comes next. actual people are still learning while the other moves. fatigue changes what feels bearable. time changes what matters. sometimes a relationship teaches us to want something we could not have put into its first equation. some of the difficulty belongs to the dynamics. we still answer for what we do inside them.",
       "at sea, shared rules make a small part of another vessel's future more predictable. in the standard crossing case between two power-driven vessels in sight of one another, with a risk of collision, the vessel with the other to starboard gives way. the other initially holds course and speed. a sailing vessel and a freighter can come under different provisions; the responsibilities depend on the encounter.",
