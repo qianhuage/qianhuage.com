@@ -154,7 +154,7 @@ function closeMobileChart() {
   $("#chart-toggle").textContent = "View chart ↗";
 }
 async function buildJournal() {
-  const response = await fetch("./entries.json?v=34");
+  const response = await fetch("./entries.json?v=35");
   if (!response.ok) throw new Error("Could not load the journal");
   const manuscript = await response.json();
   const essayResponse = await fetch("./civilization-essay.json?v=21");
@@ -240,7 +240,16 @@ async function buildJournal() {
     }
     entry.paragraphs.forEach((paragraph) => {
       const p = document.createElement("p");
-      p.textContent = paragraph;
+      let cursor = 0;
+      for (const match of paragraph.matchAll(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g)) {
+        p.append(paragraph.slice(cursor, match.index));
+        const reference = document.createElement("a");
+        reference.textContent = match[1];
+        reference.href = match[2];
+        p.append(reference);
+        cursor = match.index + match[0].length;
+      }
+      p.append(paragraph.slice(cursor));
       copy.append(p);
     });
     article.append(top, title, place, copy);
