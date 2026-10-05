@@ -154,7 +154,7 @@ function closeMobileChart() {
   $("#chart-toggle").textContent = "View chart ↗";
 }
 async function buildJournal() {
-  const response = await fetch("./entries.json?v=35");
+  const response = await fetch("./entries.json?v=36");
   if (!response.ok) throw new Error("Could not load the journal");
   const manuscript = await response.json();
   const essayResponse = await fetch("./civilization-essay.json?v=21");
