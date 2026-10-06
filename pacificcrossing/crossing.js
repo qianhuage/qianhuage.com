@@ -162,7 +162,7 @@ async function buildJournal() {
   if (!essayResponse.ok) throw new Error("Could not load the essay");
   const civilization = await essayResponse.json();
   const entries = manuscript.filter((entry) => entry.day !== 28);
-  const shoreResponse = await fetch("./after-landfall.json?v=26");
+  const shoreResponse = await fetch("./after-landfall.json?v=27");
   if (shoreResponse.ok) {
     const shore = await shoreResponse.json();
     $("#homeward-title").textContent = shore.title;
