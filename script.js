@@ -41,6 +41,11 @@ const CITY_PITCH = 60;
 const CITY_BEARING = -20;
 const FLY_DURATION = 3500;
 
+// Give the globe its own contrast, fading back to the original city palette.
+const overviewToCity = (overview, city) => [
+  'interpolate', ['linear'], ['zoom'], 4, overview, 8, city,
+];
+
 // ═══════════════════════════════════════════════════════
 // MAPBOX MAP SETUP
 // ═══════════════════════════════════════════════════════
@@ -95,14 +100,14 @@ map.on('style.load', () => {
   // Dark space atmosphere for globe view — pure greyscale, no blue tint
   map.setFog({
     'range': [0.5, 10],
-    'color': 'rgb(5, 5, 5)',
-    'high-color': 'rgb(2, 2, 2)',
-    'horizon-blend': 0.03,
+    'color': overviewToCity('#555555', 'rgb(5, 5, 5)'),
+    'high-color': overviewToCity('#161616', 'rgb(2, 2, 2)'),
+    'horizon-blend': overviewToCity(0.045, 0.03),
     'space-color': 'rgb(0, 0, 0)',
     'star-intensity': 0.15,
   });
 
-  // Customize the dark style to be even darker
+  // Keep the globe readable while retaining the dark city treatment.
   customizeDarkStyle();
 });
 
@@ -122,13 +127,13 @@ function customizeDarkStyle() {
     }
   }
 
-  // Darken water — pure black
-  try { map.setPaintProperty('water', 'fill-color', '#020202'); } catch(e) {}
-
-  // Darken land/background — pure greyscale
-  try { map.setPaintProperty('land', 'background-color', '#050505'); } catch(e) {}
-  try { map.setPaintProperty('landcover', 'fill-color', '#080808'); } catch(e) {}
-  try { map.setPaintProperty('landuse', 'fill-color', '#080808'); } catch(e) {}
+  // Separate land and ocean at globe scale; preserve the city colors at zoom 8+.
+  map.setPaintProperty('water', 'fill-color', overviewToCity('#090909', '#020202'));
+  map.setPaintProperty('land', 'background-color', overviewToCity('#242424', '#050505'));
+  layers.filter(l => l.type === 'fill' &&
+    (l.id.includes('landcover') || l.id === 'landuse')).forEach(l => {
+    map.setPaintProperty(l.id, 'fill-color', overviewToCity('#272727', '#080808'));
+  });
 
   // Make roads very subtle
   const roadLayers = layers.filter(l =>
@@ -151,8 +156,16 @@ function customizeDarkStyle() {
           id.includes('transit') || id.includes('natural') || id.includes('water-point')) {
         try { map.setLayoutProperty(id, 'visibility', 'none'); } catch(e) {}
       }
-      // Make remaining labels subtle
-      try { map.setPaintProperty(id, 'text-color', 'rgba(255,255,255,0.15)'); } catch(e) {}
+      // Country labels orient the overview; city names appear on approach.
+      if (id.startsWith('settlement-')) {
+        map.setPaintProperty(id, 'text-opacity', [
+          'interpolate', ['linear'], ['zoom'], 3, 0, 5, 1,
+        ]);
+      }
+      if (l.layout && l.layout['text-field']) {
+        map.setPaintProperty(id, 'text-color',
+          overviewToCity('rgba(255,255,255,0.5)', 'rgba(255,255,255,0.15)'));
+      }
     }
   });
 
