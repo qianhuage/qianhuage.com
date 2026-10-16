@@ -38,6 +38,108 @@
       "title_language": "en"
     },
     {
+      "title": "Septologien",
+      "author": "Jon Fosse",
+      "year": "2019–2021",
+      "title_language": "nn",
+      "url": "https://fitzcarraldoeditions.com/books/septology/",
+      "format": "books",
+      "date": "2026-10-16",
+      "aliases": [
+        "Septology",
+        "七部曲"
+      ]
+    },
+    {
+      "title": "Det er Ales",
+      "author": "Jon Fosse",
+      "year": 2004,
+      "title_language": "nn",
+      "url": "https://fitzcarraldoeditions.com/books/aliss-at-the-fire/",
+      "format": "books",
+      "date": "2026-10-16",
+      "aliases": [
+        "Aliss at the Fire"
+      ]
+    },
+    {
+      "title": "L’amica geniale",
+      "author": "Elena Ferrante",
+      "year": 2011,
+      "title_language": "it",
+      "url": "https://www.europaeditions.co.uk/book/9781787701748/my-brilliant-friend-tie-in-edition",
+      "format": "books",
+      "date": "2026-10-16",
+      "aliases": [
+        "My Brilliant Friend",
+        "L'amica geniale",
+        "我的天才女友"
+      ]
+    },
+    {
+      "title": "The Warmth of Other Suns",
+      "author": "Isabel Wilkerson",
+      "year": 2010,
+      "title_language": "en",
+      "url": "https://www.penguinrandomhouse.com/books/190696/the-warmth-of-other-suns-by-isabel-wilkerson/",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Wolf Hall",
+      "author": "Hilary Mantel",
+      "year": 2009,
+      "title_language": "en",
+      "url": "https://us.macmillan.com/books/9781250806710/wolfhall/",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "The Corrections",
+      "author": "Jonathan Franzen",
+      "year": 2001,
+      "title_language": "en",
+      "url": "https://us.macmillan.com/books/9781429928618/thecorrections/",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Austerlitz",
+      "author": "W. G. Sebald",
+      "year": 2001,
+      "title_language": "de",
+      "url": "https://www.fischerverlage.de/buch/w-g-sebald-austerlitz-9783596148646",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Gilead",
+      "author": "Marilynne Robinson",
+      "year": 2004,
+      "title_language": "en",
+      "url": "https://us.macmillan.com/books/9780374602109/gileadoprahsbookclub/",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "year": 2006,
+      "title_language": "en",
+      "url": "https://www.penguinrandomhouse.com/books/110490/the-road-by-cormac-mccarthy/",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Outline",
+      "author": "Rachel Cusk",
+      "year": 2014,
+      "title_language": "en",
+      "url": "https://us.macmillan.com/books/9781250081544/outline/",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
       "title": "Probabilistic Machine Learning: An Introduction",
       "author": "Kevin P. Murphy",
       "url": "https://probml.github.io/pml-book/book1.html",
@@ -3226,108 +3328,6 @@
       "note": "An illustrated reference book by Dan Hollick on how software works.",
       "author": "Dan Hollick",
       "title_language": "en"
-    },
-    {
-      "title": "Septologien",
-      "author": "Jon Fosse",
-      "year": "2019–2021",
-      "title_language": "nn",
-      "url": "https://fitzcarraldoeditions.com/books/septology/",
-      "format": "books",
-      "date": "2026-10-16",
-      "aliases": [
-        "Septology",
-        "七部曲"
-      ]
-    },
-    {
-      "title": "Det er Ales",
-      "author": "Jon Fosse",
-      "year": 2004,
-      "title_language": "nn",
-      "url": "https://fitzcarraldoeditions.com/books/aliss-at-the-fire/",
-      "format": "books",
-      "date": "2026-10-16",
-      "aliases": [
-        "Aliss at the Fire"
-      ]
-    },
-    {
-      "title": "L’amica geniale",
-      "author": "Elena Ferrante",
-      "year": 2011,
-      "title_language": "it",
-      "url": "https://www.europaeditions.co.uk/book/9781787701748/my-brilliant-friend-tie-in-edition",
-      "format": "books",
-      "date": "2026-10-16",
-      "aliases": [
-        "My Brilliant Friend",
-        "L'amica geniale",
-        "我的天才女友"
-      ]
-    },
-    {
-      "title": "The Warmth of Other Suns",
-      "author": "Isabel Wilkerson",
-      "year": 2010,
-      "title_language": "en",
-      "url": "https://www.penguinrandomhouse.com/books/190696/the-warmth-of-other-suns-by-isabel-wilkerson/",
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "Wolf Hall",
-      "author": "Hilary Mantel",
-      "year": 2009,
-      "title_language": "en",
-      "url": "https://us.macmillan.com/books/9781250806710/wolfhall/",
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "The Corrections",
-      "author": "Jonathan Franzen",
-      "year": 2001,
-      "title_language": "en",
-      "url": "https://us.macmillan.com/books/9781429928618/thecorrections/",
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "Austerlitz",
-      "author": "W. G. Sebald",
-      "year": 2001,
-      "title_language": "de",
-      "url": "https://www.fischerverlage.de/buch/w-g-sebald-austerlitz-9783596148646",
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "Gilead",
-      "author": "Marilynne Robinson",
-      "year": 2004,
-      "title_language": "en",
-      "url": "https://us.macmillan.com/books/9780374602109/gileadoprahsbookclub/",
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "The Road",
-      "author": "Cormac McCarthy",
-      "year": 2006,
-      "title_language": "en",
-      "url": "https://www.penguinrandomhouse.com/books/110490/the-road-by-cormac-mccarthy/",
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "Outline",
-      "author": "Rachel Cusk",
-      "year": 2014,
-      "title_language": "en",
-      "url": "https://us.macmillan.com/books/9781250081544/outline/",
-      "format": "books",
-      "date": "2026-10-16"
     },
     {
       "title": "The Last Samurai",
