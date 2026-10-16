@@ -82,18 +82,6 @@
       "title_language": "zh-Hant"
     },
     {
-      "title": "月曜日の抹茶カフェ",
-      "author": "青山美智子",
-      "url": "https://tkj.jp/book/?cd=TD044099",
-      "format": "books",
-      "date": "2026-10-15",
-      "title_language": "ja",
-      "aliases": [
-        "月曜日的抹茶咖啡店"
-      ],
-      "year": 2021
-    },
-    {
       "title": "Die Gesellschaft der Singularitäten: Zum Strukturwandel der Moderne",
       "author": "安德烈亞斯．雷克維茲（Andreas Reckwitz）",
       "url": "https://www.suhrkamp.de/buch/andreas-reckwitz-die-gesellschaft-der-singularitaeten-t-9783518587423",
@@ -3204,6 +3192,172 @@
       "title_language": "en"
     },
     {
+      "title": "Septologien",
+      "author": "Jon Fosse",
+      "year": "2019–2021",
+      "title_language": "nn",
+      "url": "https://fitzcarraldoeditions.com/books/septology/",
+      "format": "books",
+      "date": "2026-10-16",
+      "aliases": [
+        "Septology",
+        "七部曲"
+      ]
+    },
+    {
+      "title": "Det er Ales",
+      "author": "Jon Fosse",
+      "year": 2004,
+      "title_language": "nn",
+      "url": "https://fitzcarraldoeditions.com/books/aliss-at-the-fire/",
+      "format": "books",
+      "date": "2026-10-16",
+      "aliases": [
+        "Aliss at the Fire"
+      ]
+    },
+    {
+      "title": "L’amica geniale",
+      "author": "Elena Ferrante",
+      "year": 2011,
+      "title_language": "it",
+      "url": "https://www.europaeditions.co.uk/book/9781787701748/my-brilliant-friend-tie-in-edition",
+      "format": "books",
+      "date": "2026-10-16",
+      "aliases": [
+        "My Brilliant Friend",
+        "L'amica geniale",
+        "我的天才女友"
+      ]
+    },
+    {
+      "title": "The Warmth of Other Suns",
+      "author": "Isabel Wilkerson",
+      "year": 2010,
+      "title_language": "en",
+      "url": "https://www.penguinrandomhouse.com/books/190696/the-warmth-of-other-suns-by-isabel-wilkerson/",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Wolf Hall",
+      "author": "Hilary Mantel",
+      "year": 2009,
+      "title_language": "en",
+      "url": "https://us.macmillan.com/books/9781250806710/wolfhall/",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "The Corrections",
+      "author": "Jonathan Franzen",
+      "year": 2001,
+      "title_language": "en",
+      "url": "https://us.macmillan.com/books/9781429928618/thecorrections/",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Austerlitz",
+      "author": "W. G. Sebald",
+      "year": 2001,
+      "title_language": "de",
+      "url": "https://www.fischerverlage.de/buch/w-g-sebald-austerlitz-9783596148646",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Gilead",
+      "author": "Marilynne Robinson",
+      "year": 2004,
+      "title_language": "en",
+      "url": "https://us.macmillan.com/books/9780374602109/gileadoprahsbookclub/",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "year": 2006,
+      "title_language": "en",
+      "url": "https://www.penguinrandomhouse.com/books/110490/the-road-by-cormac-mccarthy/",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Outline",
+      "author": "Rachel Cusk",
+      "year": 2014,
+      "title_language": "en",
+      "url": "https://us.macmillan.com/books/9781250081544/outline/",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "The Last Samurai",
+      "author": "Helen DeWitt",
+      "year": 2000,
+      "title_language": "en",
+      "url": "https://www.ndbooks.com/book/the-last-samurai/",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "White Teeth",
+      "author": "Zadie Smith",
+      "year": 2000,
+      "title_language": "en",
+      "url": "https://www.penguinrandomhouse.com/books/169680/white-teeth-by-zadie-smith/",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "The Line of Beauty",
+      "author": "Alan Hollinghurst",
+      "year": 2004,
+      "title_language": "en",
+      "url": "https://www.bloomsbury.com/us/line-of-beauty-9781582346106/",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Citizen: An American Lyric",
+      "author": "Claudia Rankine",
+      "year": 2014,
+      "title_language": "en",
+      "url": "https://www.graywolfpress.org/books/citizen",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Les Années",
+      "author": "Annie Ernaux",
+      "year": 2008,
+      "title_language": "fr",
+      "url": "https://www.sevenstories.com/books/4032-the-years/",
+      "format": "books",
+      "date": "2026-10-16",
+      "aliases": [
+        "The Years",
+        "悠悠歲月",
+        "悠悠岁月"
+      ]
+    },
+    {
+      "title": "Los detectives salvajes",
+      "author": "Roberto Bolaño",
+      "year": 1998,
+      "title_language": "es",
+      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/los-detectives-salvajes/9788433910868/NH_256",
+      "format": "books",
+      "date": "2026-10-16",
+      "aliases": [
+        "The Savage Detectives",
+        "荒野偵探",
+        "荒野侦探"
+      ]
+    },
+    {
       "title": "Dithering — Part 1",
       "url": "https://visualrambling.space/dithering-part-1/",
       "format": "read",
@@ -3733,14 +3887,122 @@
       "title_source": "https://www.newwavefilms.co.uk/assets/1663/What_Do_We_See_When_We_Look_At_The_Sky___Press_Book.pdf"
     },
     {
-      "date": "2026-10-15",
-      "format": "books",
-      "title": "A History of God",
-      "url": "https://www.floguo.com/books/a-history-of-god",
-      "author": "Karen Armstrong",
-      "year": 1993,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en"
+      "title": "Lady Bird",
+      "director": "Greta Gerwig",
+      "year": 2017,
+      "url": "https://a24films.com/films/lady-bird",
+      "aliases": [
+        "淑女鳥",
+        "淑女鸟"
+      ],
+      "title_language": "en",
+      "format": "watch",
+      "collection": "Contemporary cinema",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Boyhood",
+      "director": "Richard Linklater",
+      "year": 2014,
+      "url": "https://www.ifccenter.com/films/boyhood/",
+      "aliases": [
+        "年少時代",
+        "年少时代",
+        "少年時代",
+        "少年时代"
+      ],
+      "title_language": "en",
+      "format": "watch",
+      "collection": "Contemporary cinema",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "The Grand Budapest Hotel",
+      "director": "Wes Anderson",
+      "year": 2014,
+      "url": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+      "aliases": [
+        "歡迎來到布達佩斯大飯店",
+        "布達佩斯大飯店",
+        "布达佩斯大饭店"
+      ],
+      "title_language": "en",
+      "format": "watch",
+      "collection": "Contemporary cinema",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Arrival",
+      "director": "Denis Villeneuve",
+      "year": 2016,
+      "url": "https://www.paramountpictures.com/movies/arrival",
+      "aliases": [
+        "異星入境",
+        "降臨",
+        "降临"
+      ],
+      "title_language": "en",
+      "format": "watch",
+      "collection": "Contemporary cinema",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Whiplash",
+      "director": "Damien Chazelle",
+      "year": 2014,
+      "url": "https://www.sonyclassics.com/film//whiplash",
+      "aliases": [
+        "進擊的鼓手",
+        "爆裂鼓手"
+      ],
+      "title_language": "en",
+      "format": "watch",
+      "collection": "Contemporary cinema",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "The Florida Project",
+      "director": "Sean Baker",
+      "year": 2017,
+      "url": "https://a24films.com/films/the-florida-project",
+      "aliases": [
+        "歡迎光臨奇幻城堡",
+        "佛羅里達樂園",
+        "佛罗里达乐园"
+      ],
+      "title_language": "en",
+      "format": "watch",
+      "collection": "Contemporary cinema",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "TÁR",
+      "director": "Todd Field",
+      "year": 2022,
+      "url": "https://www.focusfeatures.com/tar",
+      "aliases": [
+        "Tár",
+        "Tar",
+        "塔爾",
+        "塔尔"
+      ],
+      "title_language": "en",
+      "format": "watch",
+      "collection": "Contemporary cinema",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Marriage Story",
+      "director": "Noah Baumbach",
+      "year": 2019,
+      "url": "https://www.netflix.com/title/80223779",
+      "aliases": [
+        "婚姻故事"
+      ],
+      "title_language": "en",
+      "format": "watch",
+      "collection": "Contemporary cinema",
+      "date": "2026-10-16"
     },
     {
       "date": "2026-10-15",
@@ -3759,16 +4021,6 @@
       "url": "https://www.floguo.com/books/a-replacement-for-religion",
       "author": "The School of Life",
       "year": 2019,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en"
-    },
-    {
-      "date": "2026-10-15",
-      "format": "books",
-      "title": "A Simpler Life: A Guide to Greater Serenity, Ease, and Clarity",
-      "url": "https://www.floguo.com/books/a-simpler-life",
-      "author": "The School of Life",
-      "year": 2022,
       "source": "https://www.floguo.com/books",
       "title_language": "en"
     },
@@ -3795,39 +4047,9 @@
     {
       "date": "2026-10-15",
       "format": "books",
-      "title": "Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman",
-      "url": "https://www.floguo.com/books/apprenticeship-patterns",
-      "author": "Dave H. Hoover & Adewale Oshineye",
-      "year": 2010,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en"
-    },
-    {
-      "date": "2026-10-15",
-      "format": "books",
       "title": "Arranging Things: A Rhetoric of Object Placement",
       "url": "https://www.floguo.com/books/arranging-things",
       "author": "Leonard Koren",
-      "year": 2003,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en"
-    },
-    {
-      "date": "2026-10-15",
-      "format": "books",
-      "title": "Articulating Design Decisions, 2nd Edition",
-      "url": "https://www.floguo.com/books/articulating-design-decisions",
-      "author": "Tom Greever",
-      "year": 2020,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en"
-    },
-    {
-      "date": "2026-10-15",
-      "format": "books",
-      "title": "Atheism: A Very Short Introduction",
-      "url": "https://www.floguo.com/books/atheism-a-very-short-intro",
-      "author": "Julian Baggini",
       "year": 2003,
       "source": "https://www.floguo.com/books",
       "title_language": "en"
@@ -3839,16 +4061,6 @@
       "url": "https://www.floguo.com/books/colors-of-wes-anderson",
       "author": "Hannah Strong",
       "year": 2025,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en"
-    },
-    {
-      "date": "2026-10-15",
-      "format": "books",
-      "title": "Dopamine Nation: Finding Balance in the Age of Indulgence",
-      "url": "https://www.floguo.com/books/dopamine-nation",
-      "author": "Anna Lembke",
-      "year": 2024,
       "source": "https://www.floguo.com/books",
       "title_language": "en"
     },
@@ -3869,16 +4081,6 @@
       "url": "https://www.floguo.com/books/essentialism",
       "author": "Greg McKeown",
       "year": 2014,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en"
-    },
-    {
-      "date": "2026-10-15",
-      "format": "books",
-      "title": "Fighting Shadows: Overcoming 7 Lies That Keep Men from Becoming Fully Alive",
-      "url": "https://www.floguo.com/books/fighting-shadows",
-      "author": "Jefferson Bethke & Jon Tyson",
-      "year": 2024,
       "source": "https://www.floguo.com/books",
       "title_language": "en"
     },
@@ -3936,29 +4138,9 @@
     {
       "date": "2026-10-15",
       "format": "books",
-      "title": "Life Is Calling: How to discover your truest self and live your fullest life",
-      "url": "https://www.floguo.com/books/life-is-calling",
-      "author": "Travis Clark",
-      "year": 2021,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en"
-    },
-    {
-      "date": "2026-10-15",
-      "format": "books",
       "title": "Looking Forward to Monday Morning",
       "url": "https://www.floguo.com/books/looking-forward-to-monday-morning",
       "author": "Daniel Frisch",
-      "year": 2024,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en"
-    },
-    {
-      "date": "2026-10-15",
-      "format": "books",
-      "title": "Lower Than the Angels: A History of Sex and Christianity",
-      "url": "https://www.floguo.com/books/lower-than-the-angels",
-      "author": "Diarmaid MacCulloch",
       "year": 2024,
       "source": "https://www.floguo.com/books",
       "title_language": "en"
@@ -4000,16 +4182,6 @@
       "url": "https://www.floguo.com/books/posuta",
       "author": "Victionary (Third Edition)",
       "year": 2025,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en"
-    },
-    {
-      "date": "2026-10-15",
-      "format": "books",
-      "title": "Prayer",
-      "url": "https://www.floguo.com/books/prayer",
-      "author": "Timothy Keller",
-      "year": 2014,
       "source": "https://www.floguo.com/books",
       "title_language": "en"
     },
@@ -4061,21 +4233,6 @@
     {
       "date": "2026-10-15",
       "format": "books",
-      "title": "嫌われる勇気",
-      "url": "https://diamond.jp/category/s-adler/info",
-      "author": "Ichiro Kishimi, Fumitake Koga",
-      "year": 2013,
-      "source": "https://www.floguo.com/books",
-      "title_language": "ja",
-      "aliases": [
-        "The Courage to Be Disliked",
-        "被討厭的勇氣",
-        "被讨厌的勇气"
-      ]
-    },
-    {
-      "date": "2026-10-15",
-      "format": "books",
       "title": "象の消滅―短篇選集1980–1991―",
       "url": "https://www.shinchosha.co.jp/book/353416/",
       "author": "Haruki Murakami",
@@ -4100,30 +4257,10 @@
     {
       "date": "2026-10-15",
       "format": "books",
-      "title": "The Holy Bible (ESV)",
-      "url": "https://www.floguo.com/books/the-holy-bible-esv",
-      "author": "Crossway",
-      "year": 2001,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en"
-    },
-    {
-      "date": "2026-10-15",
-      "format": "books",
       "title": "The Nature of Order",
       "url": "https://www.floguo.com/books/the-nature-of-order",
       "author": "Christopher Alexander",
       "year": 2002,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en"
-    },
-    {
-      "date": "2026-10-15",
-      "format": "books",
-      "title": "The Poetry of Flowers",
-      "url": "https://www.floguo.com/books/the-poetry-of-flowers",
-      "author": "Edited by Samuel Carr",
-      "year": 2025,
       "source": "https://www.floguo.com/books",
       "title_language": "en"
     },
@@ -4147,14 +4284,64 @@
       "title_language": "en"
     },
     {
-      "date": "2026-10-15",
+      "title": "Jean-Christophe",
+      "author": "Romain Rolland",
+      "year": "1904–1912",
+      "title_language": "fr",
+      "url": "https://www.albin-michel.fr/jean-christophe-9782226168139",
+      "aliases": [
+        "約翰・克利斯朵夫",
+        "约翰·克利斯朵夫",
+        "約翰克利斯朵夫",
+        "約翰·克里斯托夫"
+      ],
       "format": "books",
-      "title": "The Shortest History of China",
-      "url": "https://www.floguo.com/books/the-shortest-history-of-china",
-      "author": "Linda Jaivin",
-      "year": 2021,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en"
+      "date": "2026-10-16"
+    },
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "year": 1925,
+      "title_language": "en",
+      "url": "https://www.gutenberg.org/ebooks/64317",
+      "aliases": [
+        "大亨小傳",
+        "了不起的蓋茨比",
+        "了不起的盖茨比"
+      ],
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Don Quijote de la Mancha",
+      "author": "Miguel de Cervantes",
+      "year": "1605 / 1615",
+      "title_language": "es",
+      "url": "https://cvc.cervantes.es/literatura/clasicos/quijote/default.htm",
+      "aliases": [
+        "Don Quixote",
+        "唐吉訶德",
+        "堂吉訶德",
+        "堂吉诃德"
+      ],
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Война и мир",
+      "author": "Leo Tolstoy",
+      "year": 1869,
+      "title_language": "ru",
+      "url": "https://tolstoy.ru/upload/iblock/519/voina-i-mir.pdf",
+      "aliases": [
+        "War and Peace",
+        "戰爭與和平",
+        "战争与和平",
+        "Lev Tolstoy",
+        "Лев Толстой"
+      ],
+      "format": "books",
+      "date": "2026-10-16"
     },
     {
       "date": "2026-10-15",
@@ -4210,36 +4397,6 @@
       "url": "https://www.floguo.com/books/wabi-sabi",
       "author": "Leonard Koren",
       "year": 1994,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en"
-    },
-    {
-      "date": "2026-10-15",
-      "format": "books",
-      "title": "Who is This Man? The Unpredictable Impact of the Inescapable Jesus",
-      "url": "https://www.floguo.com/books/who-is-this-man",
-      "author": "John Ortberg",
-      "year": 2012,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en"
-    },
-    {
-      "date": "2026-10-15",
-      "format": "books",
-      "title": "Wuthering Heights",
-      "url": "https://www.floguo.com/books/wuthering-heights",
-      "author": "Emily Brontë",
-      "year": 1847,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en"
-    },
-    {
-      "date": "2026-10-15",
-      "format": "books",
-      "title": "You Could Make This Place Beautiful: A Memoir",
-      "url": "https://www.floguo.com/books/you-could-make-this-place-beautiful",
-      "author": "Maggie Smith",
-      "year": 2024,
       "source": "https://www.floguo.com/books",
       "title_language": "en"
     },
@@ -4777,15 +4934,6 @@
       "title": "Build a Large Language Model (From Scratch)",
       "author": "Sebastian Raschka",
       "url": "https://www.sebastianraschka.com/llms-from-scratch/",
-      "format": "books",
-      "date": "2026-10-15",
-      "year": 2024,
-      "title_language": "en"
-    },
-    {
-      "title": "Hands-On Large Language Models",
-      "author": "Jay Alammar & Maarten Grootendorst",
-      "url": "https://www.llm-book.com/",
       "format": "books",
       "date": "2026-10-15",
       "year": 2024,
