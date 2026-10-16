@@ -130,6 +130,15 @@
       "note": "Memory, retrieval, reflection, and planning tested in a simulated town. A concrete account of how past experience can shape an agent’s behavior; its evaluation concerns believability, not consciousness."
     },
     {
+      "title": "Understanding Deep Learning",
+      "author": "Simon J. D. Prince",
+      "url": "https://udlbook.github.io/udlbook/",
+      "format": "books",
+      "date": "2026-10-15",
+      "year": 2023,
+      "title_language": "en"
+    },
+    {
       "title": "Dormio: A Targeted Dream Incubation Device",
       "url": "https://dspace.mit.edu/entities/publication/3b42031f-57f1-4c90-9746-bf09af3cc19b",
       "format": "read",
@@ -1433,6 +1442,15 @@
       "source": "https://www.designeer.xyz/"
     },
     {
+      "title": "Build a Large Language Model (From Scratch)",
+      "author": "Sebastian Raschka",
+      "url": "https://www.sebastianraschka.com/llms-from-scratch/",
+      "format": "books",
+      "date": "2026-10-15",
+      "year": 2024,
+      "title_language": "en"
+    },
+    {
       "title": "Canvas UI",
       "url": "https://canvasui.dev/",
       "format": "build",
@@ -1823,6 +1841,15 @@
       "topic": "Agents & MCP",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
+    },
+    {
+      "title": "AI Engineering: Building Applications with Foundation Models",
+      "author": "Chip Huyen",
+      "url": "https://www.oreilly.com/library/view/ai-engineering/9781098166298/",
+      "format": "books",
+      "date": "2026-10-15",
+      "year": 2025,
+      "title_language": "en"
     },
     {
       "title": "Herdr",
@@ -2279,6 +2306,15 @@
       "topic": "Shaders",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
+    },
+    {
+      "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition",
+      "author": "Aurélien Géron",
+      "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/",
+      "format": "books",
+      "date": "2026-10-15",
+      "year": 2022,
+      "title_language": "en"
     },
     {
       "title": "Shaderfrog",
@@ -4609,6 +4645,15 @@
       "url": "https://www.agentation.com/"
     },
     {
+      "title": "Designing Machine Learning Systems",
+      "author": "Chip Huyen",
+      "url": "https://www.oreilly.com/library/view/designing-machine-learning-systems/9781098107956/",
+      "format": "books",
+      "date": "2026-10-15",
+      "year": 2022,
+      "title_language": "en"
+    },
+    {
       "date": "2026-07-12",
       "format": "use",
       "title": "emilkowalski/skills",
@@ -4911,51 +4956,6 @@
       "url": "https://www.gutenberg.org/ebooks/7205",
       "format": "books",
       "date": "2026-10-16"
-    },
-    {
-      "title": "Understanding Deep Learning",
-      "author": "Simon J. D. Prince",
-      "url": "https://udlbook.github.io/udlbook/",
-      "format": "books",
-      "date": "2026-10-15",
-      "year": 2023,
-      "title_language": "en"
-    },
-    {
-      "title": "AI Engineering: Building Applications with Foundation Models",
-      "author": "Chip Huyen",
-      "url": "https://www.oreilly.com/library/view/ai-engineering/9781098166298/",
-      "format": "books",
-      "date": "2026-10-15",
-      "year": 2025,
-      "title_language": "en"
-    },
-    {
-      "title": "Build a Large Language Model (From Scratch)",
-      "author": "Sebastian Raschka",
-      "url": "https://www.sebastianraschka.com/llms-from-scratch/",
-      "format": "books",
-      "date": "2026-10-15",
-      "year": 2024,
-      "title_language": "en"
-    },
-    {
-      "title": "Designing Machine Learning Systems",
-      "author": "Chip Huyen",
-      "url": "https://www.oreilly.com/library/view/designing-machine-learning-systems/9781098107956/",
-      "format": "books",
-      "date": "2026-10-15",
-      "year": 2022,
-      "title_language": "en"
-    },
-    {
-      "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition",
-      "author": "Aurélien Géron",
-      "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/",
-      "format": "books",
-      "date": "2026-10-15",
-      "year": 2022,
-      "title_language": "en"
     },
     {
       "title": "Broken China: How the Economic Miracle Shattered and What it Means for the World",
