@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=map-only-2">
+  <link rel="stylesheet" href="styles.css?v=sidebar-5">
 </head>
 <body>
 
@@ -20,14 +20,17 @@
   <!-- HUD -->
   <div id="hud" class="hud">
     <div class="hud-left">
-      <div class="hud-brand" id="hud-brand">Qianhua Ge</div>
+      <button class="hud-brand" id="hud-brand" type="button">Qianhua Ge</button>
     </div>
     <div class="hud-center">
       <div class="hud-location" id="hud-location"></div>
     </div>
     <div class="hud-right">
-      <button class="hud-btn" id="btn-autopilot" title="Auto Pilot">▶</button>
-      <button class="hud-btn" id="btn-overview" title="Globe View">◎</button>
+      <button class="hud-btn" id="btn-autopilot" type="button" title="Start project tour" aria-label="Start project tour" aria-pressed="false">
+        <span id="autopilot-icon" aria-hidden="true">▶</span>
+        <span id="autopilot-label">Tour</span>
+      </button>
+      <a class="hud-btn" href="resources/index.html">Index <span aria-hidden="true">↗</span></a>
     </div>
   </div>
 
@@ -44,7 +47,7 @@
 
   <!-- PROJECT PANEL (FLOATING CARD) -->
   <div id="project-panel" class="project-panel hidden">
-    <button id="panel-close" class="panel-close">✕</button>
+    <button id="panel-close" class="panel-close" type="button" title="Close project and return to globe" aria-label="Close project and return to globe">✕</button>
     <div class="panel-image-wrap">
       <img id="panel-image" src="" alt="">
     </div>
@@ -85,6 +88,6 @@
   <!-- MAPBOX GL JS -->
   <link href="https://api.mapbox.com/mapbox-gl-js/v3.20.0/mapbox-gl.css" rel="stylesheet">
   <script src="https://api.mapbox.com/mapbox-gl-js/v3.20.0/mapbox-gl.js"></script>
-  <script defer src="script.js?v=globe-outline-1"></script>
+  <script defer src="script.js?v=sidebar-5"></script>
 </body>
 </html>

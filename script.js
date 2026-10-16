@@ -332,7 +332,7 @@ let autopilotTimer = null;
 
 function startAutopilot() {
   autopilotActive = true;
-  document.getElementById('btn-autopilot').classList.add('active');
+  updateAutopilotControl();
   // Start from next project
   const nextIdx = (activeProjectIndex + 1) % PROJECTS.length;
   flyToProject(nextIdx);
@@ -340,11 +340,22 @@ function startAutopilot() {
 
 function stopAutopilot() {
   autopilotActive = false;
-  document.getElementById('btn-autopilot').classList.remove('active');
+  updateAutopilotControl();
   if (autopilotTimer) {
     clearTimeout(autopilotTimer);
     autopilotTimer = null;
   }
+}
+
+function updateAutopilotControl() {
+  const button = document.getElementById('btn-autopilot');
+  const label = autopilotActive ? 'Pause project tour' : 'Start project tour';
+  button.classList.toggle('active', autopilotActive);
+  button.setAttribute('aria-pressed', String(autopilotActive));
+  button.setAttribute('aria-label', label);
+  button.title = label;
+  document.getElementById('autopilot-icon').textContent = autopilotActive ? 'Ⅱ' : '▶';
+  document.getElementById('autopilot-label').textContent = autopilotActive ? 'Pause' : 'Tour';
 }
 
 function nextAutopilot() {
@@ -373,8 +384,20 @@ const connectorSvg = document.getElementById('panel-connector');
 const connectorLine = document.getElementById('connector-line');
 
 let activePanelProject = null;
+let panelHideTimer = null;
+let flightEndHandler = null;
+
+function cancelFlight() {
+  // Remove the previous arrival callback before stop() emits moveend.
+  if (flightEndHandler) {
+    map.off('moveend', flightEndHandler);
+    flightEndHandler = null;
+  }
+  map.stop();
+}
 
 function flyToProject(index) {
+  cancelFlight();
   const proj = PROJECTS[index];
   const prevIndex = activeProjectIndex;
   activeProjectIndex = index;
@@ -396,6 +419,7 @@ function flyToProject(index) {
   // Update active location in sidebar
   document.querySelectorAll('.location-item').forEach((el, i) => {
     el.classList.toggle('active', i === index);
+    el.setAttribute('aria-pressed', String(i === index));
   });
 
   // Update active marker styling
@@ -405,6 +429,18 @@ function flyToProject(index) {
 
   // Close project panel during flight
   closeProjectPanel();
+
+  // Register before flying so an immediate arrival is handled too.
+  flightEndHandler = () => {
+    map.off('moveend', flightEndHandler);
+    flightEndHandler = null;
+    isFlying = false;
+    hudLocationEl.textContent = proj.city;
+    flightStrip.classList.add('hidden');
+    openProjectPanel(proj);
+    if (autopilotActive) nextAutopilot();
+  };
+  map.on('moveend', flightEndHandler);
 
   // Fly to the project location
   map.flyTo({
@@ -417,19 +453,10 @@ function flyToProject(index) {
     curve: 1.42,
   });
 
-  // Listen for flight end
-  const onMoveEnd = () => {
-    map.off('moveend', onMoveEnd);
-    isFlying = false;
-    hudLocationEl.textContent = proj.city;
-    flightStrip.classList.add('hidden');
-    openProjectPanel(proj);
-    if (autopilotActive) nextAutopilot();
-  };
-  map.on('moveend', onMoveEnd);
 }
 
 function openProjectPanel(proj) {
+  clearTimeout(panelHideTimer);
   activePanelProject = proj;
   panelImage.src = proj.img;
   panelImage.alt = proj.title;
@@ -444,6 +471,7 @@ function openProjectPanel(proj) {
   positionPanelNearMarker(proj);
   projectPanel.classList.remove('hidden');
   requestAnimationFrame(() => {
+    if (activePanelProject !== proj) return;
     projectPanel.classList.add('visible');
     connectorSvg.classList.add('visible');
   });
@@ -453,7 +481,8 @@ function closeProjectPanel() {
   activePanelProject = null;
   projectPanel.classList.remove('visible');
   connectorSvg.classList.remove('visible');
-  setTimeout(() => projectPanel.classList.add('hidden'), 400);
+  clearTimeout(panelHideTimer);
+  panelHideTimer = setTimeout(() => projectPanel.classList.add('hidden'), 400);
 }
 
 // Position project panel near the marker's screen coordinates
@@ -503,12 +532,28 @@ function updatePanelPosition() {
 map.on('move', updatePanelPosition);
 
 function goOverview() {
+  stopAutopilot();
+  cancelFlight();
+  isFlying = true;
+  globeSpinning = false;
   closeProjectPanel();
   closeBioOverlay();
   activeProjectIndex = -1;
+  flightStrip.classList.add('hidden');
   hudLocationEl.textContent = 'Founder · Investor · Designer · Engineer';
-  document.querySelectorAll('.location-item').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.location-item').forEach(el => {
+    el.classList.remove('active');
+    el.setAttribute('aria-pressed', 'false');
+  });
   mapMarkers.forEach(m => m.el.classList.remove('active'));
+
+  flightEndHandler = () => {
+    map.off('moveend', flightEndHandler);
+    flightEndHandler = null;
+    isFlying = false;
+    globeSpinning = true;
+  };
+  map.on('moveend', flightEndHandler);
 
   map.flyTo({
     center: [-100, 35],
@@ -519,12 +564,6 @@ function goOverview() {
     essential: true,
   });
 
-  // Resume globe spinning after flight completes
-  const onOverviewEnd = () => {
-    map.off('moveend', onOverviewEnd);
-    globeSpinning = true;
-  };
-  map.on('moveend', onOverviewEnd);
 }
 
 // ── Bio overlay helpers ──────────────────────────────
@@ -541,14 +580,16 @@ function toggleBioOverlay() {
 // ── Build location sidebar ───────────────────────────
 function buildLocationList() {
   PROJECTS.forEach((proj, i) => {
-    const item = document.createElement('div');
+    const item = document.createElement('button');
+    item.type = 'button';
+    item.setAttribute('aria-pressed', 'false');
     item.className = 'location-item';
     item.innerHTML = `
-      <div class="location-dot"></div>
-      <div>
-        <div class="location-name">${proj.title}</div>
-        <div class="location-city">${proj.city}</div>
-      </div>
+      <span>
+        <span class="location-name">${proj.title}</span>
+        <span class="location-city">${proj.city}</span>
+      </span>
+      <span class="location-number" aria-hidden="true">${String(i + 1).padStart(2, '0')}</span>
     `;
     item.addEventListener('click', () => {
       stopAutopilot();
@@ -578,7 +619,7 @@ function init() {
   });
 
   // Event listeners
-  document.getElementById('panel-close').addEventListener('click', closeProjectPanel);
+  document.getElementById('panel-close').addEventListener('click', goOverview);
 
   document.getElementById('btn-autopilot').addEventListener('click', () => {
     if (autopilotActive) {
@@ -587,8 +628,6 @@ function init() {
       startAutopilot();
     }
   });
-
-  document.getElementById('btn-overview').addEventListener('click', goOverview);
 
   document.getElementById('hud-brand').addEventListener('click', toggleBioOverlay);
 
@@ -601,10 +640,10 @@ function init() {
   // Keyboard shortcuts
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
-      closeProjectPanel();
-      closeBioOverlay();
-      stopAutopilot();
+      if (activeProjectIndex !== -1) goOverview();
+      else closeBioOverlay();
     }
+    if (e.target.closest('button, a, input, select, textarea, [contenteditable]')) return;
     if (e.key === ' ' || e.key === 'p') {
       e.preventDefault();
       if (autopilotActive) stopAutopilot();
@@ -616,7 +655,7 @@ function init() {
   // Click globe to close panels
   map.on('click', () => {
     if (!isFlying && activePanelProject) {
-      closeProjectPanel();
+      goOverview();
     }
   });
 }
