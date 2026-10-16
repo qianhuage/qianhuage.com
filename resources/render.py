@@ -20,7 +20,7 @@ for i, r in enumerate(items, 1):
     if r['format'] == 'books':
         subtitle = ' · '.join(str(r[k]) for k in ['author', 'year'] if r.get(k))
     elif r['format'] == 'watch':
-        subtitle = ' · '.join(str(r[k]) for k in ['director', 'speaker', 'year'] if r.get(k))
+        subtitle = ' · '.join(str(r[k]) for k in ['director', 'creator', 'host', 'speaker', 'year'] if r.get(k))
     elif r.get('speaker'):
         subtitle = f"{r['speaker']} · {r['year']} · {r['collection']}"
     elif r.get('publication'):

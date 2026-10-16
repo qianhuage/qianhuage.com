@@ -3444,6 +3444,142 @@
       "date": "2026-10-15"
     },
     {
+      "title": "Interstellar",
+      "director": "Christopher Nolan",
+      "year": 2014,
+      "collection": "Imagined worlds",
+      "url": "https://www.paramountmovies.com/movies/interstellar",
+      "note": "For cosmic scale made intimate through time, distance, and the bond between a parent and child.",
+      "format": "watch",
+      "date": "2026-10-15",
+      "title_language": "en"
+    },
+    {
+      "title": "Prima Facie",
+      "director": "Justin Martin",
+      "year": 2022,
+      "collection": "Filmed theatre",
+      "url": "https://primafacieplay.com/nt-live/",
+      "note": "Jodie Comer performs Suzie Miller’s one-woman play about testimony, power, and the distance between legal procedure and lived experience. A National Theatre Live recording.",
+      "format": "watch",
+      "date": "2026-10-15",
+      "title_language": "en",
+      "aliases": [
+        "Prima Facie (初步舉證)",
+        "初步舉證"
+      ]
+    },
+    {
+      "title": "Anatomie d’une chute",
+      "director": "Justine Triet",
+      "year": 2023,
+      "collection": "Contemporary cinema",
+      "url": "https://www.neonrated.com/film/anatomy-of-a-fall",
+      "note": "For the instability of a shared story: language, memory, and the private life of a marriage placed under public judgment.",
+      "format": "watch",
+      "date": "2026-10-15",
+      "title_language": "fr",
+      "aliases": [
+        "Anatomy of a Fall",
+        "坠落的审判",
+        "墜惡真相"
+      ],
+      "title_source": "https://www.unifrance.org/film/54575/anatomie-d-une-chute"
+    },
+    {
+      "title": "Past Lives",
+      "director": "Celine Song",
+      "year": 2023,
+      "collection": "Human stories",
+      "url": "https://a24films.com/films/past-lives",
+      "note": "For what remains unsaid between people, the lives migration leaves behind, and the quiet weight of choosing one life over another.",
+      "format": "watch",
+      "date": "2026-10-15",
+      "title_language": "en"
+    },
+    {
+      "title": "Billy Lynn's Long Halftime Walk",
+      "director": "Ang Lee",
+      "year": 2016,
+      "collection": "Contemporary cinema",
+      "url": "https://www.sonypictures.com/movies/billylynnslonghalftimewalk",
+      "note": "For the dissonance between a soldier’s inner life and the spectacle built around him, where celebration makes experience harder to see.",
+      "format": "watch",
+      "date": "2026-10-15",
+      "title_language": "en"
+    },
+    {
+      "title": "Nomadland",
+      "director": "Chloé Zhao",
+      "year": 2020,
+      "collection": "Human stories",
+      "url": "https://www.searchlightpictures.com/nomadland",
+      "note": "For the tension between freedom and economic precarity, and the attention given to work, landscape, and temporary communities.",
+      "format": "watch",
+      "date": "2026-10-15",
+      "title_language": "en"
+    },
+    {
+      "title": "TÁR",
+      "director": "Todd Field",
+      "year": 2022,
+      "url": "https://www.focusfeatures.com/tar",
+      "aliases": [
+        "Tár",
+        "Tar",
+        "塔爾",
+        "塔尔"
+      ],
+      "title_language": "en",
+      "format": "watch",
+      "collection": "Contemporary cinema",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Marriage Story",
+      "director": "Noah Baumbach",
+      "year": 2019,
+      "url": "https://www.netflix.com/title/80223779",
+      "aliases": [
+        "婚姻故事"
+      ],
+      "title_language": "en",
+      "format": "watch",
+      "collection": "Contemporary cinema",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Boyhood",
+      "director": "Richard Linklater",
+      "year": 2014,
+      "url": "https://www.ifccenter.com/films/boyhood/",
+      "aliases": [
+        "年少時代",
+        "年少时代",
+        "少年時代",
+        "少年时代"
+      ],
+      "title_language": "en",
+      "format": "watch",
+      "collection": "Contemporary cinema",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Arrival",
+      "director": "Denis Villeneuve",
+      "year": 2016,
+      "url": "https://www.paramountpictures.com/movies/arrival",
+      "aliases": [
+        "異星入境",
+        "降臨",
+        "降临"
+      ],
+      "title_language": "en",
+      "format": "watch",
+      "collection": "Contemporary cinema",
+      "date": "2026-10-16"
+    },
+    {
       "title": "大佛普拉斯",
       "title_language": "zh-Hant",
       "aliases": [
@@ -3659,66 +3795,12 @@
       "title_language": "en"
     },
     {
-      "title": "Interstellar",
-      "director": "Christopher Nolan",
-      "year": 2014,
-      "collection": "Imagined worlds",
-      "url": "https://www.paramountmovies.com/movies/interstellar",
-      "note": "For cosmic scale made intimate through time, distance, and the bond between a parent and child.",
-      "format": "watch",
-      "date": "2026-10-15",
-      "title_language": "en"
-    },
-    {
       "title": "Dune",
       "director": "Denis Villeneuve",
       "year": 2021,
       "collection": "Imagined worlds",
       "url": "https://www.warnerbros.com/movies/dune",
       "note": "For monumental spaces, tactile costumes, and sound that gives a world its weight—and the uneasy relationship between prophecy and power.",
-      "format": "watch",
-      "date": "2026-10-15",
-      "title_language": "en"
-    },
-    {
-      "title": "Prima Facie",
-      "director": "Justin Martin",
-      "year": 2022,
-      "collection": "Filmed theatre",
-      "url": "https://primafacieplay.com/nt-live/",
-      "note": "Jodie Comer performs Suzie Miller’s one-woman play about testimony, power, and the distance between legal procedure and lived experience. A National Theatre Live recording.",
-      "format": "watch",
-      "date": "2026-10-15",
-      "title_language": "en",
-      "aliases": [
-        "Prima Facie (初步舉證)",
-        "初步舉證"
-      ]
-    },
-    {
-      "title": "Anatomie d’une chute",
-      "director": "Justine Triet",
-      "year": 2023,
-      "collection": "Contemporary cinema",
-      "url": "https://www.neonrated.com/film/anatomy-of-a-fall",
-      "note": "For the instability of a shared story: language, memory, and the private life of a marriage placed under public judgment.",
-      "format": "watch",
-      "date": "2026-10-15",
-      "title_language": "fr",
-      "aliases": [
-        "Anatomy of a Fall",
-        "坠落的审判",
-        "墜惡真相"
-      ],
-      "title_source": "https://www.unifrance.org/film/54575/anatomie-d-une-chute"
-    },
-    {
-      "title": "Past Lives",
-      "director": "Celine Song",
-      "year": 2023,
-      "collection": "Human stories",
-      "url": "https://a24films.com/films/past-lives",
-      "note": "For what remains unsaid between people, the lives migration leaves behind, and the quiet weight of choosing one life over another.",
       "format": "watch",
       "date": "2026-10-15",
       "title_language": "en"
@@ -3739,17 +3821,6 @@
       ]
     },
     {
-      "title": "Billy Lynn's Long Halftime Walk",
-      "director": "Ang Lee",
-      "year": 2016,
-      "collection": "Contemporary cinema",
-      "url": "https://www.sonypictures.com/movies/billylynnslonghalftimewalk",
-      "note": "For the dissonance between a soldier’s inner life and the spectacle built around him, where celebration makes experience harder to see.",
-      "format": "watch",
-      "date": "2026-10-15",
-      "title_language": "en"
-    },
-    {
       "title": "Detachment",
       "director": "Tony Kaye",
       "year": 2011,
@@ -3767,17 +3838,6 @@
       "collection": "Classics",
       "url": "https://www.bfi.org.uk/film/e466fe6a-f070-54ae-80c4-9e977a57fb03/rain-man",
       "note": "For a road journey that slowly turns self-interest into care, and performances that reveal how difficult it can be to meet another person on their terms.",
-      "format": "watch",
-      "date": "2026-10-15",
-      "title_language": "en"
-    },
-    {
-      "title": "Nomadland",
-      "director": "Chloé Zhao",
-      "year": 2020,
-      "collection": "Human stories",
-      "url": "https://www.searchlightpictures.com/nomadland",
-      "note": "For the tension between freedom and economic precarity, and the attention given to work, landscape, and temporary communities.",
       "format": "watch",
       "date": "2026-10-15",
       "title_language": "en"
@@ -3937,22 +3997,6 @@
       "date": "2026-10-16"
     },
     {
-      "title": "Boyhood",
-      "director": "Richard Linklater",
-      "year": 2014,
-      "url": "https://www.ifccenter.com/films/boyhood/",
-      "aliases": [
-        "年少時代",
-        "年少时代",
-        "少年時代",
-        "少年时代"
-      ],
-      "title_language": "en",
-      "format": "watch",
-      "collection": "Contemporary cinema",
-      "date": "2026-10-16"
-    },
-    {
       "title": "The Grand Budapest Hotel",
       "director": "Wes Anderson",
       "year": 2014,
@@ -3961,21 +4005,6 @@
         "歡迎來到布達佩斯大飯店",
         "布達佩斯大飯店",
         "布达佩斯大饭店"
-      ],
-      "title_language": "en",
-      "format": "watch",
-      "collection": "Contemporary cinema",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "Arrival",
-      "director": "Denis Villeneuve",
-      "year": 2016,
-      "url": "https://www.paramountpictures.com/movies/arrival",
-      "aliases": [
-        "異星入境",
-        "降臨",
-        "降临"
       ],
       "title_language": "en",
       "format": "watch",
@@ -4012,33 +4041,40 @@
       "date": "2026-10-16"
     },
     {
-      "title": "TÁR",
-      "director": "Todd Field",
+      "title": "Smiling Friends",
+      "creator": "Michael Cusack & Zach Hadel",
       "year": 2022,
-      "url": "https://www.focusfeatures.com/tar",
-      "aliases": [
-        "Tár",
-        "Tar",
-        "塔爾",
-        "塔尔"
-      ],
-      "title_language": "en",
+      "collection": "Animated series",
+      "url": "https://www.adultswim.com/videos/smiling-friends",
       "format": "watch",
-      "collection": "Contemporary cinema",
-      "date": "2026-10-16"
+      "date": "2026-10-16",
+      "title_language": "en"
     },
     {
-      "title": "Marriage Story",
-      "director": "Noah Baumbach",
-      "year": 2019,
-      "url": "https://www.netflix.com/title/80223779",
-      "aliases": [
-        "婚姻故事"
-      ],
-      "title_language": "en",
+      "title": "My Next Guest Needs No Introduction with David Letterman",
+      "host": "David Letterman",
+      "year": 2018,
+      "collection": "Interview series",
+      "url": "https://www.netflix.com/title/80209096",
       "format": "watch",
-      "collection": "Contemporary cinema",
-      "date": "2026-10-16"
+      "date": "2026-10-16",
+      "title_language": "en",
+      "aliases": [
+        "My Next Guest",
+        "David Letterman"
+      ]
+    },
+    {
+      "title": "Lex Fridman",
+      "host": "Lex Fridman",
+      "collection": "Podcast · YouTube channel",
+      "url": "https://www.youtube.com/@lexfridman",
+      "format": "watch",
+      "date": "2026-10-16",
+      "title_language": "en",
+      "aliases": [
+        "Lex Fridman Podcast"
+      ]
     },
     {
       "date": "2026-10-15",
