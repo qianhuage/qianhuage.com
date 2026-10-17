@@ -14,7 +14,8 @@
   const count = document.getElementById('result-count');
   const emptyState = document.getElementById('empty-state');
   const exploreHint = document.getElementById('explore-hint');
-  const initialCategory = location.hash.slice(1);
+  const requestedCategory = location.hash.slice(1);
+  const initialCategory = ['browse', 'use'].includes(requestedCategory) ? 'design' : requestedCategory;
   let category = categories.some(button => button.dataset.category === initialCategory) ? initialCategory : 'all';
 
   function render() {

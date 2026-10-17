@@ -12,7 +12,7 @@ items = data['resources']
 counts = Counter(r['format'] for r in items)
 total = len(items)
 filters = f'<button class="category active" type="button" data-category="all" aria-pressed="true"><span>All entries</span><span>{total}</span></button>'
-for category in ['read', 'books', 'watch', 'browse', 'use', 'build']:
+for category in ['read', 'books', 'watch', 'design', 'build']:
     filters += f'<button class="category" type="button" data-category="{category}" aria-pressed="false"><span>{category.title()}</span><span>{counts[category]:02}</span></button>'
 rows = []
 for i, r in enumerate(items, 1):
@@ -42,6 +42,6 @@ s = re.sub(r'(<span class="index-total">)\d+', lambda m: m[1] + str(total), s)
 s = re.sub(r'(<p id="result-count"[^>]*>).*?</p>', lambda m: m[1] + f'{total} entries</p>', s)
 s = re.sub(r'Explore \d+ tools, articles, books, films, and references\.', f'Explore {total} tools, articles, books, films, and references.', s)
 s = re.sub(r'All \d+ entries are listed here', f'All {total} entries are listed here', s)
-s = re.sub(r'resources\.(css|js)\?v=[^" ]+', r'resources.\1?v=index-no-dates-12', s)
+s = re.sub(r'resources\.(css|js)\?v=[^" ]+', r'resources.\1?v=index-design-13', s)
 p.write_text(s)
 print(f'Rendered {total} resources; {counts["read"]} readings; {counts["watch"]} watch entries.')

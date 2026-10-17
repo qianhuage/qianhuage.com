@@ -394,70 +394,70 @@
     {
       "title": "Designeer",
       "url": "https://www.designeer.xyz/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design tools & references",
       "date": "2026-10-15"
     },
     {
       "title": "Curated Design",
       "url": "https://curated.design/",
-      "format": "browse",
+      "format": "design",
       "topic": "Web design",
       "date": "2026-10-15"
     },
     {
       "title": "Landing Love",
       "url": "https://landing.love/",
-      "format": "browse",
+      "format": "design",
       "topic": "Landing pages",
       "date": "2026-10-15"
     },
     {
       "title": "Saaspo",
       "url": "https://saaspo.com/",
-      "format": "browse",
+      "format": "design",
       "topic": "SaaS websites",
       "date": "2026-10-15"
     },
     {
       "title": "Navbar Gallery",
       "url": "https://navbar.gallery/",
-      "format": "browse",
+      "format": "design",
       "topic": "Navigation",
       "date": "2026-10-15"
     },
     {
       "title": "Mobbin",
       "url": "https://mobbin.com/",
-      "format": "browse",
+      "format": "design",
       "topic": "Mobile & web apps",
       "date": "2026-10-15"
     },
     {
       "title": "Rebrand Gallery",
       "url": "https://rebrand.gallery/",
-      "format": "browse",
+      "format": "design",
       "topic": "Branding",
       "date": "2026-10-15"
     },
     {
       "title": "Hugeicons",
       "url": "https://hugeicons.com/",
-      "format": "use",
+      "format": "design",
       "topic": "Icons",
       "date": "2026-10-15"
     },
     {
       "title": "Prompt Motion",
       "url": "https://prompt-motion.com/",
-      "format": "browse",
+      "format": "design",
       "topic": "Motion prompts",
       "date": "2026-10-15"
     },
     {
       "title": "60fps",
       "url": "https://60fps.design/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -465,7 +465,7 @@
     {
       "title": "Awwwards",
       "url": "https://www.awwwards.com/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -473,7 +473,7 @@
     {
       "title": "Cosmos",
       "url": "https://www.cosmos.so/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -481,7 +481,7 @@
     {
       "title": "Details",
       "url": "https://www.details.so/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -489,7 +489,7 @@
     {
       "title": "SiteInspire",
       "url": "https://www.siteinspire.com/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -497,7 +497,7 @@
     {
       "title": "Hover States",
       "url": "https://hoverstat.es/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -505,7 +505,7 @@
     {
       "title": "Best Website Gallery",
       "url": "https://bestwebsite.gallery/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -513,7 +513,7 @@
     {
       "title": "Inspiration Grid",
       "url": "https://theinspirationgrid.com/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -521,7 +521,7 @@
     {
       "title": "Are.na",
       "url": "https://www.are.na/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -529,7 +529,7 @@
     {
       "title": "Dark Mode Design",
       "url": "https://www.darkmodedesign.com/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -537,7 +537,7 @@
     {
       "title": "loadmo.re",
       "url": "https://loadmo.re/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -545,7 +545,7 @@
     {
       "title": "inspora.design",
       "url": "https://www.inspora.design/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -553,7 +553,7 @@
     {
       "title": "desengs.com",
       "url": "https://desengs.com/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -561,7 +561,7 @@
     {
       "title": "Motionimo",
       "url": "https://motionimo.xyz/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -577,7 +577,7 @@
     {
       "title": "What Ships",
       "url": "https://whatships.com/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -585,7 +585,7 @@
     {
       "title": "wwwtf.site",
       "url": "https://wwwtf.site/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -593,7 +593,7 @@
     {
       "title": "OpenAlternative",
       "url": "https://openalternative.co/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -601,7 +601,7 @@
     {
       "title": "Everywhere Tools",
       "url": "https://everywhere.tools/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -609,7 +609,7 @@
     {
       "title": "Jessy In's Gallery",
       "url": "https://gallery.jessyin.world/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -617,7 +617,7 @@
     {
       "title": "Detail Design",
       "url": "https://detail.design/",
-      "format": "browse",
+      "format": "design",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -801,7 +801,7 @@
     {
       "title": "Uiuno",
       "url": "https://uiuno.com/",
-      "format": "use",
+      "format": "design",
       "topic": "Component Libraries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -817,7 +817,7 @@
     {
       "title": "Claude Code",
       "url": "https://claude.com/claude-code",
-      "format": "use",
+      "format": "build",
       "topic": "Development",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -825,7 +825,7 @@
     {
       "title": "Cursor",
       "url": "https://cursor.com/",
-      "format": "use",
+      "format": "build",
       "topic": "Development",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -833,7 +833,7 @@
     {
       "title": "Zed",
       "url": "https://zed.dev/",
-      "format": "use",
+      "format": "build",
       "topic": "Development",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -841,7 +841,7 @@
     {
       "title": "v0",
       "url": "https://v0.app/",
-      "format": "use",
+      "format": "build",
       "topic": "Development",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -873,7 +873,7 @@
     {
       "title": "AI Stack",
       "url": "https://github.com/alp82/aistack",
-      "format": "browse",
+      "format": "build",
       "topic": "Development",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -921,7 +921,7 @@
     {
       "title": "Refero",
       "url": "https://styles.refero.design/",
-      "format": "browse",
+      "format": "design",
       "topic": "Agents & MCP",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -937,7 +937,7 @@
     {
       "title": "Open Design",
       "url": "https://open-design.ai/",
-      "format": "use",
+      "format": "design",
       "topic": "Agents & MCP",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -977,7 +977,7 @@
     {
       "title": "HyperFrames",
       "url": "https://www.hyperframes.dev/",
-      "format": "use",
+      "format": "design",
       "topic": "Agents & MCP",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -985,7 +985,7 @@
     {
       "title": "Distill",
       "url": "https://distill.id/",
-      "format": "use",
+      "format": "design",
       "topic": "Agents & MCP",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1017,7 +1017,7 @@
     {
       "title": "Scira",
       "url": "https://scira.ai/",
-      "format": "use",
+      "format": "design",
       "topic": "Agents & MCP",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1025,7 +1025,7 @@
     {
       "title": "Causal",
       "url": "https://causal.so/",
-      "format": "use",
+      "format": "design",
       "topic": "Agents & MCP",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1073,7 +1073,7 @@
     {
       "title": "Spline",
       "url": "https://spline.design/",
-      "format": "use",
+      "format": "design",
       "topic": "Interface Design",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1081,7 +1081,7 @@
     {
       "title": "UIWTF",
       "url": "https://uiw.tf/",
-      "format": "browse",
+      "format": "design",
       "topic": "Interface Design",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1089,7 +1089,7 @@
     {
       "title": "Fontshare",
       "url": "https://fontshare.com/",
-      "format": "use",
+      "format": "design",
       "topic": "Type",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1097,7 +1097,7 @@
     {
       "title": "Klim",
       "url": "https://klim.co.nz/",
-      "format": "use",
+      "format": "design",
       "topic": "Type",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1105,7 +1105,7 @@
     {
       "title": "Wakamai Fondue",
       "url": "https://wakamaifondue.com/",
-      "format": "use",
+      "format": "design",
       "topic": "Type",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1113,7 +1113,7 @@
     {
       "title": "Velvetyne",
       "url": "https://velvetyne.fr/",
-      "format": "use",
+      "format": "design",
       "topic": "Type",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1121,7 +1121,7 @@
     {
       "title": "Departure Mono",
       "url": "https://departuremono.com/",
-      "format": "use",
+      "format": "design",
       "topic": "Type",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1129,7 +1129,7 @@
     {
       "title": "OKLCH",
       "url": "https://oklch.com/",
-      "format": "use",
+      "format": "design",
       "topic": "Color",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1137,7 +1137,7 @@
     {
       "title": "Color.review",
       "url": "https://color.review/",
-      "format": "use",
+      "format": "design",
       "topic": "Color",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1153,7 +1153,7 @@
     {
       "title": "Blender",
       "url": "https://blender.org/",
-      "format": "use",
+      "format": "design",
       "topic": "3D",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1161,7 +1161,7 @@
     {
       "title": "Poly Haven",
       "url": "https://polyhaven.com/",
-      "format": "use",
+      "format": "design",
       "topic": "3D",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1201,7 +1201,7 @@
     {
       "title": "Phosphor",
       "url": "https://phosphoricons.com/",
-      "format": "use",
+      "format": "design",
       "topic": "Icons",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1209,7 +1209,7 @@
     {
       "title": "Iconify",
       "url": "https://iconify.design/",
-      "format": "use",
+      "format": "design",
       "topic": "Icons",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1217,7 +1217,7 @@
     {
       "title": "Rune Icons",
       "url": "https://www.runeicons.com/",
-      "format": "use",
+      "format": "design",
       "topic": "Icons",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1225,7 +1225,7 @@
     {
       "title": "Icon Museum",
       "url": "https://icon.museum/",
-      "format": "browse",
+      "format": "design",
       "topic": "Icons",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1233,7 +1233,7 @@
     {
       "title": "Material Symbols",
       "url": "https://fonts.google.com/icons",
-      "format": "use",
+      "format": "design",
       "topic": "Icons",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1241,7 +1241,7 @@
     {
       "title": "css.gg",
       "url": "https://css.gg/",
-      "format": "use",
+      "format": "design",
       "topic": "Icons",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1249,7 +1249,7 @@
     {
       "title": "Inkword",
       "url": "https://inkword.app/",
-      "format": "use",
+      "format": "design",
       "topic": "Icons",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1257,7 +1257,7 @@
     {
       "title": "Playgrnd",
       "url": "https://www.playgrnd.tools/",
-      "format": "use",
+      "format": "design",
       "topic": "Utilities",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1265,7 +1265,7 @@
     {
       "title": "OGFolio",
       "url": "https://www.ogfolio.com/",
-      "format": "browse",
+      "format": "design",
       "topic": "Utilities",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1273,7 +1273,7 @@
     {
       "title": "Design Minis",
       "url": "https://www.designminis.com/",
-      "format": "browse",
+      "format": "design",
       "topic": "Utilities",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1281,7 +1281,7 @@
     {
       "title": "ASCII (Kracked Devs)",
       "url": "https://ascii.krackeddevs.com/",
-      "format": "use",
+      "format": "design",
       "topic": "Utilities",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1289,7 +1289,7 @@
     {
       "title": "Dither Lab",
       "url": "https://literate-enigma-snowy.vercel.app/",
-      "format": "use",
+      "format": "design",
       "topic": "Utilities",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1297,7 +1297,7 @@
     {
       "title": "Tooooools",
       "url": "https://www.tooooools.app/",
-      "format": "use",
+      "format": "design",
       "topic": "Utilities",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1313,7 +1313,7 @@
     {
       "title": "Mesurer",
       "url": "https://mesurer.dev/",
-      "format": "use",
+      "format": "design",
       "topic": "Utilities",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1321,7 +1321,7 @@
     {
       "title": "Render Labs",
       "url": "https://render-labs.evlog.cloud/",
-      "format": "use",
+      "format": "design",
       "topic": "Utilities",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1329,7 +1329,7 @@
     {
       "title": "Butterfly",
       "url": "https://www.butterfly.so/",
-      "format": "use",
+      "format": "design",
       "topic": "Utilities",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1345,7 +1345,7 @@
     {
       "title": "Shiori",
       "url": "https://www.shiori.sh/",
-      "format": "use",
+      "format": "design",
       "topic": "Utilities",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1353,7 +1353,7 @@
     {
       "title": "ASCII Studio",
       "url": "https://www.asciistudio.space/",
-      "format": "use",
+      "format": "design",
       "topic": "Utilities",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1361,7 +1361,7 @@
     {
       "title": "Rynix Studio",
       "url": "https://studio.rynix.in/edit",
-      "format": "use",
+      "format": "design",
       "topic": "Utilities",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1369,7 +1369,7 @@
     {
       "title": "Mascofast",
       "url": "https://mascofast.com/",
-      "format": "use",
+      "format": "design",
       "topic": "Utilities",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1377,7 +1377,7 @@
     {
       "title": "Screenshot Studio",
       "url": "https://www.screenshot-studio.com/",
-      "format": "use",
+      "format": "design",
       "topic": "Utilities",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1385,7 +1385,7 @@
     {
       "title": "Raycast",
       "url": "https://raycast.com/",
-      "format": "use",
+      "format": "design",
       "topic": "Desktop",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1393,7 +1393,7 @@
     {
       "title": "Ghostty",
       "url": "https://ghostty.org/",
-      "format": "use",
+      "format": "build",
       "topic": "Desktop",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1401,7 +1401,7 @@
     {
       "title": "Warp",
       "url": "https://warp.dev/",
-      "format": "use",
+      "format": "build",
       "topic": "Desktop",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1409,7 +1409,7 @@
     {
       "title": "Granola",
       "url": "https://granola.ai/",
-      "format": "use",
+      "format": "design",
       "topic": "Desktop",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1417,7 +1417,7 @@
     {
       "title": "LocalSend",
       "url": "https://localsend.org/",
-      "format": "use",
+      "format": "design",
       "topic": "Desktop",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1425,7 +1425,7 @@
     {
       "title": "Supaste",
       "url": "https://supaste.com/",
-      "format": "use",
+      "format": "design",
       "topic": "Desktop",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1433,7 +1433,7 @@
     {
       "title": "Zen Browser",
       "url": "https://zen-browser.app/",
-      "format": "use",
+      "format": "design",
       "topic": "Desktop",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1441,7 +1441,7 @@
     {
       "title": "Screen Studio",
       "url": "https://screen.studio/",
-      "format": "use",
+      "format": "design",
       "topic": "Video & Capture",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1457,7 +1457,7 @@
     {
       "title": "DaVinci Resolve",
       "url": "https://www.blackmagicdesign.com/products/davinciresolve",
-      "format": "use",
+      "format": "design",
       "topic": "Video & Capture",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1465,7 +1465,7 @@
     {
       "title": "Descript",
       "url": "https://descript.com/",
-      "format": "use",
+      "format": "design",
       "topic": "Video & Capture",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1473,7 +1473,7 @@
     {
       "title": "Gifski",
       "url": "https://gif.ski/",
-      "format": "use",
+      "format": "design",
       "topic": "Video & Capture",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1489,7 +1489,7 @@
     {
       "title": "Recordly",
       "url": "https://recordly.dev/",
-      "format": "use",
+      "format": "design",
       "topic": "Video & Capture",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1497,7 +1497,7 @@
     {
       "title": "tldraw",
       "url": "https://tldraw.com/",
-      "format": "use",
+      "format": "design",
       "topic": "Whiteboard",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1505,7 +1505,7 @@
     {
       "title": "Excalidraw",
       "url": "https://excalidraw.com/",
-      "format": "use",
+      "format": "design",
       "topic": "Whiteboard",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1513,7 +1513,7 @@
     {
       "title": "Obsidian",
       "url": "https://obsidian.md/",
-      "format": "use",
+      "format": "design",
       "topic": "Whiteboard",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1546,7 +1546,7 @@
     {
       "title": "Learn UI",
       "url": "https://learn-ui.com/",
-      "format": "browse",
+      "format": "design",
       "topic": "UI curriculum",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/",
@@ -2457,19 +2457,18 @@
       ]
     },
     {
-      "title": "153. 和曾鸣聊产业史观：残酷的真相、会消亡的公司、优秀≠卓越、“OAI、Anth大概率不是原生时代大赢家”",
+      "title": "商业访谈录",
       "host": "张小珺",
-      "speaker": "曾鸣",
-      "year": 2026,
-      "collection": "张小珺Jùn｜商业访谈录 · Podcast",
-      "url": "https://podcasts.apple.com/us/podcast/id1634356920?i=1000787534675",
+      "collection": "Podcast series",
+      "url": "https://podcasts.apple.com/us/podcast/%E5%BC%A0%E5%B0%8F%E7%8F%BAj%C3%B9n-%E5%95%86%E4%B8%9A%E8%AE%BF%E8%B0%88%E5%BD%95/id1634356920",
       "format": "watch",
       "date": "2026-10-16",
       "title_language": "zh-Hans",
       "aliases": [
-        "张小珺Jùn｜商业访谈录",
-        "曾鳴",
-        "产业史观"
+        "张小珺商业访谈录",
+        "張小珺",
+        "商业访谈录",
+        "张小珺Jùn｜商业访谈录"
       ]
     },
     {
@@ -2935,13 +2934,13 @@
     },
     {
       "date": "2026-10-13",
-      "format": "browse",
+      "format": "design",
       "title": "Craft",
       "url": "https://craft.gustavofior.com/"
     },
     {
       "date": "2026-09-20",
-      "format": "use",
+      "format": "design",
       "title": "Corner Radii",
       "url": "https://corner-radii.xyz/"
     },
@@ -2967,7 +2966,7 @@
     },
     {
       "date": "2026-09-04",
-      "format": "use",
+      "format": "build",
       "title": "Shoogle",
       "url": "https://shoogle.dev"
     },
@@ -2979,7 +2978,7 @@
     },
     {
       "date": "2026-08-22",
-      "format": "use",
+      "format": "design",
       "title": "UI Camera",
       "url": "https://ui.camera"
     },
@@ -3009,13 +3008,13 @@
     },
     {
       "date": "2026-07-15",
-      "format": "use",
+      "format": "build",
       "title": "jakubkrehel/skills",
       "url": "https://github.com/jakubkrehel/skills"
     },
     {
       "date": "2026-07-13",
-      "format": "use",
+      "format": "build",
       "title": "Agentation",
       "url": "https://www.agentation.com/"
     },
@@ -3042,19 +3041,19 @@
     },
     {
       "date": "2026-07-12",
-      "format": "use",
+      "format": "build",
       "title": "emilkowalski/skills",
       "url": "https://github.com/emilkowalski/skills"
     },
     {
       "date": "2026-05-16",
-      "format": "browse",
+      "format": "design",
       "title": "Design Systems Surf",
       "url": "https://designsystems.surf/"
     },
     {
       "date": "2026-05-13",
-      "format": "browse",
+      "format": "design",
       "title": "Design for Engineers",
       "url": "https://didoesdigital.com/project/design-for-engineers/"
     },
@@ -3066,19 +3065,19 @@
     },
     {
       "date": "2026-03-27",
-      "format": "use",
+      "format": "design",
       "title": "shadowLab",
       "url": "https://shadowlab.mocarski.design/"
     },
     {
       "date": "2026-03-24",
-      "format": "use",
+      "format": "build",
       "title": "UI Skills",
       "url": "https://www.ui-skills.com/"
     },
     {
       "date": "2026-03-21",
-      "format": "use",
+      "format": "build",
       "title": "rams",
       "url": "https://www.rams.ai/"
     },
@@ -3090,13 +3089,13 @@
     },
     {
       "date": "2026-03-17",
-      "format": "browse",
+      "format": "design",
       "title": "Design System Checklist",
       "url": "https://www.designsystemchecklist.com/"
     },
     {
       "date": "2026-03-17",
-      "format": "use",
+      "format": "build",
       "title": "Impeccable",
       "url": "https://impeccable.style/"
     },
@@ -3114,19 +3113,19 @@
     },
     {
       "date": "2026-03-14",
-      "format": "browse",
+      "format": "design",
       "title": "userinterface.wiki",
       "url": "https://userinterface.wiki/"
     },
     {
       "date": "2026-03-10",
-      "format": "browse",
+      "format": "design",
       "title": "The Component Gallery",
       "url": "https://component.gallery/"
     },
     {
       "date": "2026-03-10",
-      "format": "browse",
+      "format": "design",
       "title": "Interface Craft",
       "url": "https://www.interfacecraft.dev/"
     },
@@ -3140,7 +3139,7 @@
     },
     {
       "date": "2026-03-10",
-      "format": "browse",
+      "format": "design",
       "title": "Interactive SVG Animations",
       "url": "https://www.svg.guide/"
     },
@@ -3152,7 +3151,7 @@
     },
     {
       "date": "2026-03-09",
-      "format": "browse",
+      "format": "design",
       "title": "Devouring Details",
       "url": "https://devouringdetails.com/"
     },
@@ -3164,7 +3163,7 @@
     },
     {
       "date": "2026-03-09",
-      "format": "browse",
+      "format": "design",
       "title": "Web Interface Guidelines",
       "url": "https://interfaces.rauno.me/",
       "note": "A compact implementation checklist, not a deep essay. Some advice is dated or too broad, including disabling autocomplete and preferring shadow-only focus rings.",
