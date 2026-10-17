@@ -625,13 +625,14 @@
   },
   "https://www.warnerbros.com/movies/dune": {
     "title": "Dune",
-    "path": "covers/b60386df9ddd-still.webp",
-    "width": 960,
-    "height": 480,
-    "source": "https://www.buzzfeed.com/evelinamedina/dune-differences-between-2021-1984",
-    "image_url": "https://img.buzzfeed.com/buzzfeed-static/static/2021-10/28/20/asset/88a9bda09f2e/sub-buzz-1028-1635453979-21.png?resize=990%3A495",
+    "path": "covers/dune-stairs-selected-633e9d7afb.png",
+    "width": 750,
+    "height": 508,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-484315f2-64e2-4280-9143-7ff0a8f27413.png",
     "kind": "film-still",
-    "treatment": "Reviewed landscape still, displayed in a 16:9 frame"
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
   },
   "https://www.criterion.com/films/226": {
     "title": "重慶森林",
@@ -895,17 +896,6 @@
     "image_url": "https://imagenes.elpais.com/resizer/v2/LB4LIMD6ORFANBX4X2B6NKEDPY.webp?auth=e1e3330ebb674f60284339df2ffa731c62c26a16f198715a8ac2cbfd5fee8826&width=1960",
     "kind": "film-still",
     "treatment": "Reviewed landscape still, displayed in a 16:9 frame"
-  },
-  "https://www.youtube.com/spacex": {
-    "title": "SpaceX",
-    "path": "covers/spacex-selected-72505e8d90.png",
-    "width": 465,
-    "height": 262,
-    "source": "User-provided image",
-    "supplied": true,
-    "attachment": "codex-clipboard-df9b6b5c-a8db-4102-8e06-6ed59500b289.png",
-    "kind": "video-thumbnail",
-    "treatment": "User-selected image; displayed in the existing 16:9 frame"
   },
   "https://www.floguo.com/books/a-promised-land": {
     "title": "A Promised Land",
@@ -1501,5 +1491,115 @@
     "source": "https://www.nyrb.com/products/life-and-fate",
     "image_url": "https://www.nyrb.com/cdn/shop/products/Life-and-Fate.jpg?v=1528394381",
     "kind": "book-cover"
+  },
+  "https://www.warnerbros.it/scheda-film/genere-drammatico/la-leggenda-del-pianista-sulloceano/": {
+    "title": "The Legend of 1900",
+    "path": "covers/legend-of-1900-selected-51932c1967.png",
+    "width": 596,
+    "height": 335,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-bf478207-6f9b-4dae-b6db-516c3a7a495d.png",
+    "kind": "film-still",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://www.leaff.org.uk/acityofsadness": {
+    "title": "悲情城市",
+    "path": "covers/city-of-sadness-selected-c40f60f1d9.png",
+    "width": 1800,
+    "height": 1200,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-e15bcf24-7ba8-4f76-b112-d283a157cc9f.png",
+    "kind": "film-still",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://www.criterion.com/films/28894-mirror": {
+    "title": "Зеркало",
+    "path": "covers/mirror-selected-cf80e388ff.png",
+    "width": 1920,
+    "height": 1080,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-1624a2ff-f32f-4161-9a14-82444e15c801.png",
+    "kind": "film-still",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://www.filmlinc.org/films/the-turin-horse/": {
+    "title": "A torinói ló",
+    "path": "covers/turin-horse-selected-ea3e1a8344.png",
+    "width": 730,
+    "height": 411,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-c6de266a-950a-4441-9eaf-52aeed55b0d6.png",
+    "kind": "film-still",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://www.janusfilms.com/films/2021": {
+    "title": "Conte d’hiver",
+    "path": "covers/conte-d-hiver-selected-4fe48731b6.png",
+    "width": 577,
+    "height": 346,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-d1eb70a5-8ae6-4b6d-8f69-b3056fdbdc73.png",
+    "kind": "film-still",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://www.filmfestival.be/en/film/eternity-and-a-day": {
+    "title": "Μια αιωνιότητα και μια μέρα",
+    "path": "covers/eternity-and-a-day-selected-bfd6a395fc.png",
+    "width": 620,
+    "height": 400,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-79f551ab-5f09-4080-b052-18c5755acb57.png",
+    "kind": "film-still",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://www.torinofilmfest.org/en/30-torino-film-festival/film/la-lunga-estate-di-hermann-hesse/13185/": {
+    "title": "La lunga estate di Hermann Hesse",
+    "path": "covers/hesse-long-summer-selected-21b4b19af5.png",
+    "width": 400,
+    "height": 249,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-b3910af6-e3a4-4e2e-bb8a-2d1d9b7fab67.png",
+    "kind": "film-still",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://www.netflix.com/title/70264888": {
+    "title": "Black Mirror",
+    "path": "covers/black-mirror-selected-262518b4a6.png",
+    "width": 650,
+    "height": 365,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-b96d723b-1a3e-4a63-aaab-3537a2b07d41.png",
+    "kind": "film-still",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://kinolorber.com/film/nostalghia": {
+    "title": "Nostalghia",
+    "path": "covers/nostalghia-selected-9d89cd279f.png",
+    "width": 1200,
+    "height": 675,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-136f1b2d-6c6b-4d52-8aec-54c657222ede.png",
+    "kind": "film-still",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://jfdb.jp/en/title/447": {
+    "title": "蒙古草原天氣晴",
+    "path": "covers/puujee-selected-ce7fb9d756.png",
+    "width": 549,
+    "height": 309,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-08077004-90d0-4258-8efb-f254230aeb9b.png",
+    "kind": "film-still",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
   }
 }

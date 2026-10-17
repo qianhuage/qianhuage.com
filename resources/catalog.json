@@ -1814,6 +1814,34 @@
       "date": "2026-10-15"
     },
     {
+      "title": "Μια αιωνιότητα και μια μέρα",
+      "director": "Theo Angelopoulos",
+      "year": 1998,
+      "url": "https://www.filmfestival.be/en/film/eternity-and-a-day",
+      "format": "watch",
+      "date": "2026-10-17",
+      "title_language": "el",
+      "aliases": [
+        "Eternity and a Day",
+        "永恆和一日",
+        "永恒和一日"
+      ]
+    },
+    {
+      "title": "A torinói ló",
+      "director": "Béla Tarr · Ágnes Hranitzky",
+      "year": 2011,
+      "url": "https://www.filmlinc.org/films/the-turin-horse/",
+      "format": "watch",
+      "date": "2026-10-17",
+      "title_language": "hu",
+      "aliases": [
+        "The Turin Horse",
+        "都靈之馬",
+        "都灵之马"
+      ]
+    },
+    {
       "title": "Interstellar",
       "director": "Christopher Nolan",
       "year": 2014,
@@ -1868,19 +1896,21 @@
       "date": "2026-10-16"
     },
     {
-      "title": "臥虎藏龍",
-      "director": "Ang Lee",
-      "year": 2000,
-      "title_language": "zh-Hant",
-      "url": "https://www.sonypictures.com/movies/crouchingtigerhiddendragon",
-      "aliases": [
-        "卧虎藏龙",
-        "Crouching Tiger, Hidden Dragon",
-        "李安"
-      ],
+      "title": "蒙古草原天氣晴",
+      "director": "Kazuya Yamada",
+      "year": 2006,
+      "url": "https://jfdb.jp/en/title/447",
       "format": "watch",
-      "collection": "Chinese-language cinema",
-      "date": "2026-10-16"
+      "date": "2026-10-17",
+      "title_language": "zh-Hant",
+      "aliases": [
+        "蒙古草原，天氣晴",
+        "蒙古草原，天气晴",
+        "プージェー",
+        "Puujee",
+        "普潔",
+        "普洁"
+      ]
     },
     {
       "title": "Still Life",
@@ -1925,6 +1955,21 @@
       "format": "watch",
       "date": "2026-10-15",
       "title_language": "en"
+    },
+    {
+      "title": "Зеркало",
+      "director": "Andrei Tarkovsky",
+      "year": 1975,
+      "url": "https://www.criterion.com/films/28894-mirror",
+      "format": "watch",
+      "date": "2026-10-17",
+      "title_language": "ru",
+      "aliases": [
+        "Mirror",
+        "The Mirror",
+        "鏡子",
+        "镜子"
+      ]
     },
     {
       "title": "TÁR",
@@ -2013,6 +2058,20 @@
       "date": "2026-10-15"
     },
     {
+      "title": "Conte d’hiver",
+      "director": "Éric Rohmer",
+      "year": 1992,
+      "url": "https://www.janusfilms.com/films/2021",
+      "format": "watch",
+      "date": "2026-10-17",
+      "title_language": "fr",
+      "aliases": [
+        "A Tale of Winter",
+        "冬天的故事",
+        "Conte d'hiver"
+      ]
+    },
+    {
       "title": "Love Letter",
       "title_language": "en",
       "aliases": [
@@ -2042,6 +2101,21 @@
       "collection": "Film",
       "format": "watch",
       "date": "2026-10-16"
+    },
+    {
+      "title": "La lunga estate di Hermann Hesse",
+      "director": "Werner Weick",
+      "year": 1986,
+      "url": "https://www.torinofilmfest.org/en/30-torino-film-festival/film/la-lunga-estate-di-hermann-hesse/13185/",
+      "format": "watch",
+      "date": "2026-10-17",
+      "title_language": "it",
+      "aliases": [
+        "Hermann Hesse’s Long Summer",
+        "Hermann Hesse's Long Summer",
+        "赫爾曼嘿塞的漫長夏日",
+        "赫尔曼黑塞的漫长夏日"
+      ]
     },
     {
       "title": "Milan Kundera: Od Žertu k Bezvýznamnosti",
@@ -2101,6 +2175,20 @@
       "note": "Everyday dialogue becomes song, while luminous color carries a clear-eyed story of separation, compromise, and time.",
       "format": "watch",
       "date": "2026-10-15"
+    },
+    {
+      "title": "Nostalghia",
+      "director": "Andrei Tarkovsky",
+      "year": 1983,
+      "url": "https://kinolorber.com/film/nostalghia",
+      "format": "watch",
+      "date": "2026-10-17",
+      "title_language": "it",
+      "aliases": [
+        "Ностальгия",
+        "鄉愁",
+        "乡愁"
+      ]
     },
     {
       "title": "La Boulangère de Monceau",
@@ -2304,6 +2392,19 @@
       "title_language": "en"
     },
     {
+      "title": "Black Mirror",
+      "creator": "Charlie Brooker",
+      "year": 2011,
+      "url": "https://www.netflix.com/title/70264888",
+      "format": "watch",
+      "date": "2026-10-17",
+      "title_language": "en",
+      "aliases": [
+        "黑鏡",
+        "黑镜"
+      ]
+    },
+    {
       "title": "Sirocco et le Royaume des courants d’air",
       "director": "Benoît Chieux",
       "year": 2023,
@@ -2343,6 +2444,18 @@
         "潛行者"
       ],
       "title_source": "https://mosfilm.ru/cinema/films/stalker/"
+    },
+    {
+      "title": "悲情城市",
+      "director": "Hou Hsiao-hsien",
+      "year": 1989,
+      "url": "https://www.leaff.org.uk/acityofsadness",
+      "format": "watch",
+      "date": "2026-10-17",
+      "title_language": "zh-Hant",
+      "aliases": [
+        "A City of Sadness"
+      ]
     },
     {
       "title": "太阳照常升起",
@@ -2432,6 +2545,21 @@
       "title_source": "https://www.ghibli.jp/works/chihiro/"
     },
     {
+      "title": "臥虎藏龍",
+      "director": "Ang Lee",
+      "year": 2000,
+      "title_language": "zh-Hant",
+      "url": "https://www.sonypictures.com/movies/crouchingtigerhiddendragon",
+      "aliases": [
+        "卧虎藏龙",
+        "Crouching Tiger, Hidden Dragon",
+        "李安"
+      ],
+      "format": "watch",
+      "collection": "Chinese-language cinema",
+      "date": "2026-10-16"
+    },
+    {
       "title": "Here",
       "director": "Bas Devos",
       "year": 2023,
@@ -2494,21 +2622,28 @@
       "date": "2026-10-16"
     },
     {
-      "title": "Full Opening Ceremony from Beijing 2008",
-      "creator": "Olympic Games",
-      "year": 2008,
-      "url": "https://www.youtube.com/watch?v=bufV3EgyPGU",
-      "aliases": [
-        "Full Opening Ceremony from Beijing 2008 | Throwback Thursday",
-        "北京2008奧運開幕式",
-        "北京2008奥运开幕式",
-        "北京奧運開幕式完整版",
-        "Beijing Olympics Opening Ceremony"
-      ],
-      "title_language": "en",
+      "title": "The Legend of 1900",
+      "director": "Giuseppe Tornatore",
+      "year": 1998,
+      "url": "https://www.warnerbros.it/scheda-film/genere-drammatico/la-leggenda-del-pianista-sulloceano/",
       "format": "watch",
-      "collection": "Olympic ceremony",
-      "date": "2026-10-16"
+      "date": "2026-10-17",
+      "title_language": "en",
+      "aliases": [
+        "海上鋼琴師",
+        "海上钢琴师",
+        "La leggenda del pianista sull’oceano"
+      ]
+    },
+    {
+      "title": "Born in the USSR: 7 Up",
+      "director": "Sergey Miroshnichenko",
+      "year": 1991,
+      "url": "https://www.youtube.com/playlist?list=PL28moiaBC-RnotjZknsNMjKj2kaCRUwlo",
+      "reference_url": "https://www.imdb.com/title/tt0374477/",
+      "format": "watch",
+      "date": "2026-10-16",
+      "title_language": "en"
     },
     {
       "title": "Whiplash",
@@ -2661,20 +2796,6 @@
       ]
     },
     {
-      "title": "SpaceX",
-      "title_language": "en",
-      "creator": "SpaceX",
-      "collection": "YouTube channel",
-      "url": "https://www.youtube.com/spacex",
-      "format": "watch",
-      "date": "2026-10-16",
-      "aliases": [
-        "Space X",
-        "Starship",
-        "Falcon 9"
-      ]
-    },
-    {
       "title": "A.I., Mars and Immortality: Are We Dreaming Big Enough?",
       "host": "Ross Douthat",
       "collection": "Interesting Times",
@@ -2687,14 +2808,21 @@
       ]
     },
     {
-      "title": "Born in the USSR: 7 Up",
-      "director": "Sergey Miroshnichenko",
-      "year": 1991,
-      "url": "https://www.youtube.com/playlist?list=PL28moiaBC-RnotjZknsNMjKj2kaCRUwlo",
-      "reference_url": "https://www.imdb.com/title/tt0374477/",
+      "title": "Full Opening Ceremony from Beijing 2008",
+      "creator": "Olympic Games",
+      "year": 2008,
+      "url": "https://www.youtube.com/watch?v=bufV3EgyPGU",
+      "aliases": [
+        "Full Opening Ceremony from Beijing 2008 | Throwback Thursday",
+        "北京2008奧運開幕式",
+        "北京2008奥运开幕式",
+        "北京奧運開幕式完整版",
+        "Beijing Olympics Opening Ceremony"
+      ],
+      "title_language": "en",
       "format": "watch",
-      "date": "2026-10-16",
-      "title_language": "en"
+      "collection": "Olympic ceremony",
+      "date": "2026-10-16"
     },
     {
       "date": "2026-10-15",
