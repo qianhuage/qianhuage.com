@@ -1437,16 +1437,6 @@
     "reference_image": "resources/covers/d6190d99ad30.webp",
     "generation_prompt": "Edit this book cover reference into a clean flat front-cover graphic for a website bookshelf. Output ONLY the front cover, full bleed to all four image edges, portrait rectangle with the proportions of the front face in the reference. Remove ALL surrounding background, padding, shadows, visible spine, page edges, bevels, perspective and photographic distortion. It must be an orthographic 2D print artwork, with perfectly rectangular square corners. Preserve the original cover composition, illustration, colours, typography and wording faithfully; do not redesign or add anything. Looking Forward to Monday Morning; A Residential Architect’s Compendium; Daniel Frisch, AIA; Essays, Observations, Dispatches. Preserve slate blue-grey background, fine white rectangular frame, centered serif type and white architectural line drawing."
   },
-  "https://www.xiaohongshu.com/explore/6ac44c7a000000001301accc?xsec_token=CBB9Tj2deVnlsIG7GkER4PzFq_jebPFD4S-adn5ylADaM=&xsec_source=app_share": {
-    "title": "升本后醒来",
-    "path": "covers/xiaohongshu-6ac44c7a.webp",
-    "width": 1200,
-    "height": 900,
-    "source": "https://www.xiaohongshu.com/explore/6ac44c7a000000001301accc",
-    "image_url": "http://sns-webpic-qc.xhscdn.com/202610171334/d6e28dd6d917950ea1ab0a1be6d35e66/spectrum/1040g34o325vbarh64a105okpsbc5b4k63gu0150!nd_dft_wgth_webp_3",
-    "kind": "video-thumbnail",
-    "treatment": "Original post cover, displayed in a 16:9 frame"
-  },
   "https://www.youtube.com/watch?v=xQFgk-nEihg&list=PLUl4u3cNGP61AV6bhf4mB3tCyWQrI_uU5": {
     "title": "Relativistic Quantum Field Theory I",
     "path": "covers/youtube-xQFgk-nEihg-selected-3bad4163f9.png",
@@ -1490,5 +1480,15 @@
     "attachment": "codex-clipboard-ecd92fdd-7497-4ee7-878c-61ddee9ebacd.png",
     "kind": "video-thumbnail",
     "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://www.youtube.com/watch?v=xyTkkwTufRw": {
+    "title": "升本后醒来",
+    "path": "covers/xiaohongshu-6ac44c7a.webp",
+    "width": 1200,
+    "height": 900,
+    "source": "https://www.xiaohongshu.com/explore/6ac44c7a000000001301accc",
+    "image_url": "http://sns-webpic-qc.xhscdn.com/202610171334/d6e28dd6d917950ea1ab0a1be6d35e66/spectrum/1040g34o325vbarh64a105okpsbc5b4k63gu0150!nd_dft_wgth_webp_3",
+    "kind": "video-thumbnail",
+    "treatment": "Original post cover, displayed in a 16:9 frame"
   }
 }
