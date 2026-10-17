@@ -1656,5 +1656,16 @@
     "attachment": "codex-clipboard-075961c0-3da4-4fa8-9051-af8ed03068d7.png",
     "kind": "film-still",
     "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://www.bilibili.com/video/BV1Jp4D6yE9E/": {
+    "title": "有曲儿就能摇pt.7",
+    "path": "covers/you-qu-er-pt7-selected-2f7e721423.png",
+    "width": 384,
+    "height": 216,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-561e3bf7-b8af-4f3e-ae13-deb0b8843a3f.png",
+    "kind": "video-thumbnail",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
   }
 }
