@@ -241,6 +241,21 @@
       "date": "2026-10-16"
     },
     {
+      "title": "彷徨",
+      "author": "鲁迅",
+      "year": 1926,
+      "title_language": "zh-Hans",
+      "url": "https://zh.wikisource.org/zh-hans/%E5%BD%B7%E5%BE%A8",
+      "aliases": [
+        "徬徨",
+        "魯迅",
+        "Lu Xun",
+        "Wandering"
+      ],
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
       "title": "Outline",
       "author": "Rachel Cusk",
       "year": 2014,
@@ -2951,6 +2966,20 @@
       "date": "2026-10-16"
     },
     {
+      "title": "茶馆",
+      "author": "老舍",
+      "year": 1957,
+      "title_language": "zh-Hans",
+      "url": "https://search.worldcat.org/title/1375149745",
+      "aliases": [
+        "茶館",
+        "Lao She",
+        "Teahouse"
+      ],
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
       "date": "2026-10-15",
       "format": "books",
       "title": "Severance",
@@ -3534,16 +3563,11 @@
       "title_language": "zh-Hant"
     },
     {
-      "title": "真与美：丘成桐的数学观",
-      "author": "丘成桐",
-      "year": 2023,
-      "url": "https://book.douban.com/subject/36514474/",
-      "aliases": [
-        "真與美：丘成桐的數學觀",
-        "Shing-Tung Yau",
-        "Truth and Beauty"
-      ],
-      "title_language": "zh-Hans",
+      "title": "The Mathematical Experience",
+      "author": "Philip J. Davis & Reuben Hersh",
+      "year": 1981,
+      "title_language": "en",
+      "url": "https://search.worldcat.org/title/The-mathematical-experience/oclc/320617911",
       "format": "books",
       "date": "2026-10-16"
     }
