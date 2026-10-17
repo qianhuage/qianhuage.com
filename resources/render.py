@@ -9,6 +9,8 @@ import json
 root = Path(__file__).resolve().parent
 data = json.loads((root / 'catalog.json').read_text())
 items = data['resources']
+artwork_path = root / 'covers.json'
+artwork = json.loads(artwork_path.read_text()) if artwork_path.exists() else {}
 counts = Counter(r['format'] for r in items)
 total = len(items)
 filters = f'<button class="category active" type="button" data-category="all" aria-pressed="true"><span>All entries</span><span>{total}</span></button>'
@@ -33,7 +35,12 @@ for i, r in enumerate(items, 1):
     title = ' title="Details and viewing information"' if r['format'] == 'watch' else ''
     aliases = f' data-search-aliases="{e(" | ".join(r["aliases"]), quote=True)}"' if r.get('aliases') else ''
     language = f' lang="{e(r["title_language"], quote=True)}"' if r.get('title_language') else ''
-    rows.append(f'<li class="resource" data-category="{r["format"]}" data-date="{r["date"]}"{aliases}><a class="resource-link" href="{e(r["url"], quote=True)}"{title} target="_blank" rel="noopener noreferrer" aria-labelledby="resource-title-{i}" aria-describedby="resource-detail-{i}"><span class="resource-number" aria-hidden="true">{i:03}</span><span class="resource-name"><span class="resource-title" id="resource-title-{i}"{language} dir="auto">{e(r["title"])}</span><span id="resource-detail-{i}" class="resource-detail"><span class="resource-domain">{e(subtitle)}</span>{note}<span class="sr-only"> (opens in a new tab)</span></span></span><span class="resource-type">{r["format"]}</span><span class="resource-arrow" aria-hidden="true">↗</span></a></li>')
+    cover = ''
+    if r['format'] in ('books', 'watch'):
+        art = artwork.get(r['url'], {})
+        image = f'<img src="{e(art["path"], quote=True)}" width="{art["width"]}" height="{art["height"]}" alt="" loading="lazy" decoding="async">' if art.get('path') else ''
+        cover = f'<span class="resource-cover{" has-artwork" if image else ""}" aria-hidden="true"><span class="cover-placeholder"><span>{e(r["title"])}</span><span>{e(subtitle)}</span></span>{image}</span>'
+    rows.append(f'<li class="resource" data-category="{r["format"]}" data-date="{r["date"]}"{aliases}><a class="resource-link" href="{e(r["url"], quote=True)}"{title} target="_blank" rel="noopener noreferrer" aria-labelledby="resource-title-{i}" aria-describedby="resource-detail-{i}">{cover}<span class="resource-number" aria-hidden="true">{i:03}</span><span class="resource-name"><span class="resource-title" id="resource-title-{i}"{language} dir="auto">{e(r["title"])}</span><span id="resource-detail-{i}" class="resource-detail"><span class="resource-domain">{e(subtitle)}</span>{note}<span class="sr-only"> (opens in a new tab)</span></span></span><span class="resource-type">{r["format"]}</span><span class="resource-arrow" aria-hidden="true">↗</span></a></li>')
 p = root / 'index.html'
 s = p.read_text()
 s = re.sub(r'(<nav class="categories"[^>]*>).*?(</nav>)', lambda m: m[1] + filters + m[2], s, flags=re.S)
@@ -42,6 +49,6 @@ s = re.sub(r'(<span class="index-total">)\d+', lambda m: m[1] + str(total), s)
 s = re.sub(r'(<p id="result-count"[^>]*>).*?</p>', lambda m: m[1] + f'{total} entries</p>', s)
 s = re.sub(r'Explore \d+ tools, articles, books, films, and references\.', f'Explore {total} tools, articles, books, films, and references.', s)
 s = re.sub(r'All \d+ entries are listed here', f'All {total} entries are listed here', s)
-s = re.sub(r'resources\.(css|js)\?v=[^" ]+', r'resources.\1?v=index-design-13', s)
+s = re.sub(r'resources\.(css|js)\?v=[^" ]+', r'resources.\1?v=index-stills-1', s)
 p.write_text(s)
 print(f'Rendered {total} resources; {counts["read"]} readings; {counts["watch"]} watch entries.')

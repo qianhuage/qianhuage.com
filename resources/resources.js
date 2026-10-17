@@ -19,6 +19,8 @@
   let category = categories.some(button => button.dataset.category === initialCategory) ? initialCategory : 'all';
 
   function render() {
+    list.classList.toggle('cover-shelf', category === 'books' || category === 'watch');
+    list.classList.toggle('watch-shelf', category === 'watch');
     const terms = normalizeSearch(search.value.trim()).split(/\s+/).filter(Boolean);
     let visible = 0;
     for (const entry of entries) {
@@ -46,8 +48,17 @@
   document.querySelector('.directory-toolbar').addEventListener('submit', event => event.preventDefault());
   categories.forEach(button => button.addEventListener('click', () => {
     category = button.dataset.category;
+    history.replaceState(null, '', category === 'all' ? location.pathname + location.search : `#${category}`);
     render();
   }));
+  list.querySelectorAll('.resource-cover img').forEach(image => {
+    const showFallback = () => {
+      image.hidden = true;
+      image.parentElement.classList.remove('has-artwork');
+    };
+    image.addEventListener('error', showFallback);
+    if (image.complete && !image.naturalWidth) showFallback();
+  });
   sort.addEventListener('change', () => {
     const sorted = [...entries].sort((a, b) => {
       if (sort.value === 'curated') return 0;
@@ -60,6 +71,7 @@
   document.getElementById('clear-filters').addEventListener('click', () => {
     search.value = '';
     category = 'all';
+    history.replaceState(null, '', location.pathname + location.search);
     render();
     search.focus();
   });

@@ -1630,7 +1630,7 @@
     {
       "title": "Making Software",
       "url": "https://www.makingsoftware.com/",
-      "format": "books",
+      "format": "read",
       "topic": "How software works",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/",
@@ -2030,21 +2030,6 @@
       "date": "2026-10-15"
     },
     {
-      "title": "Sedmikrásky",
-      "title_language": "cs",
-      "aliases": [
-        "野雛菊",
-        "Daisies"
-      ],
-      "director": "Věra Chytilová",
-      "year": 1966,
-      "collection": "Classics",
-      "url": "https://www.filmovyprehled.cz/cs/film/396690/sedmikrasky",
-      "note": "Two young women turn appetite and mischief into a riot of color, collage, and disobedience.",
-      "format": "watch",
-      "date": "2026-10-15"
-    },
-    {
       "title": "偶然と想像",
       "director": "濱口竜介",
       "year": 2021,
@@ -2401,22 +2386,6 @@
       "date": "2026-10-16"
     },
     {
-      "title": "ลุงบุญมีระลึกชาติ",
-      "director": "Apichatpong Weerasethakul",
-      "year": 2010,
-      "collection": "Contemporary Asia",
-      "url": "https://www.festival-cannes.com/en/f/lung-boonmee-raluek-chat/",
-      "note": "For a world where ghosts, memory, and the jungle share the same space.",
-      "format": "watch",
-      "date": "2026-10-15",
-      "title_language": "th",
-      "aliases": [
-        "Uncle Boonmee Who Can Recall His Past Lives",
-        "波米叔叔的前世今生"
-      ],
-      "title_source": "https://www.fapot.or.th/main/information/article/view/270"
-    },
-    {
       "title": "路边野餐",
       "director": "Bi Gan",
       "year": 2015,
@@ -2443,39 +2412,6 @@
       "collection": "Film",
       "format": "watch",
       "date": "2026-10-16"
-    },
-    {
-      "title": "ケイコ 目を澄ませて",
-      "director": "Sho Miyake",
-      "year": 2022,
-      "collection": "Contemporary Asia",
-      "url": "https://www.filmlinc.org/films/small-slow-but-steady/",
-      "note": "For its attention to gesture, routine, and the physical rhythm of boxing.",
-      "format": "watch",
-      "date": "2026-10-15",
-      "title_language": "ja",
-      "aliases": [
-        "Small, Slow but Steady",
-        "惠子的凝視",
-        "惠子的凝视"
-      ],
-      "title_source": "https://happinet-phantom.com/keiko-movie/"
-    },
-    {
-      "title": "പ്രഭയായ് നിനച്ചതെല്ലാം",
-      "director": "Payal Kapadia",
-      "year": 2024,
-      "collection": "Contemporary Asia",
-      "url": "https://www.janusfilms.com/films/2236",
-      "note": "For the city at night, the lives of working women, and moments of connection.",
-      "format": "watch",
-      "date": "2026-10-15",
-      "title_language": "ml",
-      "aliases": [
-        "All We Imagine as Light",
-        "Prabhayay Ninachathellam"
-      ],
-      "title_source": "https://hiff.fi/en/program/all-we-imagine-as-light/"
     },
     {
       "title": "千と千尋の神隠し",
@@ -2505,21 +2441,6 @@
       "format": "watch",
       "date": "2026-10-15",
       "title_language": "en"
-    },
-    {
-      "title": "რას ვხედავთ, როდესაც ცას ვუყურებთ?",
-      "director": "Alexandre Koberidze",
-      "year": 2021,
-      "collection": "Discoveries",
-      "url": "https://mubi.com/en/us/films/what-do-we-see-when-we-look-at-the-sky",
-      "note": "For a city, a spell, and a romance told through everyday wonders.",
-      "format": "watch",
-      "date": "2026-10-15",
-      "title_language": "ka",
-      "aliases": [
-        "What Do We See When We Look at the Sky?"
-      ],
-      "title_source": "https://www.newwavefilms.co.uk/assets/1663/What_Do_We_See_When_We_Look_At_The_Sky___Press_Book.pdf"
     },
     {
       "title": "Lady Bird",
