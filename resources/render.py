@@ -29,11 +29,11 @@ for i, r in enumerate(items, 1):
         subtitle = f"{r['director']} · {r['year']} · {r['collection']}"
     else:
         subtitle = f"{r['topic']} · {domain}" if r.get('topic') else domain
-    note = f'<span class="resource-note">{e(r["note"])}</span>' if r.get('note') and r['format'] != 'watch' else ''
+    note = f'<span class="resource-note">{e(r["note"])}</span>' if r.get('note') and r['format'] not in ('books', 'watch') else ''
     title = ' title="Details and viewing information"' if r['format'] == 'watch' else ''
     aliases = f' data-search-aliases="{e(" | ".join(r["aliases"]), quote=True)}"' if r.get('aliases') else ''
     language = f' lang="{e(r["title_language"], quote=True)}"' if r.get('title_language') else ''
-    rows.append(f'<li class="resource" data-category="{r["format"]}" data-date="{r["date"]}"{aliases}><a class="resource-link" href="{e(r["url"], quote=True)}"{title} target="_blank" rel="noopener noreferrer" aria-labelledby="resource-title-{i}" aria-describedby="resource-detail-{i}"><span class="resource-number" aria-hidden="true">{i:03}</span><span class="resource-name"><span class="resource-title" id="resource-title-{i}"{language} dir="auto">{e(r["title"])}</span><span id="resource-detail-{i}" class="resource-detail"><span class="resource-domain">{e(subtitle)}</span>{note}<span class="sr-only"> (opens in a new tab)</span></span></span><span class="resource-type">{r["format"]}</span><time datetime="{r["date"]}" title="Added to the directory">{r["date"].replace("-", ".")}</time><span class="resource-arrow" aria-hidden="true">↗</span></a></li>')
+    rows.append(f'<li class="resource" data-category="{r["format"]}" data-date="{r["date"]}"{aliases}><a class="resource-link" href="{e(r["url"], quote=True)}"{title} target="_blank" rel="noopener noreferrer" aria-labelledby="resource-title-{i}" aria-describedby="resource-detail-{i}"><span class="resource-number" aria-hidden="true">{i:03}</span><span class="resource-name"><span class="resource-title" id="resource-title-{i}"{language} dir="auto">{e(r["title"])}</span><span id="resource-detail-{i}" class="resource-detail"><span class="resource-domain">{e(subtitle)}</span>{note}<span class="sr-only"> (opens in a new tab)</span></span></span><span class="resource-type">{r["format"]}</span><span class="resource-arrow" aria-hidden="true">↗</span></a></li>')
 p = root / 'index.html'
 s = p.read_text()
 s = re.sub(r'(<nav class="categories"[^>]*>).*?(</nav>)', lambda m: m[1] + filters + m[2], s, flags=re.S)
@@ -42,6 +42,6 @@ s = re.sub(r'(<span class="index-total">)\d+', lambda m: m[1] + str(total), s)
 s = re.sub(r'(<p id="result-count"[^>]*>).*?</p>', lambda m: m[1] + f'{total} entries</p>', s)
 s = re.sub(r'Explore \d+ tools, articles, books, films, and references\.', f'Explore {total} tools, articles, books, films, and references.', s)
 s = re.sub(r'All \d+ entries are listed here', f'All {total} entries are listed here', s)
-s = re.sub(r'resources\.(css|js)\?v=[^" ]+', r'resources.\1?v=interleaved-books-11', s)
+s = re.sub(r'resources\.(css|js)\?v=[^" ]+', r'resources.\1?v=index-no-dates-12', s)
 p.write_text(s)
 print(f'Rendered {total} resources; {counts["read"]} readings; {counts["watch"]} watch entries.')
