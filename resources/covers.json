@@ -1601,5 +1601,27 @@
     "attachment": "codex-clipboard-08077004-90d0-4258-8efb-f254230aeb9b.png",
     "kind": "film-still",
     "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://www.nealstreetproductions.com/television/the-hollow-crown": {
+    "title": "The Hollow Crown",
+    "path": "covers/hollow-crown-selected-06daa2e717.png",
+    "width": 853,
+    "height": 480,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-3e2c36f8-3ec3-4008-8c4f-90eaf519f4e5.png",
+    "kind": "film-still",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://www.hulu.com/series/true-detective-7abbb2f9-2c1c-43a1-b756-c87c18e432e3": {
+    "title": "True Detective",
+    "path": "covers/true-detective-selected-0e60442b27.png",
+    "width": 5000,
+    "height": 3333,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-fea5d69d-4c9c-4ebe-9950-0fd5dad87f51.png",
+    "kind": "film-still",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
   }
 }
