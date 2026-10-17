@@ -128,6 +128,21 @@
       "date": "2026-10-16"
     },
     {
+      "title": "看见",
+      "author": "柴静",
+      "year": 2013,
+      "url": "https://books.google.com/books?id=2378lgEACAAJ",
+      "format": "books",
+      "date": "2026-10-16",
+      "title_language": "zh-Hans",
+      "aliases": [
+        "看見",
+        "柴靜",
+        "Chai Jing",
+        "Seeing"
+      ]
+    },
+    {
       "title": "Distributional Reinforcement Learning",
       "author": "Marc G. Bellemare, Will Dabney & Mark Rowland",
       "url": "https://www.distributional-rl.org/",
