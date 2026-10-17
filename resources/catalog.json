@@ -22,6 +22,21 @@
       "date": "2026-10-16"
     },
     {
+      "title": "Delirious New York: A Retroactive Manifesto for Manhattan",
+      "author": "Rem Koolhaas",
+      "year": 1978,
+      "url": "https://www.oma.com/publications/delirious-new-york",
+      "aliases": [
+        "癲狂紐約",
+        "癫狂的纽约",
+        "Rem Koolhaas",
+        "雷姆·庫哈斯"
+      ],
+      "title_language": "en",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
       "title": "Fooled by Randomness",
       "author": "Nassim Nicholas Taleb",
       "url": "https://www.penguinrandomhouse.com/books/176225/fooled-by-randomness-by-nassim-nicholas-taleb/",
@@ -131,20 +146,6 @@
       "date": "2026-10-16"
     },
     {
-      "title": "真与美：丘成桐的数学观",
-      "author": "丘成桐",
-      "year": 2023,
-      "url": "https://book.douban.com/subject/36514474/",
-      "aliases": [
-        "真與美：丘成桐的數學觀",
-        "Shing-Tung Yau",
-        "Truth and Beauty"
-      ],
-      "title_language": "zh-Hans",
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
       "title": "Outline",
       "author": "Rachel Cusk",
       "year": 2014,
@@ -224,6 +225,50 @@
       "source": "https://kaikunze.de/post/2026-06-22-floating-companion/"
     },
     {
+      "title": "Entropy of city street networks linked to future spatial navigation ability",
+      "url": "https://www.nature.com/articles/s41586-022-04486-7",
+      "author": "Antoine Coutrot et al.",
+      "year": 2022,
+      "publication": "Paper · Nature",
+      "note": "Connects the street patterns of childhood environments with later performance on navigation tasks. A study of how spatial experience relates to cognition, with findings about association rather than proof that one urban layout causes better navigation.",
+      "format": "read",
+      "topic": "Paper · Nature",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "ReMirrorFugue: Examining the Emotional Experience of Presence and (Illusory) Communications Across Time",
+      "url": "https://doi.org/10.1145/3706598.3713328",
+      "author": "Xiao Xiao et al.",
+      "year": 2025,
+      "publication": "Paper · ACM CHI",
+      "note": "A player piano and life-sized projections bring recorded performances into the present. A study with 28 participants examines emotional presence and the experience of illusory communication across time.",
+      "format": "read",
+      "topic": "Paper · ACM CHI",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "inFORM: Dynamic Physical Affordances and Constraints through Shape and Object Actuation",
+      "url": "https://www.media.mit.edu/publications/inform-dynamic-physical-affordances-and-constraints-through-shape-and-object-actuation/",
+      "author": "Sean Follmer, Daniel Leithinger, Alex Olwal, Akimitsu Hogge & Hiroshi Ishii",
+      "year": 2013,
+      "publication": "Paper · ACM UIST",
+      "note": "A shape-changing surface that guides gestures, creates physical constraints, and moves objects. Explores how computation can take physical form and respond directly to the hands.",
+      "format": "read",
+      "topic": "Paper · ACM UIST",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Radical Atoms: Beyond Tangible Bits, Toward Transformable Materials",
+      "url": "https://doi.org/10.1145/2065327.2065337",
+      "author": "Hiroshi Ishii, Dávid Lakatos, Leonardo Bonanni & Jean-Baptiste Labrune",
+      "year": 2012,
+      "publication": "Vision essay · interactions",
+      "note": "A vision of computational materials whose physical form changes with digital information. Extends Tangible Bits toward transformable matter, outlining possibilities for future interaction rather than claiming an already-realized material.",
+      "format": "read",
+      "topic": "Vision essay · interactions",
+      "date": "2026-10-16"
+    },
+    {
       "title": "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
       "url": "https://arxiv.org/abs/2308.08708",
       "format": "read",
@@ -244,6 +289,17 @@
       "publication": "Research paper · Agent memory",
       "date": "2026-10-15",
       "note": "Memory, retrieval, reflection, and planning tested in a simulated town. A concrete account of how past experience can shape an agent’s behavior; its evaluation concerns believability, not consciousness."
+    },
+    {
+      "title": "My Digital Twin Walks the City: Decisional Symmetry in Human—Agent Urban Navigation",
+      "url": "https://doi.org/10.1145/3802974.3809415",
+      "format": "read",
+      "topic": "Paper · ACM DIS Companion",
+      "author": "Leticia Izquierdo Garcia, Miguel Ureña-Pliego, Adrian Mora-Carrero & Kent Larson",
+      "year": 2026,
+      "publication": "Paper · ACM DIS Companion",
+      "date": "2026-10-16",
+      "note": "Thirty participants and their personalized AI agents navigate the same street imagery. Comparing route choices and stated reasons reveals how matching decisions can conceal different priorities, including perceptions of safety."
     },
     {
       "title": "Understanding Deep Learning",
@@ -3378,6 +3434,19 @@
       "date": "2026-10-16"
     },
     {
+      "title": "北上",
+      "author": "徐则臣",
+      "year": 2018,
+      "url": "https://www.bph.com.cn/maodun/detail/2380.html",
+      "aliases": [
+        "徐則臣",
+        "Xu Zechen"
+      ],
+      "title_language": "zh-Hans",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
       "title": "White Teeth",
       "author": "Zadie Smith",
       "year": 2000,
@@ -4097,6 +4166,23 @@
       "date": "2026-10-16"
     },
     {
+      "title": "Full Opening Ceremony from Beijing 2008",
+      "creator": "Olympic Games",
+      "year": 2008,
+      "url": "https://www.youtube.com/watch?v=bufV3EgyPGU",
+      "aliases": [
+        "Full Opening Ceremony from Beijing 2008 | Throwback Thursday",
+        "北京2008奧運開幕式",
+        "北京2008奥运开幕式",
+        "北京奧運開幕式完整版",
+        "Beijing Olympics Opening Ceremony"
+      ],
+      "title_language": "en",
+      "format": "watch",
+      "collection": "Olympic ceremony",
+      "date": "2026-10-16"
+    },
+    {
       "title": "Whiplash",
       "director": "Damien Chazelle",
       "year": 2014,
@@ -4478,6 +4564,34 @@
       "year": 2002,
       "source": "https://www.floguo.com/books",
       "title_language": "en"
+    },
+    {
+      "title": "Autobiografia scientifica",
+      "author": "Aldo Rossi",
+      "year": 1981,
+      "url": "https://mitpress.mit.edu/9780262514385/a-scientific-autobiography/",
+      "aliases": [
+        "A Scientific Autobiography",
+        "科學的自傳",
+        "科学自传"
+      ],
+      "title_language": "it",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Le città invisibili",
+      "author": "Italo Calvino",
+      "year": 1972,
+      "url": "https://www.penguin.co.uk/books/357001/invisible-cities-by-italo-calvino/9781446414279",
+      "aliases": [
+        "Invisible Cities",
+        "看不見的城市",
+        "看不见的城市"
+      ],
+      "title_language": "it",
+      "format": "books",
+      "date": "2026-10-16"
     },
     {
       "date": "2026-10-15",
@@ -5189,6 +5303,20 @@
       "format": "books",
       "date": "2026-10-15",
       "title_language": "zh-Hant"
+    },
+    {
+      "title": "真与美：丘成桐的数学观",
+      "author": "丘成桐",
+      "year": 2023,
+      "url": "https://book.douban.com/subject/36514474/",
+      "aliases": [
+        "真與美：丘成桐的數學觀",
+        "Shing-Tung Yau",
+        "Truth and Beauty"
+      ],
+      "title_language": "zh-Hans",
+      "format": "books",
+      "date": "2026-10-16"
     }
   ],
   "sources": [
