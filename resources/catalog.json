@@ -131,6 +131,20 @@
       "date": "2026-10-16"
     },
     {
+      "title": "真与美：丘成桐的数学观",
+      "author": "丘成桐",
+      "year": 2023,
+      "url": "https://book.douban.com/subject/36514474/",
+      "aliases": [
+        "真與美：丘成桐的數學觀",
+        "Shing-Tung Yau",
+        "Truth and Beauty"
+      ],
+      "title_language": "zh-Hans",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
       "title": "Outline",
       "author": "Rachel Cusk",
       "year": 2014,
@@ -3330,11 +3344,36 @@
       "title_language": "en"
     },
     {
+      "title": "陈梦家和他的朋友们",
+      "author": "方继孝",
+      "year": 2021,
+      "url": "https://read.douban.com/ebook/421016194/",
+      "aliases": [
+        "陳夢家和他的朋友們",
+        "方繼孝"
+      ],
+      "title_language": "zh-Hans",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
       "title": "The Last Samurai",
       "author": "Helen DeWitt",
       "year": 2000,
       "title_language": "en",
       "url": "https://www.ndbooks.com/book/the-last-samurai/",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "望春风",
+      "author": "格非",
+      "year": 2016,
+      "url": "https://read.douban.com/ebook/22585425/",
+      "aliases": [
+        "望春風"
+      ],
+      "title_language": "zh-Hans",
       "format": "books",
       "date": "2026-10-16"
     },
@@ -3485,6 +3524,21 @@
         "墜惡真相"
       ],
       "title_source": "https://www.unifrance.org/film/54575/anatomie-d-une-chute"
+    },
+    {
+      "title": "臥虎藏龍",
+      "director": "Ang Lee",
+      "year": 2000,
+      "title_language": "zh-Hant",
+      "url": "https://www.sonypictures.com/movies/crouchingtigerhiddendragon",
+      "aliases": [
+        "卧虎藏龙",
+        "Crouching Tiger, Hidden Dragon",
+        "李安"
+      ],
+      "format": "watch",
+      "collection": "Chinese-language cinema",
+      "date": "2026-10-16"
     },
     {
       "title": "Past Lives",
@@ -3751,6 +3805,22 @@
       "date": "2026-10-15"
     },
     {
+      "title": "苏州河",
+      "director": "Lou Ye",
+      "year": 2000,
+      "title_language": "zh-Hans",
+      "url": "https://iffr.com/en/iffr/2000/films/suzhou-river",
+      "aliases": [
+        "蘇州河",
+        "Suzhou River",
+        "婁燁",
+        "娄烨"
+      ],
+      "format": "watch",
+      "collection": "Chinese-language cinema",
+      "date": "2026-10-16"
+    },
+    {
       "title": "醉‧生夢死",
       "title_language": "zh-Hant",
       "aliases": [
@@ -3858,6 +3928,21 @@
         "潛行者"
       ],
       "title_source": "https://mosfilm.ru/cinema/films/stalker/"
+    },
+    {
+      "title": "太阳照常升起",
+      "director": "Jiang Wen",
+      "year": 2007,
+      "title_language": "zh-Hans",
+      "url": "https://www.bonafilm.cn/product/177.html",
+      "aliases": [
+        "太陽照常升起",
+        "The Sun Also Rises",
+        "姜文"
+      ],
+      "format": "watch",
+      "collection": "Chinese-language cinema",
+      "date": "2026-10-16"
     },
     {
       "title": "切腹",
@@ -4026,6 +4111,22 @@
       "date": "2026-10-16"
     },
     {
+      "title": "一一",
+      "director": "Edward Yang",
+      "year": 2000,
+      "title_language": "zh-Hant",
+      "url": "https://www.criterion.com/films/781-yi-yi",
+      "aliases": [
+        "Yi Yi",
+        "A One and a Two",
+        "楊德昌",
+        "杨德昌"
+      ],
+      "format": "watch",
+      "collection": "Chinese-language cinema",
+      "date": "2026-10-16"
+    },
+    {
       "title": "The Florida Project",
       "director": "Sean Baker",
       "year": 2017,
@@ -4074,6 +4175,35 @@
       "title_language": "en",
       "aliases": [
         "Lex Fridman Podcast"
+      ]
+    },
+    {
+      "title": "繁花",
+      "title_language": "zh-Hans",
+      "aliases": [
+        "Blossoms Shanghai",
+        "王家衛",
+        "王家卫"
+      ],
+      "director": "Wong Kar Wai",
+      "year": 2023,
+      "collection": "Drama series",
+      "url": "https://wetv.vip/zh-tw/play/p7imm4frhrm3ujj-%E7%B9%81%E8%8A%B1",
+      "format": "watch",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "SpaceX",
+      "title_language": "en",
+      "creator": "SpaceX",
+      "collection": "YouTube channel",
+      "url": "https://www.youtube.com/spacex",
+      "format": "watch",
+      "date": "2026-10-16",
+      "aliases": [
+        "Space X",
+        "Starship",
+        "Falcon 9"
       ]
     },
     {
@@ -4238,6 +4368,19 @@
       "title_language": "en"
     },
     {
+      "title": "平凡的世界",
+      "author": "路遥",
+      "year": "1986–1988",
+      "url": "https://book.douban.com/subject/24380577/",
+      "aliases": [
+        "路遙",
+        "Ordinary World"
+      ],
+      "title_language": "zh-Hans",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
       "date": "2026-10-15",
       "format": "books",
       "title": "New Seeds of Contemplation",
@@ -4367,6 +4510,20 @@
         "約翰克利斯朵夫",
         "約翰·克里斯托夫"
       ],
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "编木拱桥：技术与社会史",
+      "author": "刘妍",
+      "year": 2021,
+      "url": "https://www.tup.tsinghua.edu.cn/booksCenter/book_09106402.html",
+      "aliases": [
+        "編木拱橋：技術與社會史",
+        "劉妍",
+        "Woven Timber Arch Bridges: A History of Technology and Society"
+      ],
+      "title_language": "zh-Hans",
       "format": "books",
       "date": "2026-10-16"
     },
@@ -4688,6 +4845,18 @@
       "date": "2026-10-15",
       "year": 2022,
       "title_language": "en"
+    },
+    {
+      "title": "韩家往事",
+      "author": "徐泓",
+      "year": 2024,
+      "url": "https://www.cp.com.cn/book/c8082531-f.html",
+      "aliases": [
+        "韓家往事"
+      ],
+      "title_language": "zh-Hans",
+      "format": "books",
+      "date": "2026-10-16"
     },
     {
       "date": "2026-07-12",
