@@ -1623,5 +1623,38 @@
     "attachment": "codex-clipboard-fea5d69d-4c9c-4ebe-9950-0fd5dad87f51.png",
     "kind": "film-still",
     "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://filminstitut.at/filme/oktober-november": {
+    "title": "Oktober November",
+    "path": "covers/oktober-november-selected-b6e92a6b94.png",
+    "width": 1400,
+    "height": 931,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-3777b6ff-3dc2-41e2-8685-bebcaa5036cc.png",
+    "kind": "film-still",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://trigon-film.org/en/films/winter-sleep/": {
+    "title": "Kış Uykusu",
+    "path": "covers/winter-sleep-selected-b27876605f.png",
+    "width": 1296,
+    "height": 730,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-82491abe-16f4-4235-b044-a1e2858a6da0.png",
+    "kind": "film-still",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://www.festival-cannes.com/en/f/uzak/": {
+    "title": "Uzak",
+    "path": "covers/uzak-selected-a068ada07b.png",
+    "width": 1020,
+    "height": 550,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-075961c0-3da4-4fa8-9051-af8ed03068d7.png",
+    "kind": "film-still",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
   }
 }

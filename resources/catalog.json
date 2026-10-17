@@ -2529,22 +2529,15 @@
       "date": "2026-10-16"
     },
     {
-      "title": "千と千尋の神隠し",
-      "director": "Hayao Miyazaki",
-      "year": 2001,
-      "collection": "For the joy of it",
-      "url": "https://gkids.com/films/spirited-away/",
-      "note": "For the pleasure of entering a strange world whose smallest details feel alive.",
+      "title": "The Banshees of Inisherin",
+      "director": "Martin McDonagh",
+      "year": 2022,
+      "title_language": "en",
+      "url": "https://press.searchlightpictures.com/banshees-inisherin",
+      "aliases": [],
+      "collection": "Film",
       "format": "watch",
-      "date": "2026-10-15",
-      "title_language": "ja",
-      "aliases": [
-        "Spirited Away",
-        "千與千尋",
-        "千与千寻",
-        "神隱少女"
-      ],
-      "title_source": "https://www.ghibli.jp/works/chihiro/"
+      "date": "2026-10-16"
     },
     {
       "title": "臥虎藏龍",
@@ -2587,15 +2580,22 @@
       "date": "2026-10-16"
     },
     {
-      "title": "The Banshees of Inisherin",
-      "director": "Martin McDonagh",
-      "year": 2022,
-      "title_language": "en",
-      "url": "https://press.searchlightpictures.com/banshees-inisherin",
-      "aliases": [],
-      "collection": "Film",
+      "title": "千と千尋の神隠し",
+      "director": "Hayao Miyazaki",
+      "year": 2001,
+      "collection": "For the joy of it",
+      "url": "https://gkids.com/films/spirited-away/",
+      "note": "For the pleasure of entering a strange world whose smallest details feel alive.",
       "format": "watch",
-      "date": "2026-10-16"
+      "date": "2026-10-15",
+      "title_language": "ja",
+      "aliases": [
+        "Spirited Away",
+        "千與千尋",
+        "千与千寻",
+        "神隱少女"
+      ],
+      "title_source": "https://www.ghibli.jp/works/chihiro/"
     },
     {
       "title": "The Grand Budapest Hotel",
@@ -2660,6 +2660,46 @@
       "format": "watch",
       "collection": "Contemporary cinema",
       "date": "2026-10-16"
+    },
+    {
+      "title": "Oktober November",
+      "director": "Götz Spielmann",
+      "year": 2013,
+      "title_language": "de",
+      "aliases": [
+        "October November"
+      ],
+      "url": "https://filminstitut.at/filme/oktober-november",
+      "format": "watch",
+      "date": "2026-10-17"
+    },
+    {
+      "title": "Kış Uykusu",
+      "director": "Nuri Bilge Ceylan",
+      "year": 2014,
+      "title_language": "tr",
+      "aliases": [
+        "Winter Sleep",
+        "Kis Uykusu",
+        "冬眠"
+      ],
+      "url": "https://trigon-film.org/en/films/winter-sleep/",
+      "format": "watch",
+      "date": "2026-10-17"
+    },
+    {
+      "title": "Uzak",
+      "director": "Nuri Bilge Ceylan",
+      "year": 2002,
+      "title_language": "tr",
+      "aliases": [
+        "Distant",
+        "遠方",
+        "远方"
+      ],
+      "url": "https://www.festival-cannes.com/en/f/uzak/",
+      "format": "watch",
+      "date": "2026-10-17"
     },
     {
       "title": "一一",
