@@ -184,6 +184,15 @@
       "date": "2026-10-16"
     },
     {
+      "title": "Neither Here nor There: Travels in Europe",
+      "author": "Bill Bryson",
+      "year": 1991,
+      "title_language": "en",
+      "url": "https://www.penguin.com.au/books/neither-here-nor-there-9781784161828",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
       "title": "Austerlitz",
       "author": "W. G. Sebald",
       "year": 2001,
@@ -348,6 +357,22 @@
       "publication": "Research paper · Agent memory",
       "date": "2026-10-15",
       "note": "Memory, retrieval, reflection, and planning tested in a simulated town. A concrete account of how past experience can shape an agent’s behavior; its evaluation concerns believability, not consciousness."
+    },
+    {
+      "title": "OpenAI Mathematics: Manuscripts and Proofs",
+      "author": "OpenAI",
+      "year": 2026,
+      "publication": "Research collection · Mathematics",
+      "topic": "Research collection · Mathematics",
+      "url": "https://github.com/openai/math",
+      "source": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "note": "Mathematical manuscripts and proof artifacts produced by an internal OpenAI model. Includes an overview, individual papers, and Lean formalizations; verification varies across the collection, and unformalized results may contain errors.",
+      "format": "read",
+      "date": "2026-10-16",
+      "aliases": [
+        "OpenAI math papers",
+        "722 math papers"
+      ]
     },
     {
       "title": "My Digital Twin Walks the City: Decisional Symmetry in Human—Agent Urban Navigation",
@@ -1817,6 +1842,17 @@
       "title_source": "https://www.unifrance.org/film/54575/anatomie-d-une-chute"
     },
     {
+      "title": "A Beautiful Mind",
+      "director": "Ron Howard",
+      "year": 2001,
+      "title_language": "en",
+      "url": "https://www.universalpicturesathome.com/movies/a-beautiful-mind",
+      "aliases": [],
+      "collection": "Film",
+      "format": "watch",
+      "date": "2026-10-16"
+    },
+    {
       "title": "臥虎藏龍",
       "director": "Ang Lee",
       "year": 2000,
@@ -1902,6 +1938,17 @@
       "title_language": "en",
       "format": "watch",
       "collection": "Contemporary cinema",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Amadeus",
+      "director": "Miloš Forman",
+      "year": 1984,
+      "title_language": "en",
+      "url": "https://milosforman.com/en/movies/amadeus",
+      "aliases": [],
+      "collection": "Film",
+      "format": "watch",
       "date": "2026-10-16"
     },
     {
@@ -2028,6 +2075,19 @@
       "date": "2026-10-15"
     },
     {
+      "title": "Affeksjonsverdi",
+      "director": "Joachim Trier",
+      "year": 2025,
+      "title_language": "nb",
+      "url": "https://www.nfi.no/en/films-and-series/sentimental-value",
+      "aliases": [
+        "Sentimental Value"
+      ],
+      "collection": "Film",
+      "format": "watch",
+      "date": "2026-10-16"
+    },
+    {
       "title": "Les Parapluies de Cherbourg",
       "title_language": "fr",
       "aliases": [
@@ -2137,6 +2197,17 @@
       "date": "2026-10-16"
     },
     {
+      "title": "Dead Poets Society",
+      "director": "Peter Weir",
+      "year": 1989,
+      "title_language": "en",
+      "url": "https://d23.com/a-to-z/dead-poets-society-film/",
+      "aliases": [],
+      "collection": "Film",
+      "format": "watch",
+      "date": "2026-10-16"
+    },
+    {
       "title": "三峡好人",
       "director": "贾樟柯",
       "year": 2006,
@@ -2231,6 +2302,19 @@
       "format": "watch",
       "date": "2026-10-15",
       "title_language": "en"
+    },
+    {
+      "title": "Sirocco et le Royaume des courants d’air",
+      "director": "Benoît Chieux",
+      "year": 2023,
+      "title_language": "fr",
+      "url": "https://sacrebleuprod.fr/?page_id=1729",
+      "aliases": [
+        "Sirocco and the Kingdom of the Winds"
+      ],
+      "collection": "Film",
+      "format": "watch",
+      "date": "2026-10-16"
     },
     {
       "title": "Rain Man",
@@ -2333,6 +2417,19 @@
       ]
     },
     {
+      "title": "Oslo, 31. august",
+      "director": "Joachim Trier",
+      "year": 2011,
+      "title_language": "nb",
+      "url": "https://www.festival-cannes.com/en/f/oslo-31-august/",
+      "aliases": [
+        "Oslo, August 31st"
+      ],
+      "collection": "Film",
+      "format": "watch",
+      "date": "2026-10-16"
+    },
+    {
       "title": "ケイコ 目を澄ませて",
       "director": "Sho Miyake",
       "year": 2022,
@@ -2424,6 +2521,17 @@
       "date": "2026-10-16"
     },
     {
+      "title": "The Banshees of Inisherin",
+      "director": "Martin McDonagh",
+      "year": 2022,
+      "title_language": "en",
+      "url": "https://press.searchlightpictures.com/banshees-inisherin",
+      "aliases": [],
+      "collection": "Film",
+      "format": "watch",
+      "date": "2026-10-16"
+    },
+    {
       "title": "The Grand Budapest Hotel",
       "director": "Wes Anderson",
       "year": 2014,
@@ -2494,6 +2602,23 @@
       ],
       "format": "watch",
       "collection": "Chinese-language cinema",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "남과 여",
+      "director": "이윤기",
+      "year": 2016,
+      "title_language": "ko",
+      "url": "https://www.koreanfilm.or.kr/eng/films/index/filmsView.jsp?movieCd=20145502",
+      "aliases": [
+        "A Man and a Woman",
+        "Lee Yoon-ki",
+        "Gong Yoo",
+        "공유",
+        "男與女"
+      ],
+      "collection": "Film",
+      "format": "watch",
       "date": "2026-10-16"
     },
     {
