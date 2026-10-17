@@ -427,13 +427,6 @@
       "date": "2026-10-15"
     },
     {
-      "title": "App Motion",
-      "url": "https://appmotion.design/",
-      "format": "browse",
-      "topic": "Animation",
-      "date": "2026-10-15"
-    },
-    {
       "title": "Mobbin",
       "url": "https://mobbin.com/",
       "format": "browse",
@@ -496,15 +489,7 @@
     {
       "title": "Sombra",
       "url": "https://sombra.design/",
-      "format": "browse",
-      "topic": "Design Galleries",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
-      "title": "Land-book",
-      "url": "https://land-book.com/",
-      "format": "browse",
+      "format": "use",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -512,22 +497,6 @@
     {
       "title": "SiteInspire",
       "url": "https://www.siteinspire.com/",
-      "format": "browse",
-      "topic": "Design Galleries",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
-      "title": "UX Archive",
-      "url": "https://uxarchive.com/",
-      "format": "browse",
-      "topic": "Design Galleries",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
-      "title": "Screenlane",
-      "url": "https://screenlane.com/",
       "format": "browse",
       "topic": "Design Galleries",
       "date": "2026-10-15",
@@ -552,14 +521,6 @@
     {
       "title": "Inspiration Grid",
       "url": "https://theinspirationgrid.com/",
-      "format": "browse",
-      "topic": "Design Galleries",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
-      "title": "Scrnshts",
-      "url": "https://scrnshts.club/",
       "format": "browse",
       "topic": "Design Galleries",
       "date": "2026-10-15",
@@ -616,7 +577,7 @@
     {
       "title": "Loader Buttons",
       "url": "https://loader-buttons.appllama.io/",
-      "format": "browse",
+      "format": "build",
       "topic": "Design Galleries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -942,14 +903,6 @@
       "source": "https://www.designeer.xyz/"
     },
     {
-      "title": "framecn",
-      "url": "https://framecn.dev/",
-      "format": "build",
-      "topic": "Component Libraries",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
       "title": "emailcn",
       "url": "https://emailcn.run/",
       "format": "build",
@@ -1024,7 +977,7 @@
     {
       "title": "Uiuno",
       "url": "https://uiuno.com/",
-      "format": "build",
+      "format": "use",
       "topic": "Component Libraries",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1048,7 +1001,7 @@
     {
       "title": "Claude Code",
       "url": "https://claude.com/claude-code",
-      "format": "build",
+      "format": "use",
       "topic": "Development",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1056,7 +1009,7 @@
     {
       "title": "Cursor",
       "url": "https://cursor.com/",
-      "format": "build",
+      "format": "use",
       "topic": "Development",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1064,7 +1017,7 @@
     {
       "title": "Zed",
       "url": "https://zed.dev/",
-      "format": "build",
+      "format": "use",
       "topic": "Development",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1072,7 +1025,7 @@
     {
       "title": "v0",
       "url": "https://v0.app/",
-      "format": "build",
+      "format": "use",
       "topic": "Development",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1128,7 +1081,7 @@
     {
       "title": "AI Stack",
       "url": "https://github.com/alp82/aistack",
-      "format": "build",
+      "format": "browse",
       "topic": "Development",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1200,7 +1153,7 @@
     {
       "title": "Refero",
       "url": "https://styles.refero.design/",
-      "format": "build",
+      "format": "browse",
       "topic": "Agents & MCP",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1216,7 +1169,7 @@
     {
       "title": "Open Design",
       "url": "https://open-design.ai/",
-      "format": "build",
+      "format": "use",
       "topic": "Agents & MCP",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1278,14 +1231,6 @@
       "source": "https://www.designeer.xyz/"
     },
     {
-      "title": "Soubi",
-      "url": "https://soubi.vercel.app/",
-      "format": "build",
-      "topic": "Agents & MCP",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
       "title": "agentcn",
       "url": "https://agentcn.run/",
       "format": "build",
@@ -1328,7 +1273,7 @@
     {
       "title": "HyperFrames",
       "url": "https://www.hyperframes.dev/",
-      "format": "build",
+      "format": "use",
       "topic": "Agents & MCP",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1344,7 +1289,7 @@
     {
       "title": "Distill",
       "url": "https://distill.id/",
-      "format": "build",
+      "format": "use",
       "topic": "Agents & MCP",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1384,15 +1329,7 @@
     {
       "title": "Scira",
       "url": "https://scira.ai/",
-      "format": "build",
-      "topic": "Agents & MCP",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
-      "title": "Kombai",
-      "url": "https://kombai.com/",
-      "format": "build",
+      "format": "use",
       "topic": "Agents & MCP",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1400,7 +1337,7 @@
     {
       "title": "Causal",
       "url": "https://causal.so/",
-      "format": "build",
+      "format": "use",
       "topic": "Agents & MCP",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1438,24 +1375,8 @@
       "source": "https://www.designeer.xyz/"
     },
     {
-      "title": "Easing Wizard",
-      "url": "https://easingwizard.com/",
-      "format": "build",
-      "topic": "Motion",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
       "title": "Theatre.js",
       "url": "https://www.theatrejs.com/",
-      "format": "build",
-      "topic": "Motion",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
-      "title": "glimm",
-      "url": "https://glimm.dev/",
       "format": "build",
       "topic": "Motion",
       "date": "2026-10-15",
@@ -1466,22 +1387,6 @@
       "url": "https://textmotion.dev/",
       "format": "build",
       "topic": "Motion",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
-      "title": "Figma",
-      "url": "https://figma.com/",
-      "format": "use",
-      "topic": "Interface Design",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
-      "title": "Framer",
-      "url": "https://framer.com/",
-      "format": "use",
-      "topic": "Interface Design",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
     },
@@ -1510,17 +1415,9 @@
       "source": "https://www.designeer.xyz/"
     },
     {
-      "title": "UI Labs",
-      "url": "https://www.uilabs.dev/",
-      "format": "use",
-      "topic": "Interface Design",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
       "title": "UIWTF",
       "url": "https://uiw.tf/",
-      "format": "use",
+      "format": "browse",
       "topic": "Interface Design",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1528,7 +1425,7 @@
     {
       "title": "Lab01",
       "url": "https://lab01.dev/",
-      "format": "use",
+      "format": "browse",
       "topic": "Interface Design",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1632,7 +1529,7 @@
     {
       "title": "Three.js",
       "url": "https://threejs.org/",
-      "format": "use",
+      "format": "build",
       "topic": "3D",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1640,7 +1537,7 @@
     {
       "title": "React Three Fiber",
       "url": "https://r3f.docs.pmnd.rs/",
-      "format": "use",
+      "format": "build",
       "topic": "3D",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1648,7 +1545,7 @@
     {
       "title": "Drei",
       "url": "https://drei.docs.pmnd.rs/",
-      "format": "use",
+      "format": "build",
       "topic": "3D",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1680,7 +1577,7 @@
     {
       "title": "Book of Shaders",
       "url": "https://thebookofshaders.com/",
-      "format": "build",
+      "format": "read",
       "topic": "Shaders",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1688,22 +1585,6 @@
     {
       "title": "compute.toys",
       "url": "https://compute.toys/",
-      "format": "build",
-      "topic": "Shaders",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
-      "title": "Shaderfrog",
-      "url": "https://shaderfrog.com/",
-      "format": "build",
-      "topic": "Shaders",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
-      "title": "shadercn",
-      "url": "https://shadercn.run/",
       "format": "build",
       "topic": "Shaders",
       "date": "2026-10-15",
@@ -1768,7 +1649,7 @@
     {
       "title": "Icon Museum",
       "url": "https://icon.museum/",
-      "format": "use",
+      "format": "browse",
       "topic": "Icons",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1792,7 +1673,7 @@
     {
       "title": "Carbon Icons",
       "url": "https://carbondesignsystem.com/",
-      "format": "use",
+      "format": "browse",
       "topic": "Icons",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1862,14 +1743,6 @@
       "source": "https://www.designeer.xyz/"
     },
     {
-      "title": "Ray.so",
-      "url": "https://ray.so/",
-      "format": "use",
-      "topic": "Utilities",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
       "title": "Transform",
       "url": "https://transform.tools/",
       "format": "use",
@@ -1886,33 +1759,9 @@
       "source": "https://www.designeer.xyz/"
     },
     {
-      "title": "Anim8",
-      "url": "https://www.tryanim8.com/",
-      "format": "use",
-      "topic": "Utilities",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
       "title": "OGFolio",
       "url": "https://www.ogfolio.com/",
-      "format": "use",
-      "topic": "Utilities",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
-      "title": "DotForge",
-      "url": "https://dotforge.vercel.app/",
-      "format": "use",
-      "topic": "Utilities",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
-      "title": "Vessa",
-      "url": "https://vessa.design/",
-      "format": "use",
+      "format": "browse",
       "topic": "Utilities",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1920,7 +1769,7 @@
     {
       "title": "Design Minis",
       "url": "https://www.designminis.com/",
-      "format": "use",
+      "format": "browse",
       "topic": "Utilities",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1952,7 +1801,7 @@
     {
       "title": "Drawably",
       "url": "https://www.drawably.dev/",
-      "format": "use",
+      "format": "build",
       "topic": "Utilities",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1984,7 +1833,7 @@
     {
       "title": "Corne",
       "url": "https://corne.rs/",
-      "format": "use",
+      "format": "build",
       "topic": "Utilities",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -1992,14 +1841,6 @@
     {
       "title": "Shiori",
       "url": "https://www.shiori.sh/",
-      "format": "use",
-      "topic": "Utilities",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
-      "title": "Open Source Together",
-      "url": "https://opensource-together.com/",
       "format": "use",
       "topic": "Utilities",
       "date": "2026-10-15",
@@ -2120,7 +1961,7 @@
     {
       "title": "Remotion",
       "url": "https://remotion.dev/",
-      "format": "use",
+      "format": "build",
       "topic": "Video & Capture",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -2152,7 +1993,7 @@
     {
       "title": "Remocn",
       "url": "https://www.remocn.dev/",
-      "format": "use",
+      "format": "build",
       "topic": "Video & Capture",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
@@ -2206,24 +2047,8 @@
       "source": "https://www.designeer.xyz/"
     },
     {
-      "title": "Vercel",
-      "url": "https://vercel.com/",
-      "format": "build",
-      "topic": "Deploy",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
       "title": "Cloudflare",
       "url": "https://developers.cloudflare.com/workers/",
-      "format": "build",
-      "topic": "Deploy",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
-      "title": "Netlify",
-      "url": "https://netlify.com/",
       "format": "build",
       "topic": "Deploy",
       "date": "2026-10-15",
@@ -2238,17 +2063,9 @@
       "source": "https://www.designeer.xyz/"
     },
     {
-      "title": "Fly.io",
-      "url": "https://fly.io/",
-      "format": "build",
-      "topic": "Deploy",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/"
-    },
-    {
       "title": "Learn Kernels",
       "url": "https://learn-kernels.com/",
-      "format": "browse",
+      "format": "read",
       "topic": "GPU curriculum",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/",
@@ -2262,24 +2079,6 @@
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/",
       "note": "An interactive UI curriculum with links to the designers and writing behind its lessons."
-    },
-    {
-      "title": "Good UI",
-      "url": "https://goodui.org/",
-      "format": "browse",
-      "topic": "A/B testing",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/",
-      "note": "A collection of interface patterns and conversion experiments."
-    },
-    {
-      "title": "Abduzeedo",
-      "url": "https://abduzeedo.com/",
-      "format": "browse",
-      "topic": "Design publication",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/",
-      "note": "A design and visual-inspiration publication; browse individual stories rather than treating the entire feed as a recommendation."
     },
     {
       "title": "Smashing Magazine",
@@ -2456,15 +2255,6 @@
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/",
       "note": "An interactive visual explanation of how black-and-white pixels produce the illusion of gray. A careful foundation for understanding image-making."
-    },
-    {
-      "title": "AI for UI",
-      "url": "https://aiforui.dev/",
-      "format": "browse",
-      "topic": "UI course",
-      "date": "2026-10-15",
-      "source": "https://www.designeer.xyz/",
-      "note": "A course on building interfaces with AI."
     },
     {
       "title": "The Shape of AI",
@@ -3705,7 +3495,7 @@
     },
     {
       "date": "2026-09-16",
-      "format": "browse",
+      "format": "read",
       "title": "Butterick’s Practical Typography",
       "url": "https://practicaltypography.com/"
     },
@@ -3737,13 +3527,7 @@
     },
     {
       "date": "2026-09-04",
-      "format": "build",
-      "title": "Images in motion",
-      "url": "https://iim.smartsquad.io"
-    },
-    {
-      "date": "2026-09-04",
-      "format": "browse",
+      "format": "use",
       "title": "Shoogle",
       "url": "https://shoogle.dev"
     },
@@ -3767,7 +3551,7 @@
     },
     {
       "date": "2026-08-20",
-      "format": "browse",
+      "format": "read",
       "title": "Morphrig",
       "url": "https://morphrig.dev"
     },
@@ -3778,22 +3562,10 @@
       "url": "https://www.morphicons.com/"
     },
     {
-      "date": "2026-08-13",
-      "format": "build",
-      "title": "interior.dev",
-      "url": "https://www.interior.dev/"
-    },
-    {
       "date": "2026-08-11",
       "format": "build",
       "title": "liquid-glass",
       "url": "https://glass.samasante.com/"
-    },
-    {
-      "date": "2026-08-05",
-      "format": "build",
-      "title": "crd-ui",
-      "url": "https://crd-ui.juanda.co/"
     },
     {
       "date": "2026-08-05",
@@ -3853,22 +3625,10 @@
       "url": "https://number-flow.barvian.me/"
     },
     {
-      "date": "2026-05-18",
-      "format": "browse",
-      "title": "Design Spells",
-      "url": "https://designspells.com"
-    },
-    {
       "date": "2026-05-16",
       "format": "browse",
       "title": "Design Systems Surf",
       "url": "https://designsystems.surf/"
-    },
-    {
-      "date": "2026-05-16",
-      "format": "build",
-      "title": "@web-kits/audio",
-      "url": "https://audio.raphaelsalaja.com/"
     },
     {
       "date": "2026-05-13",
@@ -3877,28 +3637,10 @@
       "url": "https://didoesdigital.com/project/design-for-engineers/"
     },
     {
-      "date": "2026-05-13",
-      "format": "browse",
-      "title": "Interfaces",
-      "url": "https://interfaces.dev/"
-    },
-    {
-      "date": "2026-05-13",
-      "format": "build",
-      "title": "Hashvatar",
-      "url": "https://www.hashvatar.com/"
-    },
-    {
       "date": "2026-05-04",
       "format": "build",
       "title": "Remediate",
       "url": "https://www.remediate.ski/"
-    },
-    {
-      "date": "2026-04-27",
-      "format": "build",
-      "title": "devl.dev",
-      "url": "https://devl.dev/"
     },
     {
       "date": "2026-03-27",
@@ -3932,15 +3674,9 @@
     },
     {
       "date": "2026-03-17",
-      "format": "use",
+      "format": "browse",
       "title": "Design System Checklist",
       "url": "https://www.designsystemchecklist.com/"
-    },
-    {
-      "date": "2026-03-17",
-      "format": "browse",
-      "title": "Laws of UX",
-      "url": "https://lawsofux.com/"
     },
     {
       "date": "2026-03-17",
@@ -4014,12 +3750,6 @@
     },
     {
       "date": "2026-03-09",
-      "format": "browse",
-      "title": "UI Playbook",
-      "url": "https://uiplaybook.dev/"
-    },
-    {
-      "date": "2026-03-09",
       "format": "build",
       "title": "⌘K",
       "url": "https://github.com/dip/cmdk"
@@ -4031,12 +3761,6 @@
       "url": "https://interfaces.rauno.me/",
       "note": "A compact implementation checklist, not a deep essay. Some advice is dated or too broad, including disabling autocomplete and preferring shadow-only focus rings.",
       "topic": "Web interface checklist"
-    },
-    {
-      "date": "2026-03-08",
-      "format": "build",
-      "title": "soundcn",
-      "url": "https://soundcn.xyz/"
     },
     {
       "date": "2026-03-07",
