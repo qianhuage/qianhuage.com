@@ -53,6 +53,16 @@
       "title_language": "en"
     },
     {
+      "title": "Ficciones",
+      "author": "Jorge Luis Borges",
+      "year": 1944,
+      "title_language": "es",
+      "url": "https://www.penguinlibros.com/es/literatura-contemporanea/30631-libro-ficciones-9788426405739",
+      "aliases": [],
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
       "title": "Probabilistic Machine Learning: An Introduction",
       "author": "Kevin P. Murphy",
       "url": "https://probml.github.io/pml-book/book1.html",
@@ -115,6 +125,19 @@
       "year": 2010,
       "title_language": "en",
       "url": "https://www.penguinrandomhouse.com/books/190696/the-warmth-of-other-suns-by-isabel-wilkerson/",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "徐霞客游记",
+      "author": "徐霞客",
+      "year": 1642,
+      "title_language": "zh-Hans",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=196805",
+      "aliases": [
+        "徐霞客遊記",
+        "Xu Xiake"
+      ],
       "format": "books",
       "date": "2026-10-16"
     },
@@ -193,6 +216,18 @@
       "year": 2006,
       "title_language": "en",
       "url": "https://www.penguinrandomhouse.com/books/110490/the-road-by-cormac-mccarthy/",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Vers une architecture",
+      "author": "Le Corbusier",
+      "year": 1923,
+      "title_language": "fr",
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb397737498",
+      "aliases": [
+        "Toward an Architecture"
+      ],
       "format": "books",
       "date": "2026-10-16"
     },
@@ -1577,6 +1612,16 @@
       "date": "2026-10-16"
     },
     {
+      "title": "A Pattern Language: Towns, Buildings, Construction",
+      "author": "Christopher Alexander, Sara Ishikawa & Murray Silverstein, with Max Jacobson, Ingrid Fiksdahl-King & Shlomo Angel",
+      "year": 1977,
+      "title_language": "en",
+      "url": "https://www.oup.com.au/books/general-interest/art-technology/9780195019193",
+      "aliases": [],
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
       "title": "The Last Samurai",
       "author": "Helen DeWitt",
       "year": 2000,
@@ -1652,6 +1697,19 @@
       "year": 2014,
       "title_language": "en",
       "url": "https://www.graywolfpress.org/books/citizen",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "中国建筑史",
+      "author": "梁思成",
+      "year": 1984,
+      "title_language": "zh-Hans",
+      "url": "https://search.worldcat.org/title/1431141288",
+      "aliases": [
+        "中國建築史",
+        "Liang Sicheng"
+      ],
       "format": "books",
       "date": "2026-10-16"
     },
@@ -2522,6 +2580,16 @@
       "title_language": "en"
     },
     {
+      "title": "Magellan. Der Mann und seine Tat",
+      "author": "Stefan Zweig",
+      "year": 1938,
+      "title_language": "de",
+      "url": "https://www.fischerverlage.de/buch/stefan-zweig-magellan-9783104002484",
+      "aliases": [],
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
       "date": "2026-10-15",
       "format": "books",
       "title": "Colors of Wes Anderson",
@@ -2603,6 +2671,16 @@
       ]
     },
     {
+      "title": "In the Blink of an Eye: A Perspective on Film Editing",
+      "author": "Walter Murch",
+      "year": 1992,
+      "title_language": "en",
+      "url": "https://www.silmanjamespress.com/shop/filmmaking-directing/in-the-blink-of-an-eye2nd-edition/",
+      "aliases": [],
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
       "date": "2026-10-15",
       "format": "books",
       "title": "Looking Forward to Monday Morning",
@@ -2676,6 +2754,16 @@
       "title_language": "en"
     },
     {
+      "title": "Geography: Realms, Regions, and Concepts",
+      "author": "Harm J. de Blij",
+      "year": 1971,
+      "title_language": "en",
+      "url": "https://openlibrary.org/works/OL1942105W",
+      "aliases": [],
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
       "date": "2026-10-15",
       "format": "books",
       "title": "Severance",
@@ -2743,6 +2831,19 @@
       "year": 2002,
       "source": "https://www.floguo.com/books",
       "title_language": "en"
+    },
+    {
+      "title": "Le Cinéma selon Alfred Hitchcock",
+      "author": "François Truffaut",
+      "year": 1966,
+      "title_language": "fr",
+      "url": "https://books.google.com/books/about/Le_cin%C3%A9ma_selon_Hitchcock.html?id=Yi7CxwEACAAJ",
+      "aliases": [
+        "Hitchcock/Truffaut",
+        "Le Cinéma selon Hitchcock"
+      ],
+      "format": "books",
+      "date": "2026-10-16"
     },
     {
       "title": "Autobiografia scientifica",
@@ -2874,6 +2975,16 @@
       "year": 2025,
       "source": "https://www.floguo.com/books",
       "title_language": "en"
+    },
+    {
+      "title": "Ways of Seeing",
+      "author": "John Berger",
+      "year": 1972,
+      "title_language": "en",
+      "url": "https://www.penguin.co.uk/books/56465/ways-of-seeing-by-berger-john/9780141035796",
+      "aliases": [],
+      "format": "books",
+      "date": "2026-10-16"
     },
     {
       "date": "2026-10-15",
@@ -3036,6 +3147,16 @@
         "韓家往事"
       ],
       "title_language": "zh-Hans",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "The Death and Life of Great American Cities",
+      "author": "Jane Jacobs",
+      "year": 1961,
+      "title_language": "en",
+      "url": "https://www.penguinrandomhouse.com/books/86058/the-death-and-life-of-great-american-cities-by-jane-jacobs/9780679644330/",
+      "aliases": [],
       "format": "books",
       "date": "2026-10-16"
     },
