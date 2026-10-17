@@ -2624,6 +2624,43 @@
       "date": "2026-10-16"
     },
     {
+      "title": "Relativistic Quantum Field Theory I",
+      "creator": "Hong Liu · MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=xQFgk-nEihg&list=PLUl4u3cNGP61AV6bhf4mB3tCyWQrI_uU5",
+      "format": "watch",
+      "date": "2026-10-16",
+      "title_language": "en",
+      "aliases": [
+        "MIT 8.323",
+        "Classical Field Theories and Principle of Locality"
+      ],
+      "year": 2023
+    },
+    {
+      "title": "Financial Markets",
+      "creator": "Robert J. Shiller · Yale",
+      "url": "https://www.youtube.com/watch?v=WQui_3Hpmmc&list=PL8FB14A2200B87185",
+      "format": "watch",
+      "date": "2026-10-16",
+      "title_language": "en",
+      "aliases": [
+        "ECON 252",
+        "Introduction and What this Course Will Do for You and Your Purposes"
+      ],
+      "year": 2011
+    },
+    {
+      "title": "Justice: What’s the Right Thing to Do?",
+      "creator": "Michael Sandel · Harvard",
+      "url": "https://www.youtube.com/watch?v=kBdfcR-8hEY&list=PL30C13C91CFFEFEA6",
+      "format": "watch",
+      "date": "2026-10-16",
+      "title_language": "en",
+      "aliases": [
+        "The Moral Side of Murder"
+      ]
+    },
+    {
       "title": "SpaceX",
       "title_language": "en",
       "creator": "SpaceX",
@@ -2638,18 +2675,15 @@
       ]
     },
     {
-      "title": "商业访谈录",
-      "host": "张小珺",
-      "collection": "Podcast series",
-      "url": "https://podcasts.apple.com/us/podcast/%E5%BC%A0%E5%B0%8F%E7%8F%BAj%C3%B9n-%E5%95%86%E4%B8%9A%E8%AE%BF%E8%B0%88%E5%BD%95/id1634356920",
+      "title": "A.I., Mars and Immortality: Are We Dreaming Big Enough?",
+      "host": "Ross Douthat",
+      "collection": "Interesting Times",
+      "url": "https://www.youtube.com/watch?v=vV7YgnPUxcU&t=34s",
       "format": "watch",
       "date": "2026-10-16",
-      "title_language": "zh-Hans",
+      "title_language": "en",
       "aliases": [
-        "张小珺商业访谈录",
-        "張小珺",
-        "商业访谈录",
-        "张小珺Jùn｜商业访谈录"
+        "Interesting Times with Ross Douthat"
       ]
     },
     {

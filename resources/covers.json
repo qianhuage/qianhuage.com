@@ -898,23 +898,14 @@
   },
   "https://www.youtube.com/spacex": {
     "title": "SpaceX",
-    "path": "covers/9abe687e94fc-still.webp",
-    "width": 960,
-    "height": 540,
-    "source": "https://www.merkur.de/wirtschaft/spacex-boersengang-peilt-75-billionen-dollar-an-fondsmanager-warnt-vor-crash-94347078.html",
-    "image_url": "https://www.merkur.de/assets/images/42/907/42907233-spacex-starship-beim-zwoelften-testflug-vom-orbital-launch-pad-in-starbase-texas-am-22-mai-2026-spacex-plant-am-12-juni-unter-dem-ticker-spcx-an-der-Oef.jpg",
+    "path": "covers/spacex-selected-72505e8d90.png",
+    "width": 465,
+    "height": 262,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-df9b6b5c-a8db-4102-8e06-6ed59500b289.png",
     "kind": "video-thumbnail",
-    "treatment": "Reviewed landscape still, displayed in a 16:9 frame"
-  },
-  "https://podcasts.apple.com/us/podcast/%E5%BC%A0%E5%B0%8F%E7%8F%BAj%C3%B9n-%E5%95%86%E4%B8%9A%E8%AE%BF%E8%B0%88%E5%BD%95/id1634356920": {
-    "title": "商业访谈录",
-    "path": "covers/b3e6b16bce1b-still.webp",
-    "width": 728,
-    "height": 410,
-    "source": "https://www.gingerriver.com/p/zhipu-ceo-zhang-peng-on-taking-chinas",
-    "image_url": "https://substackcdn.com/image/youtube/w_728%2Cc_limit/toy8RLeFZ08",
-    "kind": "video-thumbnail",
-    "treatment": "Reviewed landscape still, displayed in a 16:9 frame"
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
   },
   "https://www.floguo.com/books/a-promised-land": {
     "title": "A Promised Land",
@@ -1455,5 +1446,49 @@
     "image_url": "http://sns-webpic-qc.xhscdn.com/202610171334/d6e28dd6d917950ea1ab0a1be6d35e66/spectrum/1040g34o325vbarh64a105okpsbc5b4k63gu0150!nd_dft_wgth_webp_3",
     "kind": "video-thumbnail",
     "treatment": "Original post cover, displayed in a 16:9 frame"
+  },
+  "https://www.youtube.com/watch?v=xQFgk-nEihg&list=PLUl4u3cNGP61AV6bhf4mB3tCyWQrI_uU5": {
+    "title": "Relativistic Quantum Field Theory I",
+    "path": "covers/youtube-xQFgk-nEihg-selected-3bad4163f9.png",
+    "width": 1280,
+    "height": 720,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-e319dcce-57f0-4085-9220-e3ecf5162157.png",
+    "kind": "video-thumbnail",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://www.youtube.com/watch?v=WQui_3Hpmmc&list=PL8FB14A2200B87185": {
+    "title": "Financial Markets",
+    "path": "covers/youtube-WQui_3Hpmmc-selected-86ff4526dc.png",
+    "width": 945,
+    "height": 627,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-c4852cce-45b3-4447-80fc-994b9de7c1b7.png",
+    "kind": "video-thumbnail",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://www.youtube.com/watch?v=kBdfcR-8hEY&list=PL30C13C91CFFEFEA6": {
+    "title": "Justice: What’s the Right Thing to Do?",
+    "path": "covers/youtube-kBdfcR-8hEY-selected-e3514c8bac.png",
+    "width": 2166,
+    "height": 1330,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-063a16ba-1f9b-47e7-868f-bb04604604be.png",
+    "kind": "video-thumbnail",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://www.youtube.com/watch?v=vV7YgnPUxcU&t=34s": {
+    "title": "A.I., Mars and Immortality: Are We Dreaming Big Enough?",
+    "path": "covers/youtube-vV7YgnPUxcU-selected-693db2290d.png",
+    "width": 480,
+    "height": 360,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-ecd92fdd-7497-4ee7-878c-61ddee9ebacd.png",
+    "kind": "video-thumbnail",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
   }
 }
