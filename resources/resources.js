@@ -25,6 +25,12 @@
       entry.element.hidden = !matches;
       if (matches) visible++;
     }
+    let number = 0;
+    for (const element of list.children) {
+      if (!element.hidden) {
+        element.querySelector('.resource-number').textContent = String(++number).padStart(3, '0');
+      }
+    }
     for (const button of categories) {
       const active = button.dataset.category === category;
       button.classList.toggle('active', active);
@@ -48,6 +54,7 @@
       return sort.value === 'oldest' ? a.date.localeCompare(b.date) : b.date.localeCompare(a.date);
     });
     list.append(...sorted.map(entry => entry.element));
+    render();
   });
   document.getElementById('clear-filters').addEventListener('click', () => {
     search.value = '';

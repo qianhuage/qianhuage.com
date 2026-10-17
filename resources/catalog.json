@@ -53,6 +53,15 @@
       "title_language": "en"
     },
     {
+      "title": "Probabilistic Machine Learning: An Introduction",
+      "author": "Kevin P. Murphy",
+      "url": "https://probml.github.io/pml-book/book1.html",
+      "format": "books",
+      "date": "2026-10-15",
+      "year": 2022,
+      "title_language": "en"
+    },
+    {
       "title": "Septologien",
       "author": "Jon Fosse",
       "year": "2019–2021",
@@ -92,6 +101,15 @@
       ]
     },
     {
+      "title": "Foundations of Machine Learning, 2nd Edition",
+      "author": "Mehryar Mohri, Afshin Rostamizadeh & Ameet Talwalkar",
+      "url": "https://cs.nyu.edu/~mohri/mlbook/",
+      "format": "books",
+      "date": "2026-10-15",
+      "year": 2018,
+      "title_language": "en"
+    },
+    {
       "title": "The Warmth of Other Suns",
       "author": "Isabel Wilkerson",
       "year": 2010,
@@ -108,6 +126,15 @@
       "url": "https://us.macmillan.com/books/9781250806710/wolfhall/",
       "format": "books",
       "date": "2026-10-16"
+    },
+    {
+      "title": "Distributional Reinforcement Learning",
+      "author": "Marc G. Bellemare, Will Dabney & Mark Rowland",
+      "url": "https://www.distributional-rl.org/",
+      "format": "books",
+      "date": "2026-10-15",
+      "year": 2023,
+      "title_language": "en"
     },
     {
       "title": "The Corrections",
@@ -137,6 +164,15 @@
       "date": "2026-10-16"
     },
     {
+      "title": "Multi-Agent Reinforcement Learning: Foundations and Modern Approaches",
+      "author": "Stefano V. Albrecht, Filippos Christianos & Lukas Schäfer",
+      "url": "https://marl-book.com/",
+      "format": "books",
+      "date": "2026-10-15",
+      "year": 2024,
+      "title_language": "en"
+    },
+    {
       "title": "The Road",
       "author": "Cormac McCarthy",
       "year": 2006,
@@ -155,48 +191,21 @@
       "date": "2026-10-16"
     },
     {
-      "title": "Probabilistic Machine Learning: An Introduction",
-      "author": "Kevin P. Murphy",
-      "url": "https://probml.github.io/pml-book/book1.html",
-      "format": "books",
-      "date": "2026-10-15",
-      "year": 2022,
-      "title_language": "en"
-    },
-    {
-      "title": "Foundations of Machine Learning, 2nd Edition",
-      "author": "Mehryar Mohri, Afshin Rostamizadeh & Ameet Talwalkar",
-      "url": "https://cs.nyu.edu/~mohri/mlbook/",
-      "format": "books",
-      "date": "2026-10-15",
-      "year": 2018,
-      "title_language": "en"
-    },
-    {
-      "title": "Distributional Reinforcement Learning",
-      "author": "Marc G. Bellemare, Will Dabney & Mark Rowland",
-      "url": "https://www.distributional-rl.org/",
-      "format": "books",
-      "date": "2026-10-15",
-      "year": 2023,
-      "title_language": "en"
-    },
-    {
-      "title": "Multi-Agent Reinforcement Learning: Foundations and Modern Approaches",
-      "author": "Stefano V. Albrecht, Filippos Christianos & Lukas Schäfer",
-      "url": "https://marl-book.com/",
-      "format": "books",
-      "date": "2026-10-15",
-      "year": 2024,
-      "title_language": "en"
-    },
-    {
       "title": "臺北人",
       "author": "白先勇",
       "url": "https://www.books.com.tw/products/0010905533",
       "format": "books",
       "date": "2026-10-15",
       "title_language": "zh-Hant"
+    },
+    {
+      "title": "Understanding Deep Learning",
+      "author": "Simon J. D. Prince",
+      "url": "https://udlbook.github.io/udlbook/",
+      "format": "books",
+      "date": "2026-10-15",
+      "year": 2023,
+      "title_language": "en"
     },
     {
       "title": "Die Gesellschaft der Singularitäten: Zum Strukturwandel der Moderne",
@@ -300,15 +309,6 @@
       "publication": "Paper · ACM DIS Companion",
       "date": "2026-10-16",
       "note": "Thirty participants and their personalized AI agents navigate the same street imagery. Comparing route choices and stated reasons reveals how matching decisions can conceal different priorities, including perceptions of safety."
-    },
-    {
-      "title": "Understanding Deep Learning",
-      "author": "Simon J. D. Prince",
-      "url": "https://udlbook.github.io/udlbook/",
-      "format": "books",
-      "date": "2026-10-15",
-      "year": 2023,
-      "title_language": "en"
     },
     {
       "title": "Dormio: A Targeted Dream Incubation Device",
@@ -1614,15 +1614,6 @@
       "source": "https://www.designeer.xyz/"
     },
     {
-      "title": "Build a Large Language Model (From Scratch)",
-      "author": "Sebastian Raschka",
-      "url": "https://www.sebastianraschka.com/llms-from-scratch/",
-      "format": "books",
-      "date": "2026-10-15",
-      "year": 2024,
-      "title_language": "en"
-    },
-    {
       "title": "Canvas UI",
       "url": "https://canvasui.dev/",
       "format": "build",
@@ -2013,15 +2004,6 @@
       "topic": "Agents & MCP",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
-    },
-    {
-      "title": "AI Engineering: Building Applications with Foundation Models",
-      "author": "Chip Huyen",
-      "url": "https://www.oreilly.com/library/view/ai-engineering/9781098166298/",
-      "format": "books",
-      "date": "2026-10-15",
-      "year": 2025,
-      "title_language": "en"
     },
     {
       "title": "Herdr",
@@ -2478,15 +2460,6 @@
       "topic": "Shaders",
       "date": "2026-10-15",
       "source": "https://www.designeer.xyz/"
-    },
-    {
-      "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition",
-      "author": "Aurélien Géron",
-      "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/",
-      "format": "books",
-      "date": "2026-10-15",
-      "year": 2022,
-      "title_language": "en"
     },
     {
       "title": "Shaderfrog",
@@ -3422,6 +3395,15 @@
       "date": "2026-10-16"
     },
     {
+      "title": "Build a Large Language Model (From Scratch)",
+      "author": "Sebastian Raschka",
+      "url": "https://www.sebastianraschka.com/llms-from-scratch/",
+      "format": "books",
+      "date": "2026-10-15",
+      "year": 2024,
+      "title_language": "en"
+    },
+    {
       "title": "望春风",
       "author": "格非",
       "year": 2016,
@@ -3456,6 +3438,15 @@
       "date": "2026-10-16"
     },
     {
+      "title": "AI Engineering: Building Applications with Foundation Models",
+      "author": "Chip Huyen",
+      "url": "https://www.oreilly.com/library/view/ai-engineering/9781098166298/",
+      "format": "books",
+      "date": "2026-10-15",
+      "year": 2025,
+      "title_language": "en"
+    },
+    {
       "title": "The Line of Beauty",
       "author": "Alan Hollinghurst",
       "year": 2004,
@@ -3486,6 +3477,15 @@
         "悠悠歲月",
         "悠悠岁月"
       ]
+    },
+    {
+      "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition",
+      "author": "Aurélien Géron",
+      "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/",
+      "format": "books",
+      "date": "2026-10-15",
+      "year": 2022,
+      "title_language": "en"
     },
     {
       "title": "Los detectives salvajes",
