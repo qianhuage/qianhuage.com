@@ -2687,18 +2687,14 @@
       ]
     },
     {
-      "title": "升本后醒来",
-      "creator": "上饶天选之子",
-      "url": "https://www.youtube.com/watch?v=xyTkkwTufRw",
+      "title": "Born in the USSR: 7 Up",
+      "director": "Sergey Miroshnichenko",
+      "year": 1991,
+      "url": "https://www.youtube.com/playlist?list=PL28moiaBC-RnotjZknsNMjKj2kaCRUwlo",
+      "reference_url": "https://www.imdb.com/title/tt0374477/",
       "format": "watch",
       "date": "2026-10-16",
-      "title_language": "zh-Hans",
-      "aliases": [
-        "我能专升本，你不能本升专",
-        "CDC LIVE",
-        "小强蜀熟",
-        "都成hiphop"
-      ]
+      "title_language": "en"
     },
     {
       "date": "2026-10-15",
@@ -2825,21 +2821,6 @@
       "year": 2026,
       "source": "https://www.floguo.com/books",
       "title_language": "en"
-    },
-    {
-      "date": "2026-10-15",
-      "format": "books",
-      "title": "海辺のカフカ",
-      "url": "https://www.shinchosha.co.jp/wadainohon/100154/",
-      "author": "Haruki Murakami",
-      "year": 2002,
-      "source": "https://www.floguo.com/books",
-      "title_language": "ja",
-      "aliases": [
-        "Kafka on the Shore",
-        "海邊的卡夫卡",
-        "海边的卡夫卡"
-      ]
     },
     {
       "title": "In the Blink of an Eye: A Perspective on Film Editing",
@@ -3539,6 +3520,22 @@
       "url": "https://search.worldcat.org/title/The-mathematical-experience/oclc/320617911",
       "format": "books",
       "date": "2026-10-16"
+    },
+    {
+      "title": "Soviet Bus Stops",
+      "author": "Christopher Herwig",
+      "url": "https://fuel-design.com/publishing/soviet-bus-stops/",
+      "format": "books",
+      "date": "2026-10-16",
+      "title_language": "en"
+    },
+    {
+      "title": "Life and Fate",
+      "author": "Vasily Grossman",
+      "url": "https://www.nyrb.com/products/life-and-fate",
+      "format": "books",
+      "date": "2026-10-16",
+      "title_language": "en"
     }
   ],
   "sources": [

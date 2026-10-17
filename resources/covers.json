@@ -1090,14 +1090,6 @@
     "source": "https://openlibrary.org/works/OL19730340W",
     "image_url": "https://covers.openlibrary.org/b/id/8839325-L.jpg?default=false"
   },
-  "https://www.shinchosha.co.jp/wadainohon/100154/": {
-    "title": "海辺のカフカ",
-    "path": "covers/1ab0cf4919de.webp",
-    "width": 449,
-    "height": 640,
-    "source": "https://ebook.shinchosha.co.jp/book/E047591/",
-    "image_url": "https://ebook.shinchosha.co.jp/images/book/E047591/E047591_l.jpg"
-  },
   "https://www.silmanjamespress.com/shop/filmmaking-directing/in-the-blink-of-an-eye2nd-edition/": {
     "title": "In the Blink of an Eye: A Perspective on Film Editing",
     "path": "covers/badda6ebcb00.webp",
@@ -1481,14 +1473,33 @@
     "kind": "video-thumbnail",
     "treatment": "User-selected image; displayed in the existing 16:9 frame"
   },
-  "https://www.youtube.com/watch?v=xyTkkwTufRw": {
-    "title": "升本后醒来",
-    "path": "covers/xiaohongshu-6ac44c7a.webp",
-    "width": 1200,
-    "height": 900,
-    "source": "https://www.xiaohongshu.com/explore/6ac44c7a000000001301accc",
-    "image_url": "http://sns-webpic-qc.xhscdn.com/202610171334/d6e28dd6d917950ea1ab0a1be6d35e66/spectrum/1040g34o325vbarh64a105okpsbc5b4k63gu0150!nd_dft_wgth_webp_3",
-    "kind": "video-thumbnail",
-    "treatment": "Original post cover, displayed in a 16:9 frame"
+  "https://www.youtube.com/playlist?list=PL28moiaBC-RnotjZknsNMjKj2kaCRUwlo": {
+    "title": "Born in the USSR: 7 Up",
+    "path": "covers/born-in-ussr-7-up-selected.png",
+    "width": 320,
+    "height": 180,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-a869ffdb-4277-4542-b8a4-f1363a75b991.png",
+    "kind": "film-still",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://fuel-design.com/publishing/soviet-bus-stops/": {
+    "title": "Soviet Bus Stops",
+    "path": "covers/soviet-bus-stops.webp",
+    "width": 400,
+    "height": 317,
+    "source": "https://fuel-design.com/publishing/soviet-bus-stops/",
+    "image_url": "https://fuel-design.com/media/_/uploads/publications/Soviet_Bus_Stops.jpg.400x500_q90.jpg",
+    "kind": "book-cover"
+  },
+  "https://www.nyrb.com/products/life-and-fate": {
+    "title": "Life and Fate",
+    "path": "covers/life-and-fate.webp",
+    "width": 420,
+    "height": 640,
+    "source": "https://www.nyrb.com/products/life-and-fate",
+    "image_url": "https://www.nyrb.com/cdn/shop/products/Life-and-Fate.jpg?v=1528394381",
+    "kind": "book-cover"
   }
 }
