@@ -2134,19 +2134,21 @@
       "date": "2026-10-15"
     },
     {
-      "title": "37°2 le matin",
-      "title_language": "fr",
+      "title": "남과 여",
+      "director": "이윤기",
+      "year": 2016,
+      "title_language": "ko",
+      "url": "https://www.koreanfilm.or.kr/eng/films/index/filmsView.jsp?movieCd=20145502",
       "aliases": [
-        "憂鬱貝蒂",
-        "Betty Blue"
+        "A Man and a Woman",
+        "Lee Yoon-ki",
+        "Gong Yoo",
+        "공유",
+        "男與女"
       ],
-      "director": "Jean-Jacques Beineix",
-      "year": 1986,
-      "collection": "Classics",
-      "url": "https://www.criterion.com/films/29079",
-      "note": "Saturated color and volatile intimacy frame a love story where creative ambition and emotional crisis become inseparable.",
+      "collection": "Film",
       "format": "watch",
-      "date": "2026-10-15"
+      "date": "2026-10-16"
     },
     {
       "title": "Affeksjonsverdi",
@@ -2676,21 +2678,19 @@
       "date": "2026-10-16"
     },
     {
-      "title": "남과 여",
-      "director": "이윤기",
-      "year": 2016,
-      "title_language": "ko",
-      "url": "https://www.koreanfilm.or.kr/eng/films/index/filmsView.jsp?movieCd=20145502",
+      "title": "37°2 le matin",
+      "title_language": "fr",
       "aliases": [
-        "A Man and a Woman",
-        "Lee Yoon-ki",
-        "Gong Yoo",
-        "공유",
-        "男與女"
+        "憂鬱貝蒂",
+        "Betty Blue"
       ],
-      "collection": "Film",
+      "director": "Jean-Jacques Beineix",
+      "year": 1986,
+      "collection": "Classics",
+      "url": "https://www.criterion.com/films/29079",
+      "note": "Saturated color and volatile intimacy frame a love story where creative ambition and emotional crisis become inseparable.",
       "format": "watch",
-      "date": "2026-10-16"
+      "date": "2026-10-15"
     },
     {
       "title": "The Florida Project",
