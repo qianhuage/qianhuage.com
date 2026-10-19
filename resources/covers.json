@@ -1017,18 +1017,6 @@
     "source": "https://www.reclam.de/produktdetail/aphorismen-zur-lebensweisheit-9783150050026",
     "image_url": "https://www.reclam.de/fileadmin/Reclam/Produkte/Cover/9783150050026.jpg"
   },
-  "https://www.cp.com.cn/book/c8082531-f.html": {
-    "title": "韩家往事",
-    "path": "covers/a1d8d9a636f3-flat.webp",
-    "width": 427,
-    "height": 640,
-    "source": "https://www.cp.com.cn/book/c8082531-f.html",
-    "image_url": "https://pic.cp.com.cn/Images/2024/1/30/93028561e6fbc8c7-8_hwc268268.jpg",
-    "generated": true,
-    "treatment": "Front cover reconstructed with imagegen from the referenced product image; perspective and external background removed.",
-    "reference_image": "resources/covers/a1d8d9a636f3.webp",
-    "generation_prompt": "Edit this book cover reference into a clean flat front-cover graphic for a website bookshelf. Output ONLY the front cover, full bleed to all four image edges, portrait rectangle with the proportions of the front face in the reference. Remove ALL surrounding background, padding, shadows, visible spine, page edges, bevels, perspective and photographic distortion. It must be an orthographic 2D print artwork, with perfectly rectangular square corners. Preserve the original cover composition, illustration, colours, typography and wording faithfully; do not redesign or add anything. 韩家往事; 徐泓 著. Preserve blue upper cover with white vertical Chinese title and light blue lower paper band with small family photo."
-  },
   "https://www.penguinrandomhouse.com/books/86058/the-death-and-life-of-great-american-cities-by-jane-jacobs/9780679644330/": {
     "title": "The Death and Life of Great American Cities",
     "path": "covers/173d5614f00a.webp",
@@ -1657,15 +1645,60 @@
     "kind": "film-still",
     "treatment": "User-selected image; displayed in the existing 16:9 frame"
   },
-  "https://www.bilibili.com/video/BV1Jp4D6yE9E/": {
-    "title": "有曲儿就能摇pt.7",
-    "path": "covers/you-qu-er-pt7-selected-2f7e721423.png",
-    "width": 384,
-    "height": 216,
+  "https://www.midnightblurfilms.com/linka-linka": {
+    "title": "一个夜晚与三个夏天",
+    "path": "covers/linka-linka-selected-b452568d67.png",
+    "width": 700,
+    "height": 408,
     "source": "User-provided image",
     "supplied": true,
-    "attachment": "codex-clipboard-561e3bf7-b8af-4f3e-ae13-deb0b8843a3f.png",
-    "kind": "video-thumbnail",
+    "attachment": "codex-clipboard-400f1f31-b860-4d35-a3bb-1abab8944bef.png",
+    "kind": "film-still",
     "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://press.princeton.edu/books/paperback/9780691018546/on-war": {
+    "title": "On War",
+    "path": "covers/on-war-a7db500bbf.jpg",
+    "width": 320,
+    "height": 500,
+    "source": "https://press.princeton.edu/books/paperback/9780691018546/on-war",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780691018546-L.jpg",
+    "kind": "book-cover"
+  },
+  "https://www.penguinrandomhouse.com/books/213088/the-decline-and-fall-of-the-roman-empire-volumes-1-to-6-by-edward-gibbon-introduction-by-hugh-trevor-roper/": {
+    "title": "The History of the Decline and Fall of the Roman Empire",
+    "path": "covers/gibbon-dd62f33794.jpg",
+    "width": 450,
+    "height": 360,
+    "source": "https://www.penguinrandomhouse.com/books/213088/the-decline-and-fall-of-the-roman-empire-volumes-1-to-6-by-edward-gibbon-introduction-by-hugh-trevor-roper/",
+    "image_url": "https://images4.penguinrandomhouse.com/cover/9780307700766",
+    "kind": "book-cover"
+  },
+  "https://www.moma.org/collection/works/147861": {
+    "title": "Eye/Machine I–III",
+    "path": "covers/eye-machine-103afb3cbb.jpg",
+    "width": 600,
+    "height": 300,
+    "source": "https://www.harunfarocki.de/installations/2000s/2000/eye-machine.html",
+    "image_url": "https://www.harunfarocki.de/fileadmin/_processed_/0/4/csm_harun-farocki-auge-maschine_119f958999.jpg",
+    "kind": "installation-view"
+  },
+  "https://www.youtube.com/watch?v=q8FZ7zN-qes": {
+    "title": "柴静对话龙应台",
+    "path": "covers/chai-long-095e2d82e2.jpg",
+    "width": 480,
+    "height": 360,
+    "source": "https://www.youtube.com/watch?v=q8FZ7zN-qes",
+    "image_url": "https://i.ytimg.com/vi/q8FZ7zN-qes/hqdefault.jpg",
+    "kind": "video-thumbnail"
+  },
+  "https://www.simonandschuster.com/books/The-Drowned-and-the-Saved/Primo-Levi/9781501167638": {
+    "title": "The Drowned and the Saved",
+    "path": "covers/the-drowned-and-the-saved-a229d543dc.jpg",
+    "width": 328,
+    "height": 500,
+    "source": "https://www.simonandschuster.com/books/The-Drowned-and-the-Saved/Primo-Levi/9781501167638",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9781501167638-L.jpg",
+    "kind": "book-cover"
   }
 }

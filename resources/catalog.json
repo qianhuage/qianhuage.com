@@ -129,6 +129,104 @@
       "date": "2026-10-16"
     },
     {
+      "title": "On War",
+      "author": "Carl von Clausewitz",
+      "url": "https://press.princeton.edu/books/paperback/9780691018546/on-war",
+      "format": "books",
+      "title_language": "en",
+      "aliases": [
+        "战争论",
+        "戰爭論",
+        "Vom Kriege",
+        "克劳塞维茨"
+      ],
+      "date": "2026-10-18"
+    },
+    {
+      "title": "The Iliad, or the Poem of Force",
+      "author": "Simone Weil",
+      "url": "https://theanarchistlibrary.org/library/simone-weil-the-iliad",
+      "format": "read",
+      "topic": "Simone Weil · Essay · Philosophy of war",
+      "title_language": "en",
+      "aliases": [
+        "伊利亚特或力量之诗",
+        "伊利亞特或力量之詩",
+        "西蒙娜·薇依",
+        "L’Iliade ou le poème de la force"
+      ],
+      "note": "A reading of the Iliad through force: how violence turns people into things, and how its power deforms both those who suffer it and those who wield it.",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "The History of the Decline and Fall of the Roman Empire",
+      "author": "Edward Gibbon",
+      "url": "https://www.penguinrandomhouse.com/books/213088/the-decline-and-fall-of-the-roman-empire-volumes-1-to-6-by-edward-gibbon-introduction-by-hugh-trevor-roper/",
+      "format": "books",
+      "title_language": "en",
+      "aliases": [
+        "罗马帝国衰亡史",
+        "羅馬帝國衰亡史",
+        "吉本"
+      ],
+      "date": "2026-10-18"
+    },
+    {
+      "title": "Also sprach Zarathustra: Ein Buch für Alle und Keinen",
+      "author": "Friedrich Nietzsche",
+      "year": "1883–1885",
+      "title_language": "de",
+      "aliases": [
+        "Thus Spoke Zarathustra",
+        "Thus Spake Zarathustra",
+        "查拉圖斯特拉如是說",
+        "查拉图斯特拉如是说",
+        "尼采"
+      ],
+      "url": "https://www.gutenberg.org/ebooks/7205",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Le città invisibili",
+      "author": "Italo Calvino",
+      "year": 1972,
+      "url": "https://www.penguin.co.uk/books/357001/invisible-cities-by-italo-calvino/9781446414279",
+      "aliases": [
+        "Invisible Cities",
+        "看不見的城市",
+        "看不见的城市"
+      ],
+      "title_language": "it",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "date": "2026-10-15",
+      "format": "books",
+      "title": "The Scaling Era",
+      "url": "https://www.floguo.com/books/the-scaling-era",
+      "author": "Dwarkesh Patel with Gavin Leech",
+      "year": 2025,
+      "source": "https://www.floguo.com/books",
+      "title_language": "en"
+    },
+    {
+      "title": "Jean-Christophe",
+      "author": "Romain Rolland",
+      "year": "1904–1912",
+      "title_language": "fr",
+      "url": "https://www.albin-michel.fr/jean-christophe-9782226168139",
+      "aliases": [
+        "約翰・克利斯朵夫",
+        "约翰·克利斯朵夫",
+        "約翰克利斯朵夫",
+        "約翰·克里斯托夫"
+      ],
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
       "title": "徐霞客游记",
       "author": "徐霞客",
       "year": 1642,
@@ -2895,13 +2993,49 @@
       "date": "2026-10-16"
     },
     {
-      "title": "有曲儿就能摇pt.7",
-      "creator": "馒头弹吉他",
-      "year": 2026,
-      "url": "https://www.bilibili.com/video/BV1Jp4D6yE9E/",
+      "title": "一个夜晚与三个夏天",
+      "director": "岗珍",
+      "year": 2025,
+      "url": "https://www.midnightblurfilms.com/linka-linka",
       "format": "watch",
-      "date": "2026-10-17",
-      "title_language": "zh-Hans"
+      "date": "2026-10-18",
+      "title_language": "zh-Hans",
+      "aliases": [
+        "Linka Linka",
+        "一個夜晚與三個夏天",
+        "Kangdrun"
+      ]
+    },
+    {
+      "title": "Eye/Machine I–III",
+      "director": "Harun Farocki",
+      "year": "2001–2003",
+      "url": "https://www.moma.org/collection/works/147861",
+      "format": "watch",
+      "title_language": "en",
+      "aliases": [
+        "Eye/Machine",
+        "Auge/Maschine",
+        "眼睛／机器",
+        "哈伦·法罗基"
+      ],
+      "date": "2026-10-18"
+    },
+    {
+      "title": "柴静对话龙应台",
+      "host": "柴静",
+      "year": 2025,
+      "url": "https://www.youtube.com/watch?v=q8FZ7zN-qes",
+      "format": "watch",
+      "title_language": "zh-Hans",
+      "aliases": [
+        "柴靜對話龍應台",
+        "Chai Jing",
+        "Lung Ying-tai",
+        "大江大海1949",
+        "国共内战"
+      ],
+      "date": "2026-10-18"
     },
     {
       "date": "2026-10-15",
@@ -3233,30 +3367,6 @@
       "date": "2026-10-16"
     },
     {
-      "title": "Le città invisibili",
-      "author": "Italo Calvino",
-      "year": 1972,
-      "url": "https://www.penguin.co.uk/books/357001/invisible-cities-by-italo-calvino/9781446414279",
-      "aliases": [
-        "Invisible Cities",
-        "看不見的城市",
-        "看不见的城市"
-      ],
-      "title_language": "it",
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
-      "date": "2026-10-15",
-      "format": "books",
-      "title": "The Scaling Era",
-      "url": "https://www.floguo.com/books/the-scaling-era",
-      "author": "Dwarkesh Patel with Gavin Leech",
-      "year": 2025,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en"
-    },
-    {
       "title": "Moby-Dick",
       "author": "Herman Melville",
       "url": "https://www.gutenberg.org/ebooks/2701",
@@ -3264,21 +3374,6 @@
       "date": "2026-10-15",
       "year": 1851,
       "title_language": "en"
-    },
-    {
-      "title": "Jean-Christophe",
-      "author": "Romain Rolland",
-      "year": "1904–1912",
-      "title_language": "fr",
-      "url": "https://www.albin-michel.fr/jean-christophe-9782226168139",
-      "aliases": [
-        "約翰・克利斯朵夫",
-        "约翰·克利斯朵夫",
-        "約翰克利斯朵夫",
-        "約翰·克里斯托夫"
-      ],
-      "format": "books",
-      "date": "2026-10-16"
     },
     {
       "title": "编木拱桥：技术与社会史",
@@ -3512,18 +3607,6 @@
       "title_language": "en"
     },
     {
-      "title": "韩家往事",
-      "author": "徐泓",
-      "year": 2024,
-      "url": "https://www.cp.com.cn/book/c8082531-f.html",
-      "aliases": [
-        "韓家往事"
-      ],
-      "title_language": "zh-Hans",
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
       "title": "The Death and Life of Great American Cities",
       "author": "Jane Jacobs",
       "year": 1961,
@@ -3632,6 +3715,21 @@
       "topic": "Rauno Freiberg · Interaction design"
     },
     {
+      "title": "南柯太守傳",
+      "author": "李公佐",
+      "url": "https://zh.wikisource.org/zh-hant/%E5%8D%97%E6%9F%AF%E5%A4%AA%E5%AE%88%E5%82%B3",
+      "format": "read",
+      "topic": "李公佐 · 唐傳奇",
+      "date": "2026-10-18",
+      "title_language": "zh-Hant",
+      "aliases": [
+        "南柯太守传",
+        "南柯一夢",
+        "南柯一梦"
+      ],
+      "note": "A Tang-dynasty tale of a lifetime of marriage, public office, war, and loss experienced within a dream beneath an old pagoda tree."
+    },
+    {
       "date": "2026-03-10",
       "format": "design",
       "title": "Interactive SVG Animations",
@@ -3674,22 +3772,6 @@
       "format": "build",
       "title": "Sonner",
       "url": "https://sonner.emilkowal.ski/"
-    },
-    {
-      "title": "Also sprach Zarathustra: Ein Buch für Alle und Keinen",
-      "author": "Friedrich Nietzsche",
-      "year": "1883–1885",
-      "title_language": "de",
-      "aliases": [
-        "Thus Spoke Zarathustra",
-        "Thus Spake Zarathustra",
-        "查拉圖斯特拉如是說",
-        "查拉图斯特拉如是说",
-        "尼采"
-      ],
-      "url": "https://www.gutenberg.org/ebooks/7205",
-      "format": "books",
-      "date": "2026-10-16"
     },
     {
       "title": "Broken China: How the Economic Miracle Shattered and What it Means for the World",
@@ -3743,6 +3825,21 @@
       "format": "books",
       "date": "2026-10-16",
       "title_language": "en"
+    },
+    {
+      "title": "The Drowned and the Saved",
+      "author": "Primo Levi",
+      "url": "https://www.simonandschuster.com/books/The-Drowned-and-the-Saved/Primo-Levi/9781501167638",
+      "format": "books",
+      "date": "2026-10-18",
+      "title_language": "en",
+      "aliases": [
+        "被淹没和被拯救的",
+        "被淹沒和被拯救的",
+        "I sommersi e i salvati",
+        "普里莫·莱维",
+        "普里莫·李維"
+      ]
     }
   ],
   "sources": [
