@@ -1601,17 +1601,6 @@
     "kind": "film-still",
     "treatment": "User-selected image; displayed in the existing 16:9 frame"
   },
-  "https://www.hulu.com/series/true-detective-7abbb2f9-2c1c-43a1-b756-c87c18e432e3": {
-    "title": "True Detective",
-    "path": "covers/true-detective-selected-0e60442b27.png",
-    "width": 5000,
-    "height": 3333,
-    "source": "User-provided image",
-    "supplied": true,
-    "attachment": "codex-clipboard-fea5d69d-4c9c-4ebe-9950-0fd5dad87f51.png",
-    "kind": "film-still",
-    "treatment": "User-selected image; displayed in the existing 16:9 frame"
-  },
   "https://filminstitut.at/filme/oktober-november": {
     "title": "Oktober November",
     "path": "covers/oktober-november-selected-b6e92a6b94.png",
@@ -1700,5 +1689,16 @@
     "source": "https://www.simonandschuster.com/books/The-Drowned-and-the-Saved/Primo-Levi/9781501167638",
     "image_url": "https://covers.openlibrary.org/b/isbn/9781501167638-L.jpg",
     "kind": "book-cover"
+  },
+  "https://a24films.com/films/you-can-see-everything": {
+    "title": "You Can See Everything",
+    "path": "covers/you-can-see-everything-selected-9f653990a4.png",
+    "width": 640,
+    "height": 360,
+    "source": "User-provided image",
+    "supplied": true,
+    "attachment": "codex-clipboard-5daa327a-d3f6-48a0-bc2a-f2b5ca85e57a.png",
+    "kind": "film-still",
+    "treatment": "User-selected image; displayed in the existing 16:9 frame"
   }
 }
