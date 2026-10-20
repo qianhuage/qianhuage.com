@@ -2875,6 +2875,49 @@
       "date": "2026-10-18"
     },
     {
+      "title": "Les Misérables",
+      "creator": "Boublil & Schönberg · Sondheim Theatre, London",
+      "url": "https://london.lesmis.com/",
+      "title_language": "fr",
+      "aliases": [
+        "悲慘世界",
+        "悲惨世界",
+        "Les Miserables",
+        "Sondheim Theatre"
+      ],
+      "collection": "Stage musical",
+      "format": "watch",
+      "date": "2026-10-19"
+    },
+    {
+      "title": "tick, tick…BOOM!",
+      "director": "Lin-Manuel Miranda",
+      "year": 2021,
+      "url": "https://www.netflix.com/title/81149184",
+      "title_language": "en",
+      "aliases": [
+        "Andrew Garfield",
+        "Tick, Tick... Boom!",
+        "倒數時刻",
+        "倒数时刻"
+      ],
+      "format": "watch",
+      "date": "2026-10-19"
+    },
+    {
+      "title": "Seabiscuit",
+      "director": "Gary Ross",
+      "year": 2003,
+      "url": "https://www.universalpicturesathome.com/movies/seabiscuit",
+      "title_language": "en",
+      "aliases": [
+        "奔騰年代",
+        "奔腾年代"
+      ],
+      "format": "watch",
+      "date": "2026-10-19"
+    },
+    {
       "title": "Smiling Friends",
       "creator": "Michael Cusack & Zach Hadel",
       "year": 2022,
@@ -3676,6 +3719,22 @@
       "note": "A Tang-dynasty tale of a lifetime of marriage, public office, war, and loss experienced within a dream beneath an old pagoda tree."
     },
     {
+      "title": "Nationalism and Political Power in Kosovo: From the Sultanate to Slobodan Milošević (1912–1986)",
+      "author": "Lenard J. Cohen",
+      "year": 2001,
+      "publication": "Serpent in the Bosom · Chapter 1",
+      "url": "https://pomonacatholic.ecampus.com/serpent-bosom-rise-fall-slobodan-milosevic/bk/9780813340234",
+      "format": "read",
+      "date": "2026-10-19",
+      "title_language": "en",
+      "aliases": [
+        "Serpent in the Bosom",
+        "Slobodan Milosevic",
+        "Kosovo nationalism"
+      ],
+      "note": "The changing dynamics of power and elite control in Kosovo, from the Balkan Wars to the late Titoist period. Free opening excerpt under “Excerpts”; not the complete chapter. First edition: pp. 3–42; revised edition: pp. 47–86."
+    },
+    {
       "date": "2026-03-10",
       "format": "design",
       "title": "Interactive SVG Animations",
@@ -3773,6 +3832,20 @@
       "title_language": "zh-Hans",
       "format": "books",
       "date": "2026-10-16"
+    },
+    {
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "year": 1880,
+      "url": "https://www.penguinrandomhouse.com/books/241840/the-brothers-karamazov-by-fyodor-dostoevsky-translated-by-richard-pevear-and-larissa-volokhonsky-introduction-by-malcolm-jones/",
+      "format": "books",
+      "date": "2026-10-19",
+      "title_language": "en",
+      "aliases": [
+        "Братья Карамазовы",
+        "卡拉馬佐夫兄弟",
+        "卡拉马佐夫兄弟"
+      ]
     }
   ],
   "sources": [

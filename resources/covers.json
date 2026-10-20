@@ -1659,5 +1659,37 @@
     "source": "https://covers.openlibrary.org/b/isbn/9780486267463-L.jpg",
     "image_url": "https://covers.openlibrary.org/b/isbn/9780486267463-L.jpg",
     "kind": "book-cover"
+  },
+  "https://www.penguinrandomhouse.com/books/241840/the-brothers-karamazov-by-fyodor-dostoevsky-translated-by-richard-pevear-and-larissa-volokhonsky-introduction-by-malcolm-jones/": {
+    "title": "The Brothers Karamazov",
+    "path": "covers/the-brothers-karamazov.jpg",
+    "width": 282,
+    "height": 450,
+    "source": "https://images3.penguinrandomhouse.com/cover/9780679410034",
+    "kind": "book-cover"
+  },
+  "https://london.lesmis.com/": {
+    "title": "Les Misérables",
+    "path": "covers/les-miserables-sondheim-user.png",
+    "width": 1038,
+    "height": 576,
+    "source": "User-provided image",
+    "kind": "still"
+  },
+  "https://www.netflix.com/title/81149184": {
+    "title": "tick, tick…BOOM!",
+    "path": "covers/tick-tick-boom-user.png",
+    "width": 700,
+    "height": 467,
+    "source": "User-provided image",
+    "kind": "still"
+  },
+  "https://www.universalpicturesathome.com/movies/seabiscuit": {
+    "title": "Seabiscuit",
+    "path": "covers/seabiscuit-user.png",
+    "width": 583,
+    "height": 245,
+    "source": "User-provided image",
+    "kind": "still"
   }
 }
