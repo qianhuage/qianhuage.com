@@ -97,17 +97,30 @@
       ]
     },
     {
-      "title": "L’amica geniale",
-      "author": "Elena Ferrante",
-      "year": 2011,
-      "title_language": "it",
-      "url": "https://www.europaeditions.co.uk/book/9781787701748/my-brilliant-friend-tie-in-edition",
+      "title": "West with the Night",
+      "author": "Beryl Markham",
+      "year": 1942,
+      "url": "https://us.macmillan.com/books/9780865477636/westwiththenight/",
       "format": "books",
-      "date": "2026-10-16",
+      "date": "2026-10-19",
+      "title_language": "en",
       "aliases": [
-        "My Brilliant Friend",
-        "L'amica geniale",
-        "我的天才女友"
+        "夜航西飞",
+        "夜航西飛",
+        "柏瑞尔·马卡姆"
+      ]
+    },
+    {
+      "title": "The Common Law",
+      "author": "Oliver Wendell Holmes Jr.",
+      "year": 1881,
+      "url": "https://www.gutenberg.org/ebooks/2449",
+      "format": "books",
+      "date": "2026-10-19",
+      "title_language": "en",
+      "aliases": [
+        "普通法",
+        "霍姆斯"
       ]
     },
     {
@@ -301,26 +314,12 @@
       "date": "2026-10-16"
     },
     {
-      "title": "徐霞客游记",
-      "author": "徐霞客",
-      "year": 1642,
-      "title_language": "zh-Hans",
-      "url": "https://ctext.org/wiki.pl?if=gb&res=196805",
-      "aliases": [
-        "徐霞客遊記",
-        "Xu Xiake"
-      ],
+      "title": "臺北人",
+      "author": "白先勇",
+      "url": "https://www.books.com.tw/products/0010905533",
       "format": "books",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "Wolf Hall",
-      "author": "Hilary Mantel",
-      "year": 2009,
-      "title_language": "en",
-      "url": "https://us.macmillan.com/books/9781250806710/wolfhall/",
-      "format": "books",
-      "date": "2026-10-16"
+      "date": "2026-10-15",
+      "title_language": "zh-Hant"
     },
     {
       "title": "看见",
@@ -354,20 +353,6 @@
       "url": "https://www.penguin.com.au/books/neither-here-nor-there-9781784161828",
       "format": "books",
       "date": "2026-10-16"
-    },
-    {
-      "title": "West with the Night",
-      "author": "Beryl Markham",
-      "year": 1942,
-      "url": "https://us.macmillan.com/books/9780865477636/westwiththenight/",
-      "format": "books",
-      "date": "2026-10-19",
-      "title_language": "en",
-      "aliases": [
-        "夜航西飞",
-        "夜航西飛",
-        "柏瑞尔·马卡姆"
-      ]
     },
     {
       "title": "Multi-Agent Reinforcement Learning: Foundations and Modern Approaches",
@@ -424,12 +409,17 @@
       "date": "2026-10-16"
     },
     {
-      "title": "臺北人",
-      "author": "白先勇",
-      "url": "https://www.books.com.tw/products/0010905533",
+      "title": "徐霞客游记",
+      "author": "徐霞客",
+      "year": 1642,
+      "title_language": "zh-Hans",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=196805",
+      "aliases": [
+        "徐霞客遊記",
+        "Xu Xiake"
+      ],
       "format": "books",
-      "date": "2026-10-15",
-      "title_language": "zh-Hant"
+      "date": "2026-10-16"
     },
     {
       "title": "Understanding Deep Learning",
@@ -3121,30 +3111,20 @@
       "title_language": "en"
     },
     {
-      "date": "2026-10-15",
+      "title": "Soviet Bus Stops",
+      "author": "Christopher Herwig",
+      "url": "https://fuel-design.com/publishing/soviet-bus-stops/",
       "format": "books",
-      "title": "Essentialism: The Disciplined Pursuit of Less",
-      "url": "https://www.floguo.com/books/essentialism",
-      "author": "Greg McKeown",
-      "year": 2014,
-      "source": "https://www.floguo.com/books",
+      "date": "2026-10-16",
       "title_language": "en"
     },
     {
-      "date": "2026-10-15",
+      "title": "Life and Fate",
+      "author": "Vasily Grossman",
+      "url": "https://www.nyrb.com/products/life-and-fate",
       "format": "books",
-      "title": "How to Cope: An Ancient Guide to Enduring Hardship",
-      "url": "https://www.floguo.com/books/how-to-cope",
-      "author": "Boethius, translated by Philip Freeman",
-      "year": 2025,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en",
-      "aliases": [
-        "How to Cope: Selections from The Consolation of Philosophy",
-        "De consolatione philosophiae",
-        "The Consolation of Philosophy"
-      ],
-      "title_source": "https://pup-assets.imgix.net/onix/images/9780691259161/9780691259161.pdf?fm=pdf"
+      "date": "2026-10-16",
+      "title_language": "en"
     },
     {
       "date": "2026-10-15",
@@ -3155,16 +3135,6 @@
       "year": 2026,
       "source": "https://www.floguo.com/books",
       "title_language": "en"
-    },
-    {
-      "title": "In the Blink of an Eye: A Perspective on Film Editing",
-      "author": "Walter Murch",
-      "year": 1992,
-      "title_language": "en",
-      "url": "https://www.silmanjamespress.com/shop/filmmaking-directing/in-the-blink-of-an-eye2nd-edition/",
-      "aliases": [],
-      "format": "books",
-      "date": "2026-10-16"
     },
     {
       "date": "2026-10-15",
@@ -3775,22 +3745,6 @@
       "date": "2026-10-16"
     },
     {
-      "title": "Soviet Bus Stops",
-      "author": "Christopher Herwig",
-      "url": "https://fuel-design.com/publishing/soviet-bus-stops/",
-      "format": "books",
-      "date": "2026-10-16",
-      "title_language": "en"
-    },
-    {
-      "title": "Life and Fate",
-      "author": "Vasily Grossman",
-      "url": "https://www.nyrb.com/products/life-and-fate",
-      "format": "books",
-      "date": "2026-10-16",
-      "title_language": "en"
-    },
-    {
       "title": "The Drowned and the Saved",
       "author": "Primo Levi",
       "url": "https://www.simonandschuster.com/books/The-Drowned-and-the-Saved/Primo-Levi/9781501167638",
@@ -3827,15 +3781,6 @@
         "Xu Zechen"
       ],
       "title_language": "zh-Hans",
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "White Teeth",
-      "author": "Zadie Smith",
-      "year": 2000,
-      "title_language": "en",
-      "url": "https://www.penguinrandomhouse.com/books/169680/white-teeth-by-zadie-smith/",
       "format": "books",
       "date": "2026-10-16"
     }

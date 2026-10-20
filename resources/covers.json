@@ -60,14 +60,6 @@
     "reference_image": "output/cover-audit/1-2.jpg",
     "generation_prompt": "Edit this book cover reference into a clean flat front-cover graphic for a website bookshelf. Output ONLY the front cover, full bleed to all four image edges, portrait rectangle with the proportions of the front face in the reference. Remove ALL surrounding background, padding, shadows, visible spine, page edges, bevels, perspective and photographic distortion. It must be an orthographic 2D print artwork, with perfectly rectangular square corners. Preserve the original cover composition, illustration, colours, typography and wording faithfully; do not redesign or add anything. ALISS AT THE FIRE; JON FOSSE; Winner of the Nobel Prize in Literature; Fitzcarraldo Editions. Rich cobalt blue, white letterspacing."
   },
-  "https://www.europaeditions.co.uk/book/9781787701748/my-brilliant-friend-tie-in-edition": {
-    "title": "L’amica geniale",
-    "path": "covers/33e12070f17b.webp",
-    "width": 412,
-    "height": 640,
-    "source": "https://www.europaeditions.co.uk/book/9781787701748/my-brilliant-friend-tie-in-edition",
-    "image_url": "https://www.europaeditions.co.uk/spool/cover_9781787701748__id1005_w600_t1542723707__1x.jpg"
-  },
   "https://cs.nyu.edu/~mohri/mlbook/": {
     "title": "Foundations of Machine Learning, 2nd Edition",
     "path": "covers/8552e88c6aec.webp",
@@ -75,14 +67,6 @@
     "height": 640,
     "source": "https://cs.nyu.edu/~mohri/mlbook/",
     "image_url": "https://cs.nyu.edu/~mohri/mlbook/10290_pptd.jpg"
-  },
-  "https://us.macmillan.com/books/9781250806710/wolfhall/": {
-    "title": "Wolf Hall",
-    "path": "covers/22de80da8ce9.webp",
-    "width": 323,
-    "height": 500,
-    "source": "https://openlibrary.org/works/OL464512W",
-    "image_url": "https://covers.openlibrary.org/b/id/8345848-L.jpg?default=false"
   },
   "https://books.google.com/books?id=2378lgEACAAJ": {
     "title": "看见",
@@ -180,14 +164,6 @@
     "height": 495,
     "source": "https://read.douban.com/ebook/22585425/",
     "image_url": "https://pic.arkread.com/cover/ebook/f/22585425.1653693523.jpg!cover_default.jpg"
-  },
-  "https://www.penguinrandomhouse.com/books/169680/white-teeth-by-zadie-smith/": {
-    "title": "White Teeth",
-    "path": "covers/32cf00008298.webp",
-    "width": 292,
-    "height": 450,
-    "source": "https://www.penguinrandomhouse.com/books/169680/white-teeth-by-zadie-smith/",
-    "image_url": "https://images.penguinrandomhouse.com/cover/9780375703867"
   },
   "https://www.oreilly.com/library/view/ai-engineering/9781098166298/": {
     "title": "AI Engineering: Building Applications with Foundation Models",
@@ -1012,22 +988,6 @@
     "kind": "film-still",
     "treatment": "User-selected image; displayed in the existing 16:9 frame"
   },
-  "https://www.floguo.com/books/essentialism": {
-    "title": "Essentialism: The Disciplined Pursuit of Less",
-    "path": "covers/40eeae6c750e.webp",
-    "width": 186,
-    "height": 281,
-    "source": "https://openlibrary.org/works/OL17043626W",
-    "image_url": "https://covers.openlibrary.org/b/id/7285986-L.jpg?default=false"
-  },
-  "https://www.silmanjamespress.com/shop/filmmaking-directing/in-the-blink-of-an-eye2nd-edition/": {
-    "title": "In the Blink of an Eye: A Perspective on Film Editing",
-    "path": "covers/badda6ebcb00.webp",
-    "width": 305,
-    "height": 475,
-    "source": "https://openlibrary.org/works/OL2973051W",
-    "image_url": "https://covers.openlibrary.org/b/id/925774-L.jpg?default=false"
-  },
   "https://www.floguo.com/books/man-and-his-symbols": {
     "title": "Man and His Symbols",
     "path": "covers/4058df30ad6a.webp",
@@ -1246,14 +1206,6 @@
     "treatment": "Front cover reconstructed with imagegen from the referenced product image; perspective and external background removed.",
     "reference_image": "output/cover-audit/8-2.jpg",
     "generation_prompt": "Edit this book cover reference into a clean flat front-cover graphic for a website bookshelf. Output ONLY the front cover, full bleed to all four image edges, portrait rectangle with the proportions of the front face in the reference. Remove ALL surrounding background, padding, shadows, visible spine, page edges, bevels, perspective and photographic distortion. It must be an orthographic 2D print artwork, with perfectly rectangular square corners. Preserve the original cover composition, illustration, colours, typography and wording faithfully; do not redesign or add anything. Hannah Strong; COLOURS OF WES ANDERSON; THE FILMS IN PALETTES; Unofficial & Unauthorised. Preserve photograph and colour panels exactly, remove black spine strip."
-  },
-  "https://www.floguo.com/books/how-to-cope": {
-    "title": "How to Cope: An Ancient Guide to Enduring Hardship",
-    "path": "covers/b3f6f8a9fdca.webp",
-    "width": 427,
-    "height": 640,
-    "source": "https://www.unitybooks.co.nz/products/how-to-cope-an-ancient-guide-to-enduring-hardship",
-    "image_url": "https://cdn.shopify.com/s/files/1/0625/6679/3413/files/978-0-691-25916-1.jpg?v=1771452615"
   },
   "https://search.worldcat.org/title/1375149745": {
     "title": "茶馆",
@@ -1705,6 +1657,15 @@
     "height": 500,
     "image_url": "https://covers.openlibrary.org/b/isbn/9780865477636-L.jpg",
     "source": "https://us.macmillan.com/books/9780865477636/westwiththenight/",
+    "kind": "book-cover"
+  },
+  "https://www.gutenberg.org/ebooks/2449": {
+    "title": "The Common Law",
+    "path": "covers/the-common-law-2aa28e9419.jpg",
+    "width": 299,
+    "height": 475,
+    "source": "https://covers.openlibrary.org/b/isbn/9780486267463-L.jpg",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780486267463-L.jpg",
     "kind": "book-cover"
   }
 }
