@@ -385,21 +385,6 @@
       "date": "2026-10-16"
     },
     {
-      "title": "彷徨",
-      "author": "鲁迅",
-      "year": 1926,
-      "title_language": "zh-Hans",
-      "url": "https://zh.wikisource.org/zh-hans/%E5%BD%B7%E5%BE%A8",
-      "aliases": [
-        "徬徨",
-        "魯迅",
-        "Lu Xun",
-        "Wandering"
-      ],
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
       "title": "Outline",
       "author": "Rachel Cusk",
       "year": 2014,
@@ -3210,12 +3195,46 @@
       "title_language": "en"
     },
     {
-      "title": "Geography: Realms, Regions, and Concepts",
-      "author": "Harm J. de Blij",
-      "year": 1971,
-      "title_language": "en",
-      "url": "https://openlibrary.org/works/OL1942105W",
-      "aliases": [],
+      "title": "Война и мир",
+      "author": "Leo Tolstoy",
+      "year": 1869,
+      "title_language": "ru",
+      "url": "https://tolstoy.ru/upload/iblock/519/voina-i-mir.pdf",
+      "aliases": [
+        "War and Peace",
+        "戰爭與和平",
+        "战争与和平",
+        "Lev Tolstoy",
+        "Лев Толстой"
+      ],
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "北上",
+      "author": "徐则臣",
+      "year": 2018,
+      "url": "https://www.bph.com.cn/maodun/detail/2380.html",
+      "aliases": [
+        "徐則臣",
+        "Xu Zechen"
+      ],
+      "title_language": "zh-Hans",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "彷徨",
+      "author": "鲁迅",
+      "year": 1926,
+      "title_language": "zh-Hans",
+      "url": "https://zh.wikisource.org/zh-hans/%E5%BD%B7%E5%BE%A8",
+      "aliases": [
+        "徬徨",
+        "魯迅",
+        "Lu Xun",
+        "Wandering"
+      ],
       "format": "books",
       "date": "2026-10-16"
     },
@@ -3377,22 +3396,6 @@
         "唐吉訶德",
         "堂吉訶德",
         "堂吉诃德"
-      ],
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "Война и мир",
-      "author": "Leo Tolstoy",
-      "year": 1869,
-      "title_language": "ru",
-      "url": "https://tolstoy.ru/upload/iblock/519/voina-i-mir.pdf",
-      "aliases": [
-        "War and Peace",
-        "戰爭與和平",
-        "战争与和平",
-        "Lev Tolstoy",
-        "Лев Толстой"
       ],
       "format": "books",
       "date": "2026-10-16"
@@ -3766,19 +3769,6 @@
       "url": "https://read.douban.com/ebook/22585425/",
       "aliases": [
         "望春風"
-      ],
-      "title_language": "zh-Hans",
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "北上",
-      "author": "徐则臣",
-      "year": 2018,
-      "url": "https://www.bph.com.cn/maodun/detail/2380.html",
-      "aliases": [
-        "徐則臣",
-        "Xu Zechen"
       ],
       "title_language": "zh-Hans",
       "format": "books",
