@@ -385,11 +385,18 @@
       "date": "2026-10-16"
     },
     {
-      "title": "Outline",
-      "author": "Rachel Cusk",
-      "year": 2014,
-      "title_language": "en",
-      "url": "https://us.macmillan.com/books/9781250081544/outline/",
+      "title": "Война и мир",
+      "author": "Leo Tolstoy",
+      "year": 1869,
+      "title_language": "ru",
+      "url": "https://tolstoy.ru/upload/iblock/519/voina-i-mir.pdf",
+      "aliases": [
+        "War and Peace",
+        "戰爭與和平",
+        "战争与和平",
+        "Lev Tolstoy",
+        "Лев Толстой"
+      ],
       "format": "books",
       "date": "2026-10-16"
     },
@@ -3195,18 +3202,11 @@
       "title_language": "en"
     },
     {
-      "title": "Война и мир",
-      "author": "Leo Tolstoy",
-      "year": 1869,
-      "title_language": "ru",
-      "url": "https://tolstoy.ru/upload/iblock/519/voina-i-mir.pdf",
-      "aliases": [
-        "War and Peace",
-        "戰爭與和平",
-        "战争与和平",
-        "Lev Tolstoy",
-        "Лев Толстой"
-      ],
+      "title": "Outline",
+      "author": "Rachel Cusk",
+      "year": 2014,
+      "title_language": "en",
+      "url": "https://us.macmillan.com/books/9781250081544/outline/",
       "format": "books",
       "date": "2026-10-16"
     },
