@@ -1691,5 +1691,14 @@
     "height": 245,
     "source": "User-provided image",
     "kind": "still"
+  },
+  "https://www.youtube.com/watch?v=L1OBRtfPS34": {
+    "title": "Stanford CS146S: How always-on agents work",
+    "path": "covers/stanford-cs146s-always-on-agents.jpg",
+    "width": 480,
+    "height": 360,
+    "source": "https://www.youtube.com/watch?v=L1OBRtfPS34",
+    "image_url": "https://i.ytimg.com/vi/L1OBRtfPS34/hqdefault.jpg",
+    "kind": "video-thumbnail"
   }
 }
