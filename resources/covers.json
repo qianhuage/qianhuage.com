@@ -76,14 +76,6 @@
     "source": "https://cs.nyu.edu/~mohri/mlbook/",
     "image_url": "https://cs.nyu.edu/~mohri/mlbook/10290_pptd.jpg"
   },
-  "https://www.penguinrandomhouse.com/books/190696/the-warmth-of-other-suns-by-isabel-wilkerson/": {
-    "title": "The Warmth of Other Suns",
-    "path": "covers/8b7ecb05dad2.webp",
-    "width": 298,
-    "height": 450,
-    "source": "https://www.penguinrandomhouse.com/books/190696/the-warmth-of-other-suns-by-isabel-wilkerson/",
-    "image_url": "https://images.penguinrandomhouse.com/cover/9780679763888"
-  },
   "https://us.macmillan.com/books/9781250806710/wolfhall/": {
     "title": "Wolf Hall",
     "path": "covers/22de80da8ce9.webp",
@@ -100,14 +92,6 @@
     "source": "https://books.google.com/books?id=2378lgEACAAJ",
     "image_url": "https://books.google.com/books/content?id=2378lgEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72e5_XZJ5NONdwJNQw92BgW4qY7dLiCXjmnvxcg8KMLI4Tzh8fZQDGE9qcxVsw4tFdb6FcKdwZKSKKPDkOTJRZeFqspyxfUE0UQG6j4lSIqBs2MbBjyrSMHFU__fkEbZUGBQL--"
   },
-  "https://us.macmillan.com/books/9781429928618/thecorrections/": {
-    "title": "The Corrections",
-    "path": "covers/9eb99908118d.webp",
-    "width": 329,
-    "height": 500,
-    "source": "https://openlibrary.org/works/OL4082696W",
-    "image_url": "https://covers.openlibrary.org/b/id/9273701-L.jpg?default=false"
-  },
   "https://www.penguin.com.au/books/neither-here-nor-there-9781784161828": {
     "title": "Neither Here nor There: Travels in Europe",
     "path": "covers/76f700046add.webp",
@@ -115,22 +99,6 @@
     "height": 625,
     "source": "https://www.penguin.com.au/books/neither-here-nor-there-9781784161828",
     "image_url": "https://cdn2.penguin.com.au/covers/400/9781784161828.jpg"
-  },
-  "https://www.fischerverlage.de/buch/w-g-sebald-austerlitz-9783596148646": {
-    "title": "Austerlitz",
-    "path": "covers/7ee8dda40ef9.webp",
-    "width": 421,
-    "height": 640,
-    "source": "https://www.fischerverlage.de/buch/w-g-sebald-austerlitz-9783596148646",
-    "image_url": "https://cdn.holtzbrinck-buchverlage.de/fischer/public/Yx79a3Zf7IaShX3OXpHy7xUapy3CEPzvdBRPTnAB2n9/U1_978-3-596-14864-6.png?width=1200&fit=crop&quality=85&format=jpg"
-  },
-  "https://us.macmillan.com/books/9780374602109/gileadoprahsbookclub/": {
-    "title": "Gilead",
-    "path": "covers/c9e4bbab5abf.webp",
-    "width": 375,
-    "height": 500,
-    "source": "https://openlibrary.org/works/OL1875009W",
-    "image_url": "https://covers.openlibrary.org/b/id/1472533-L.jpg?default=false"
   },
   "https://marl-book.com/": {
     "title": "Multi-Agent Reinforcement Learning: Foundations and Modern Approaches",
@@ -180,14 +148,6 @@
     "source": "https://www.youtube.com/watch?v=AF3XJT9YKpM",
     "image_url": "https://i.ytimg.com/vi/AF3XJT9YKpM/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFkgZShgMA8=&rs=AOn4CLANcvVT5d7apdTc1y8625c3zM8olg",
     "kind": "video-thumbnail"
-  },
-  "https://read.douban.com/ebook/421016194/": {
-    "title": "陈梦家和他的朋友们",
-    "path": "covers/be4bf7ce4411.webp",
-    "width": 330,
-    "height": 495,
-    "source": "https://read.douban.com/ebook/421016194/",
-    "image_url": "https://pic.arkread.com/cover/ebook/f/421016194.1677569943.jpg!cover_default.jpg"
   },
   "https://www.oup.com.au/books/general-interest/art-technology/9780195019193": {
     "title": "A Pattern Language: Towns, Buildings, Construction",
@@ -1060,14 +1020,6 @@
     "source": "https://openlibrary.org/works/OL17043626W",
     "image_url": "https://covers.openlibrary.org/b/id/7285986-L.jpg?default=false"
   },
-  "https://www.floguo.com/books/how-to-fight": {
-    "title": "How to Fight",
-    "path": "covers/f66863b304b8.webp",
-    "width": 355,
-    "height": 500,
-    "source": "https://openlibrary.org/works/OL19730340W",
-    "image_url": "https://covers.openlibrary.org/b/id/8839325-L.jpg?default=false"
-  },
   "https://www.silmanjamespress.com/shop/filmmaking-directing/in-the-blink-of-an-eye2nd-edition/": {
     "title": "In the Blink of an Eye: A Perspective on Film Editing",
     "path": "covers/badda6ebcb00.webp",
@@ -1700,5 +1652,59 @@
     "attachment": "codex-clipboard-5daa327a-d3f6-48a0-bc2a-f2b5ca85e57a.png",
     "kind": "film-still",
     "treatment": "User-selected image; displayed in the existing 16:9 frame"
+  },
+  "https://www.goodbooks.io/books/the-right-stuff": {
+    "title": "The Right Stuff",
+    "path": "covers/the-right-stuff-39e3a55e94.png",
+    "image_url": "https://cdn.prod.website-files.com/61cb87c118979013b4f7938b/61cb87c1189790c3e0f7a015_the-right-stuff.avif",
+    "width": 400,
+    "height": 600,
+    "source": "https://www.goodbooks.io/books/the-right-stuff",
+    "kind": "book-cover"
+  },
+  "https://www.goodbooks.io/books/the-fifteen-decisive-battles-of-the-world": {
+    "title": "The Fifteen Decisive Battles of the World",
+    "path": "covers/the-fifteen-decisive-battles-of-the-world-18be916d02.png",
+    "image_url": "https://cdn.prod.website-files.com/61cb87c118979013b4f7938b/61cb87c118979054a6f7b21d_the-fifteen-decisive-battles-of-the-world.avif",
+    "width": 400,
+    "height": 600,
+    "source": "https://www.goodbooks.io/books/the-fifteen-decisive-battles-of-the-world",
+    "kind": "book-cover"
+  },
+  "https://www.goodbooks.io/books/the-great-illusion": {
+    "title": "The Great Illusion",
+    "path": "covers/the-great-illusion-4c1912db1c.png",
+    "image_url": "https://cdn.prod.website-files.com/61cb87c118979013b4f7938b/61cb87c1189790bc3af7b247_the-great-illusion.avif",
+    "width": 400,
+    "height": 600,
+    "source": "https://www.goodbooks.io/books/the-great-illusion",
+    "kind": "book-cover"
+  },
+  "https://www.goodbooks.io/books/the-sovereign-individual": {
+    "title": "The Sovereign Individual",
+    "path": "covers/the-sovereign-individual-67dc3567c1.png",
+    "image_url": "https://cdn.prod.website-files.com/61cb87c118979013b4f7938b/61cb87c11897907d65f7b6e8_the-sovereign-individual.avif",
+    "width": 400,
+    "height": 600,
+    "source": "https://www.goodbooks.io/books/the-sovereign-individual",
+    "kind": "book-cover"
+  },
+  "https://www.goodbooks.io/books/the-founders": {
+    "title": "The Founders",
+    "path": "covers/the-founders-8ef04acb00.png",
+    "image_url": "https://cdn.prod.website-files.com/61cb87c118979013b4f7938b/61d3480c035709a0c0485613_The%20Founders.avif",
+    "width": 400,
+    "height": 600,
+    "source": "https://www.goodbooks.io/books/the-founders",
+    "kind": "book-cover"
+  },
+  "https://us.macmillan.com/books/9780865477636/westwiththenight/": {
+    "title": "West with the Night",
+    "path": "covers/west-with-the-night-3ba5948120.jpg",
+    "width": 303,
+    "height": 500,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780865477636-L.jpg",
+    "source": "https://us.macmillan.com/books/9780865477636/westwiththenight/",
+    "kind": "book-cover"
   }
 }

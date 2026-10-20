@@ -120,15 +120,6 @@
       "title_language": "en"
     },
     {
-      "title": "The Warmth of Other Suns",
-      "author": "Isabel Wilkerson",
-      "year": 2010,
-      "title_language": "en",
-      "url": "https://www.penguinrandomhouse.com/books/190696/the-warmth-of-other-suns-by-isabel-wilkerson/",
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
       "title": "On War",
       "author": "Carl von Clausewitz",
       "url": "https://press.princeton.edu/books/paperback/9780691018546/on-war",
@@ -227,6 +218,89 @@
       "date": "2026-10-16"
     },
     {
+      "title": "Citizen: An American Lyric",
+      "author": "Claudia Rankine",
+      "year": 2014,
+      "title_language": "en",
+      "url": "https://www.graywolfpress.org/books/citizen",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "date": "2026-10-15",
+      "format": "books",
+      "title": "The Technological Republic: Hard Power, Soft Belief, and the Future of the West",
+      "url": "https://www.floguo.com/books/the-technological-republic",
+      "author": "Alexander C. Karp & Nicholas W. Zamiska",
+      "year": 2025,
+      "source": "https://www.floguo.com/books",
+      "title_language": "en"
+    },
+    {
+      "title": "The Right Stuff",
+      "author": "Tom Wolfe",
+      "year": 1979,
+      "url": "https://www.goodbooks.io/books/the-right-stuff",
+      "format": "books",
+      "date": "2026-10-19",
+      "title_language": "en"
+    },
+    {
+      "title": "The Fifteen Decisive Battles of the World",
+      "author": "Edward Shepherd Creasy",
+      "year": 1851,
+      "url": "https://www.goodbooks.io/books/the-fifteen-decisive-battles-of-the-world",
+      "format": "books",
+      "date": "2026-10-19",
+      "title_language": "en"
+    },
+    {
+      "title": "The Great Illusion",
+      "author": "Norman Angell",
+      "year": 1910,
+      "url": "https://www.goodbooks.io/books/the-great-illusion",
+      "format": "books",
+      "date": "2026-10-19",
+      "title_language": "en"
+    },
+    {
+      "title": "The Sovereign Individual",
+      "author": "James Dale Davidson & William Rees-Mogg",
+      "year": 1997,
+      "url": "https://www.goodbooks.io/books/the-sovereign-individual",
+      "format": "books",
+      "date": "2026-10-19",
+      "title_language": "en"
+    },
+    {
+      "title": "The Founders",
+      "author": "Jimmy Soni",
+      "year": 2022,
+      "url": "https://www.goodbooks.io/books/the-founders",
+      "format": "books",
+      "date": "2026-10-19",
+      "title_language": "en"
+    },
+    {
+      "title": "The Death and Life of Great American Cities",
+      "author": "Jane Jacobs",
+      "year": 1961,
+      "title_language": "en",
+      "url": "https://www.penguinrandomhouse.com/books/86058/the-death-and-life-of-great-american-cities-by-jane-jacobs/9780679644330/",
+      "aliases": [],
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Broken China: How the Economic Miracle Shattered and What it Means for the World",
+      "author": "Logan Wright",
+      "year": 2026,
+      "title_language": "en",
+      "url": "https://www.wiley-vch.de/en?isbn=9781509570676&option=com_eshop&title=Broken+China&view=product",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
       "title": "徐霞客游记",
       "author": "徐霞客",
       "year": 1642,
@@ -273,15 +347,6 @@
       "title_language": "en"
     },
     {
-      "title": "The Corrections",
-      "author": "Jonathan Franzen",
-      "year": 2001,
-      "title_language": "en",
-      "url": "https://us.macmillan.com/books/9781429928618/thecorrections/",
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
       "title": "Neither Here nor There: Travels in Europe",
       "author": "Bill Bryson",
       "year": 1991,
@@ -291,22 +356,18 @@
       "date": "2026-10-16"
     },
     {
-      "title": "Austerlitz",
-      "author": "W. G. Sebald",
-      "year": 2001,
-      "title_language": "de",
-      "url": "https://www.fischerverlage.de/buch/w-g-sebald-austerlitz-9783596148646",
+      "title": "West with the Night",
+      "author": "Beryl Markham",
+      "year": 1942,
+      "url": "https://us.macmillan.com/books/9780865477636/westwiththenight/",
       "format": "books",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "Gilead",
-      "author": "Marilynne Robinson",
-      "year": 2004,
+      "date": "2026-10-19",
       "title_language": "en",
-      "url": "https://us.macmillan.com/books/9780374602109/gileadoprahsbookclub/",
-      "format": "books",
-      "date": "2026-10-16"
+      "aliases": [
+        "夜航西飞",
+        "夜航西飛",
+        "柏瑞尔·马卡姆"
+      ]
     },
     {
       "title": "Multi-Agent Reinforcement Learning: Foundations and Modern Approaches",
@@ -1737,19 +1798,6 @@
       "title_language": "en"
     },
     {
-      "title": "陈梦家和他的朋友们",
-      "author": "方继孝",
-      "year": 2021,
-      "url": "https://read.douban.com/ebook/421016194/",
-      "aliases": [
-        "陳夢家和他的朋友們",
-        "方繼孝"
-      ],
-      "title_language": "zh-Hans",
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
       "title": "A Pattern Language: Towns, Buildings, Construction",
       "author": "Christopher Alexander, Sara Ishikawa & Murray Silverstein, with Max Jacobson, Ingrid Fiksdahl-King & Shlomo Angel",
       "year": 1977,
@@ -1778,40 +1826,6 @@
       "title_language": "en"
     },
     {
-      "title": "望春风",
-      "author": "格非",
-      "year": 2016,
-      "url": "https://read.douban.com/ebook/22585425/",
-      "aliases": [
-        "望春風"
-      ],
-      "title_language": "zh-Hans",
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "北上",
-      "author": "徐则臣",
-      "year": 2018,
-      "url": "https://www.bph.com.cn/maodun/detail/2380.html",
-      "aliases": [
-        "徐則臣",
-        "Xu Zechen"
-      ],
-      "title_language": "zh-Hans",
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "White Teeth",
-      "author": "Zadie Smith",
-      "year": 2000,
-      "title_language": "en",
-      "url": "https://www.penguinrandomhouse.com/books/169680/white-teeth-by-zadie-smith/",
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
       "title": "AI Engineering: Building Applications with Foundation Models",
       "author": "Chip Huyen",
       "url": "https://www.oreilly.com/library/view/ai-engineering/9781098166298/",
@@ -1826,15 +1840,6 @@
       "year": 2004,
       "title_language": "en",
       "url": "https://www.bloomsbury.com/us/line-of-beauty-9781582346106/",
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "Citizen: An American Lyric",
-      "author": "Claudia Rankine",
-      "year": 2014,
-      "title_language": "en",
-      "url": "https://www.graywolfpress.org/books/citizen",
       "format": "books",
       "date": "2026-10-16"
     },
@@ -3144,16 +3149,6 @@
     {
       "date": "2026-10-15",
       "format": "books",
-      "title": "How to Fight",
-      "url": "https://www.floguo.com/books/how-to-fight",
-      "author": "Thich Nhat Hanh",
-      "year": 2017,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en"
-    },
-    {
-      "date": "2026-10-15",
-      "format": "books",
       "title": "Jasper Morrison: The Unimportance of Form",
       "url": "https://www.floguo.com/books/jasper-morrison-the-unimportance-of-form",
       "author": "Jasper Morrison",
@@ -3433,16 +3428,6 @@
       "date": "2026-10-16"
     },
     {
-      "date": "2026-10-15",
-      "format": "books",
-      "title": "The Technological Republic: Hard Power, Soft Belief, and the Future of the West",
-      "url": "https://www.floguo.com/books/the-technological-republic",
-      "author": "Alexander C. Karp & Nicholas W. Zamiska",
-      "year": 2025,
-      "source": "https://www.floguo.com/books",
-      "title_language": "en"
-    },
-    {
       "title": "Ways of Seeing",
       "author": "John Berger",
       "year": 1972,
@@ -3605,16 +3590,6 @@
       "title_language": "en"
     },
     {
-      "title": "The Death and Life of Great American Cities",
-      "author": "Jane Jacobs",
-      "year": 1961,
-      "title_language": "en",
-      "url": "https://www.penguinrandomhouse.com/books/86058/the-death-and-life-of-great-american-cities-by-jane-jacobs/9780679644330/",
-      "aliases": [],
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
       "date": "2026-07-12",
       "format": "build",
       "title": "emilkowalski/skills",
@@ -3772,15 +3747,6 @@
       "url": "https://sonner.emilkowal.ski/"
     },
     {
-      "title": "Broken China: How the Economic Miracle Shattered and What it Means for the World",
-      "author": "Logan Wright",
-      "year": 2026,
-      "title_language": "en",
-      "url": "https://www.wiley-vch.de/en?isbn=9781509570676&option=com_eshop&title=Broken+China&view=product",
-      "format": "books",
-      "date": "2026-10-16"
-    },
-    {
       "title": "活着",
       "author": "余華",
       "url": "https://www.cite.com.tw/book?id=RL9903",
@@ -3838,6 +3804,40 @@
         "普里莫·莱维",
         "普里莫·李維"
       ]
+    },
+    {
+      "title": "望春风",
+      "author": "格非",
+      "year": 2016,
+      "url": "https://read.douban.com/ebook/22585425/",
+      "aliases": [
+        "望春風"
+      ],
+      "title_language": "zh-Hans",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "北上",
+      "author": "徐则臣",
+      "year": 2018,
+      "url": "https://www.bph.com.cn/maodun/detail/2380.html",
+      "aliases": [
+        "徐則臣",
+        "Xu Zechen"
+      ],
+      "title_language": "zh-Hans",
+      "format": "books",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "White Teeth",
+      "author": "Zadie Smith",
+      "year": 2000,
+      "title_language": "en",
+      "url": "https://www.penguinrandomhouse.com/books/169680/white-teeth-by-zadie-smith/",
+      "format": "books",
+      "date": "2026-10-16"
     }
   ],
   "sources": [
