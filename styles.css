@@ -533,6 +533,9 @@ a:hover { text-decoration-color: var(--white); }
   padding-bottom: 2px;
   transition: color .2s, border-color .2s;
 }
+.bio-email + .bio-email {
+  margin-left: 1.25rem;
+}
 .bio-email:hover {
   color: var(--white);
   border-bottom-color: var(--white);
