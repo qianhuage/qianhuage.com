@@ -2049,11 +2049,10 @@
   },
   "https://www.minecraft.net/en-us/about-minecraft": {
     "title": "Minecraft",
-    "path": "covers/game-bee770a661ce.webp",
-    "width": 570,
-    "height": 321,
-    "source": "https://www.minecraft.net/en-us/about-minecraft",
-    "image_url": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/About-Minecraft_Featured-Image-0_570x321.jpg",
+    "path": "covers/minecraft-flowers-01dc127e2d.png",
+    "width": 736,
+    "height": 414,
+    "source": "User-provided image",
     "kind": "game-preview"
   },
   "https://littleprince.dev/": {
