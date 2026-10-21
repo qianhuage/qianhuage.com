@@ -3805,16 +3805,16 @@
       "date": "2026-10-20"
     },
     {
-      "title": "部長と峠",
-      "creator": "大市こんにゃくゲームズ",
-      "title_language": "ja",
+      "title": "Minecraft",
+      "creator": "Mojang Studios",
+      "title_language": "en",
       "aliases": [
-        "Touge",
-        "部長與山道"
+        "我的世界",
+        "當個創世神"
       ],
-      "url": "https://oichikonnyaku.com/touge/",
+      "url": "https://www.minecraft.net/en-us/about-minecraft",
       "format": "game",
-      "date": "2026-10-20"
+      "date": "2026-10-21"
     },
     {
       "title": "宙返りロードスター",
@@ -3829,15 +3829,15 @@
       "date": "2026-10-20"
     },
     {
-      "title": "Wiki Spy",
-      "creator": "Neal Agarwal",
-      "url": "https://neal.fun/wiki-spy/",
-      "format": "game",
-      "date": "2026-10-21",
+      "title": "小王子：星辰之旅",
+      "title_language": "zh-Hans",
       "aliases": [
-        "Wikipedia",
-        "Neal.fun"
-      ]
+        "The Little Prince Among the Stars",
+        "Little Prince"
+      ],
+      "url": "https://littleprince.dev/",
+      "format": "game",
+      "date": "2026-10-21"
     },
     {
       "date": "2026-10-15",

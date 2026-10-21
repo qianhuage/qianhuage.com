@@ -1850,15 +1850,6 @@
     "image_url": "https://yorimichi-games.com/site/ogp/omurice.jpg",
     "kind": "game-preview"
   },
-  "https://oichikonnyaku.com/touge/": {
-    "title": "部長と峠",
-    "path": "covers/game-0c6b060d0236.webp",
-    "width": 960,
-    "height": 504,
-    "source": "https://oichikonnyaku.com/touge/",
-    "image_url": "https://oichikonnyaku.com/touge/ogp.png",
-    "kind": "game-preview"
-  },
   "https://tsuyatt.com/games/wall-flip/": {
     "title": "宙返りロードスター",
     "path": "covers/game-670d6d7c6c40.webp",
@@ -2056,13 +2047,22 @@
     "source": "https://images3.penguinrandomhouse.com/cover/9780679410034",
     "kind": "book-cover"
   },
-  "https://neal.fun/wiki-spy/": {
-    "title": "Wiki Spy",
-    "path": "covers/game-f86dece47c25.webp",
+  "https://www.minecraft.net/en-us/about-minecraft": {
+    "title": "Minecraft",
+    "path": "covers/game-bee770a661ce.webp",
+    "width": 570,
+    "height": 321,
+    "source": "https://www.minecraft.net/en-us/about-minecraft",
+    "image_url": "https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/About-Minecraft_Featured-Image-0_570x321.jpg",
+    "kind": "game-preview"
+  },
+  "https://littleprince.dev/": {
+    "title": "小王子：星辰之旅",
+    "path": "covers/game-33a2a25f99f1.webp",
     "width": 960,
-    "height": 603,
-    "source": "https://neal.fun/wiki-spy/",
-    "image_url": "https://neal.fun/share-cards/wiki-spy.png",
+    "height": 540,
+    "source": "https://littleprince.dev/",
+    "image_url": "https://littleprince.dev/keyart.031aa305131370a0e08c9cb92d1b1aaa.jpg",
     "kind": "game-preview"
   }
 }
