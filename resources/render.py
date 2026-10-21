@@ -12,16 +12,25 @@ items = data['resources']
 artwork_path = root / 'covers.json'
 artwork = json.loads(artwork_path.read_text()) if artwork_path.exists() else {}
 counts = Counter(r['format'] for r in items)
+category_labels = {
+    'read': 'Readings',
+    'books': 'Books',
+    'watch': 'Screen',
+    'explore': 'Museum',
+    'game': 'Games',
+    'design': 'Design',
+    'build': 'Tools',
+}
 total = len(items)
 filters = f'<button class="category active" type="button" data-category="all" aria-pressed="true"><span>All entries</span><span>{total}</span></button>'
-for category in ['read', 'books', 'watch', 'design', 'build']:
-    filters += f'<button class="category" type="button" data-category="{category}" aria-pressed="false"><span>{category.title()}</span><span>{counts[category]:02}</span></button>'
+for category, label in category_labels.items():
+    filters += f'<button class="category" type="button" data-category="{category}" aria-pressed="false"><span>{label}</span><span>{counts[category]:02}</span></button>'
 rows = []
 for i, r in enumerate(items, 1):
     domain = urlparse(r['url']).netloc.removeprefix('www.')
     if r['format'] == 'books':
         subtitle = ' · '.join(str(r[k]) for k in ['author', 'year'] if r.get(k))
-    elif r['format'] == 'watch':
+    elif r['format'] in ('watch', 'game'):
         subtitle = ' · '.join(str(r[k]) for k in ['director', 'creator', 'host', 'speaker', 'year'] if r.get(k))
     elif r.get('speaker'):
         subtitle = f"{r['speaker']} · {r['year']} · {r['collection']}"
@@ -31,24 +40,31 @@ for i, r in enumerate(items, 1):
         subtitle = f"{r['director']} · {r['year']} · {r['collection']}"
     else:
         subtitle = f"{r['topic']} · {domain}" if r.get('topic') else domain
-    note = f'<span class="resource-note">{e(r["note"])}</span>' if r.get('note') and r['format'] not in ('books', 'watch') else ''
+    note = f'<span class="resource-note">{e(r["note"])}</span>' if r.get('note') and r['format'] not in ('books', 'watch', 'game') else ''
+    if r.get('access_label'):
+        note += f'<span class="resource-access" title="{e(r.get("access_note", ""), quote=True)}">{e(r["access_label"])}</span>'
     title = ' title="Details and viewing information"' if r['format'] == 'watch' else ''
+    if r['format'] == 'game':
+        title = ' title="Play game (opens in a new tab)"'
     aliases = f' data-search-aliases="{e(" | ".join(r["aliases"]), quote=True)}"' if r.get('aliases') else ''
     language = f' lang="{e(r["title_language"], quote=True)}"' if r.get('title_language') else ''
     cover = ''
-    if r['format'] in ('books', 'watch'):
+    if r['format'] in ('books', 'watch', 'game'):
         art = artwork.get(r['url'], {})
         image = f'<img src="{e(art["path"], quote=True)}" width="{art["width"]}" height="{art["height"]}" alt="" loading="lazy" decoding="async">' if art.get('path') else ''
         cover = f'<span class="resource-cover{" has-artwork" if image else ""}" aria-hidden="true"><span class="cover-placeholder"><span>{e(r["title"])}</span><span>{e(subtitle)}</span></span>{image}</span>'
-    rows.append(f'<li class="resource" data-category="{r["format"]}" data-date="{r["date"]}"{aliases}><a class="resource-link" href="{e(r["url"], quote=True)}"{title} target="_blank" rel="noopener noreferrer" aria-labelledby="resource-title-{i}" aria-describedby="resource-detail-{i}">{cover}<span class="resource-number" aria-hidden="true">{i:03}</span><span class="resource-name"><span class="resource-title" id="resource-title-{i}"{language} dir="auto">{e(r["title"])}</span><span id="resource-detail-{i}" class="resource-detail"><span class="resource-domain">{e(subtitle)}</span>{note}<span class="sr-only"> (opens in a new tab)</span></span></span><span class="resource-type">{r["format"]}</span><span class="resource-arrow" aria-hidden="true">↗</span></a></li>')
+    rows.append(f'<li class="resource" data-category="{r["format"]}" data-date="{r["date"]}"{aliases}><a class="resource-link" href="{e(r["url"], quote=True)}"{title} target="_blank" rel="noopener noreferrer" aria-labelledby="resource-title-{i}" aria-describedby="resource-detail-{i}">{cover}<span class="resource-number" aria-hidden="true">{i:03}</span><span class="resource-name"><span class="resource-title" id="resource-title-{i}"{language} dir="auto">{e(r["title"])}</span><span id="resource-detail-{i}" class="resource-detail"><span class="resource-domain">{e(subtitle)}</span>{note}<span class="sr-only"> (opens in a new tab)</span></span></span><span class="resource-type">{category_labels[r["format"]]}</span><span class="resource-arrow" aria-hidden="true">↗</span></a></li>')
+    if r.get('reading_links'):
+        links = ' '.join(f'<a href="{e(link["url"], quote=True)}" target="_blank" rel="noopener noreferrer">{e(link["label"])}<span class="sr-only"> — {e(r["title"])} (opens in a new tab)</span></a>' for link in r['reading_links'])
+        rows[-1] = rows[-1].removesuffix('</li>') + f'<div class="reading-links">{links}</div></li>'
 p = root / 'index.html'
 s = p.read_text()
 s = re.sub(r'(<nav class="categories"[^>]*>).*?(</nav>)', lambda m: m[1] + filters + m[2], s, flags=re.S)
 s = re.sub(r'(<ul class="resource-list" id="resource-list">).*?(</ul>)', lambda m: m[1] + '\n'.join(rows) + m[2], s, flags=re.S)
 s = re.sub(r'(<span class="index-total">)\d+', lambda m: m[1] + str(total), s)
 s = re.sub(r'(<p id="result-count"[^>]*>).*?</p>', lambda m: m[1] + f'{total} entries</p>', s)
-s = re.sub(r'Explore \d+ tools, articles, books, films, and references\.', f'Explore {total} tools, articles, books, films, and references.', s)
+s = re.sub(r'Explore \d+ tools, articles, books, films, (?:games, )?and references\.', f'Explore {total} tools, articles, books, films, games, and references.', s)
 s = re.sub(r'All \d+ entries are listed here', f'All {total} entries are listed here', s)
-s = re.sub(r'resources\.(css|js)\?v=[^" ]+', r'resources.\1?v=index-stills-2', s)
+s = re.sub(r'resources\.(css|js)\?v=[^" ]+', r'resources.\1?v=index-nouns-1', s)
 p.write_text(s)
 print(f'Rendered {total} resources; {counts["read"]} readings; {counts["watch"]} watch entries.')

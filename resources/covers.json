@@ -1,20 +1,4 @@
 {
-  "https://www.oma.com/publications/delirious-new-york": {
-    "title": "Delirious New York: A Retroactive Manifesto for Manhattan",
-    "path": "covers/385fcf604a30.webp",
-    "width": 480,
-    "height": 586,
-    "source": "https://www.oma.com/publications/delirious-new-york",
-    "image_url": "https://cdn.sanity.io/images/5azy6oei/production/82a7448e6f75c72f066eed83d321befec9de9969-3296x4019.jpg?w=700&fm=jpg&q=80"
-  },
-  "https://www.penguinrandomhouse.com/books/176225/fooled-by-randomness-by-nassim-nicholas-taleb/": {
-    "title": "Fooled by Randomness",
-    "path": "covers/b02ecca1eaa1.webp",
-    "width": 296,
-    "height": 450,
-    "source": "https://www.penguinrandomhouse.com/books/176225/fooled-by-randomness-by-nassim-nicholas-taleb/",
-    "image_url": "https://images.penguinrandomhouse.com/cover/9781400067930"
-  },
   "https://www.navalmanack.com/home": {
     "title": "The Almanack of Naval Ravikant",
     "path": "covers/3632fc4fa0f7.webp",
@@ -22,14 +6,6 @@
     "height": 500,
     "source": "https://openlibrary.org/works/OL22255847W",
     "image_url": "https://covers.openlibrary.org/b/id/10449931-L.jpg?default=false"
-  },
-  "https://www.penguinlibros.com/es/literatura-contemporanea/30631-libro-ficciones-9788426405739": {
-    "title": "Ficciones",
-    "path": "covers/1440eab2a954.webp",
-    "width": 250,
-    "height": 386,
-    "source": "https://www.penguinlibros.com/es/literatura-contemporanea/30631-libro-ficciones-9788426405739",
-    "image_url": "https://www.penguinlibros.com/es/4408476-home_default/ficciones.jpg"
   },
   "https://probml.github.io/pml-book/book1.html": {
     "title": "Probabilistic Machine Learning: An Introduction",
@@ -76,14 +52,6 @@
     "source": "https://books.google.com/books?id=2378lgEACAAJ",
     "image_url": "https://books.google.com/books/content?id=2378lgEACAAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE72e5_XZJ5NONdwJNQw92BgW4qY7dLiCXjmnvxcg8KMLI4Tzh8fZQDGE9qcxVsw4tFdb6FcKdwZKSKKPDkOTJRZeFqspyxfUE0UQG6j4lSIqBs2MbBjyrSMHFU__fkEbZUGBQL--"
   },
-  "https://www.penguin.com.au/books/neither-here-nor-there-9781784161828": {
-    "title": "Neither Here nor There: Travels in Europe",
-    "path": "covers/76f700046add.webp",
-    "width": 400,
-    "height": 625,
-    "source": "https://www.penguin.com.au/books/neither-here-nor-there-9781784161828",
-    "image_url": "https://cdn2.penguin.com.au/covers/400/9781784161828.jpg"
-  },
   "https://marl-book.com/": {
     "title": "Multi-Agent Reinforcement Learning: Foundations and Modern Approaches",
     "path": "covers/16af597feb77.webp",
@@ -91,22 +59,6 @@
     "height": 500,
     "source": "https://marl-book.com/",
     "image_url": "https://marl-book.com/assets/img/marl-book-cover.jpg"
-  },
-  "https://www.penguinrandomhouse.com/books/110490/the-road-by-cormac-mccarthy/": {
-    "title": "The Road",
-    "path": "covers/ee0dbb0231bf.webp",
-    "width": 292,
-    "height": 450,
-    "source": "https://www.penguinrandomhouse.com/books/110490/the-road-by-cormac-mccarthy/",
-    "image_url": "https://images.penguinrandomhouse.com/cover/9780307387899"
-  },
-  "https://catalogue.bnf.fr/ark:/12148/cb397737498": {
-    "title": "Vers une architecture",
-    "path": "covers/39d28e732085.webp",
-    "width": 313,
-    "height": 475,
-    "source": "https://openlibrary.org/works/OL15164456W",
-    "image_url": "https://covers.openlibrary.org/b/id/310106-L.jpg?default=false"
   },
   "https://us.macmillan.com/books/9781250081544/outline/": {
     "title": "Outline",
@@ -140,14 +92,6 @@
     "height": 500,
     "source": "https://openlibrary.org/works/OL3923600W",
     "image_url": "https://covers.openlibrary.org/b/id/120825-L.jpg?default=false"
-  },
-  "https://www.ndbooks.com/book/the-last-samurai/": {
-    "title": "The Last Samurai",
-    "path": "covers/1c58c583d040.webp",
-    "width": 415,
-    "height": 640,
-    "source": "https://www.ndbooks.com/book/the-last-samurai/",
-    "image_url": "https://cdn.sanity.io/images/p34gzxcg/production/b67477ba12a538bc6f2809ccf31b685e4fa608e3-475x732.jpg?auto=format&w=1000"
   },
   "https://www.sebastianraschka.com/llms-from-scratch/": {
     "title": "Build a Large Language Model (From Scratch)",
@@ -213,14 +157,6 @@
     "source": "https://www.ebooks.com/en-us/book/210681725/hands-on-machine-learning-with-scikit-learn-keras-and-tensorflow/aur-lien-g-ron/",
     "image_url": "https://image.ebooks.com/cover/210681725.jpg",
     "treatment": "Flat front cover, sourced"
-  },
-  "https://www.anagrama-ed.es/libro/narrativas-hispanicas/los-detectives-salvajes/9788433910868/NH_256": {
-    "title": "Los detectives salvajes",
-    "path": "covers/45c7ebb4b7c6.webp",
-    "width": 391,
-    "height": 640,
-    "source": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/los-detectives-salvajes/9788433910868/NH_256",
-    "image_url": "https://cms.anagrama-ed.es/uploads/media/portadas/0001/19/thumb_18056_portadas_big.jpeg"
   },
   "https://www.goldenhorse.org.tw/film/about/archive/detail/1960": {
     "title": "大象席地而坐",
@@ -849,14 +785,6 @@
     "source": "https://openlibrary.org/works/OL20796038W",
     "image_url": "https://covers.openlibrary.org/b/id/10091086-L.jpg?default=false"
   },
-  "https://www.floguo.com/books/a-year-with-swollen-appendices": {
-    "title": "A Year with Swollen Appendices",
-    "path": "covers/819b3ab9b8b2.webp",
-    "width": 370,
-    "height": 475,
-    "source": "https://openlibrary.org/works/OL772381W",
-    "image_url": "https://covers.openlibrary.org/b/id/377239-L.jpg?default=false"
-  },
   "https://www.floguo.com/books/arranging-things": {
     "title": "Arranging Things: A Rhetoric of Object Placement",
     "path": "covers/4704d37a981b.webp",
@@ -873,14 +801,6 @@
     "source": "https://www.fischerverlage.de/buch/stefan-zweig-magellan-9783104002484",
     "image_url": "https://cdn.holtzbrinck-buchverlage.de/fischer/public/YcG3XsE7wygYNuXQqdJzxUBp4CvLKDUl1IbIaZMEKLb/U1_978-3-10-400248-4.png?width=1200&fit=crop&quality=85&format=jpg"
   },
-  "https://www.floguo.com/books/envisioning-information": {
-    "title": "Envisioning Information",
-    "path": "covers/f413300bb3d5.webp",
-    "width": 396,
-    "height": 500,
-    "source": "https://openlibrary.org/works/OL2824011W",
-    "image_url": "https://covers.openlibrary.org/b/id/7026308-L.jpg?default=false"
-  },
   "https://book.douban.com/subject/24380577/": {
     "title": "平凡的世界",
     "path": "covers/eda27c0b2d5e.webp",
@@ -889,14 +809,6 @@
     "source": "https://sfpl.overdrive.com/library/chinese/media/3460452",
     "image_url": "https://img3.od-cdn.com/ImageType-100/5719-1/%7B397A332C-9950-490E-B74B-2915B52E2DEE%7DImg100.jpg"
   },
-  "https://www.suhrkamp.de/buch/hermann-hesse-siddhartha-t-9783518188026": {
-    "title": "Siddhartha",
-    "path": "covers/0e059b38bc11.webp",
-    "width": 407,
-    "height": 640,
-    "source": "https://www.suhrkamp.de/buch/hermann-hesse-siddhartha-t-9783518188026",
-    "image_url": "https://res.cloudinary.com/suhrkamp/images/c_limit,q_auto,f_auto,w_600/v1742190944/66412/siddhartha_9783518188026_og.webp"
-  },
   "https://www.shinchosha.co.jp/book/353416/": {
     "title": "象の消滅―短篇選集1980–1991―",
     "path": "covers/e631960571e7.webp",
@@ -904,14 +816,6 @@
     "height": 280,
     "source": "https://www.shinchosha.co.jp/book/353416/",
     "image_url": "https://www.shinchosha.co.jp/images_v2/book/cover/353416/353416_xl.jpg"
-  },
-  "https://www.penguin.co.uk/books/357001/invisible-cities-by-italo-calvino/9781446414279": {
-    "title": "Le città invisibili",
-    "path": "covers/47fc71d0969b.webp",
-    "width": 326,
-    "height": 500,
-    "source": "https://www.penguin.co.uk/books/357001/invisible-cities-by-italo-calvino/9781446414279",
-    "image_url": "https://cdn.penguin.co.uk/dam-assets/books/9781446414279/9781446414279-jacket-large.jpg"
   },
   "https://www.gutenberg.org/ebooks/2701": {
     "title": "Moby-Dick",
@@ -936,22 +840,6 @@
     "height": 285,
     "source": "https://www.gutenberg.org/ebooks/64317",
     "image_url": "https://www.gutenberg.org/cache/epub/64317/pg64317.cover.medium.jpg"
-  },
-  "https://www.penguin.co.uk/books/56465/ways-of-seeing-by-berger-john/9780141035796": {
-    "title": "Ways of Seeing",
-    "path": "covers/0026a1aff730.webp",
-    "width": 307,
-    "height": 500,
-    "source": "https://www.penguin.co.uk/books/56465/ways-of-seeing-by-berger-john/9780141035796",
-    "image_url": "https://cdn.penguin.co.uk/dam-assets/books/9780141035796/9780141035796-jacket-large.jpg"
-  },
-  "https://www.reclam.de/produktdetail/aphorismen-zur-lebensweisheit-9783150050026": {
-    "title": "Aphorismen zur Lebensweisheit",
-    "path": "covers/a41d4dbb4199.webp",
-    "width": 415,
-    "height": 640,
-    "source": "https://www.reclam.de/produktdetail/aphorismen-zur-lebensweisheit-9783150050026",
-    "image_url": "https://www.reclam.de/fileadmin/Reclam/Produkte/Cover/9783150050026.jpg"
   },
   "https://www.penguinrandomhouse.com/books/86058/the-death-and-life-of-great-american-cities-by-jane-jacobs/9780679644330/": {
     "title": "The Death and Life of Great American Cities",
@@ -1004,14 +892,6 @@
     "source": "https://openlibrary.org/works/OL37505411W",
     "image_url": "https://covers.openlibrary.org/b/id/14562207-L.jpg?default=false"
   },
-  "https://www.floguo.com/books/new-seeds-of-contemplation": {
-    "title": "New Seeds of Contemplation",
-    "path": "covers/a41cad8c8339.webp",
-    "width": 291,
-    "height": 475,
-    "source": "https://openlibrary.org/works/OL461693W",
-    "image_url": "https://covers.openlibrary.org/b/id/859481-L.jpg?default=false"
-  },
   "https://www.floguo.com/books/posuta": {
     "title": "Posutā Poster: Contemporary Poster Design from Japan",
     "path": "covers/4f1aa7ea3c4b.webp",
@@ -1061,14 +941,6 @@
     "source": "https://openlibrary.org/works/OL3923607W",
     "image_url": "https://covers.openlibrary.org/b/id/8705797-L.jpg?default=false"
   },
-  "https://www.albin-michel.fr/jean-christophe-9782226168139": {
-    "title": "Jean-Christophe",
-    "path": "covers/dde31d3f95d0.webp",
-    "width": 306,
-    "height": 500,
-    "source": "https://openlibrary.org/works/OL68141W",
-    "image_url": "https://covers.openlibrary.org/b/id/6847156-L.jpg?default=false"
-  },
   "https://cvc.cervantes.es/literatura/clasicos/quijote/default.htm": {
     "title": "Don Quijote de la Mancha",
     "path": "covers/6b25df82b90e.webp",
@@ -1092,15 +964,6 @@
     "height": 500,
     "source": "https://openlibrary.org/works/OL20046732W",
     "image_url": "https://covers.openlibrary.org/b/id/13352980-L.jpg?default=false"
-  },
-  "https://www.floguo.com/books/zero-to-one": {
-    "title": "Zero to One",
-    "path": "covers/83e736a33d06-flat.webp",
-    "width": 300,
-    "height": 450,
-    "source": "https://penguinrandomhousesecondaryeducation.com/book/?isbn=9780804139298",
-    "image_url": "https://images.penguinrandomhouse.com/cover/9780804139298",
-    "treatment": "Publisher front cover; replaced audiobook artwork"
   },
   "https://www.oreilly.com/library/view/designing-machine-learning-systems/9781098107956/": {
     "title": "Designing Machine Learning Systems",
@@ -1211,14 +1074,6 @@
     "reference_image": "output/cover-audit/5-2.jpg",
     "generation_prompt": "Edit this book cover reference into a clean flat front-cover graphic for a website bookshelf. Output ONLY the front cover, full bleed to all four image edges, portrait rectangle with the proportions of the front face in the reference. Remove ALL surrounding background, padding, shadows, visible spine, page edges, bevels, perspective and photographic distortion. It must be an orthographic 2D print artwork, with perfectly rectangular square corners. Preserve the original cover composition, illustration, colours, typography and wording faithfully; do not redesign or add anything. 茶馆; 老舍. Keep the original black typographic tea-house sign illustration and small publisher line on white."
   },
-  "https://mitpress.mit.edu/9780262514385/a-scientific-autobiography/": {
-    "title": "Autobiografia scientifica",
-    "path": "covers/54d026e83710.webp",
-    "width": 432,
-    "height": 640,
-    "source": "https://www.libreriauniversitaria.it/autobiografia-scientifica-rossi-aldo-saggiatore/libro/9788842832676",
-    "image_url": "https://img2.libreriauniversitaria.it/BIT/500/267/9788842832676.jpg"
-  },
   "https://www.floguo.com/books/the-scaling-era": {
     "title": "The Scaling Era",
     "path": "covers/1d3384a0edf6.webp",
@@ -1262,14 +1117,6 @@
     "height": 640,
     "source": "https://www.mcnallyrobinson.com/9781509570676/logan-wright/broken-china",
     "image_url": "https://cdn1.bookmanager.com/i/m.php?b=ZNKvTC8zaIE1_zEEH5oKZw&cb=1762387316"
-  },
-  "https://store.linkingbooks.com.tw/product/84022-13": {
-    "title": "紅樓夢",
-    "path": "covers/8302a3367a9b.webp",
-    "width": 439,
-    "height": 640,
-    "source": "https://jfbooks.org/zh-hans/products/9787020002207",
-    "image_url": "https://jfbooks.org/cdn/shop/files/9787020002207_8418aec5-0c6e-435d-93ec-3bc2432697bd.jpg?v=1754240902"
   },
   "https://www.floguo.com/books/jasper-morrison-the-unimportance-of-form": {
     "title": "Jasper Morrison: The Unimportance of Form",
@@ -1550,15 +1397,6 @@
     "image_url": "https://covers.openlibrary.org/b/isbn/9780691018546-L.jpg",
     "kind": "book-cover"
   },
-  "https://www.penguinrandomhouse.com/books/213088/the-decline-and-fall-of-the-roman-empire-volumes-1-to-6-by-edward-gibbon-introduction-by-hugh-trevor-roper/": {
-    "title": "The History of the Decline and Fall of the Roman Empire",
-    "path": "covers/gibbon-portrait-971a8f8fd1.jpg",
-    "width": 317,
-    "height": 450,
-    "source": "https://www.penguinrandomhouse.com/books/223598/decline-and-fall-of-the-roman-empire-the-modern-library-collection-complete-and-unabridged-by-edward-gibbon/9780812984835/",
-    "image_url": "https://images4.penguinrandomhouse.com/cover/9780812984835",
-    "kind": "book-cover"
-  },
   "https://www.moma.org/collection/works/147861": {
     "title": "Eye/Machine I–III",
     "path": "covers/eye-machine-103afb3cbb.jpg",
@@ -1606,24 +1444,6 @@
     "source": "https://www.goodbooks.io/books/the-right-stuff",
     "kind": "book-cover"
   },
-  "https://www.goodbooks.io/books/the-fifteen-decisive-battles-of-the-world": {
-    "title": "The Fifteen Decisive Battles of the World",
-    "path": "covers/the-fifteen-decisive-battles-of-the-world-18be916d02.png",
-    "image_url": "https://cdn.prod.website-files.com/61cb87c118979013b4f7938b/61cb87c118979054a6f7b21d_the-fifteen-decisive-battles-of-the-world.avif",
-    "width": 400,
-    "height": 600,
-    "source": "https://www.goodbooks.io/books/the-fifteen-decisive-battles-of-the-world",
-    "kind": "book-cover"
-  },
-  "https://www.goodbooks.io/books/the-great-illusion": {
-    "title": "The Great Illusion",
-    "path": "covers/the-great-illusion-4c1912db1c.png",
-    "image_url": "https://cdn.prod.website-files.com/61cb87c118979013b4f7938b/61cb87c1189790bc3af7b247_the-great-illusion.avif",
-    "width": 400,
-    "height": 600,
-    "source": "https://www.goodbooks.io/books/the-great-illusion",
-    "kind": "book-cover"
-  },
   "https://www.goodbooks.io/books/the-sovereign-individual": {
     "title": "The Sovereign Individual",
     "path": "covers/the-sovereign-individual-67dc3567c1.png",
@@ -1660,14 +1480,6 @@
     "image_url": "https://covers.openlibrary.org/b/isbn/9780486267463-L.jpg",
     "kind": "book-cover"
   },
-  "https://www.penguinrandomhouse.com/books/241840/the-brothers-karamazov-by-fyodor-dostoevsky-translated-by-richard-pevear-and-larissa-volokhonsky-introduction-by-malcolm-jones/": {
-    "title": "The Brothers Karamazov",
-    "path": "covers/the-brothers-karamazov.jpg",
-    "width": 282,
-    "height": 450,
-    "source": "https://images3.penguinrandomhouse.com/cover/9780679410034",
-    "kind": "book-cover"
-  },
   "https://london.lesmis.com/": {
     "title": "Les Misérables",
     "path": "covers/les-miserables-sondheim-user.png",
@@ -1700,5 +1512,557 @@
     "source": "https://www.youtube.com/watch?v=L1OBRtfPS34",
     "image_url": "https://i.ytimg.com/vi/L1OBRtfPS34/hqdefault.jpg",
     "kind": "video-thumbnail"
+  },
+  "https://www.imdb.com/title/tt0019254/": {
+    "title": "La Passion de Jeanne d’Arc",
+    "path": "covers/tt0019254-rated-ten.webp",
+    "width": 853,
+    "height": 640,
+    "source": "https://biblioklept.org/2020/07/10/12-still-frames-from-carl-theodor-dreyers-the-passion-of-joan-of-arc/",
+    "image_url": "https://biblioklept.org/wp-content/uploads/2020/07/16-1156.jpg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0031885/": {
+    "title": "La Règle du jeu",
+    "path": "covers/tt0031885-rated-ten.webp",
+    "width": 897,
+    "height": 640,
+    "source": "https://medium.com/%40moosebaek/review-of-the-rules-of-the-game-1939-cd4ba9003151",
+    "image_url": "https://miro.medium.com/v2/resize%3Afit%3A1200/1%2A4kcusjEO-C3Cxv70zbyVIg.jpeg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0053619/": {
+    "title": "L’avventura",
+    "path": "covers/tt0053619-rated-ten.webp",
+    "width": 960,
+    "height": 552,
+    "source": "https://filmscreed.wixsite.com/filmscreed/single-post/2015/11/19/the-sickness-of-eros-lavventura",
+    "image_url": "https://static.wixstatic.com/media/57779e_118c9de2eff248938e91c1fb97fff811.jpg/v1/fill/w_980%2Ch_563%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/57779e_118c9de2eff248938e91c1fb97fff811.jpg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0056801/": {
+    "title": "8½",
+    "path": "covers/tt0056801-rated-ten.webp",
+    "width": 913,
+    "height": 640,
+    "source": "https://www.wowowplus.jp/impressive_scene/",
+    "image_url": "https://www.wowowplus.jp/assets/020f8fa3d479e78b83df80633e47852a.jpg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0095468/": {
+    "title": "Krótki film o zabijaniu",
+    "path": "covers/tt0095468-rated-ten.webp",
+    "width": 960,
+    "height": 506,
+    "source": "https://film.interia.pl/wiadomosci/news-krotki-film-o-zabijaniu-mija-35-lat-od-premiery-glosnego-fil%2CnId%2C6645066",
+    "image_url": "https://i.iplsc.com/000GVBL592JLBUD9-C461.webp",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0108394/": {
+    "title": "Trois couleurs : Bleu",
+    "path": "covers/tt0108394-rated-ten.webp",
+    "width": 960,
+    "height": 514,
+    "source": "https://www.sfmoma.org/event/three-colors-blue/",
+    "image_url": "https://d1hhug17qm51in.cloudfront.net/www-media/2018/08/03225950/Blue-1024x548.jpeg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0078788/": {
+    "title": "Apocalypse Now",
+    "path": "covers/tt0078788-rated-ten.webp",
+    "width": 780,
+    "height": 438,
+    "source": "https://www.slashfilm.com/1462271/major-actors-still-alive-apocalypse-now/",
+    "image_url": "https://www.slashfilm.com/img/gallery/major-actors-still-alive-apocalypse-now/intro-1769725773.jpg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0118694/": {
+    "title": "花樣年華",
+    "path": "covers/tt0118694-rated-ten.webp",
+    "width": 960,
+    "height": 576,
+    "source": "https://www.hackwriters.com/MoodDS.htm",
+    "image_url": "https://www.hackwriters.com/images/Moodpic4.jpg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0072684/": {
+    "title": "Barry Lyndon",
+    "path": "covers/tt0072684-rated-ten.webp",
+    "width": 960,
+    "height": 504,
+    "source": "https://www.dallasnews.com/arts-entertainment/movies/2017/11/07/the-best-looking-movie-ever-it-s-hard-to-top-this-candle-lit-beauty/",
+    "image_url": "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/v2/J6ZJ5B56SZYZYJU6PWIWUK2G7A.jpg?auth=ec035746063a15a1f2ec275de8d09fe3294023d3567f1c664ac883b56856d904&height=630&quality=80&smart=true&width=1200",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0110882/": {
+    "title": "Пред дождот",
+    "path": "covers/tt0110882-rated-ten.webp",
+    "width": 960,
+    "height": 540,
+    "source": "https://www.flicks.com.au/movie/before-the-rain/",
+    "image_url": "https://d32qys9a6wm9no.cloudfront.net/images/movies/backdrop/4c/5cba49d0aa3a71c92d1a5a352d6a79b6_1280x720.jpg?t=1713875786",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0064451/": {
+    "title": "俠女",
+    "path": "covers/tt0064451-rated-ten.webp",
+    "width": 664,
+    "height": 442,
+    "source": "https://www.lemonde.fr/cinema/article/2015/07/28/a-touch-of-zen-king-hu-cineaste-aux-visions-tranchantes_4701764_3476.html",
+    "image_url": "https://img.lemde.fr/2015/07/27/0/420/1025/683/664/0/75/0/7822f09_20521-1w1533k.jpg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0085635/": {
+    "title": "海灘的一天",
+    "path": "covers/tt0085635-rated-ten.webp",
+    "width": 960,
+    "height": 521,
+    "source": "https://filmcentric.wordpress.com/2019/10/01/that-day-on-the-beach-1983/",
+    "image_url": "https://i0.wp.com/filmcentric.wordpress.com/wp-content/uploads/2019/08/hai-tan-de-yi-tian-1983.jpg?fit=1200%2C651&ssl=1",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0387898/": {
+    "title": "Caché",
+    "path": "covers/tt0387898-rated-ten.webp",
+    "width": 960,
+    "height": 400,
+    "source": "https://www.rogerebert.com/reviews/great-movie-cache-2005",
+    "image_url": "https://static.rogerebert.com/uploads/review/primary_image/reviews/great-movie-cache-2005/hero_EB20100113REVIEWS08100119986AR.jpg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0101985/": {
+    "title": "牯嶺街少年殺人事件",
+    "path": "covers/tt0101985-rated-ten.webp",
+    "width": 960,
+    "height": 504,
+    "source": "https://www.cinematoday.jp/news/N0090397",
+    "image_url": "https://img.cinematoday.jp/a/OadfYmUavRHE/_size_r1200x630/_v_1490087160/main.jpg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt7282468/": {
+    "title": "버닝",
+    "path": "covers/tt7282468-rated-ten.webp",
+    "width": 960,
+    "height": 400,
+    "source": "https://www.rogerebert.com/reviews/burning-2018",
+    "image_url": "https://s3.amazonaws.com/static.rogerebert.com/uploads/review/primary_image/reviews/burning-2018/burning-image-2018.jpg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0090185/": {
+    "title": "童年往事",
+    "path": "covers/tt0090185-rated-ten.webp",
+    "width": 960,
+    "height": 515,
+    "source": "https://medium.com/%40phillkatinkamus/fresh-takes-a-time-to-live-a-time-to-die-1985-where-the-house-stays-and-the-people-dont-9f33abb434b9",
+    "image_url": "https://miro.medium.com/v2/resize%3Afit%3A1400/1%2AGYLEN1HupnbXLUyalk1rTw.jpeg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0093342/": {
+    "title": "خانه دوست کجاست؟",
+    "path": "covers/tt0093342-rated-ten.webp",
+    "width": 900,
+    "height": 600,
+    "source": "https://purson.ir/fa/content/464243/%D8%B1%D9%88%D8%A7%DB%8C%D8%AA%DB%8C-%D8%B4%D9%86%DB%8C%D8%AF%D9%86%DB%8C-%D8%AE%D8%A7%D9%86%D9%87-%D8%AF%D9%88%D8%B3%D8%AA-%DA%A9%D8%AC%D8%A7%D8%B3%D8%AA-%D8%B9%D8%A8%D8%A7%D8%B3-%DA%A9%DB%8C%D8%A7%D8%B1%D8%B3%D8%AA%D9%85%DB%8C",
+    "image_url": "https://purson.ir/Media/Image/1401/12/04/638127441798337698.jpg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0817225/": {
+    "title": "밀양",
+    "path": "covers/tt0817225-rated-ten.webp",
+    "width": 786,
+    "height": 525,
+    "source": "https://www.anothermag.com/design-living/14096/a-brief-guide-to-the-tragic-novelistic-cinema-of-lee-chang-dong",
+    "image_url": "https://images-prod.anothermag.com/786/azure/another-prod/420/1/421252.jpg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0091406/": {
+    "title": "戀戀風塵",
+    "path": "covers/tt0091406-rated-ten.webp",
+    "width": 960,
+    "height": 556,
+    "source": "https://www.imdb.com/title/tt0091406/mediaviewer/rm1585677057/",
+    "image_url": "https://m.media-amazon.com/images/M/MV5BOTFlZWRkYzQtMGJhNi00OGJlLWFiMGEtY2E4OTdmNTJjNmI3XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0083922/": {
+    "title": "Fanny och Alexander",
+    "path": "covers/tt0083922-rated-ten.webp",
+    "width": 867,
+    "height": 640,
+    "source": "https://www.ingmarbergman.se/verk/fanny-och-alexander-jan-malmsjo-bertil-guve/media/8203",
+    "image_url": "https://www.ingmarbergman.se/sites/default/files/styles/gallery/public/fanny_och_alexander_102.jpg?itok=8paiDCjs",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0118845/": {
+    "title": "春光乍洩",
+    "path": "covers/tt0118845-rated-ten.webp",
+    "width": 800,
+    "height": 533,
+    "source": "https://popbee.com/lifestyle/movies/wong-kar-wai-happy-together-4k-digital-remastering-rerelease",
+    "image_url": "https://popbee.com/image/2022/02/0217042.jpg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0166924/": {
+    "title": "Mulholland Drive",
+    "path": "covers/tt0166924-rated-ten.webp",
+    "width": 750,
+    "height": 405,
+    "source": "https://natalie.mu/eiga/gallery/news/661666/2811824",
+    "image_url": "https://ogre.natalie.mu/media/news/eiga/2026/0226/DavidLynchallnight_20260226_11.jpg?imdensity=1&imwidth=750",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0085180/": {
+    "title": "L’Argent",
+    "path": "covers/tt0085180-rated-ten.webp",
+    "width": 657,
+    "height": 472,
+    "source": "https://robert-bresson.com/Posters/PublicityPhotos/index.html",
+    "image_url": "https://www.robert-bresson.com/Posters/PublicityPhotos/bresson_largent03.jpg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0053168/": {
+    "title": "Pickpocket",
+    "path": "covers/tt0053168-rated-ten.webp",
+    "width": 960,
+    "height": 540,
+    "source": "https://film.nu/filmer/pickpocket/10134441.film",
+    "image_url": "https://image.tmdb.org/t/p/original/sTMqMWhWpU41u8ZvvkiPf3TXoMG.jpg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0068182/": {
+    "title": "Aguirre, der Zorn Gottes",
+    "path": "covers/tt0068182-rated-ten.webp",
+    "width": 960,
+    "height": 540,
+    "source": "https://www.truemythmedia.com/true-myth-media/reviews/aguirre",
+    "image_url": "https://images.squarespace-cdn.com/content/v1/5a7dcf69d7bdce185884a6b5/1561511729540-M7F2Q87F4588C7DLT4VH/a%2B2.jpg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0144020/": {
+    "title": "小武",
+    "path": "covers/tt0144020-rated-ten.webp",
+    "width": 960,
+    "height": 540,
+    "source": "https://www.easternkicks.com/features/restoring-poetry-xiao-wus-ballad-of-loneliness/",
+    "image_url": "https://www.easternkicks.com/wp-content/uploads/2022/03/Xiao-Wu.jpeg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0069467/": {
+    "title": "Viskningar och rop",
+    "path": "covers/tt0069467-rated-ten.webp",
+    "width": 960,
+    "height": 540,
+    "source": "https://www.imdb.com/title/tt0069467/characters/nm0843306/",
+    "image_url": "https://m.media-amazon.com/images/M/MV5BZDg1YjJiY2QtNmViNy00YjA5LWJhOWEtMGE1YTFjYmY3NWNhXkEyXkFqcGc%40._V1_.jpg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0052357/": {
+    "title": "Vertigo",
+    "path": "covers/tt0052357-rated-ten.webp",
+    "width": 800,
+    "height": 449,
+    "source": "https://wyatts-classics.blogspot.com/2010/11/vertigo-alfred-hitchcock-1958.html",
+    "image_url": "https://3.bp.blogspot.com/_zppAOhAUHfM/TPPY1Dz9pjI/AAAAAAAAAIs/LXdtV31aZ_w/s1600/kim-novak-as-judy-as-madeleine-in-vertigo.jpeg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0794374/": {
+    "title": "颐和园",
+    "path": "covers/tt0794374-rated-ten.webp",
+    "width": 740,
+    "height": 510,
+    "source": "https://vocus.cc/article/69079410fd897800018b3d5f",
+    "image_url": "https://resize-image.vocus.cc/resize?norotation=true&quality=80&sign=cZH8X8sjP8j2opqjW2eY5CEOnjDFXRhBNHkkHV9eUAU&url=https%3A%2F%2Fimages.vocus.cc%2Ff2425869-c423-4626-9495-5c8581632560.jpg&width=740",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0112659/": {
+    "title": "超級大國民",
+    "path": "covers/tt0112659-rated-ten.webp",
+    "width": 960,
+    "height": 640,
+    "source": "https://www.tfai.org.tw/zh/event/detail/2c9680829be501b8019c88b004850111",
+    "image_url": "https://www.tfai.org.tw/uploadFile/upload/event/2c9680829be501b8019c88ad3eb9010a.jpg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.imdb.com/title/tt0071360/": {
+    "title": "The Conversation",
+    "path": "covers/tt0071360-rated-ten.webp",
+    "width": 850,
+    "height": 480,
+    "source": "https://humanizingthevacuum.wordpress.com/2017/08/10/the-horror-the-best-of-francis-ford-coppola/",
+    "image_url": "https://filmfork-cdn.s3.amazonaws.com/content/conversation5.jpg",
+    "kind": "film-still",
+    "treatment": "Reviewed film still; displayed in the existing 16:9 frame"
+  },
+  "https://www.taipei-rush.app/": {
+    "title": "臺北狂飆",
+    "path": "covers/game-cd88bde422e8.webp",
+    "width": 960,
+    "height": 540,
+    "source": "https://www.taipei-rush.app/",
+    "image_url": "https://www.taipei-rush.app/title/loader-1600.webp",
+    "kind": "game-preview"
+  },
+  "https://tsuyatt.com/games/clip-clop/": {
+    "title": "おうまパカパカ",
+    "path": "covers/game-3575707dc408.webp",
+    "width": 960,
+    "height": 504,
+    "source": "https://tsuyatt.com/games/clip-clop/",
+    "image_url": "https://tsuyatt.com/assets/game-ogp/clip-clop.jpg",
+    "kind": "game-preview"
+  },
+  "https://yorimichi-games.com/omurice/": {
+    "title": "オムライスシミュレーター",
+    "path": "covers/game-cdee9264d3c5.webp",
+    "width": 960,
+    "height": 504,
+    "source": "https://yorimichi-games.com/omurice/",
+    "image_url": "https://yorimichi-games.com/site/ogp/omurice.jpg",
+    "kind": "game-preview"
+  },
+  "https://oichikonnyaku.com/touge/": {
+    "title": "部長と峠",
+    "path": "covers/game-0c6b060d0236.webp",
+    "width": 960,
+    "height": 504,
+    "source": "https://oichikonnyaku.com/touge/",
+    "image_url": "https://oichikonnyaku.com/touge/ogp.png",
+    "kind": "game-preview"
+  },
+  "https://tsuyatt.com/games/wall-flip/": {
+    "title": "宙返りロードスター",
+    "path": "covers/game-670d6d7c6c40.webp",
+    "width": 960,
+    "height": 504,
+    "source": "https://tsuyatt.com/games/wall-flip/",
+    "image_url": "https://tsuyatt.com/assets/game-ogp/wall-flip.jpg",
+    "kind": "game-preview"
+  },
+  "https://openlibrary.org/works/OL121058W": {
+    "title": "Delirious New York: A Retroactive Manifesto for Manhattan",
+    "path": "covers/385fcf604a30.webp",
+    "width": 480,
+    "height": 586,
+    "source": "https://www.oma.com/publications/delirious-new-york",
+    "image_url": "https://cdn.sanity.io/images/5azy6oei/production/82a7448e6f75c72f066eed83d321befec9de9969-3296x4019.jpg?w=700&fm=jpg&q=80"
+  },
+  "https://openlibrary.org/works/OL3295029W": {
+    "title": "Fooled by Randomness",
+    "path": "covers/b02ecca1eaa1.webp",
+    "width": 296,
+    "height": 450,
+    "source": "https://www.penguinrandomhouse.com/books/176225/fooled-by-randomness-by-nassim-nicholas-taleb/",
+    "image_url": "https://images.penguinrandomhouse.com/cover/9781400067930"
+  },
+  "https://openlibrary.org/works/OL110971W": {
+    "title": "Ficciones",
+    "path": "covers/1440eab2a954.webp",
+    "width": 250,
+    "height": 386,
+    "source": "https://www.penguinlibros.com/es/literatura-contemporanea/30631-libro-ficciones-9788426405739",
+    "image_url": "https://www.penguinlibros.com/es/4408476-home_default/ficciones.jpg"
+  },
+  "https://www.gutenberg.org/ebooks/25717": {
+    "title": "The History of the Decline and Fall of the Roman Empire",
+    "path": "covers/gibbon-portrait-971a8f8fd1.jpg",
+    "width": 317,
+    "height": 450,
+    "source": "https://www.penguinrandomhouse.com/books/223598/decline-and-fall-of-the-roman-empire-the-modern-library-collection-complete-and-unabridged-by-edward-gibbon/9780812984835/",
+    "image_url": "https://images4.penguinrandomhouse.com/cover/9780812984835",
+    "kind": "book-cover"
+  },
+  "https://openlibrary.org/works/OL15297W": {
+    "title": "Le città invisibili",
+    "path": "covers/47fc71d0969b.webp",
+    "width": 326,
+    "height": 500,
+    "source": "https://www.penguin.co.uk/books/357001/invisible-cities-by-italo-calvino/9781446414279",
+    "image_url": "https://cdn.penguin.co.uk/dam-assets/books/9781446414279/9781446414279-jacket-large.jpg"
+  },
+  "https://www.gutenberg.org/ebooks/61868": {
+    "title": "Jean-Christophe",
+    "path": "covers/dde31d3f95d0.webp",
+    "width": 306,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL68141W",
+    "image_url": "https://covers.openlibrary.org/b/id/6847156-L.jpg?default=false"
+  },
+  "https://www.gutenberg.org/ebooks/4061": {
+    "title": "The Fifteen Decisive Battles of the World",
+    "path": "covers/the-fifteen-decisive-battles-of-the-world-18be916d02.png",
+    "image_url": "https://cdn.prod.website-files.com/61cb87c118979013b4f7938b/61cb87c118979054a6f7b21d_the-fifteen-decisive-battles-of-the-world.avif",
+    "width": 400,
+    "height": 600,
+    "source": "https://www.goodbooks.io/books/the-fifteen-decisive-battles-of-the-world",
+    "kind": "book-cover"
+  },
+  "https://www.gutenberg.org/ebooks/38535": {
+    "title": "The Great Illusion",
+    "path": "covers/the-great-illusion-4c1912db1c.png",
+    "image_url": "https://cdn.prod.website-files.com/61cb87c118979013b4f7938b/61cb87c1189790bc3af7b247_the-great-illusion.avif",
+    "width": 400,
+    "height": 600,
+    "source": "https://www.goodbooks.io/books/the-great-illusion",
+    "kind": "book-cover"
+  },
+  "https://openlibrary.org/works/OL74125W": {
+    "title": "Neither Here nor There: Travels in Europe",
+    "path": "covers/76f700046add.webp",
+    "width": 400,
+    "height": 625,
+    "source": "https://www.penguin.com.au/books/neither-here-nor-there-9781784161828",
+    "image_url": "https://cdn2.penguin.com.au/covers/400/9781784161828.jpg"
+  },
+  "https://openlibrary.org/works/OL40873W": {
+    "title": "The Road",
+    "path": "covers/ee0dbb0231bf.webp",
+    "width": 292,
+    "height": 450,
+    "source": "https://www.penguinrandomhouse.com/books/110490/the-road-by-cormac-mccarthy/",
+    "image_url": "https://images.penguinrandomhouse.com/cover/9780307387899"
+  },
+  "https://openlibrary.org/works/OL15164456W": {
+    "title": "Vers une architecture",
+    "path": "covers/39d28e732085.webp",
+    "width": 313,
+    "height": 475,
+    "source": "https://openlibrary.org/works/OL15164456W",
+    "image_url": "https://covers.openlibrary.org/b/id/310106-L.jpg?default=false"
+  },
+  "https://openlibrary.org/works/OL221348W": {
+    "title": "The Last Samurai",
+    "path": "covers/1c58c583d040.webp",
+    "width": 415,
+    "height": 640,
+    "source": "https://www.ndbooks.com/book/the-last-samurai/",
+    "image_url": "https://cdn.sanity.io/images/p34gzxcg/production/b67477ba12a538bc6f2809ccf31b685e4fa608e3-475x732.jpg?auto=format&w=1000"
+  },
+  "https://openlibrary.org/works/OL712032W": {
+    "title": "Los detectives salvajes",
+    "path": "covers/45c7ebb4b7c6.webp",
+    "width": 391,
+    "height": 640,
+    "source": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/los-detectives-salvajes/9788433910868/NH_256",
+    "image_url": "https://cms.anagrama-ed.es/uploads/media/portadas/0001/19/thumb_18056_portadas_big.jpeg"
+  },
+  "https://openlibrary.org/works/OL772381W": {
+    "title": "A Year with Swollen Appendices",
+    "path": "covers/819b3ab9b8b2.webp",
+    "width": 370,
+    "height": 475,
+    "source": "https://openlibrary.org/works/OL772381W",
+    "image_url": "https://covers.openlibrary.org/b/id/377239-L.jpg?default=false"
+  },
+  "https://openlibrary.org/works/OL2824011W": {
+    "title": "Envisioning Information",
+    "path": "covers/f413300bb3d5.webp",
+    "width": 396,
+    "height": 500,
+    "source": "https://openlibrary.org/works/OL2824011W",
+    "image_url": "https://covers.openlibrary.org/b/id/7026308-L.jpg?default=false"
+  },
+  "https://openlibrary.org/works/OL461693W": {
+    "title": "New Seeds of Contemplation",
+    "path": "covers/a41cad8c8339.webp",
+    "width": 291,
+    "height": 475,
+    "source": "https://openlibrary.org/works/OL461693W",
+    "image_url": "https://covers.openlibrary.org/b/id/859481-L.jpg?default=false"
+  },
+  "https://www.gutenberg.org/ebooks/2499": {
+    "title": "Siddhartha",
+    "path": "covers/0e059b38bc11.webp",
+    "width": 407,
+    "height": 640,
+    "source": "https://www.suhrkamp.de/buch/hermann-hesse-siddhartha-t-9783518188026",
+    "image_url": "https://res.cloudinary.com/suhrkamp/images/c_limit,q_auto,f_auto,w_600/v1742190944/66412/siddhartha_9783518188026_og.webp"
+  },
+  "https://openlibrary.org/works/OL543410W": {
+    "title": "Autobiografia scientifica",
+    "path": "covers/54d026e83710.webp",
+    "width": 432,
+    "height": 640,
+    "source": "https://www.libreriauniversitaria.it/autobiografia-scientifica-rossi-aldo-saggiatore/libro/9788842832676",
+    "image_url": "https://img2.libreriauniversitaria.it/BIT/500/267/9788842832676.jpg"
+  },
+  "https://openlibrary.org/works/OL1980231W": {
+    "title": "Ways of Seeing",
+    "path": "covers/0026a1aff730.webp",
+    "width": 307,
+    "height": 500,
+    "source": "https://www.penguin.co.uk/books/56465/ways-of-seeing-by-berger-john/9780141035796",
+    "image_url": "https://cdn.penguin.co.uk/dam-assets/books/9780141035796/9780141035796-jacket-large.jpg"
+  },
+  "https://www.gutenberg.org/ebooks/47406": {
+    "title": "Aphorismen zur Lebensweisheit",
+    "path": "covers/a41d4dbb4199.webp",
+    "width": 415,
+    "height": 640,
+    "source": "https://www.reclam.de/produktdetail/aphorismen-zur-lebensweisheit-9783150050026",
+    "image_url": "https://www.reclam.de/fileadmin/Reclam/Produkte/Cover/9783150050026.jpg"
+  },
+  "https://openlibrary.org/works/OL17078706W": {
+    "title": "Zero to One",
+    "path": "covers/83e736a33d06-flat.webp",
+    "width": 300,
+    "height": 450,
+    "source": "https://penguinrandomhousesecondaryeducation.com/book/?isbn=9780804139298",
+    "image_url": "https://images.penguinrandomhouse.com/cover/9780804139298",
+    "treatment": "Publisher front cover; replaced audiobook artwork"
+  },
+  "https://www.gutenberg.org/ebooks/24264": {
+    "title": "紅樓夢",
+    "path": "covers/8302a3367a9b.webp",
+    "width": 439,
+    "height": 640,
+    "source": "https://jfbooks.org/zh-hans/products/9787020002207",
+    "image_url": "https://jfbooks.org/cdn/shop/files/9787020002207_8418aec5-0c6e-435d-93ec-3bc2432697bd.jpg?v=1754240902"
+  },
+  "https://www.gutenberg.org/ebooks/28054": {
+    "title": "The Brothers Karamazov",
+    "path": "covers/the-brothers-karamazov.jpg",
+    "width": 282,
+    "height": 450,
+    "source": "https://images3.penguinrandomhouse.com/cover/9780679410034",
+    "kind": "book-cover"
+  },
+  "https://neal.fun/wiki-spy/": {
+    "title": "Wiki Spy",
+    "path": "covers/game-f86dece47c25.webp",
+    "width": 960,
+    "height": 603,
+    "source": "https://neal.fun/wiki-spy/",
+    "image_url": "https://neal.fun/share-cards/wiki-spy.png",
+    "kind": "game-preview"
   }
 }

@@ -4,7 +4,7 @@
   const entries = Array.from(list.children).map(element => ({
     element,
     title: element.querySelector('.resource-title').textContent,
-    search: normalizeSearch(`${element.querySelector('.resource-name').textContent} ${element.dataset.searchAliases || ''} ${element.dataset.category}`),
+    search: normalizeSearch(`${element.querySelector('.resource-name').textContent} ${element.dataset.searchAliases || ''} ${element.dataset.category} ${element.querySelector('.resource-type').textContent}`),
     category: element.dataset.category,
     date: element.dataset.date,
   }));
@@ -19,8 +19,8 @@
   let category = categories.some(button => button.dataset.category === initialCategory) ? initialCategory : 'all';
 
   function render() {
-    list.classList.toggle('cover-shelf', category === 'books' || category === 'watch');
-    list.classList.toggle('watch-shelf', category === 'watch');
+    list.classList.toggle('cover-shelf', ['books', 'watch', 'game'].includes(category));
+    list.classList.toggle('watch-shelf', category === 'watch' || category === 'game');
     const terms = normalizeSearch(search.value.trim()).split(/\s+/).filter(Boolean);
     let visible = 0;
     for (const entry of entries) {
@@ -41,7 +41,7 @@
     }
     count.textContent = `${visible} ${visible === 1 ? 'entry' : 'entries'}${visible < entries.length ? ` / ${entries.length} total` : ''}`;
     emptyState.hidden = visible !== 0;
-    exploreHint.hidden = category === 'watch' || category === 'read';
+    exploreHint.hidden = ['watch', 'game', 'read'].includes(category);
   }
 
   search.addEventListener('input', render);

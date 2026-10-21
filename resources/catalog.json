@@ -25,7 +25,7 @@
       "title": "Delirious New York: A Retroactive Manifesto for Manhattan",
       "author": "Rem Koolhaas",
       "year": 1978,
-      "url": "https://www.oma.com/publications/delirious-new-york",
+      "url": "https://openlibrary.org/works/OL121058W",
       "aliases": [
         "癲狂紐約",
         "癫狂的纽约",
@@ -34,15 +34,23 @@
       ],
       "title_language": "en",
       "format": "books",
-      "date": "2026-10-16"
+      "date": "2026-10-16",
+      "access_label": "Library editions",
+      "access_note": "Open Library lists editions and reading options. Borrowing requires an account and depends on edition availability.",
+      "previous_url": "https://www.oma.com/publications/delirious-new-york",
+      "access_checked": "2026-10-21"
     },
     {
       "title": "Fooled by Randomness",
       "author": "Nassim Nicholas Taleb",
-      "url": "https://www.penguinrandomhouse.com/books/176225/fooled-by-randomness-by-nassim-nicholas-taleb/",
+      "url": "https://openlibrary.org/works/OL3295029W",
       "format": "books",
       "date": "2026-10-15",
-      "title_language": "en"
+      "title_language": "en",
+      "access_label": "Library editions",
+      "access_note": "Open Library lists editions and reading options. Borrowing requires an account and depends on edition availability.",
+      "previous_url": "https://www.penguinrandomhouse.com/books/176225/fooled-by-randomness-by-nassim-nicholas-taleb/",
+      "access_checked": "2026-10-21"
     },
     {
       "title": "The Almanack of Naval Ravikant",
@@ -57,10 +65,14 @@
       "author": "Jorge Luis Borges",
       "year": 1944,
       "title_language": "es",
-      "url": "https://www.penguinlibros.com/es/literatura-contemporanea/30631-libro-ficciones-9788426405739",
+      "url": "https://openlibrary.org/works/OL110971W",
       "aliases": [],
       "format": "books",
-      "date": "2026-10-16"
+      "date": "2026-10-16",
+      "access_label": "Library editions",
+      "access_note": "Open Library lists editions and reading options. Borrowing requires an account and depends on edition availability.",
+      "previous_url": "https://www.penguinlibros.com/es/literatura-contemporanea/30631-libro-ficciones-9788426405739",
+      "access_checked": "2026-10-21"
     },
     {
       "title": "Probabilistic Machine Learning: An Introduction",
@@ -144,7 +156,13 @@
         "Vom Kriege",
         "克劳塞维茨"
       ],
-      "date": "2026-10-18"
+      "date": "2026-10-18",
+      "reading_links": [
+        {
+          "label": "Free text · Books I–III · J. J. Graham translation",
+          "url": "https://www.gutenberg.org/ebooks/1946"
+        }
+      ]
     },
     {
       "title": "The Iliad, or the Poem of Force",
@@ -165,7 +183,7 @@
     {
       "title": "The History of the Decline and Fall of the Roman Empire",
       "author": "Edward Gibbon",
-      "url": "https://www.penguinrandomhouse.com/books/213088/the-decline-and-fall-of-the-roman-empire-volumes-1-to-6-by-edward-gibbon-introduction-by-hugh-trevor-roper/",
+      "url": "https://www.gutenberg.org/ebooks/25717",
       "format": "books",
       "title_language": "en",
       "aliases": [
@@ -173,7 +191,11 @@
         "羅馬帝國衰亡史",
         "吉本"
       ],
-      "date": "2026-10-18"
+      "date": "2026-10-18",
+      "access_label": "Free text · all six volumes",
+      "access_note": "Project Gutenberg: read online or download.",
+      "previous_url": "https://www.penguinrandomhouse.com/books/213088/the-decline-and-fall-of-the-roman-empire-volumes-1-to-6-by-edward-gibbon-introduction-by-hugh-trevor-roper/",
+      "access_checked": "2026-10-21"
     },
     {
       "title": "Also sprach Zarathustra: Ein Buch für Alle und Keinen",
@@ -195,7 +217,7 @@
       "title": "Le città invisibili",
       "author": "Italo Calvino",
       "year": 1972,
-      "url": "https://www.penguin.co.uk/books/357001/invisible-cities-by-italo-calvino/9781446414279",
+      "url": "https://openlibrary.org/works/OL15297W",
       "aliases": [
         "Invisible Cities",
         "看不見的城市",
@@ -203,7 +225,11 @@
       ],
       "title_language": "it",
       "format": "books",
-      "date": "2026-10-16"
+      "date": "2026-10-16",
+      "access_label": "Library editions",
+      "access_note": "Open Library lists editions and reading options. Borrowing requires an account and depends on edition availability.",
+      "previous_url": "https://www.penguin.co.uk/books/357001/invisible-cities-by-italo-calvino/9781446414279",
+      "access_checked": "2026-10-21"
     },
     {
       "date": "2026-10-15",
@@ -220,7 +246,7 @@
       "author": "Romain Rolland",
       "year": "1904–1912",
       "title_language": "fr",
-      "url": "https://www.albin-michel.fr/jean-christophe-9782226168139",
+      "url": "https://www.gutenberg.org/ebooks/61868",
       "aliases": [
         "約翰・克利斯朵夫",
         "约翰·克利斯朵夫",
@@ -228,7 +254,25 @@
         "約翰·克里斯托夫"
       ],
       "format": "books",
-      "date": "2026-10-16"
+      "date": "2026-10-16",
+      "access_label": "Free text · French · volume 1 of 4",
+      "access_note": "Project Gutenberg: read online or download.",
+      "previous_url": "https://www.albin-michel.fr/jean-christophe-9782226168139",
+      "access_checked": "2026-10-21",
+      "reading_links": [
+        {
+          "label": "Vol. 2",
+          "url": "https://www.gutenberg.org/ebooks/61876"
+        },
+        {
+          "label": "Vol. 3",
+          "url": "https://www.gutenberg.org/ebooks/61970"
+        },
+        {
+          "label": "Vol. 4",
+          "url": "https://www.gutenberg.org/ebooks/62021"
+        }
+      ]
     },
     {
       "title": "Citizen: An American Lyric",
@@ -262,19 +306,27 @@
       "title": "The Fifteen Decisive Battles of the World",
       "author": "Edward Shepherd Creasy",
       "year": 1851,
-      "url": "https://www.goodbooks.io/books/the-fifteen-decisive-battles-of-the-world",
+      "url": "https://www.gutenberg.org/ebooks/4061",
       "format": "books",
       "date": "2026-10-19",
-      "title_language": "en"
+      "title_language": "en",
+      "access_label": "Free text · English",
+      "access_note": "Project Gutenberg: read online or download.",
+      "previous_url": "https://www.goodbooks.io/books/the-fifteen-decisive-battles-of-the-world",
+      "access_checked": "2026-10-21"
     },
     {
       "title": "The Great Illusion",
       "author": "Norman Angell",
       "year": 1910,
-      "url": "https://www.goodbooks.io/books/the-great-illusion",
+      "url": "https://www.gutenberg.org/ebooks/38535",
       "format": "books",
       "date": "2026-10-19",
-      "title_language": "en"
+      "title_language": "en",
+      "access_label": "Free text · 1913 revised edition",
+      "access_note": "Project Gutenberg: read online or download.",
+      "previous_url": "https://www.goodbooks.io/books/the-great-illusion",
+      "access_checked": "2026-10-21"
     },
     {
       "title": "The Sovereign Individual",
@@ -350,9 +402,13 @@
       "author": "Bill Bryson",
       "year": 1991,
       "title_language": "en",
-      "url": "https://www.penguin.com.au/books/neither-here-nor-there-9781784161828",
+      "url": "https://openlibrary.org/works/OL74125W",
       "format": "books",
-      "date": "2026-10-16"
+      "date": "2026-10-16",
+      "access_label": "Library editions",
+      "access_note": "Open Library lists editions and reading options. Borrowing requires an account and depends on edition availability.",
+      "previous_url": "https://www.penguin.com.au/books/neither-here-nor-there-9781784161828",
+      "access_checked": "2026-10-21"
     },
     {
       "title": "Multi-Agent Reinforcement Learning: Foundations and Modern Approaches",
@@ -368,21 +424,29 @@
       "author": "Cormac McCarthy",
       "year": 2006,
       "title_language": "en",
-      "url": "https://www.penguinrandomhouse.com/books/110490/the-road-by-cormac-mccarthy/",
+      "url": "https://openlibrary.org/works/OL40873W",
       "format": "books",
-      "date": "2026-10-16"
+      "date": "2026-10-16",
+      "access_label": "Library editions",
+      "access_note": "Open Library lists editions and reading options. Borrowing requires an account and depends on edition availability.",
+      "previous_url": "https://www.penguinrandomhouse.com/books/110490/the-road-by-cormac-mccarthy/",
+      "access_checked": "2026-10-21"
     },
     {
       "title": "Vers une architecture",
       "author": "Le Corbusier",
       "year": 1923,
       "title_language": "fr",
-      "url": "https://catalogue.bnf.fr/ark:/12148/cb397737498",
+      "url": "https://openlibrary.org/works/OL15164456W",
       "aliases": [
         "Toward an Architecture"
       ],
       "format": "books",
-      "date": "2026-10-16"
+      "date": "2026-10-16",
+      "access_label": "Library editions",
+      "access_note": "Open Library lists editions and reading options. Borrowing requires an account and depends on edition availability.",
+      "previous_url": "https://catalogue.bnf.fr/ark:/12148/cb397737498",
+      "access_checked": "2026-10-21"
     },
     {
       "title": "Война и мир",
@@ -1794,9 +1858,13 @@
       "author": "Helen DeWitt",
       "year": 2000,
       "title_language": "en",
-      "url": "https://www.ndbooks.com/book/the-last-samurai/",
+      "url": "https://openlibrary.org/works/OL221348W",
       "format": "books",
-      "date": "2026-10-16"
+      "date": "2026-10-16",
+      "access_label": "Library editions",
+      "access_note": "Open Library lists editions and reading options. Borrowing requires an account and depends on edition availability.",
+      "previous_url": "https://www.ndbooks.com/book/the-last-samurai/",
+      "access_checked": "2026-10-21"
     },
     {
       "title": "Build a Large Language Model (From Scratch)",
@@ -1866,14 +1934,18 @@
       "author": "Roberto Bolaño",
       "year": 1998,
       "title_language": "es",
-      "url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/los-detectives-salvajes/9788433910868/NH_256",
+      "url": "https://openlibrary.org/works/OL712032W",
       "format": "books",
       "date": "2026-10-16",
       "aliases": [
         "The Savage Detectives",
         "荒野偵探",
         "荒野侦探"
-      ]
+      ],
+      "access_label": "Library editions",
+      "access_note": "Open Library lists editions and reading options. Borrowing requires an account and depends on edition availability.",
+      "previous_url": "https://www.anagrama-ed.es/libro/narrativas-hispanicas/los-detectives-salvajes/9788433910868/NH_256",
+      "access_checked": "2026-10-21"
     },
     {
       "title": "Dithering — Part 1",
@@ -2918,6 +2990,471 @@
       "date": "2026-10-19"
     },
     {
+      "title": "La Passion de Jeanne d’Arc",
+      "director": "Carl Theodor Dreyer",
+      "year": 1928,
+      "title_language": "fr",
+      "aliases": [
+        "聖女貞德受難記",
+        "The Passion of Joan of Arc"
+      ],
+      "url": "https://www.imdb.com/title/tt0019254/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0019254"
+    },
+    {
+      "title": "La Règle du jeu",
+      "director": "Jean Renoir",
+      "year": 1939,
+      "title_language": "fr",
+      "aliases": [
+        "遊戲規則",
+        "The Rules of the Game"
+      ],
+      "url": "https://www.imdb.com/title/tt0031885/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0031885"
+    },
+    {
+      "title": "L’avventura",
+      "director": "Michelangelo Antonioni",
+      "year": 1960,
+      "title_language": "it",
+      "aliases": [
+        "情事",
+        "L'Avventura"
+      ],
+      "url": "https://www.imdb.com/title/tt0053619/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0053619"
+    },
+    {
+      "title": "8½",
+      "director": "Federico Fellini",
+      "year": 1963,
+      "title_language": "it",
+      "aliases": [
+        "八又二分之一",
+        "8½"
+      ],
+      "url": "https://www.imdb.com/title/tt0056801/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0056801"
+    },
+    {
+      "title": "Krótki film o zabijaniu",
+      "director": "Krzysztof Kieślowski",
+      "year": 1988,
+      "title_language": "pl",
+      "aliases": [
+        "十誡之殺人影片",
+        "A Short Film About Killing"
+      ],
+      "url": "https://www.imdb.com/title/tt0095468/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0095468"
+    },
+    {
+      "title": "Trois couleurs : Bleu",
+      "director": "Krzysztof Kieślowski",
+      "year": 1993,
+      "title_language": "fr",
+      "aliases": [
+        "藍色情挑",
+        "Three Colors: Blue"
+      ],
+      "url": "https://www.imdb.com/title/tt0108394/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0108394"
+    },
+    {
+      "title": "Apocalypse Now",
+      "director": "Francis Ford Coppola",
+      "year": 1979,
+      "title_language": "en",
+      "aliases": [
+        "現代啟示錄",
+        "Apocalypse Now"
+      ],
+      "url": "https://www.imdb.com/title/tt0078788/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0078788"
+    },
+    {
+      "title": "花樣年華",
+      "director": "Wong Kar Wai",
+      "year": 2000,
+      "title_language": "zh-Hant",
+      "aliases": [
+        "花樣年華",
+        "In the Mood for Love"
+      ],
+      "url": "https://www.imdb.com/title/tt0118694/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0118694"
+    },
+    {
+      "title": "Barry Lyndon",
+      "director": "Stanley Kubrick",
+      "year": 1975,
+      "title_language": "en",
+      "aliases": [
+        "亂世兒女",
+        "Barry Lyndon"
+      ],
+      "url": "https://www.imdb.com/title/tt0072684/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0072684"
+    },
+    {
+      "title": "Пред дождот",
+      "director": "Milcho Manchevski",
+      "year": 1994,
+      "title_language": "mk",
+      "aliases": [
+        "暴雨將至",
+        "Before the Rain"
+      ],
+      "url": "https://www.imdb.com/title/tt0110882/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0110882"
+    },
+    {
+      "title": "俠女",
+      "director": "King Hu",
+      "year": 1971,
+      "title_language": "zh-Hant",
+      "aliases": [
+        "俠女",
+        "A Touch of Zen"
+      ],
+      "url": "https://www.imdb.com/title/tt0064451/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0064451"
+    },
+    {
+      "title": "海灘的一天",
+      "director": "Edward Yang",
+      "year": 1983,
+      "title_language": "zh-Hant",
+      "aliases": [
+        "海灘的一天",
+        "That Day, on the Beach"
+      ],
+      "url": "https://www.imdb.com/title/tt0085635/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0085635"
+    },
+    {
+      "title": "Caché",
+      "director": "Michael Haneke",
+      "year": 2005,
+      "title_language": "fr",
+      "aliases": [
+        "隱藏攝影機",
+        "Caché"
+      ],
+      "url": "https://www.imdb.com/title/tt0387898/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0387898"
+    },
+    {
+      "title": "牯嶺街少年殺人事件",
+      "director": "Edward Yang",
+      "year": 1991,
+      "title_language": "zh-Hant",
+      "aliases": [
+        "牯嶺街少年殺人事件",
+        "A Brighter Summer Day"
+      ],
+      "url": "https://www.imdb.com/title/tt0101985/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0101985"
+    },
+    {
+      "title": "버닝",
+      "director": "Lee Chang-dong",
+      "year": 2018,
+      "title_language": "ko",
+      "aliases": [
+        "燃燒烈愛",
+        "Burning"
+      ],
+      "url": "https://www.imdb.com/title/tt7282468/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt7282468"
+    },
+    {
+      "title": "童年往事",
+      "director": "Hou Hsiao-hsien",
+      "year": 1985,
+      "title_language": "zh-Hant",
+      "aliases": [
+        "童年往事",
+        "A Time to Live and a Time to Die"
+      ],
+      "url": "https://www.imdb.com/title/tt0090185/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0090185"
+    },
+    {
+      "title": "خانه دوست کجاست؟",
+      "director": "Abbas Kiarostami",
+      "year": 1987,
+      "title_language": "fa",
+      "aliases": [
+        "何處是我朋友的家",
+        "Where Is the Friend's House?"
+      ],
+      "url": "https://www.imdb.com/title/tt0093342/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0093342"
+    },
+    {
+      "title": "밀양",
+      "director": "Lee Chang-dong",
+      "year": 2007,
+      "title_language": "ko",
+      "aliases": [
+        "密陽",
+        "Secret Sunshine"
+      ],
+      "url": "https://www.imdb.com/title/tt0817225/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0817225"
+    },
+    {
+      "title": "戀戀風塵",
+      "director": "Hou Hsiao-hsien",
+      "year": 1986,
+      "title_language": "zh-Hant",
+      "aliases": [
+        "戀戀風塵",
+        "Dust in the Wind"
+      ],
+      "url": "https://www.imdb.com/title/tt0091406/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0091406"
+    },
+    {
+      "title": "Fanny och Alexander",
+      "director": "Ingmar Bergman",
+      "year": 1982,
+      "title_language": "sv",
+      "aliases": [
+        "芬妮與亞歷山大",
+        "Fanny and Alexander"
+      ],
+      "url": "https://www.imdb.com/title/tt0083922/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0083922"
+    },
+    {
+      "title": "春光乍洩",
+      "director": "Wong Kar Wai",
+      "year": 1997,
+      "title_language": "zh-Hant",
+      "aliases": [
+        "春光乍洩",
+        "Happy Together"
+      ],
+      "url": "https://www.imdb.com/title/tt0118845/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0118845"
+    },
+    {
+      "title": "Mulholland Drive",
+      "director": "David Lynch",
+      "year": 2001,
+      "title_language": "en",
+      "aliases": [
+        "穆荷蘭大道",
+        "Mulholland Drive"
+      ],
+      "url": "https://www.imdb.com/title/tt0166924/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0166924"
+    },
+    {
+      "title": "L’Argent",
+      "director": "Robert Bresson",
+      "year": 1983,
+      "title_language": "fr",
+      "aliases": [
+        "錢",
+        "L'Argent"
+      ],
+      "url": "https://www.imdb.com/title/tt0085180/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0085180"
+    },
+    {
+      "title": "Pickpocket",
+      "director": "Robert Bresson",
+      "year": 1959,
+      "title_language": "fr",
+      "aliases": [
+        "扒手",
+        "Pickpocket"
+      ],
+      "url": "https://www.imdb.com/title/tt0053168/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0053168"
+    },
+    {
+      "title": "Aguirre, der Zorn Gottes",
+      "director": "Werner Herzog",
+      "year": 1972,
+      "title_language": "de",
+      "aliases": [
+        "天譴",
+        "Aguirre, the Wrath of God"
+      ],
+      "url": "https://www.imdb.com/title/tt0068182/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0068182"
+    },
+    {
+      "title": "小武",
+      "director": "Jia Zhangke",
+      "year": 1998,
+      "title_language": "zh-Hans",
+      "aliases": [
+        "小武",
+        "Xiao Wu"
+      ],
+      "url": "https://www.imdb.com/title/tt0144020/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0144020"
+    },
+    {
+      "title": "Viskningar och rop",
+      "director": "Ingmar Bergman",
+      "year": 1972,
+      "title_language": "sv",
+      "aliases": [
+        "哭泣與耳語",
+        "Cries and Whispers"
+      ],
+      "url": "https://www.imdb.com/title/tt0069467/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0069467"
+    },
+    {
+      "title": "Vertigo",
+      "director": "Alfred Hitchcock",
+      "year": 1958,
+      "title_language": "en",
+      "aliases": [
+        "迷魂記",
+        "Vertigo"
+      ],
+      "url": "https://www.imdb.com/title/tt0052357/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0052357"
+    },
+    {
+      "title": "颐和园",
+      "director": "Lou Ye",
+      "year": 2006,
+      "title_language": "zh-Hans",
+      "aliases": [
+        "頤和園",
+        "Summer Palace"
+      ],
+      "url": "https://www.imdb.com/title/tt0794374/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0794374"
+    },
+    {
+      "title": "超級大國民",
+      "director": "Wan Jen",
+      "year": 1995,
+      "title_language": "zh-Hant",
+      "aliases": [
+        "超級大國民",
+        "Super Citizen Ko"
+      ],
+      "url": "https://www.imdb.com/title/tt0112659/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0112659"
+    },
+    {
+      "title": "The Conversation",
+      "director": "Francis Ford Coppola",
+      "year": 1974,
+      "title_language": "en",
+      "aliases": [
+        "對話",
+        "The Conversation"
+      ],
+      "url": "https://www.imdb.com/title/tt0071360/",
+      "format": "watch",
+      "collection": "Film",
+      "date": "2026-10-20",
+      "imdb_id": "tt0071360"
+    },
+    {
       "title": "Smiling Friends",
       "creator": "Michael Cusack & Zach Hadel",
       "year": 2022,
@@ -3080,6 +3617,229 @@
       "date": "2026-10-16"
     },
     {
+      "title": "NASA Image and Video Library",
+      "url": "https://images.nasa.gov/",
+      "topic": "Space · Archive",
+      "note": "Browse NASA photographs, video, and audio from missions and research.",
+      "format": "explore",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "MarineTraffic",
+      "url": "https://www.marinetraffic.com/",
+      "topic": "Maps · Ships",
+      "note": "Explore vessel positions, ports, and shipping activity around the world.",
+      "format": "explore",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Mini Tokyo 3D",
+      "url": "https://minitokyo3d.com/",
+      "topic": "Maps · Tokyo · Transport",
+      "note": "Explore Tokyo’s public transport network on an interactive 3D map.",
+      "format": "explore",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Zoom Earth",
+      "url": "https://zoom.earth/",
+      "topic": "Maps · Weather",
+      "note": "Satellite imagery, weather maps, and storm tracking.",
+      "format": "explore",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "David Rumsey Map Collection",
+      "url": "https://www.davidrumsey.com/",
+      "topic": "Maps · History",
+      "note": "Historical maps, atlases, and cartographic collections.",
+      "format": "explore",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "WindowSwap",
+      "url": "https://www.window-swap.com/",
+      "topic": "Places · Windows",
+      "note": "Look out through windows shared from around the world.",
+      "format": "explore",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Virtual Vacation",
+      "url": "https://virtualvacation.us/",
+      "topic": "Places · Travel",
+      "note": "Explore cities through walking, driving, and flying videos.",
+      "format": "explore",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "NASA’s Eyes",
+      "url": "https://science.nasa.gov/eyes/",
+      "topic": "Space · Interactive",
+      "note": "Explore Earth, the solar system, and spacecraft in 3D.",
+      "format": "explore",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Stellarium Web",
+      "url": "https://stellarium-web.org/",
+      "topic": "Space · Sky map",
+      "note": "An interactive planetarium for exploring the night sky.",
+      "format": "explore",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Our World in Data",
+      "url": "https://ourworldindata.org/",
+      "topic": "Data · World",
+      "note": "Research and charts on how the world is changing.",
+      "format": "explore",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "The World’s Largest & Longest Empires",
+      "url": "https://informationisbeautiful.net/visualizations/worlds-largest-empires/",
+      "topic": "Data · History",
+      "note": "A visual timeline of empires, dynasties, and their rise and decline.",
+      "format": "explore",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Internet Archive",
+      "url": "https://archive.org/",
+      "topic": "Archive · Media",
+      "note": "Explore digitized books, recordings, films, software, and archived websites.",
+      "format": "explore",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Digital Public Library of America",
+      "url": "https://dp.la/",
+      "topic": "Archive · History",
+      "note": "Discover materials held by libraries, archives, and museums across the United States.",
+      "format": "explore",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Google Arts & Culture",
+      "url": "https://artsandculture.google.com/",
+      "topic": "Art · Museums",
+      "note": "Explore collections, exhibitions, and cultural places from around the world.",
+      "format": "explore",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Rijksmuseum",
+      "url": "https://www.rijksmuseum.nl/nl",
+      "topic": "Art · Museum",
+      "note": "Explore the Rijksmuseum’s art and historical collections.",
+      "format": "explore",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "WikiArt",
+      "url": "https://www.wikiart.org/",
+      "topic": "Art · History",
+      "note": "Browse artworks by artist, movement, period, and genre.",
+      "format": "explore",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "The Public Domain Review",
+      "url": "https://publicdomainreview.org/",
+      "topic": "Archive · Art & ideas",
+      "note": "Essays and collections exploring unusual works from the public domain.",
+      "format": "explore",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/",
+      "topic": "Art · Museum",
+      "note": "Explore artworks, exhibitions, and stories from The Met.",
+      "format": "explore",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Radiooooo",
+      "url": "https://app.radiooooo.com/",
+      "topic": "Music · Map",
+      "note": "Explore music by country and decade.",
+      "format": "explore",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "臺北狂飆",
+      "creator": "TAIPEI RUSH",
+      "title_language": "zh-Hant",
+      "aliases": [
+        "Taipei Rush",
+        "台北狂飆"
+      ],
+      "url": "https://www.taipei-rush.app/",
+      "format": "game",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "おうまパカパカ",
+      "creator": "つやっと",
+      "title_language": "ja",
+      "aliases": [
+        "Clip-Clop Horse",
+        "Clip Clop"
+      ],
+      "url": "https://tsuyatt.com/games/clip-clop/",
+      "format": "game",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "オムライスシミュレーター",
+      "creator": "よりみちゲーム",
+      "title_language": "ja",
+      "aliases": [
+        "Omurice Simulator",
+        "蛋包飯模擬器"
+      ],
+      "url": "https://yorimichi-games.com/omurice/",
+      "format": "game",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "部長と峠",
+      "creator": "大市こんにゃくゲームズ",
+      "title_language": "ja",
+      "aliases": [
+        "Touge",
+        "部長與山道"
+      ],
+      "url": "https://oichikonnyaku.com/touge/",
+      "format": "game",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "宙返りロードスター",
+      "creator": "つやっと",
+      "title_language": "ja",
+      "aliases": [
+        "Flip Roadster",
+        "Wall Flip"
+      ],
+      "url": "https://tsuyatt.com/games/wall-flip/",
+      "format": "game",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "Wiki Spy",
+      "creator": "Neal Agarwal",
+      "url": "https://neal.fun/wiki-spy/",
+      "format": "game",
+      "date": "2026-10-21",
+      "aliases": [
+        "Wikipedia",
+        "Neal.fun"
+      ]
+    },
+    {
       "date": "2026-10-15",
       "format": "books",
       "title": "A Promised Land",
@@ -3103,11 +3863,15 @@
       "date": "2026-10-15",
       "format": "books",
       "title": "A Year with Swollen Appendices",
-      "url": "https://www.floguo.com/books/a-year-with-swollen-appendices",
+      "url": "https://openlibrary.org/works/OL772381W",
       "author": "Brian Eno",
       "year": 1996,
       "source": "https://www.floguo.com/books",
-      "title_language": "en"
+      "title_language": "en",
+      "access_label": "Library editions",
+      "access_note": "Open Library lists editions and reading options. Borrowing requires an account and depends on edition availability.",
+      "previous_url": "https://www.floguo.com/books/a-year-with-swollen-appendices",
+      "access_checked": "2026-10-21"
     },
     {
       "date": "2026-10-15",
@@ -3153,11 +3917,15 @@
       "date": "2026-10-15",
       "format": "books",
       "title": "Envisioning Information",
-      "url": "https://www.floguo.com/books/envisioning-information",
+      "url": "https://openlibrary.org/works/OL2824011W",
       "author": "Edward R. Tufte",
       "year": 1990,
       "source": "https://www.floguo.com/books",
-      "title_language": "en"
+      "title_language": "en",
+      "access_label": "Library editions",
+      "access_note": "Open Library lists editions and reading options. Borrowing requires an account and depends on edition availability.",
+      "previous_url": "https://www.floguo.com/books/envisioning-information",
+      "access_checked": "2026-10-21"
     },
     {
       "title": "Soviet Bus Stops",
@@ -3232,11 +4000,15 @@
       "date": "2026-10-15",
       "format": "books",
       "title": "New Seeds of Contemplation",
-      "url": "https://www.floguo.com/books/new-seeds-of-contemplation",
+      "url": "https://openlibrary.org/works/OL461693W",
       "author": "Thomas Merton",
       "year": 1962,
       "source": "https://www.floguo.com/books",
-      "title_language": "en"
+      "title_language": "en",
+      "access_label": "Library editions",
+      "access_note": "Open Library lists editions and reading options. Borrowing requires an account and depends on edition availability.",
+      "previous_url": "https://www.floguo.com/books/new-seeds-of-contemplation",
+      "access_checked": "2026-10-21"
     },
     {
       "date": "2026-10-15",
@@ -3323,7 +4095,7 @@
       "date": "2026-10-15",
       "format": "books",
       "title": "Siddhartha",
-      "url": "https://www.suhrkamp.de/buch/hermann-hesse-siddhartha-t-9783518188026",
+      "url": "https://www.gutenberg.org/ebooks/2499",
       "author": "Hermann Hesse",
       "year": 1922,
       "source": "https://www.floguo.com/books",
@@ -3332,7 +4104,11 @@
         "Siddartha",
         "悉達多",
         "悉达多"
-      ]
+      ],
+      "access_label": "Free text · German",
+      "access_note": "Project Gutenberg: read online or download.",
+      "previous_url": "https://www.suhrkamp.de/buch/hermann-hesse-siddhartha-t-9783518188026",
+      "access_checked": "2026-10-21"
     },
     {
       "date": "2026-10-15",
@@ -3395,7 +4171,7 @@
       "title": "Autobiografia scientifica",
       "author": "Aldo Rossi",
       "year": 1981,
-      "url": "https://mitpress.mit.edu/9780262514385/a-scientific-autobiography/",
+      "url": "https://openlibrary.org/works/OL543410W",
       "aliases": [
         "A Scientific Autobiography",
         "科學的自傳",
@@ -3403,7 +4179,11 @@
       ],
       "title_language": "it",
       "format": "books",
-      "date": "2026-10-16"
+      "date": "2026-10-16",
+      "access_label": "Library editions",
+      "access_note": "Open Library lists editions and reading options. Borrowing requires an account and depends on edition availability.",
+      "previous_url": "https://mitpress.mit.edu/9780262514385/a-scientific-autobiography/",
+      "access_checked": "2026-10-21"
     },
     {
       "title": "Moby-Dick",
@@ -3462,16 +4242,20 @@
       "author": "John Berger",
       "year": 1972,
       "title_language": "en",
-      "url": "https://www.penguin.co.uk/books/56465/ways-of-seeing-by-berger-john/9780141035796",
+      "url": "https://openlibrary.org/works/OL1980231W",
       "aliases": [],
       "format": "books",
-      "date": "2026-10-16"
+      "date": "2026-10-16",
+      "access_label": "Library editions",
+      "access_note": "Open Library lists editions and reading options. Borrowing requires an account and depends on edition availability.",
+      "previous_url": "https://www.penguin.co.uk/books/56465/ways-of-seeing-by-berger-john/9780141035796",
+      "access_checked": "2026-10-21"
     },
     {
       "date": "2026-10-15",
       "format": "books",
       "title": "Aphorismen zur Lebensweisheit",
-      "url": "https://www.reclam.de/produktdetail/aphorismen-zur-lebensweisheit-9783150050026",
+      "url": "https://www.gutenberg.org/ebooks/47406",
       "author": "Arthur Schopenhauer",
       "year": 1851,
       "source": "https://www.floguo.com/books",
@@ -3479,7 +4263,11 @@
       "aliases": [
         "The Wisdom of Life",
         "人生的智慧"
-      ]
+      ],
+      "access_label": "Free text · German",
+      "access_note": "Project Gutenberg: read online or download.",
+      "previous_url": "https://www.reclam.de/produktdetail/aphorismen-zur-lebensweisheit-9783150050026",
+      "access_checked": "2026-10-21"
     },
     {
       "date": "2026-10-15",
@@ -3518,11 +4306,15 @@
       "date": "2026-10-15",
       "format": "books",
       "title": "Zero to One",
-      "url": "https://www.floguo.com/books/zero-to-one",
+      "url": "https://openlibrary.org/works/OL17078706W",
       "author": "Peter Thiel & Blake Masters",
       "year": 2014,
       "source": "https://www.floguo.com/books",
-      "title_language": "en"
+      "title_language": "en",
+      "access_label": "Library editions",
+      "access_note": "Open Library lists editions and reading options. Borrowing requires an account and depends on edition availability.",
+      "previous_url": "https://www.floguo.com/books/zero-to-one",
+      "access_checked": "2026-10-21"
     },
     {
       "date": "2026-10-13",
@@ -3749,6 +4541,14 @@
       "note": "The changing dynamics of power and elite control in Kosovo, from the Balkan Wars to the late Titoist period. Free opening excerpt under “Excerpts”; not the complete chapter. First edition: pp. 3–42; revised edition: pp. 47–86."
     },
     {
+      "title": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/",
+      "format": "read",
+      "date": "2026-10-21",
+      "topic": "Science · Research news",
+      "note": "Research news across science, health, technology, and the environment, with references to underlying studies."
+    },
+    {
       "date": "2026-03-10",
       "format": "design",
       "title": "Interactive SVG Animations",
@@ -3806,10 +4606,14 @@
     {
       "title": "紅樓夢",
       "author": "曹雪芹",
-      "url": "https://store.linkingbooks.com.tw/product/84022-13",
+      "url": "https://www.gutenberg.org/ebooks/24264",
       "format": "books",
       "date": "2026-10-15",
-      "title_language": "zh-Hant"
+      "title_language": "zh-Hant",
+      "access_label": "Free text · 中文",
+      "access_note": "Project Gutenberg: read online or download.",
+      "previous_url": "https://store.linkingbooks.com.tw/product/84022-13",
+      "access_checked": "2026-10-21"
     },
     {
       "title": "The Mathematical Experience",
@@ -3851,7 +4655,7 @@
       "title": "The Brothers Karamazov",
       "author": "Fyodor Dostoevsky",
       "year": 1880,
-      "url": "https://www.penguinrandomhouse.com/books/241840/the-brothers-karamazov-by-fyodor-dostoevsky-translated-by-richard-pevear-and-larissa-volokhonsky-introduction-by-malcolm-jones/",
+      "url": "https://www.gutenberg.org/ebooks/28054",
       "format": "books",
       "date": "2026-10-19",
       "title_language": "en",
@@ -3859,7 +4663,11 @@
         "Братья Карамазовы",
         "卡拉馬佐夫兄弟",
         "卡拉马佐夫兄弟"
-      ]
+      ],
+      "access_label": "Free text · Constance Garnett translation",
+      "access_note": "Project Gutenberg: read online or download.",
+      "previous_url": "https://www.penguinrandomhouse.com/books/241840/the-brothers-karamazov-by-fyodor-dostoevsky-translated-by-richard-pevear-and-larissa-volokhonsky-introduction-by-malcolm-jones/",
+      "access_checked": "2026-10-21"
     }
   ],
   "sources": [
