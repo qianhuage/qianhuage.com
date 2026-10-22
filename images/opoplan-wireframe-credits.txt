@@ -1,0 +1,7 @@
+Opoplan wireframe preview
+Original interface composition and renderer created for Qianhua Ge's portfolio.
+Map data: Shinjuku Station Indoor Map Data, Ministry of Land, Infrastructure, Transport and Tourism (Japan), adapted into line geometry.
+Dataset: https://www.geospatial.jp/ckan/dataset/mlit-indoor-shinjuku-r2
+Reference and distributed map data: https://github.com/satoshi7190/Shinjuku-indoor-threejs-demo
+Rendering library: Three.js, MIT license.
+This asset is a portfolio design preview, not a live Opoplan product deployment.
