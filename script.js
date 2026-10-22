@@ -18,7 +18,7 @@ const PROJECTS = [
   { id:'katakana',   title:'Katakana',       city:'Taipei',         lat:25.0330, lng:121.5654,  img:'https://freight.cargo.site/w/600/q/75/i/C2750890346348100079084459935149/Frame-4.png',         link:null },
   { id:'divly',      title:'Divly',          city:'Stockholm',      lat:59.3293, lng:18.0686,   img:'./images/divly.png',     link:'https://divly.com/en/' },
   { id:'kaon',       title:'Kaon Labs',      city:'Beijing',        lat:39.9088, lng:116.4573,  img:'./kaon.png',               link:'https://kaon.io/' },
-  { id:'rememberverse', title:'Rememberverse', city:'Beijing', lat:39.9088, lng:116.4573, img:'./images/rememberverse-hero.jpg', link:'https://opensea.io/collection/remember-memorial-stone' },
+  { id:'rememberverse', title:'Rememberverse', city:'Seoul, South Korea', lat:37.5665, lng:126.9780, img:'./images/rememberverse-hero.jpg', link:'https://opensea.io/collection/remember-memorial-stone' },
   { id:'substrate',  title:'Substrate',      city:'Palo Alto',      lat:37.4419, lng:-122.1430, img:'https://freight.cargo.site/w/600/q/75/i/J2579367830216556064905875047853/substrate.png',       link:'http://www.substratecapital.xyz/' },
   { id:'atlaslab',   title:'Atlas Lab',      city:'Sacramento',     lat:38.5816, lng:-121.4944, img:'https://freight.cargo.site/w/700/q/75/i/G2295860679372777805815165633965/atlas-lab.png',       link:'https://atlaslab.com/' },
   { id:'spellbrush', title:'Spellbrush',     city:'San Francisco',  lat:37.7780, lng:-122.4150, img:'./Spellbrush.png', link:null },
@@ -473,6 +473,7 @@ function openProjectPanel(proj) {
   projectPanel.classList.remove('hidden');
   requestAnimationFrame(() => {
     if (activePanelProject !== proj) return;
+    positionPanelNearMarker(proj);
     projectPanel.classList.add('visible');
     connectorSvg.classList.add('visible');
   });
@@ -493,7 +494,19 @@ function positionPanelNearMarker(proj) {
   const sx = point.x;
   const sy = point.y;
 
-  const pw = Math.min(480, window.innerWidth - 32);
+  // Let the image determine the card's proportions. Tall artwork reduces
+  // the whole card's width rather than being cropped or letterboxed.
+  const maxWidth = Math.min(window.innerWidth <= 850 ? 360 : 480, window.innerWidth - 32);
+  projectPanel.style.width = maxWidth + 'px';
+  const info = projectPanel.querySelector('.panel-info');
+  if (panelImage.naturalWidth && panelImage.naturalHeight) {
+    const ratio = panelImage.naturalWidth / panelImage.naturalHeight;
+    for (let pass = 0; pass < 3; pass++) {
+      const imageHeight = Math.max(80, window.innerHeight - 76 - info.offsetHeight);
+      projectPanel.style.width = Math.min(maxWidth, imageHeight * ratio + 2) + 'px';
+    }
+  }
+  const pw = projectPanel.offsetWidth || maxWidth;
   const ph = projectPanel.offsetHeight || 300;
 
   const offsetX = 30;
@@ -531,6 +544,8 @@ function updatePanelPosition() {
 
 // Listen for map movement to reposition panel
 map.on('move', updatePanelPosition);
+panelImage.addEventListener('load', updatePanelPosition);
+window.addEventListener('resize', updatePanelPosition);
 
 function goOverview() {
   stopAutopilot();
